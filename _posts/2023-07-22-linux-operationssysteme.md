@@ -5,7 +5,7 @@ categories: [Linux, Gaming]
 tags: [open-source, digitale Sicherheit, linux, gaming, gnu]
 author: david
 image:
-  path: assets/img/Linux-banner.png
+  path: /assets/img/Linux-banner.png
   lqip:
   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
