@@ -143,5 +143,3 @@ Das Chirpy Theme ist ein Typisches Blog Theme, welchen wir für unsere Homepage 
 [Thinkspace](<https://heiswayi.github.io/thinkspace/>){:target="_blank"}
 
 [Researcher](<https://ankitsultana.com/researcher/>){:target="_blank"}
-
-[Researcher](<https://ankitsultana.com/researcher/>){:target="_blank"}
