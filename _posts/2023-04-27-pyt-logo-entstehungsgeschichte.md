@@ -4,7 +4,7 @@ author: sergius
 date: 2023-04-27 11:33:00 +0800
 last_modified_at: 2023-07-27 10:12 +0800
 categories: [Projekte, Grafik]
-tags: [Grafikdesighn, midjourney, ki-art]
+tags: [Grafikdesign, midjourney, ki-art]
 image:
   path: /assets/img/avatar.png
   alt: Responsive rendering of Chirpy theme on multiple devices.
