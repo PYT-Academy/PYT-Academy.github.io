@@ -1,0 +1,74 @@
+<!doctype html>
+
+
+<html lang="de">
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="robots" content="noodp">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <title>Diese Webseite befindet sich im Aufbau</title>
+      <link rel="shortcut icon" href="assets/favicon.ico">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/hero.css">
+	  <style> 
+	  @font-face{
+        font-family:"signa-dogado-bookreg";
+        src:url("assets/fonts/1467899/31f6cbda-2ced-4e39-b2b6-4f579cda9eec.eot?#iefix");
+        src:url("assets/fonts/1467899/31f6cbda-2ced-4e39-b2b6-4f579cda9eec.eot?#iefix") format("eot"),url("assets/fonts/1467899/0a09cead-64a7-40e9-9fbd-ffcb0c1e3590.woff2") format("woff2"),url("assets/fonts/1467899/3dee4b2a-4a10-4360-852a-5a6f34ba989c.woff") format("woff"),url("assets/fonts/1467899/8394f763-556e-46f4-9746-40ed3b668156.ttf") format("truetype");
+    }</style>
+  </head>
+
+  <body>
+
+      <div id="main">
+		  <div id="page-loader">
+			  <div class="spinner-container">
+				  <div class="css-spinner"></div>
+			  </div>
+		  </div>
+
+
+		  <section id="hero" class="hero hero-1">
+
+			  <div class="front-content page-enter-animated">
+
+				  <div class="container-mid">
+
+					  <div id="cycle">
+
+						  <div class="slide"><h1>DIESE SEITE<br>BEFINDET SICH<br>IM AUFBAU.</h1></div>
+
+					  </div>
+
+					  <p>THIS SITE IS UNDER CONSTRUCTION.</p>
+
+				  </div>
+
+			  </div>
+
+			  <div class="background-content page-enter-animated">
+				  <div class="level-1">
+
+					  <div class="bg-overlay"></div>
+					  <div class="bg-pattern"></div>
+					  <div id="canvas" class="layer"><canvas class="bg-effect layer" data-depth="0.2"></canvas></div>
+
+				  </div>
+
+			  </div>
+
+		  </section>
+
+      </div>
+
+      <script type="text/javascript" src="assets/js/plugins/plugins.js"></script>
+      <script type="text/javascript" src="config.js"></script>
+      <script type="text/javascript" src="assets/js/scripts.js"></script>
+      <script type="text/javascript" src="assets/js/hero.js"></script>
+
+  </body>
+
+
+
+</html>
