@@ -1,11 +1,13 @@
 ---
-title: Linux Betriebssysteme
+title: Linux, das Betriebssystem!
 date: 2023-07-22 10:00:00 +0800
 categories: [Linux, Gaming]
 tags: [open-source, digitale Sicherheit, linux, gaming, gnu]
 author: david
 image:
   path: assets/img/Linux-banner.png
+  lqip:
+  alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
 # Was ist ein Betriebssystem?
