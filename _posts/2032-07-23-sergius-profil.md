@@ -48,8 +48,7 @@ Hier ist ein Beispiel für die Struktur deines persönlichen Profils:
 Denke daran, authentisch zu sein und deine eigene Stimme zu nutzen. Dein persönliches Profil sollte ein echtes Bild von dir vermitteln und deine Leser dazu ermutigen, mehr von deinen Beiträgen lesen zu wollen. {: .prompt-tip }
 
 
-[^footnote]: Webanalyse
-
+[^footnote]:
 # Webanalyse
 
 ## Kernbausteine einer Webseite oder Landingpage
