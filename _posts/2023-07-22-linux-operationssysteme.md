@@ -1,9 +1,9 @@
 ---
 title: Linux, das Betriebssystem!
-author: david
-date: 2023-07-22 10:00:00 +0800
+date: 2022-07-22 10:00:00 +0800
 categories: [Linux, Gaming]
-tags: [open-source, digitale Sicherheit, linux, gaming, gnu]
+tags: [open-source, it-security, linux, gaming, gnu]
+author: david
 image:
   path: /assets/img/Linux-banner.png
   lqip:
@@ -26,13 +26,13 @@ Linux ist ein Open-Source-Betriebssystem, das erstmals 1991 von Linus Torvalds, 
 
 Die Entwicklung der Open-Source-Softwarebewegung hat zwei herausragende Persönlichkeiten hervorgebracht, die maßgeblich zum Erfolg und der Verbreitung von Linux und GNU beigetragen haben. Linus Torvalds und Richard Stallman sind die beiden Namen, die untrennbar mit der Entstehung und Verbreitung von Open-Source-Software verbunden sind. Lassen Sie uns einen Blick auf die Beiträge dieser beiden Pioniere werfen:
 
-### Linus Torvalds:
+#### Linus Torvalds:
 
 Linus Torvalds, geboren am 28. Dezember 1969 in Helsinki, Finnland, ist der Erfinder des Linux-Kernels. Im Jahr 1991 begann der junge Informatikstudent damit, einen eigenen Betriebssystemkern zu entwickeln und veröffentlichte diesen als Open-Source-Software. Inspiriert von dem Wunsch, ein freies Betriebssystem zu schaffen, ermöglichte er anderen Entwicklern weltweit, an seiner Arbeit mitzuwirken.
 
 Durch die Vision von Linus entwickelte sich Linux schnell zu einem der erfolgreichsten und beliebtesten Betriebssysteme der Welt. Heute bildet der Linux-Kernel die Grundlage vieler Linux-Distributionen, die in verschiedenen Anwendungsbereichen weit verbreitet sind - von Servern und Supercomputern bis hin zu Mobilgeräten und eingebetteten Systemen.
 
-### Richard Stallman:
+#### Richard Stallman:
 
 Richard Stallman, geboren am 16. März 1953 in New York City, USA, ist eine herausragende Figur in der Open-Source-Softwarebewegung. Er gründete 1983 das GNU-Projekt (GNU steht für "GNU's Not Unix"), das darauf abzielte, ein vollständig freies Unix-ähnliches Betriebssystem zu entwickeln.
 
