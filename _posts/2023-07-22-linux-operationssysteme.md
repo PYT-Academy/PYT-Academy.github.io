@@ -1,6 +1,6 @@
 ---
 title: Linux, das Betriebssystem!
-date: 2022-07-22 10:00:00 -0300
+date: 2023-07-22 10:00:00 -0300
 last_modified_at: 2023-07-22 10:00:00 -0300
 categories: [Linux, Gaming]
 tags: [open-source, it-security, linux, gaming, gnu]
