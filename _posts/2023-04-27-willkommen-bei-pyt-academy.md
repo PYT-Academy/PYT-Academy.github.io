@@ -1,11 +1,11 @@
 ---
 title: Willkommen bei PYT-Academy - dein Tor zur Welt der Technik
-author: sergius
-date: 2023-04-25 11:33:00 +0800
-last_modified_at: 2023-07-27 10:12 +0800
-pin: true
+date: 2023-04-25 11:33:00 -0300
+last_modified_at: 2023-07-27 10:12:00 -0300
 categories: [Willkommen, Comunity]
 tags: [Technikbegeisterte, Informatik, Webentwicklung, DIY-Projekte, Comunity, PYT-Academy]
+author: sergius
+pin: true
 ---
 
 Die PYT-Academy ist mehr als nur eine Webseite - sie ist eine Gemeinschaftsprojekt von Technikbegeisterten, die ihr Wissen und ihre Leidenschaft für verschiedene Bereiche wie Informatik, Programieren und DIY-Projekte teilen.
