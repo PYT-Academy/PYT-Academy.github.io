@@ -4,7 +4,6 @@ date: 2023-07-18 12:00:00 -0500
 last_modified_at: 2023-07-24 17:56:00 -0500
 categories: [Projekte, Server]
 tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein, Cryptomator, Tutorial]
-tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein, Cryptomator, Tutorial]
 author: david
 pin: true
 ---
@@ -69,17 +68,18 @@ Bei der Auswahl einer Cloud-Software für Ihren Server ist es wichtig, Ihre Anfo
 | Community | Aktive und engagierte<br>Community | Aktive und engagierte<br>Community | Aktive Community | Aktive Community |
 | Verschlüsselung | Server-seitig | Server-seitig | Datei-basiert | Datei-basiert |
 
-Cryptomator! Pro-Tipp von Sergius 
+Cryptomator! Pro-Tipp von Sergius
 {: .prompt-tip }
-# Cryptomator, verschlüsselung auf dem Client
+
+## Cryptomator, verschlüsselung auf dem Client
 
 Cryptomator ist eine bemerkenswerte Lösung, wenn es um die Sicherheit und den Schutz der eigenen Cloud-Daten geht. Im Gegensatz zu allen anderen Cloud-Speicher-Softwarelösungen, fungiert Cryptomator nicht als eigene Cloud-Software, sondern als zusätzliche Sicherheitsschicht für Ihre vorhandenen Cloud-Dienste. Es ist ein Open-Source-Tool, das clientseitige Verschlüsselung für Ihre Dateien bietet, bevor sie in die Cloud hochgeladen werden. Dadurch wird sichergestellt, dass niemand außer Ihnen (nicht einmal Ihr Cloud-Anbieter) auf Ihre sensiblen Daten zugreifen kann.
 
-## Funkionsweise
+### Funkionsweise
 
 Cryptomator erstellt einen virtuellen Laufwerksordner auf Ihrem System, in dem Sie Ihre Dateien speichern können. Wenn Sie eine Datei in diesen Ordner verschieben, wird sie automatisch und transparent verschlüsselt und dann in Ihren Cloud-Ordner hochgeladen. Die Verschlüsselung erfolgt nach dem AES-Standard, und der Schlüssel bleibt immer auf Ihrem Gerät, sodass Sie die volle Kontrolle über Ihre Daten haben.
 
-## Einrichtung
+### Einrichtung
 
 - Laden Sie die Cryptomator-Software von der offiziellen Webseite herunter und installieren Sie sie auf Ihrem System.
 
@@ -93,4 +93,4 @@ Tipp: Instaliere dir die Desktop-Anwendung deines Cloud-Anbieters {: .prompt-tip
 
 - Sobald der Tresor erstellt ist, können Sie ihn durch Eingabe Ihres Passworts entsperren und wie ein normales Laufwerk auf Ihrem System verwenden. Alle Dateien, die Sie in diesen Ordner verschieben, werden automatisch verschlüsselt und in den Cloud-Ordner hochgeladen.
 
-Cryptomator ist eine effektive Lösung, um Ihre Daten in jeder Cloud sicher aufzubewahren. Es ist kompatibel mit verschiedenen Betriebssystemen wie Windows, MacOS und Linux sowie mobilen Plattformen wie Android und iOS. Es ist wichtig zu bedenken, dass während Cryptomator eine zusätzliche Schicht der Sicherheit bietet, es immer noch wichtig ist, sichere Praktiken für den Datenschutz zu befolgen und Ihre Passwörter sicher zu speichern.
+> Cryptomator ist eine effektive Lösung, um Ihre Daten in jeder Cloud sicher aufzubewahren. Es ist kompatibel mit verschiedenen Betriebssystemen wie Windows, MacOS und Linux sowie mobilen Plattformen wie Android und iOS. Es ist wichtig zu bedenken, dass während Cryptomator eine zusätzliche Schicht der Sicherheit bietet, es immer noch wichtig ist, sichere Praktiken für den Datenschutz zu befolgen und Ihre Passwörter sicher zu speichern.
