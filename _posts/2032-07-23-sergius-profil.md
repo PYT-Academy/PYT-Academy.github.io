@@ -15,6 +15,8 @@ Ein persönliches Profil für deine Blogger-Webseite zu erstellen ist ein wichti
 
 ## Foto oder Profilbild
 
+![Desktop View](/assets/img/sergius-im-buero.png){: width="972" height="589" }
+
 Ein Foto auswählen: Dein Profilfoto sollte professionell und freundlich wirken. Es sollte dich repräsentieren und sollte deinem Online-Image entsprechen.
 
 ## Über mich sektion
