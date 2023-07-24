@@ -112,13 +112,13 @@ Tabellen bieten eine hervorragende Möglichkeit, um zusammengehörige Daten zu p
 
 Verwenden Sie Links, um auf andere Webseiten oder Ressourcen zu verweisen:
 
-<https://pyt-acadamy.github.io/>
+<https://pyt-academy.github.io/>
 
-- [PYT-Acadamy](https://pyt-acadamy.github.io/)
+- [PYT-Academy](https://pyt-academy.github.io/)
 
-- [PYT-Acadamy](https://pyt-acadamy.github.io/){:target="_blank"}
+- [PYT-Academy](https://pyt-academy.github.io/){:target="_blank"}
 
-> [PYT-Acadamy](https://pyt-acadamy.github.io/){:target="_blank"}
+> [PYT-Academy](https://pyt-academy.github.io/){:target="_blank"}
 {: .prompt-tip }
 
 ## Fußnote
