@@ -1,9 +1,9 @@
 ---
 title: PYT-Academy Self hosted Server Projekt
 date: 2023-07-18 12:00:00 -0300
-last_modified_at: 2023-07-22 13:32:00 -0300
+last_modified_at: 2023-07-24 16:42:00 -0300
 categories: [Projekte, Server]
-tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein]
+tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein, Cryptomator, Tutorial]
 author: david
 pin: true
 ---
@@ -67,3 +67,28 @@ Bei der Auswahl einer Cloud-Software für Ihren Server ist es wichtig, Ihre Anfo
 | Lizenz | AGPLv3 | AGPLv3 | AGPLv3 | AGPLv3 |
 | Community | Aktive und engagierte<br>Community | Aktive und engagierte<br>Community | Aktive Community | Aktive Community |
 | Verschlüsselung | Server-seitig | Server-seitig | Datei-basiert | Datei-basiert |
+
+Cryptomator! Pro-Tipp von Sergius {: .prompt-tip }
+# Cryptomator, verschlüsselung auf dem Client
+
+Cryptomator ist eine bemerkenswerte Lösung, wenn es um die Sicherheit und den Schutz der eigenen Cloud-Daten geht. Im Gegensatz zu allen anderen Cloud-Speicher-Softwarelösungen, fungiert Cryptomator nicht als eigene Cloud-Software, sondern als zusätzliche Sicherheitsschicht für Ihre vorhandenen Cloud-Dienste. Es ist ein Open-Source-Tool, das clientseitige Verschlüsselung für Ihre Dateien bietet, bevor sie in die Cloud hochgeladen werden. Dadurch wird sichergestellt, dass niemand außer Ihnen (nicht einmal Ihr Cloud-Anbieter) auf Ihre sensiblen Daten zugreifen kann.
+
+## Funkionsweise
+
+Cryptomator erstellt einen virtuellen Laufwerksordner auf Ihrem System, in dem Sie Ihre Dateien speichern können. Wenn Sie eine Datei in diesen Ordner verschieben, wird sie automatisch und transparent verschlüsselt und dann in Ihren Cloud-Ordner hochgeladen. Die Verschlüsselung erfolgt nach dem AES-Standard, und der Schlüssel bleibt immer auf Ihrem Gerät, sodass Sie die volle Kontrolle über Ihre Daten haben.
+
+## Einrichtung
+
+- Laden Sie die Cryptomator-Software von der offiziellen Webseite herunter und installieren Sie sie auf Ihrem System.
+
+- Nach der Installation starten Sie Cryptomator und klicken auf das Plus-Symbol, um einen neuen Tresor zu erstellen.
+
+- Wählen Sie den Ort Ihres Cloud-Ordners aus, in dem Sie den Tresor speichern möchten. 
+
+Tipp: Instaliere dir die Desktop-Anwendung deines Cloud-Anbieters {: .prompt-tip }
+
+- Geben Sie einen Namen für den Tresor ein und erstellen Sie ein sicheres Passwort. Dieses Passwort wird verwendet, um Ihre Dateien zu verschlüsseln und zu entschlüsseln, also stellen Sie sicher, dass Sie es sicher aufbewahren.
+
+- Sobald der Tresor erstellt ist, können Sie ihn durch Eingabe Ihres Passworts entsperren und wie ein normales Laufwerk auf Ihrem System verwenden. Alle Dateien, die Sie in diesen Ordner verschieben, werden automatisch verschlüsselt und in den Cloud-Ordner hochgeladen.
+
+Cryptomator ist eine effektive Lösung, um Ihre Daten in jeder Cloud sicher aufzubewahren. Es ist kompatibel mit verschiedenen Betriebssystemen wie Windows, MacOS und Linux sowie mobilen Plattformen wie Android und iOS. Es ist wichtig zu bedenken, dass während Cryptomator eine zusätzliche Schicht der Sicherheit bietet, es immer noch wichtig ist, sichere Praktiken für den Datenschutz zu befolgen und Ihre Passwörter sicher zu speichern.
