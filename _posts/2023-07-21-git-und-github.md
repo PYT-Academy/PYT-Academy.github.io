@@ -1,7 +1,7 @@
 ---
 title: Git und Github
-date: 2023-07-21 17:30:00 -0300
-last_modified_at: 2023-07-21 17:30:00 -0300
+date: 2023-07-21 17:30:00 -0400
+last_modified_at: 2023-07-21 17:30:00 -0400
 categories: [Git, Github, Anleitung]
 tags: [git, github, anleitung]
 author: david
