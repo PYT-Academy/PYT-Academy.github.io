@@ -1,7 +1,7 @@
 ---
 title: Blogbeitrag zum testen von Draw.io!
-date: 2023-06-15 12:00:00 -0300
-last_modified_at: 2023-06-15 12:00:00 -0300
+date: 2023-06-15 12:00:00 -0400
+last_modified_at: 2023-06-15 12:00:00 -0400
 categories: [Projekte, draw.io]
 tags: [webdevelopment, open-source, Draw.io]
 author: sergius

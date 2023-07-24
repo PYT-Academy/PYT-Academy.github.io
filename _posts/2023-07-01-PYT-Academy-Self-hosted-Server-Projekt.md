@@ -1,7 +1,7 @@
 ---
 title: PYT-Academy Self hosted Server Projekt
-date: 2023-07-18 12:00:00 -0500
-last_modified_at: 2023-07-24 23:55:00 -0500
+date: 2023-07-18 12:00:00 -0400
+last_modified_at: 2023-07-24 23:55:00 -0400
 categories: [Projekte, Server]
 tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein, Cryptomator, Tutorial]
 author: david

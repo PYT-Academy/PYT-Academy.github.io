@@ -1,7 +1,7 @@
 ---
 title: Passwörter & Passwortmanager
-date: 2023-06-10 11:33:00 -0300
-last_modified_at: 2023-07-21 13:00:00 -0300
+date: 2023-06-10 11:33:00 -0400
+last_modified_at: 2023-07-21 13:00:00 -0400
 categories: [Passwort, Passwortmanager]
 tags: [Passwörter, Passwortmanager, it-security]
 author: david

@@ -1,7 +1,7 @@
 ---
 title: Lasst eure technikbegeisterten Jugendlichen Teil unserer Gemeinschaft werden!
-date: 2023-06-09 12:00:00 -0300
-last_modified_at: 2023-06-09 12:00:00 -0300
+date: 2023-06-09 12:00:00 -0400
+last_modified_at: 2023-06-09 12:00:00 -0400
 categories: [Community, News]
 tags: [jugend, technik, gemeinschaft]
 author: sergius

@@ -1,7 +1,7 @@
 ---
 title: Willkommen bei PYT-Academy - dein Tor zur Welt der Technik
-date: 2023-04-25 11:33:00 -0300
-last_modified_at: 2023-07-27 10:12:00 -0300
+date: 2023-04-25 11:33:00 -0400
+last_modified_at: 2023-07-27 10:12:00 -0400
 categories: [Willkommen, Comunity]
 tags: [Technikbegeisterte, Informatik, Webentwicklung, DIY-Projekte, Comunity, PYT-Academy]
 author: sergius

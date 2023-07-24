@@ -1,7 +1,7 @@
 ---
 title: Junior Gruppe - Grundlagen
-date: 2023-05-01 12:00:00 -0300
-last_modified_at: 2023-05-01 12:00:00 -0300
+date: 2023-05-01 12:00:00 -0400
+last_modified_at: 2023-05-01 12:00:00 -0400
 categories: [Acadamy, Ziele]
 tags: [jugend, technik, gemeinschaft]
 author: sergius

@@ -1,7 +1,7 @@
 ---
 title: David Autobiografie
-date: 2023-07-20 16:30:00 -0300
-last_modified_at: 2023-07-20 16:30:00 -0300
+date: 2023-07-20 16:30:00 -0400
+last_modified_at: 2023-07-20 16:30:00 -0400
 categories: [Autobiografie]
 tags: [Autobiografie]
 author: david
