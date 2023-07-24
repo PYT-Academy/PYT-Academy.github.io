@@ -4,14 +4,14 @@ date: 2023-07-23 17:36:00 +0800
 last_modified_at: 2023-07-20 17:36 +0800
 categories: [Autobiografie]
 tags: [Autobiografie]
-author: david
+author: sergius
 image:
   path: /assets/img/david_autobiogafie_profilbild.png
 ---
 
 # Aufbau des Profil's
 
-Ein persönliches Profil für deine Blogger-Webseite zu erstellen ist ein wichtiger Schritt, um deinen Lesern zu helfen, dich besser zu verstehen und zu verbinden. Hier sind einige Schritte, die du befolgen kannst. Weiterführende informationen findest du unter "Webanalyse[^footnote]"
+Ein persönliches Profil für deine Blogger-Webseite zu erstellen ist ein wichtiger Schritt, um deinen Lesern zu helfen, dich besser zu verstehen und zu verbinden. Hier sind einige Schritte, die du befolgen kannst. Weiterführende informationen findest du unter "Webanalyse"
 
 ## Foto oder Profilbild
 
@@ -47,8 +47,6 @@ Hier ist ein Beispiel für die Struktur deines persönlichen Profils:
 
 Denke daran, authentisch zu sein und deine eigene Stimme zu nutzen. Dein persönliches Profil sollte ein echtes Bild von dir vermitteln und deine Leser dazu ermutigen, mehr von deinen Beiträgen lesen zu wollen. {: .prompt-tip }
 
-
-[^footnote]: Webanalyse
 # Webanalyse
 
 ## Kernbausteine einer Webseite oder Landingpage
