@@ -4,7 +4,7 @@ author: david
 date: 2023-06-10 11:33:00 +0800
 last_modified_at: 2023-07-21 13:00:00 +0800
 categories: [Passwort, Passwortmanager]
-tags: [Passwörter, Passwortmanager, digitale Sicherheit]
+tags: [Passwörter, Passwortmanager, it-security]
 ---
 
 # Passwortmanager: Dein digitales Gehirn für Passwörter

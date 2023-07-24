@@ -1,9 +1,9 @@
 ---
 title: Linux, das Betriebssystem!
-author: david
-date: 2023-07-22 10:00:00 +0800
+date: 2022-07-22 10:00:00 +0800
 categories: [Linux, Gaming]
-tags: [open-source, digitale Sicherheit, linux, gaming, gnu]
+tags: [open-source, it-security, linux, gaming, gnu]
+author: david
 image:
   path: /assets/img/Linux-banner.png
   lqip:
