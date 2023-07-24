@@ -1,10 +1,10 @@
 ---
 title: die Geburt des PYT-Logo's
-author: sergius
-date: 2023-04-27 11:33:00 +0800
-last_modified_at: 2023-07-27 10:12 +0800
+date: 2023-04-27 11:33:00 -0300
+last_modified_at: 2023-07-27 10:12:00 -0300
 categories: [Projekte, Grafik]
 tags: [Grafikdesign, midjourney, ki-art]
+author: sergius
 image:
   path: /assets/img/avatar.png
   alt: Responsive rendering of Chirpy theme on multiple devices.

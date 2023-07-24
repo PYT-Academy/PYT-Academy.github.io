@@ -1,10 +1,10 @@
 ---
 title: Jekyll, Statischer Webseitengenerator
-author: sergius
-date: 2023-07-17 11:33:00 +0800 
-last_modified_at: 2023-07-17 11:33:00 +0800 
+date: 2023-07-17 11:33:00 -0300 
+last_modified_at: 2023-07-17 11:33:00 -0300
 categories: [Community, Webdevelopment]
 tags: [webdevelopment, homepage, jekyll, github, webseitengenerator, statische-webseite, Hosting]
+author: sergius
 mermaid: true
 image:
   path: /assets/img/JG-logo.png

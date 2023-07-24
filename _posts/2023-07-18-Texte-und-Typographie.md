@@ -1,10 +1,10 @@
 ---
 title: Texte und Typographiebeispiele
-author: sergius
-date: 2023-07-17 11:33:00 +0800
-last_modified_at: 2023-07-20 11:33:00 +0800
+date: 2023-07-17 11:33:00 -0300
+last_modified_at: 2023-07-20 11:33:00 -0300
 categories: [Projekte, Homepage]
 tags: [Texte, Typographie, Kommunikation, Schriftarten, Zeilenabstände]
+author: sergius
 math: true
 mermaid: true
 image:

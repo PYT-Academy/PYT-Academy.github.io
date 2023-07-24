@@ -1,6 +1,7 @@
 ---
 title: Linux, das Betriebssystem!
-date: 2022-07-22 10:00:00 +0800
+date: 2022-07-22 10:00:00 -0300
+last_modified_at: 2023-07-22 10:00:00 -0300
 categories: [Linux, Gaming]
 tags: [open-source, it-security, linux, gaming, gnu]
 author: david
@@ -14,25 +15,25 @@ image:
 
 Ein Betriebssystem (OS) ist im Grunde genommen das "Gehirn" Ihres Computers. Es ist eine spezielle Software, die den gesamten Computer steuert und die Verbindung zwischen der Hardware (wie Prozessor, Speicher, Festplatte) und den Anwendungsprogrammen herstellt. Das Betriebssystem ermöglicht es Ihnen, mit Ihrem Computer zu interagieren, indem es Tastatureingaben, Mausklicks und andere Befehle verarbeitet.
 
-## Die Entstehung von Betriebssystemen
+# Die Entstehung von Betriebssystemen
 
 In den frühen Tagen der Computer waren Betriebssysteme rudimentär und auf bestimmte Maschinen zugeschnitten. Mit der Zeit entwickelten sich Betriebssysteme weiter und wurden allgemeiner, sodass sie auf verschiedenen Computern laufen konnten. Einige der bekanntesten Betriebssysteme sind Windows, macOS und Linux.
 
-## Linux - Ein besonderes Betriebssystem
+# Linux - Ein besonderes Betriebssystem
 
 Linux ist ein Open-Source-Betriebssystem, das erstmals 1991 von Linus Torvalds, einem finnischen Informatiker, entwickelt wurde. Das Besondere an Linux ist seine Philosophie der Offenheit und Zusammenarbeit. Anders als proprietäre Betriebssysteme wie Windows oder macOS ist Linux kostenlos und der Quellcode ist für jeden zugänglich, was bedeutet, dass Benutzer es frei verwenden, modifizieren und verteilen können.
 
-### Linus Torvalds und Richard Stallman: Die Pioniere von Linux und GNU
+## Linus Torvalds und Richard Stallman: Die Pioniere von Linux und GNU
 
 Die Entwicklung der Open-Source-Softwarebewegung hat zwei herausragende Persönlichkeiten hervorgebracht, die maßgeblich zum Erfolg und der Verbreitung von Linux und GNU beigetragen haben. Linus Torvalds und Richard Stallman sind die beiden Namen, die untrennbar mit der Entstehung und Verbreitung von Open-Source-Software verbunden sind. Lassen Sie uns einen Blick auf die Beiträge dieser beiden Pioniere werfen:
 
-#### Linus Torvalds:
+### Linus Torvalds:
 
 Linus Torvalds, geboren am 28. Dezember 1969 in Helsinki, Finnland, ist der Erfinder des Linux-Kernels. Im Jahr 1991 begann der junge Informatikstudent damit, einen eigenen Betriebssystemkern zu entwickeln und veröffentlichte diesen als Open-Source-Software. Inspiriert von dem Wunsch, ein freies Betriebssystem zu schaffen, ermöglichte er anderen Entwicklern weltweit, an seiner Arbeit mitzuwirken.
 
 Durch die Vision von Linus entwickelte sich Linux schnell zu einem der erfolgreichsten und beliebtesten Betriebssysteme der Welt. Heute bildet der Linux-Kernel die Grundlage vieler Linux-Distributionen, die in verschiedenen Anwendungsbereichen weit verbreitet sind - von Servern und Supercomputern bis hin zu Mobilgeräten und eingebetteten Systemen.
 
-#### Richard Stallman:
+### Richard Stallman:
 
 Richard Stallman, geboren am 16. März 1953 in New York City, USA, ist eine herausragende Figur in der Open-Source-Softwarebewegung. Er gründete 1983 das GNU-Projekt (GNU steht für "GNU's Not Unix"), das darauf abzielte, ein vollständig freies Unix-ähnliches Betriebssystem zu entwickeln.
 
@@ -40,13 +41,13 @@ Stallman entwickelte die Idee von freier Software und legte die Grundlagen für 
 
 Obwohl das GNU-Projekt den Linux-Kernel nicht selbst entwickelte, trug es maßgeblich dazu bei, dass der Linux-Kernel mit den GNU-Softwarewerkzeugen kombiniert wurde, um ein voll funktionsfähiges Betriebssystem zu schaffen - das GNU/Linux-Betriebssystem, das heute weithin bekannt ist.
 
-### Open Source und die GNU/Linux-Kombination
+## Open Source und die GNU/Linux-Kombination
 
 Linux als Betriebssystemkern bildet das Herzstück des Linux-Betriebssystems. Um ein voll funktionsfähiges Betriebssystem zu schaffen, muss dieser Kern jedoch mit anderen Softwarekomponenten kombiniert werden. Hier kommt die sogenannte GNU/Linux-Kombination ins Spiel. Das GNU-Projekt, initiiert von Richard Stallman, entwickelte eine Vielzahl von Open-Source-Softwarewerkzeugen und -dienstprogrammen, die es ermöglichen, einen kompletten Betriebssystemstapel zu erstellen.
 
 Der GNU-Softwarestapel wurde mit dem Linux-Kern kombiniert, wodurch das heute bekannte Linux-Betriebssystem entstand. In der Regel beziehen sich die meisten Menschen, wenn sie von "Linux" sprechen, auf die Kombination aus dem Linux-Kern und dem GNU-Softwarestapel.
 
-### Vielfältige Distributionen
+## Vielfältige Distributionen
 
 Da Linux quelloffen ist, haben Entwickler und Organisationen die Freiheit, ihre eigenen Versionen des Betriebssystems zu erstellen und zu verteilen. Diese verschiedenen Versionen werden als "Distributionen" oder "Distros" bezeichnet. Jede Distribution enthält den Linux-Kern, aber sie kann unterschiedliche Softwarepakete, Benutzeroberflächen und Konfigurationen enthalten.
 
@@ -88,7 +89,7 @@ Manjaro ist eine benutzerfreundliche Rolling-Release-Distribution, die auf Arch 
 
 Jede dieser Linux-Distributionen hat ihre eigenen Stärken und passt zu unterschiedlichen Bedürfnissen und Erfahrungsstufen der Benutzer. Es ist wichtig, die Eigenschaften und Merkmale jeder Distribution zu berücksichtigen, um diejenige zu wählen, die am besten zu Ihren Anforderungen und Vorlieben passt.
 
-### Stabilität, Sicherheit und Flexibilität
+## Stabilität, Sicherheit und Flexibilität
 
 Linux hat sich als äußerst stabil, sicher und flexibel erwiesen, was es zu einer beliebten Wahl für Server, Mainframes und andere kritische Infrastrukturen gemacht hat. Die modulare Architektur ermöglicht es Benutzern, nur die Komponenten zu installieren, die sie benötigen, was das System schlank und effizient macht.
 
@@ -96,13 +97,13 @@ Darüber hinaus ist Linux für seine Sicherheit bekannt. Regelmäßige Sicherhei
 
 Linux bietet eine hohe Anpassungsfähigkeit und ermöglicht es den Benutzern, nahezu jeden Aspekt des Systems nach ihren Wünschen zu verändern. Hier ist eine Anleitung,wie man alles auf Linux verändern kann, einschließlich einer Unterseite, die sich auf die Anpassung des Aussehens (GUI) konzentriert:
 
-### Alles auf Linux verändern:
+## Alles auf Linux verändern:
 
 1. **Paketverwaltung:** Mit Hilfe des Paketverwaltungssystems deiner Linux-Distribution kannst du Softwarepakete installieren, aktualisieren und entfernen. Die Paketverwaltung ermöglicht es dir, Anwendungen, Entwicklungstools, Bibliotheken und vieles mehr zu installieren und dein System zu erweitern.
 
 2. **Konfigurationsdateien:** Linux verwendet Konfigurationsdateien, um das Verhalten verschiedener Programme und Dienste zu steuern. Durch das Bearbeiten dieser Konfigurationsdateien kannst du das Verhalten deines Systems beeinflussen. Die meisten Konfigurationsdateien befinden sich im Verzeichnis `/etc/` und in den versteckten Ordnern im Benutzerverzeichnis (z.B. `~/.config/`).
 
-### Aussehen (GUI) verändern:
+## Aussehen (GUI) verändern:
 
 1. Desktop-Umgebung und Themes: Linux bietet verschiedene Desktop-Umgebungen (z.B. GNOME, KDE, XFCE, Cinnamon, etc.), zwischen denen du wählen kannst. Du kannst auch verschiedene Themes und Iconsets installieren, um das Aussehen der Desktop-Umgebung anzupassen.
 
@@ -118,19 +119,19 @@ Linux bietet eine hohe Anpassungsfähigkeit und ermöglicht es den Benutzern, na
 
 In dem Subreddit [UnixPorn](https://www.reddit.com/r/unixporn/) zeigen die Benutzer ihre kreativen und ansprechend gestalteten Desktops, die sie durch Anpassungen der Desktop-Umgebung, Fenstermanager, Icons, Themes, Hintergrundbilder, Cursor-Designs und vielem mehr erreicht haben. Es ist bekannt für seine ästhetischen Beiträge, die oft beeindruckende Desktop-Kreationen präsentieren.
 
-### Vielfältige Anwendungsbereiche
+## Vielfältige Anwendungsbereiche
 
 Linux findet Verwendung in einer breiten Palette von Geräten und Anwendungen, darunter Server, Desktop-Computer, Laptops, Mobiltelefone, Netzwerkgeräte, Smart-TVs, Embedded-Systeme und vieles mehr. Es wird oft auch als Basis für spezialisierte Betriebssysteme verwendet.
 
 Glücklicherweise gibt es zwei benutzerfreundliche Lösungen, die die Softwareverwaltung auf Linux erleichtern: der "Snap Store" und "GNOME Software"
 
-### Snap Store:
+## Snap Store:
 
 Der "Snap Store" ist ein Software-App-Store, der von Canonical entwickelt wurde und in Ubuntu und anderen Ubuntu-basierten Linux-Distributionen standardmäßig enthalten ist. Er ermöglicht den Benutzern, Snap-Pakete zu suchen, zu installieren und zu verwalten. Snap-Pakete sind universelle Softwarepakete, die alle benötigten Abhängigkeiten enthalten und somit unabhängig von der zugrunde liegenden Linux-Distribution laufen können.
 
 Der Snap Store bietet eine einfache grafische Benutzeroberfläche, mit der du nach Anwendungen suchen, ihre Details anzeigen und sie mit einem einzigen Klick installieren kannst. Darüber hinaus werden Snap-Pakete automatisch aktualisiert, sodass du immer die neuesten Versionen deiner installierten Anwendungen hast.
 
-### GNOME Software:
+## GNOME Software:
 
 GNOME Software ist ein Softwarecenter, das in der GNOME-Desktop-Umgebung, die in vielen Linux-Distributionen verwendet wird, enthalten ist. Es ist ein universelles Frontend für verschiedene Paketverwaltungssysteme, darunter APT (für Debian-basierte Distributionen) und DNF (für Fedora-basierte Distributionen).
 
@@ -138,7 +139,7 @@ Mit GNOME Software kannst du nach Anwendungen suchen, Anwendungen durchstöbern,
 
 Beide, der Snap Store und GNOME Software, bieten eine grafische Benutzeroberfläche, die es Benutzern ermöglicht, die gewünschten Anwendungen einfach zu suchen und zu installieren. Beide Anwendungen bieten eine Auswahl an Softwarepaketen, darunter verschiedene Anwendungen, Entwicklertools und Spiele. Die Installation und Aktualisierung von Software auf Linux wird durch diese Werkzeuge wesentlich einfacher und benutzerfreundlicher gestaltet.
 
-## Gaming
+# Gaming
 
 Gaming unter Linux hat in den letzten Jahren erhebliche Fortschritte gemacht und ist zu einer attraktiven Option für Spieler geworden. Obwohl Windows immer noch das vorherrschende Betriebssystem für Spiele ist, bietet Linux eine immer breitere Unterstützung für Spiele, dank der Anstrengungen der Linux-Community und der Spieleentwickler.
 
