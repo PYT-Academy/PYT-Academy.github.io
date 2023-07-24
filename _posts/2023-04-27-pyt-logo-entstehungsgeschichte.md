@@ -1,7 +1,7 @@
 ---
 title: die Geburt des PYT-Logo's
-date: 2023-04-27 11:33:00 -0400
-last_modified_at: 2023-07-27 10:12:00 -0400
+date: 2023-04-27 11:33:00 -0300
+last_modified_at: 2023-07-23 10:12:00 -0300
 categories: [Projekte, Grafik]
 tags: [Grafikdesign, midjourney, ki-art]
 author: sergius
