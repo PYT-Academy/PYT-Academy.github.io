@@ -4,6 +4,7 @@ date: 2023-07-18 12:00:00 -0300
 last_modified_at: 2023-07-24 16:42:00 -0300
 categories: [Projekte, Server]
 tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein, Cryptomator, Tutorial]
+tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein, Cryptomator, Tutorial]
 author: david
 pin: true
 ---
@@ -68,7 +69,8 @@ Bei der Auswahl einer Cloud-Software für Ihren Server ist es wichtig, Ihre Anfo
 | Community | Aktive und engagierte<br>Community | Aktive und engagierte<br>Community | Aktive Community | Aktive Community |
 | Verschlüsselung | Server-seitig | Server-seitig | Datei-basiert | Datei-basiert |
 
-Cryptomator! Pro-Tipp von Sergius {: .prompt-tip }
+Cryptomator! Pro-Tipp von Sergius 
+{: .prompt-tip }
 # Cryptomator, verschlüsselung auf dem Client
 
 Cryptomator ist eine bemerkenswerte Lösung, wenn es um die Sicherheit und den Schutz der eigenen Cloud-Daten geht. Im Gegensatz zu allen anderen Cloud-Speicher-Softwarelösungen, fungiert Cryptomator nicht als eigene Cloud-Software, sondern als zusätzliche Sicherheitsschicht für Ihre vorhandenen Cloud-Dienste. Es ist ein Open-Source-Tool, das clientseitige Verschlüsselung für Ihre Dateien bietet, bevor sie in die Cloud hochgeladen werden. Dadurch wird sichergestellt, dass niemand außer Ihnen (nicht einmal Ihr Cloud-Anbieter) auf Ihre sensiblen Daten zugreifen kann.
