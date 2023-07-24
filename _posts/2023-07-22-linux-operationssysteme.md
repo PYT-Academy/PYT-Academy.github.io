@@ -8,7 +8,7 @@ author: david
 image:
   path: /assets/img/Linux-banner.png
   lqip:
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  alt: The Linux Logo
 ---
 
 # Was ist ein Betriebssystem?
