@@ -68,7 +68,7 @@ Bei der Auswahl einer Cloud-Software für Ihren Server ist es wichtig, Ihre Anfo
 | Community | Aktive und engagierte<br>Community | Aktive und engagierte<br>Community | Aktive Community | Aktive Community |
 | Verschlüsselung | Server-seitig | Server-seitig | Datei-basiert | Datei-basiert |
 
-Cryptomator! Pro-Tipp von Sergius
+> Cryptomator! Pro-Tipp von Sergius
 {: .prompt-tip }
 
 ## Cryptomator, verschlüsselung auf dem Client
