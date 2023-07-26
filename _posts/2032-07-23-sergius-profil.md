@@ -6,7 +6,7 @@ categories: [Autobiografie]
 tags: [Autobiografie]
 author: sergius
 image:
-  path: /assets/img/david_autobiogafie_profilbild.png
+  path: /assets/img/Sergius-Logo-1200x630.png
 ---
 
 # Aufbau des Profil's

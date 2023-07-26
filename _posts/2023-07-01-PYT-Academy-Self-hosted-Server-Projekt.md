@@ -68,10 +68,11 @@ Bei der Auswahl einer Cloud-Software für Ihren Server ist es wichtig, Ihre Anfo
 | Community | Aktive und engagierte<br>Community | Aktive und engagierte<br>Community | Aktive Community | Aktive Community |
 | Verschlüsselung | Server-seitig | Server-seitig | Datei-basiert | Datei-basiert |
 
-Cryptomator! Pro-Tipp von Sergius
-{: .prompt-tip }
 
 ## Cryptomator, verschlüsselung auf dem Client
+
+> Cryptomator! Pro-Tipp von Sergius
+{: .prompt-tip }
 
 Cryptomator ist eine bemerkenswerte Lösung, wenn es um die Sicherheit und den Schutz der eigenen Cloud-Daten geht. Im Gegensatz zu allen anderen Cloud-Speicher-Softwarelösungen, fungiert Cryptomator nicht als eigene Cloud-Software, sondern als zusätzliche Sicherheitsschicht für Ihre vorhandenen Cloud-Dienste. Es ist ein Open-Source-Tool, das clientseitige Verschlüsselung für Ihre Dateien bietet, bevor sie in die Cloud hochgeladen werden. Dadurch wird sichergestellt, dass niemand außer Ihnen (nicht einmal Ihr Cloud-Anbieter) auf Ihre sensiblen Daten zugreifen kann.
 
@@ -94,3 +95,7 @@ Tipp: Instaliere dir die Desktop-Anwendung deines Cloud-Anbieters {: .prompt-tip
 - Sobald der Tresor erstellt ist, können Sie ihn durch Eingabe Ihres Passworts entsperren und wie ein normales Laufwerk auf Ihrem System verwenden. Alle Dateien, die Sie in diesen Ordner verschieben, werden automatisch verschlüsselt und in den Cloud-Ordner hochgeladen.
 
 > Cryptomator ist eine effektive Lösung, um Ihre Daten in jeder Cloud sicher aufzubewahren. Es ist kompatibel mit verschiedenen Betriebssystemen wie Windows, MacOS und Linux sowie mobilen Plattformen wie Android und iOS. Es ist wichtig zu bedenken, dass während Cryptomator eine zusätzliche Schicht der Sicherheit bietet, es immer noch wichtig ist, sichere Praktiken für den Datenschutz zu befolgen und Ihre Passwörter sicher zu speichern.
+
+## CrowdSec, um aggressive IPs zu sperren
+
+{% include embed/youtube.html id='REiTqc_WV9w' %}
