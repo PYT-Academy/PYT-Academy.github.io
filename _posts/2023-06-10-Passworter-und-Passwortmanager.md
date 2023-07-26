@@ -5,6 +5,8 @@ last_modified_at: 2023-07-21 13:00:00 -0400
 categories: [Passwort, Passwortmanager]
 tags: [Passwörter, Passwortmanager, it-security]
 author: david
+image:
+  path: /assets/img/Passwort-banner.png
 ---
 
 # Passwortmanager: Dein digitales Gehirn für Passwörter
