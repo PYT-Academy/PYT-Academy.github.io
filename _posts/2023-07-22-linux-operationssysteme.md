@@ -87,17 +87,17 @@ Linux bietet eine hohe Anpassungsfähigkeit und ermöglicht es den Benutzern, na
 
 ## Aussehen (GUI) verändern
 
-1. Desktop-Umgebung und Themes: Linux bietet verschiedene Desktop-Umgebungen (z.B. GNOME, KDE, XFCE, Cinnamon, etc.), zwischen denen du wählen kannst. Du kannst auch verschiedene Themes und Iconsets installieren, um das Aussehen der Desktop-Umgebung anzupassen.
+1. **Desktop-Umgebung und Themes:** Linux bietet verschiedene Desktop-Umgebungen (z.B. GNOME, KDE, XFCE, Cinnamon, etc.), zwischen denen du wählen kannst. Du kannst auch verschiedene Themes und Iconsets installieren, um das Aussehen der Desktop-Umgebung anzupassen.
 
-2. Anpassbare Panels: Die meisten Desktop-Umgebungen bieten anpassbare Panels oder Leisten, die du mit Applets, Widgets oder Schnellstartleisten versehen kannst. Dies ermöglicht es dir, häufig verwendete Anwendungen oder Systeminformationen leicht zugänglich zu machen.
+2. **Anpassbare Panels:** Die meisten Desktop-Umgebungen bieten anpassbare Panels oder Leisten, die du mit Applets, Widgets oder Schnellstartleisten versehen kannst. Dies ermöglicht es dir, häufig verwendete Anwendungen oder Systeminformationen leicht zugänglich zu machen.
 
-3. Desktop-Hintergrund: Du kannst das Hintergrundbild deines Desktops nach Belieben ändern und es an deine persönlichen Vorlieben anpassen.
+3. **Desktop-Hintergrund:** Du kannst das Hintergrundbild deines Desktops nach Belieben ändern und es an deine persönlichen Vorlieben anpassen.
 
-4. Cursor- und Mausthemen: Linux erlaubt es dir auch, Cursor- und Mausthemen zu ändern, um das visuelle Erlebnis weiter zu verbessern.
+4. **Cursor- und Mausthemen:** Linux erlaubt es dir auch, Cursor- und Mausthemen zu ändern, um das visuelle Erlebnis weiter zu verbessern.
 
-5. Effekte und Animationen: Viele Desktop-Umgebungen bieten verschiedene visuelle Effekte und Animationen, die du aktivieren oder deaktivieren kannst, um das Aussehen deines Systems zu verändern.
+5. **Effekte und Animationen:** Viele Desktop-Umgebungen bieten verschiedene visuelle Effekte und Animationen, die du aktivieren oder deaktivieren kannst, um das Aussehen deines Systems zu verändern.
 
-6. Schriftarten: Die Wahl einer anderen Schriftart kann das Erscheinungsbild deines Systems erheblich beeinflussen. Du kannst Schriftarten hinzufügen oder vorhandene Schriftarten durch eigene Favoriten ersetzen.
+6. **Schriftarten:** Die Wahl einer anderen Schriftart kann das Erscheinungsbild deines Systems erheblich beeinflussen. Du kannst Schriftarten hinzufügen oder vorhandene Schriftarten durch eigene Favoriten ersetzen.
 
 In dem Subreddit [UnixPorn](https://www.reddit.com/r/unixporn/) zeigen die Benutzer ihre kreativen und ansprechend gestalteten Desktops, die sie durch Anpassungen der Desktop-Umgebung, Fenstermanager, Icons, Themes, Hintergrundbilder, Cursor-Designs und vielem mehr erreicht haben. Es ist bekannt für seine ästhetischen Beiträge, die oft beeindruckende Desktop-Kreationen präsentieren.
 
@@ -125,28 +125,16 @@ Beide, der Snap Store und GNOME Software, bieten eine grafische Benutzeroberflä
 
 Gaming unter Linux hat in den letzten Jahren erhebliche Fortschritte gemacht und ist zu einer attraktiven Option für Spieler geworden. Obwohl Windows immer noch das vorherrschende Betriebssystem für Spiele ist, bietet Linux eine immer breitere Unterstützung für Spiele, dank der Anstrengungen der Linux-Community und der Spieleentwickler.
 
-1. **Steam und Proton:**
+1. **Steam und Proton:** Steam, die beliebte digitale Vertriebsplattform für Spiele, hat eine spezielle Linux-Version, die es ermöglicht, eine wachsende Anzahl von Spielen auf Linux zu spielen. Mit der Einführung von Proton, einer von Valve entwickelten Kompatibilitätsschicht, können viele Windows-Spiele auf Linux ausgeführt werden, ohne dass der Entwickler sie speziell für Linux anpassen muss.
 
-Steam, die beliebte digitale Vertriebsplattform für Spiele, hat eine spezielle Linux-Version, die es ermöglicht, eine wachsende Anzahl von Spielen auf Linux zu spielen. Mit der Einführung von Proton, einer von Valve entwickelten Kompatibilitätsschicht, können viele Windows-Spiele auf Linux ausgeführt werden, ohne dass der Entwickler sie speziell für Linux anpassen muss.
+2. **Native Linux-Spiele:** Viele Spieleentwickler unterstützen jetzt Linux, indem sie native Versionen ihrer Spiele für das Betriebssystem erstellen. Diese Spiele sind speziell für Linux optimiert und bieten oft eine bessere Leistung und Stabilität als unter Proton.
 
-2. **Native Linux-Spiele:**
+4. **Unterstützung für Grafiktreiber:** Die Unterstützung für Grafiktreiber unter Linux hat sich deutlich verbessert. AMD und NVIDIA bieten offizielle Linux-Treiber an, die eine ordnungsgemäße Funktionsweise ihrer Grafikkarten ermöglichen. Dies hat zu einer besseren Spieleleistung unter Linux geführt.
 
-Viele Spieleentwickler unterstützen jetzt Linux, indem sie native Versionen ihrer Spiele für das Betriebssystem erstellen. Diese Spiele sind speziell für Linux optimiert und bieten oft eine bessere Leistung und Stabilität als unter Proton.
+5. **Linux-Spielekonsolen:** Es gibt auch spezielle Linux-Spielekonsolen, wie z.B. die "Steam Deck" von Valve, die als tragbare Gaming-Plattform auf Basis von Linux fungiert. Diese Konsolen sind darauf ausgelegt, Spiele unter Linux zu unterstützen und erweitern die Gaming-Möglichkeiten für Linux-Nutzer.
 
-4. **Unterstützung für Grafiktreiber:**
+6. **Wine und ProtonDB:** Wine ist eine andere Kompatibilitätsschicht, die es ermöglicht, Windows-Anwendungen und Spiele unter Linux auszuführen. Obwohl Wine nicht perfekt ist und nicht jedes Spiel unterstützt, ist es eine wertvolle Option für ältere oder weniger gut unterstützte Titel. [ProtonDB](https://www.protondb.com/) ist eine Online-Datenbank, in der Benutzer ihre Erfahrungen mit der Ausführung von Windows-Spielen unter Proton teilen können, um anderen Linux-Spielern bei der Auswahl der richtigen Spiele zu helfen.
 
-Die Unterstützung für Grafiktreiber unter Linux hat sich deutlich verbessert. AMD und NVIDIA bieten offizielle Linux-Treiber an, die eine ordnungsgemäße Funktionsweise ihrer Grafikkarten ermöglichen. Dies hat zu einer besseren Spieleleistung unter Linux geführt.
-
-5. **Linux-Spielekonsolen:**
-
-Es gibt auch spezielle Linux-Spielekonsolen, wie z.B. die "Steam Deck" von Valve, die als tragbare Gaming-Plattform auf Basis von Linux fungiert. Diese Konsolen sind darauf ausgelegt, Spiele unter Linux zu unterstützen und erweitern die Gaming-Möglichkeiten für Linux-Nutzer.
-
-6. **Wine und ProtonDB:**
-
-Wine ist eine andere Kompatibilitätsschicht, die es ermöglicht, Windows-Anwendungen und Spiele unter Linux auszuführen. Obwohl Wine nicht perfekt ist und nicht jedes Spiel unterstützt, ist es eine wertvolle Option für ältere oder weniger gut unterstützte Titel. [ProtonDB](https://www.protondb.com/) ist eine Online-Datenbank, in der Benutzer ihre Erfahrungen mit der Ausführung von Windows-Spielen unter Proton teilen können, um anderen Linux-Spielern bei der Auswahl der richtigen Spiele zu helfen.
-
-7. **Emulatoren und Retro-Gaming:**
-
-Linux bietet auch eine Vielzahl von Emulatoren, die es ermöglichen, ältere Konsolen- und Computerspiele auf dem Linux-System zu spielen. Dies eröffnet Möglichkeiten für Retro-Gaming und den Zugang zu einer Vielzahl von klassischen Titeln.
+7. **Emulatoren und Retro-Gaming:** Linux bietet auch eine Vielzahl von Emulatoren, die es ermöglichen, ältere Konsolen- und Computerspiele auf dem Linux-System zu spielen. Dies eröffnet Möglichkeiten für Retro-Gaming und den Zugang zu einer Vielzahl von klassischen Titeln.
 
 Gaming unter Linux hat in den letzten Jahren deutliche Fortschritte gemacht, und die Spielebibliothek wird kontinuierlich erweitert. Die Unterstützung von Steam, Proton und die wachsende Anzahl von nativen Linux-Spielen haben Gaming auf Linux zu einer lebensfähigen Option gemacht. Linux bietet eine attraktive und stabile Plattform für Gaming-Enthusiasten und ermöglicht es ihnen, ihre Lieblingsspiele auf einem Open-Source-Betriebssystem zu genießen.
