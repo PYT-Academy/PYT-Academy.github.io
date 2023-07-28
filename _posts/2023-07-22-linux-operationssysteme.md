@@ -11,15 +11,15 @@ image:
   alt: The Linux Logo
 ---
 
-# Was ist ein Betriebssystem?
+## Was ist ein Betriebssystem?
 
 Ein Betriebssystem (OS) ist im Grunde genommen das "Gehirn" Ihres Computers. Es ist eine spezielle Software, die den gesamten Computer steuert und die Verbindung zwischen der Hardware (wie Prozessor, Speicher, Festplatte) und den Anwendungsprogrammen herstellt. Das Betriebssystem ermöglicht es Ihnen, mit Ihrem Computer zu interagieren, indem es Tastatureingaben, Mausklicks und andere Befehle verarbeitet.
 
-# Die Entstehung von Betriebssystemen
+## Die Entstehung von Betriebssystemen
 
 In den frühen Tagen der Computer waren Betriebssysteme rudimentär und auf bestimmte Maschinen zugeschnitten. Mit der Zeit entwickelten sich Betriebssysteme weiter und wurden allgemeiner, sodass sie auf verschiedenen Computern laufen konnten. Einige der bekanntesten Betriebssysteme sind Windows, macOS und Linux.
 
-# Linux - Ein besonderes Betriebssystem
+## Linux - Ein besonderes Betriebssystem
 
 Linux ist ein Open-Source-Betriebssystem, das erstmals 1991 von Linus Torvalds, einem finnischen Informatiker, entwickelt wurde. Das Besondere an Linux ist seine Philosophie der Offenheit und Zusammenarbeit. Anders als proprietäre Betriebssysteme wie Windows oder macOS ist Linux kostenlos und der Quellcode ist für jeden zugänglich, was bedeutet, dass Benutzer es frei verwenden, modifizieren und verteilen können.
 
@@ -121,7 +121,7 @@ Mit GNOME Software kannst du nach Anwendungen suchen, Anwendungen durchstöbern,
 
 Beide, der Snap Store und GNOME Software, bieten eine grafische Benutzeroberfläche, die es Benutzern ermöglicht, die gewünschten Anwendungen einfach zu suchen und zu installieren. Beide Anwendungen bieten eine Auswahl an Softwarepaketen, darunter verschiedene Anwendungen, Entwicklertools und Spiele. Die Installation und Aktualisierung von Software auf Linux wird durch diese Werkzeuge wesentlich einfacher und benutzerfreundlicher gestaltet.
 
-# Gaming
+## Gaming
 
 Gaming unter Linux hat in den letzten Jahren erhebliche Fortschritte gemacht und ist zu einer attraktiven Option für Spieler geworden. Obwohl Windows immer noch das vorherrschende Betriebssystem für Spiele ist, bietet Linux eine immer breitere Unterstützung für Spiele, dank der Anstrengungen der Linux-Community und der Spieleentwickler.
 
@@ -129,12 +129,12 @@ Gaming unter Linux hat in den letzten Jahren erhebliche Fortschritte gemacht und
 
 2. **Native Linux-Spiele:** Viele Spieleentwickler unterstützen jetzt Linux, indem sie native Versionen ihrer Spiele für das Betriebssystem erstellen. Diese Spiele sind speziell für Linux optimiert und bieten oft eine bessere Leistung und Stabilität als unter Proton.
 
-4. **Unterstützung für Grafiktreiber:** Die Unterstützung für Grafiktreiber unter Linux hat sich deutlich verbessert. AMD und NVIDIA bieten offizielle Linux-Treiber an, die eine ordnungsgemäße Funktionsweise ihrer Grafikkarten ermöglichen. Dies hat zu einer besseren Spieleleistung unter Linux geführt.
+3. **Unterstützung für Grafiktreiber:** Die Unterstützung für Grafiktreiber unter Linux hat sich deutlich verbessert. AMD und NVIDIA bieten offizielle Linux-Treiber an, die eine ordnungsgemäße Funktionsweise ihrer Grafikkarten ermöglichen. Dies hat zu einer besseren Spieleleistung unter Linux geführt.
 
-5. **Linux-Spielekonsolen:** Es gibt auch spezielle Linux-Spielekonsolen, wie z.B. die "Steam Deck" von Valve, die als tragbare Gaming-Plattform auf Basis von Linux fungiert. Diese Konsolen sind darauf ausgelegt, Spiele unter Linux zu unterstützen und erweitern die Gaming-Möglichkeiten für Linux-Nutzer.
+4. **Linux-Spielekonsolen:** Es gibt auch spezielle Linux-Spielekonsolen, wie z.B. die "Steam Deck" von Valve, die als tragbare Gaming-Plattform auf Basis von Linux fungiert. Diese Konsolen sind darauf ausgelegt, Spiele unter Linux zu unterstützen und erweitern die Gaming-Möglichkeiten für Linux-Nutzer.
 
-6. **Wine und ProtonDB:** Wine ist eine andere Kompatibilitätsschicht, die es ermöglicht, Windows-Anwendungen und Spiele unter Linux auszuführen. Obwohl Wine nicht perfekt ist und nicht jedes Spiel unterstützt, ist es eine wertvolle Option für ältere oder weniger gut unterstützte Titel. [ProtonDB](https://www.protondb.com/) ist eine Online-Datenbank, in der Benutzer ihre Erfahrungen mit der Ausführung von Windows-Spielen unter Proton teilen können, um anderen Linux-Spielern bei der Auswahl der richtigen Spiele zu helfen.
+5. **Wine und ProtonDB:** Wine ist eine andere Kompatibilitätsschicht, die es ermöglicht, Windows-Anwendungen und Spiele unter Linux auszuführen. Obwohl Wine nicht perfekt ist und nicht jedes Spiel unterstützt, ist es eine wertvolle Option für ältere oder weniger gut unterstützte Titel. [ProtonDB](https://www.protondb.com/) ist eine Online-Datenbank, in der Benutzer ihre Erfahrungen mit der Ausführung von Windows-Spielen unter Proton teilen können, um anderen Linux-Spielern bei der Auswahl der richtigen Spiele zu helfen.
 
-7. **Emulatoren und Retro-Gaming:** Linux bietet auch eine Vielzahl von Emulatoren, die es ermöglichen, ältere Konsolen- und Computerspiele auf dem Linux-System zu spielen. Dies eröffnet Möglichkeiten für Retro-Gaming und den Zugang zu einer Vielzahl von klassischen Titeln.
+6. **Emulatoren und Retro-Gaming:** Linux bietet auch eine Vielzahl von Emulatoren, die es ermöglichen, ältere Konsolen- und Computerspiele auf dem Linux-System zu spielen. Dies eröffnet Möglichkeiten für Retro-Gaming und den Zugang zu einer Vielzahl von klassischen Titeln.
 
 Gaming unter Linux hat in den letzten Jahren deutliche Fortschritte gemacht, und die Spielebibliothek wird kontinuierlich erweitert. Die Unterstützung von Steam, Proton und die wachsende Anzahl von nativen Linux-Spielen haben Gaming auf Linux zu einer lebensfähigen Option gemacht. Linux bietet eine attraktive und stabile Plattform für Gaming-Enthusiasten und ermöglicht es ihnen, ihre Lieblingsspiele auf einem Open-Source-Betriebssystem zu genießen.
