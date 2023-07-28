@@ -27,13 +27,13 @@ Linux ist ein Open-Source-Betriebssystem, das erstmals 1991 von Linus Torvalds, 
 
 Die Entwicklung der Open-Source-Softwarebewegung hat zwei herausragende Persönlichkeiten hervorgebracht, die maßgeblich zum Erfolg und der Verbreitung von Linux und GNU beigetragen haben. Linus Torvalds und Richard Stallman sind die beiden Namen, die untrennbar mit der Entstehung und Verbreitung von Open-Source-Software verbunden sind. Lassen Sie uns einen Blick auf die Beiträge dieser beiden Pioniere werfen:
 
-### Linus Torvalds:
+### Linus Torvalds
 
 Linus Torvalds, geboren am 28. Dezember 1969 in Helsinki, Finnland, ist der Erfinder des Linux-Kernels. Im Jahr 1991 begann der junge Informatikstudent damit, einen eigenen Betriebssystemkern zu entwickeln und veröffentlichte diesen als Open-Source-Software. Inspiriert von dem Wunsch, ein freies Betriebssystem zu schaffen, ermöglichte er anderen Entwicklern weltweit, an seiner Arbeit mitzuwirken.
 
 Durch die Vision von Linus entwickelte sich Linux schnell zu einem der erfolgreichsten und beliebtesten Betriebssysteme der Welt. Heute bildet der Linux-Kernel die Grundlage vieler Linux-Distributionen, die in verschiedenen Anwendungsbereichen weit verbreitet sind - von Servern und Supercomputern bis hin zu Mobilgeräten und eingebetteten Systemen.
 
-### Richard Stallman:
+### Richard Stallman
 
 Richard Stallman, geboren am 16. März 1953 in New York City, USA, ist eine herausragende Figur in der Open-Source-Softwarebewegung. Er gründete 1983 das GNU-Projekt (GNU steht für "GNU's Not Unix"), das darauf abzielte, ein vollständig freies Unix-ähnliches Betriebssystem zu entwickeln.
 
@@ -51,41 +51,23 @@ Der GNU-Softwarestapel wurde mit dem Linux-Kern kombiniert, wodurch das heute be
 
 Da Linux quelloffen ist, haben Entwickler und Organisationen die Freiheit, ihre eigenen Versionen des Betriebssystems zu erstellen und zu verteilen. Diese verschiedenen Versionen werden als "Distributionen" oder "Distros" bezeichnet. Jede Distribution enthält den Linux-Kern, aber sie kann unterschiedliche Softwarepakete, Benutzeroberflächen und Konfigurationen enthalten.
 
-1. **Debian:**
+1. **Debian:** Debian ist eine der ältesten und bekanntesten Linux-Distributionen. Sie zeichnet sich durch ihre Stabilität und ihren Fokus auf Freie Software aus. Debian hat ein riesiges Repository mit Tausenden von Softwarepaketen und wird häufig als Basis für andere Linux-Distributionen verwendet, darunter Ubuntu.
 
-Debian ist eine der ältesten und bekanntesten Linux-Distributionen. Sie zeichnet sich durch ihre Stabilität und ihren Fokus auf Freie Software aus. Debian hat ein riesiges Repository mit Tausenden von Softwarepaketen und wird häufig als Basis für andere Linux-Distributionen verwendet, darunter Ubuntu.
+2. **Arch Linux:** Arch Linux ist eine benutzerorientierte Rolling-Release-Distribution, die sich an fortgeschrittene Benutzer richtet. Rolling-Release bedeutet, dass das Betriebssystem ständig aktualisiert wird, anstatt periodisch neue Versionen zu veröffentlichen. Arch Linux bietet ein einfaches und minimalistisches Design und ermöglicht es den Benutzern, ihr System von Grund auf zu konfigurieren.
 
-2. **Arch Linux:**
+3. **MX Linux:** MX Linux ist eine benutzerfreundliche und stabile Linux-Distribution, die auf Debian basiert. Sie kombiniert die Leistung von Debian mit dem XFCE-Desktop-Manager, um eine einfach zu bedienende Umgebung zu schaffen. MX Linux ist bekannt für seine Ressourceneffizienz und eignet sich daher gut für ältere Computer oder Laptops.
 
-Arch Linux ist eine benutzerorientierte Rolling-Release-Distribution, die sich an fortgeschrittene Benutzer richtet. Rolling-Release bedeutet, dass das Betriebssystem ständig aktualisiert wird, anstatt periodisch neue Versionen zu veröffentlichen. Arch Linux bietet ein einfaches und minimalistisches Design und ermöglicht es den Benutzern, ihr System von Grund auf zu konfigurieren.
+4. **openSUSE Tumbleweed:** Tumbleweed ist eine Rolling-Release-Variante von openSUSE. Im Gegensatz zur regulären openSUSE-Version bietet Tumbleweed ständige Aktualisierungen, was es zu einer hervorragenden Wahl für Benutzer macht, die immer die neuesten Softwareversionen haben möchten.
 
-3. **MX Linux:**
+5. **Fedora:** Fedora ist eine von der Firma Red Hat unterstützte Linux-Distribution. Es dient oft als Testumgebung für neue Technologien, die später in Red Hat Enterprise Linux (RHEL) verwendet werden. Fedora ist bekannt für seine Innovation und wird häufig von Entwicklern und Technik-Enthusiasten verwendet.
 
-MX Linux ist eine benutzerfreundliche und stabile Linux-Distribution, die auf Debian basiert. Sie kombiniert die Leistung von Debian mit dem XFCE-Desktop-Manager, um eine einfach zu bedienende Umgebung zu schaffen. MX Linux ist bekannt für seine Ressourceneffizienz und eignet sich daher gut für ältere Computer oder Laptops.
+6. **Linux Mint:** Linux Mint ist eine benutzerfreundliche Linux-Distribution, die auf Ubuntu basiert. Sie zielt darauf ab, den Umstieg von Windows auf Linux so einfach wie möglich zu gestalten. Linux Mint bietet eine ansprechende Cinnamon-Desktop-Umgebung und bietet eine große Auswahl an vorinstallierten Anwendungen und Medien-Codecs.
 
-4. **openSUSE Tumbleweed:**
+7. **elementary OS:** elementary OS ist eine elegante und benutzerfreundliche Linux-Distribution, die speziell für Ästhetik und Bedienbarkeit entwickelt wurde. Sie ähnelt in ihrem Design dem macOS und wird häufig von Benutzern bevorzugt, die ein modernes und schönes Erscheinungsbild schätzen.
 
-Tumbleweed ist eine Rolling-Release-Variante von openSUSE. Im Gegensatz zur regulären openSUSE-Version bietet Tumbleweed ständige Aktualisierungen, was es zu einer hervorragenden Wahl für Benutzer macht, die immer die neuesten Softwareversionen haben möchten.
+8. **Ubuntu:** Ubuntu basiert auf Debian und bietet eine große Community-Unterstützung sowie eine Vielzahl von vorkonfigurierten Desktop-Umgebungen wie GNOME, KDE, XFCE und mehr. Ubuntu bietet auch LTS-Versionen (Long-Term Support), die für längere Zeit mit Sicherheitsupdates versorgt werden.
 
-5. **Fedora:**
-
-Fedora ist eine von der Firma Red Hat unterstützte Linux-Distribution. Es dient oft als Testumgebung für neue Technologien, die später in Red Hat Enterprise Linux (RHEL) verwendet werden. Fedora ist bekannt für seine Innovation und wird häufig von Entwicklern und Technik-Enthusiasten verwendet.
-
-6. **Linux Mint:**
-
-Linux Mint ist eine benutzerfreundliche Linux-Distribution, die auf Ubuntu basiert. Sie zielt darauf ab, den Umstieg von Windows auf Linux so einfach wie möglich zu gestalten. Linux Mint bietet eine ansprechende Cinnamon-Desktop-Umgebung und bietet eine große Auswahl an vorinstallierten Anwendungen und Medien-Codecs.
-
-7. **elementary OS:**
-
-elementary OS ist eine elegante und benutzerfreundliche Linux-Distribution, die speziell für Ästhetik und Bedienbarkeit entwickelt wurde. Sie ähnelt in ihrem Design dem macOS und wird häufig von Benutzern bevorzugt, die ein modernes und schönes Erscheinungsbild schätzen.
-
-8. **Ubuntu:**
-
-Ubuntu basiert auf Debian und bietet eine große Community-Unterstützung sowie eine Vielzahl von vorkonfigurierten Desktop-Umgebungen wie GNOME, KDE, XFCE und mehr. Ubuntu bietet auch LTS-Versionen (Long-Term Support), die für längere Zeit mit Sicherheitsupdates versorgt werden.
-
-9. **Manjaro:**
-
-Manjaro ist eine benutzerfreundliche Rolling-Release-Distribution, die auf Arch Linux basiert. Es bietet eine einfache Installation und eine intuitive Benutzeroberfläche. Manjaro eignet sich gut für Benutzer, die die Leistung von Arch Linux schätzen, aber eine leichtere Einrichtung bevorzugen.
+9. **Manjaro:** Manjaro ist eine benutzerfreundliche Rolling-Release-Distribution, die auf Arch Linux basiert. Es bietet eine einfache Installation und eine intuitive Benutzeroberfläche. Manjaro eignet sich gut für Benutzer, die die Leistung von Arch Linux schätzen, aber eine leichtere Einrichtung bevorzugen.
 
 Jede dieser Linux-Distributionen hat ihre eigenen Stärken und passt zu unterschiedlichen Bedürfnissen und Erfahrungsstufen der Benutzer. Es ist wichtig, die Eigenschaften und Merkmale jeder Distribution zu berücksichtigen, um diejenige zu wählen, die am besten zu Ihren Anforderungen und Vorlieben passt.
 
@@ -97,13 +79,13 @@ Darüber hinaus ist Linux für seine Sicherheit bekannt. Regelmäßige Sicherhei
 
 Linux bietet eine hohe Anpassungsfähigkeit und ermöglicht es den Benutzern, nahezu jeden Aspekt des Systems nach ihren Wünschen zu verändern. Hier ist eine Anleitung,wie man alles auf Linux verändern kann, einschließlich einer Unterseite, die sich auf die Anpassung des Aussehens (GUI) konzentriert:
 
-## Alles auf Linux verändern:
+## Alles auf Linux verändern
 
 1. **Paketverwaltung:** Mit Hilfe des Paketverwaltungssystems deiner Linux-Distribution kannst du Softwarepakete installieren, aktualisieren und entfernen. Die Paketverwaltung ermöglicht es dir, Anwendungen, Entwicklungstools, Bibliotheken und vieles mehr zu installieren und dein System zu erweitern.
 
 2. **Konfigurationsdateien:** Linux verwendet Konfigurationsdateien, um das Verhalten verschiedener Programme und Dienste zu steuern. Durch das Bearbeiten dieser Konfigurationsdateien kannst du das Verhalten deines Systems beeinflussen. Die meisten Konfigurationsdateien befinden sich im Verzeichnis `/etc/` und in den versteckten Ordnern im Benutzerverzeichnis (z.B. `~/.config/`).
 
-## Aussehen (GUI) verändern:
+## Aussehen (GUI) verändern
 
 1. Desktop-Umgebung und Themes: Linux bietet verschiedene Desktop-Umgebungen (z.B. GNOME, KDE, XFCE, Cinnamon, etc.), zwischen denen du wählen kannst. Du kannst auch verschiedene Themes und Iconsets installieren, um das Aussehen der Desktop-Umgebung anzupassen.
 
@@ -125,13 +107,13 @@ Linux findet Verwendung in einer breiten Palette von Geräten und Anwendungen, d
 
 Glücklicherweise gibt es zwei benutzerfreundliche Lösungen, die die Softwareverwaltung auf Linux erleichtern: der "Snap Store" und "GNOME Software"
 
-## Snap Store:
+## Snap Store
 
 Der "Snap Store" ist ein Software-App-Store, der von Canonical entwickelt wurde und in Ubuntu und anderen Ubuntu-basierten Linux-Distributionen standardmäßig enthalten ist. Er ermöglicht den Benutzern, Snap-Pakete zu suchen, zu installieren und zu verwalten. Snap-Pakete sind universelle Softwarepakete, die alle benötigten Abhängigkeiten enthalten und somit unabhängig von der zugrunde liegenden Linux-Distribution laufen können.
 
 Der Snap Store bietet eine einfache grafische Benutzeroberfläche, mit der du nach Anwendungen suchen, ihre Details anzeigen und sie mit einem einzigen Klick installieren kannst. Darüber hinaus werden Snap-Pakete automatisch aktualisiert, sodass du immer die neuesten Versionen deiner installierten Anwendungen hast.
 
-## GNOME Software:
+## GNOME Software
 
 GNOME Software ist ein Softwarecenter, das in der GNOME-Desktop-Umgebung, die in vielen Linux-Distributionen verwendet wird, enthalten ist. Es ist ein universelles Frontend für verschiedene Paketverwaltungssysteme, darunter APT (für Debian-basierte Distributionen) und DNF (für Fedora-basierte Distributionen).
 
