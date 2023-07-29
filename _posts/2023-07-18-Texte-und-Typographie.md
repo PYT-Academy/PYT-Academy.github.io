@@ -13,18 +13,23 @@ image:
   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
-# Gute Typographie 
+# Gute Typographie
+>
 > ist mehr als nur Ästhetik. Sie ist ein entscheidender Aspekt der effektiven Kommunikation. Durch eine durchdachte Auswahl von Schriftarten, Schriftgrößen, Zeilenabständen und -längen kann eine gute Typographie dazu beitragen, Informationen klarer zu vermitteln, die Lesbarkeit zu verbessern und das allgemeine Benutzererlebnis zu verbessern.
 
 ## Überschriften
 
-<h1 class="mt-5">H1 - Überschrift</h1>
+# H1 - Überschrift
 
-<h2 data-toc-skip>H2 - Überschrift</h2>
+## H2 - Überschrift
 
-<h3 data-toc-skip>H3 - Überschrift</h3>
+### H3 - Überschrift
 
-<h4>H4 - Überschrift</h4>
+#### H4 - Überschrift
+
+##### H5 - Überschrift
+
+###### H6 - Überschrift
 
 ## Paragraphen
 
@@ -48,8 +53,8 @@ Listen spielen eine wichtige Rolle in der schriftlichen Kommunikation, indem sie
 ### Verschachtelte Liste
 
 - Hauptpunkte
-  + Unterpunkte
-    * Detailpunkte
+  - Unterpunkte
+    - Detailpunkte
 
 > Verschachtelte Listen sind eine effektive Methode, um strukturierte oder hierarchische Informationen darzustellen. In einer verschachtelten Liste repräsentiert jede zusätzliche Verschachtelungsebene eine Unterkategorie oder ein Detail der übergeordneten Ebene. Diese Art der Darstellung ist besonders nützlich für Inhaltsverzeichnisse, Outlines oder jede andere Situation, in der Informationen klar und logisch strukturiert werden müssen.
 
@@ -64,11 +69,11 @@ Listen spielen eine wichtige Rolle in der schriftlichen Kommunikation, indem sie
 ### Verschachtelte ToDo Listen
 
 - [ ] Hauptaufgabe
-  + [x] Unteraufgabe 1
-  + [ ] Unteraufgabe 2
-    * [ ] Detailaufgabe 1
-    * [x] Detailaufgabe 2
-  + [x] Unteraufgabe 3
+  - [x] Unteraufgabe 1
+  - [ ] Unteraufgabe 2
+    - [ ] Detailaufgabe 1
+    - [x] Detailaufgabe 2
+  - [x] Unteraufgabe 3
 
 > Verschachtelte ToDo-Listen ermöglichen es uns, unsere Aufgaben in überschaubare Teilaufgaben zu unterteilen und so eine klarere Struktur und Priorisierung zu erreichen. Sie visualisieren den Fortschritt auf mehreren Ebenen und erleichtern die Navigation durch komplexe Projekte oder mehrstufige Aufgaben. Die Fähigkeit, Teilaufgaben abzuhaken, während man auf ein größeres Ziel hinarbeitet, kann zusätzliche Befriedigung bieten und die Motivation weiter steigern.
 
@@ -145,8 +150,8 @@ Codeblöcke sind Abschnitte in Markdown, die zum Hervorheben von Codebeispielen 
 
 ### Common
 
-```
-This is a common code snippet, without syntax highlight and line number.
+```text
+Dies ist ein gewöhnlicher Codeschnipsel, ohne Syntaxhervorhebung und Zeilennummer.
 ```
 
 ### Spezifische Programiersprache
@@ -165,6 +170,7 @@ fi;
   "colors/light-typography",
   "colors/dark-typography";
 ```
+
 {: file='_sass/jekyll-theme-chirpy.scss'}
 
 ## Mathematische darstellung für Formeln

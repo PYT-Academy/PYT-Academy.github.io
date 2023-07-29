@@ -7,7 +7,7 @@ tags: [jugend, technik, gemeinschaft]
 author: sergius
 ---
 
-Liebe Eltern,
+## Liebe Eltern,
 
 wir leben in einer Zeit, in der Technik in jedem Bereich unseres Lebens immer wichtiger wird. Es ist von entscheidender Bedeutung, dass die nächste Generation diese Technologien nicht nur nutzt, sondern auch versteht und weiterentwickelt. Hier bei der PYT-Academy möchten wir dazu beitragen.
 
