@@ -13,15 +13,29 @@ image:
 
 ## Was ist ein Betriebssystem?
 
-Ein Betriebssystem (OS) ist im Grunde genommen das "Gehirn" Ihres Computers. Es ist eine spezielle Software, die den gesamten Computer steuert und die Verbindung zwischen der Hardware (wie Prozessor, Speicher, Festplatte) und den Anwendungsprogrammen herstellt. Das Betriebssystem ermöglicht es Ihnen, mit Ihrem Computer zu interagieren, indem es Tastatureingaben, Mausklicks und andere Befehle verarbeitet.
+Ein Betriebssystem, oft kurz als OS bezeichnet, ist ein integraler Bestandteil jedes Computers. Es fungiert als Vermittler zwischen der Hardware - einschließlich Komponenten wie dem Prozessor, dem Arbeitsspeicher und der Festplatte - und den Anwendungsprogrammen, die auf dem Computer ausgeführt werden. Durch die Verarbeitung von Nutzereingaben wie Tastaturanschlägen und Mausklicks ermöglicht es die Interaktion mit dem Computer und seinen Programmen.
 
-## Die Entstehung von Betriebssystemen
+Es gibt viele verschiedene Betriebssysteme, darunter bekannte Beispiele wie Windows und macOS. Letzteres basiert, ähnlich wie Linux, auf Unix, einem Betriebssystem, das in den 1970er Jahren entwickelt wurde und das den Grundstein für viele moderne Betriebssysteme legte.
 
-In den frühen Tagen der Computer waren Betriebssysteme rudimentär und auf bestimmte Maschinen zugeschnitten. Mit der Zeit entwickelten sich Betriebssysteme weiter und wurden allgemeiner, sodass sie auf verschiedenen Computern laufen konnten. Einige der bekanntesten Betriebssysteme sind Windows, macOS und Linux.
+Unter den verschiedenen Betriebssystemen sticht Linux besonders hervor. Vor allem auf Desktop-Geräten ist es wegen seiner Open-Source-Natur, die den Nutzern uneingeschränkte Kontrolle und Anpassungsfähigkeit ermöglicht, sowie seiner Stabilität und Sicherheit sehr beliebt. Darüber hinaus findet Linux in einer Vielzahl von Anwendungen weit über den Desktop-Bereich hinaus Verwendung, beispielsweise in Servern, Supercomputern und eingebetteten Systemen. Es bildet auch die Basis für Android, das weltweit am meisten verbreitete Betriebssystem für Mobilgeräte. Trotz seiner vielseitigen Einsatzmöglichkeiten ist Linux gegenüber Viren und Malware resistenter als viele andere Betriebssysteme. Ein weiterer Vorteil von Linux ist die starke und aktive Community, die eine Fülle von Ressourcen und Support bereitstellt.
 
-## Linux - Ein besonderes Betriebssystem
+## Die Geschichte von Linux
 
-Linux ist ein Open-Source-Betriebssystem, das erstmals 1991 von Linus Torvalds, einem finnischen Informatiker, entwickelt wurde. Das Besondere an Linux ist seine Philosophie der Offenheit und Zusammenarbeit. Anders als proprietäre Betriebssysteme wie Windows oder macOS ist Linux kostenlos und der Quellcode ist für jeden zugänglich, was bedeutet, dass Benutzer es frei verwenden, modifizieren und verteilen können.
+### Eine Reise durch die Zeit
+
+Die Geschichte von Linux beginnt im Jahr 1991 mit einem finnischen Informatikstudenten namens Linus Torvalds. Unzufrieden mit dem bestehenden Betriebssystem MINIX, entschied er sich, sein eigenes zu entwickeln. Er nahm die Open-Source-Philosophie des GNU-Projekts auf und begann, einen eigenen Kernel zu schreiben - den zentralen Bestandteil eines Betriebssystem. So entstand die erste Version von Linux, die er über das Internet verbreitete.
+
+### Open Source Philosophie
+
+Im Gegensatz zu anderen Betriebssystemen wie Windows oder macOS war Linux von Anfang an Open Source. Das bedeutet, dass jeder den Quellcode einsehen, ändern und weitergeben kann. Diese Offenheit zog schnell eine Gemeinschaft von Entwicklern an, die Torvalds halfen, das Betriebssystem zu verbessern und weiterzuentwickeln. Die daraus resultierende Vielfalt an Versionen, sogenannten Distributionen, ist ein Markenzeichen von Linux. Einige der bekanntesten Distributionen sind Ubuntu, Debian und Fedora.
+
+### Verbreitung
+
+In den folgenden Jahren wuchs Linux nicht nur in seiner Benutzerbasis, sondern auch in seiner Anwendungsreichweite. Es wurde zur bevorzugten Wahl für Server und Supercomputer, hauptsächlich aufgrund seiner Stabilität, Sicherheit und Flexibilität. Darüber hinaus wurde es die Grundlage für das Android-Betriebssystem, das heute auf den meisten Smartphones läuft.
+
+### Einfluss
+
+Linux hat auch einen wesentlichen Einfluss auf die gesamte Softwareindustrie gehabt, indem es den Open-Source-Gedanken popularisierte. Viele moderne Softwareprojekte, von Webbrowsern über Datenbanken bis hin zu Programmiersprachen, folgen diesem Modell. Trotz aller Veränderungen und Entwicklungen bleibt der Linux-Kernel, der stets von Linus Torvalds und seiner Community weiterentwickelt wird, das Herzstück dieses einflussreichen Betriebssystems.
 
 ## Linus Torvalds und Richard Stallman: Die Pioniere von Linux und GNU
 
@@ -53,11 +67,41 @@ Da Linux quelloffen ist, haben Entwickler und Organisationen die Freiheit, ihre 
 
 ### **Debian:**
 
-- Debian ist eine der ältesten und bekanntesten Linux-Distributionen. Sie zeichnet sich durch ihre Stabilität und ihren Fokus auf Freie Software aus. Debian hat ein riesiges Repository mit Tausenden von Softwarepaketen und wird häufig als Basis für andere Linux-Distributionen verwendet, darunter Ubuntu.
+- Debian gilt als eine der grundlegenden und renommiertesten Linux-Distributionen. Es steht nicht nur für seine bemerkenswerte Stabilität und sein Engagement für freie Software, sondern auch als ein zentraler Knotenpunkt im Linux-Ökosystem. Wenn wir von Debian sprechen, beziehen wir uns in der Regel auf zwei Aspekte. Erstens auf Debian als eigenständige Linux-Distribution, die für ihre umfangreiche Sammlung von Tausenden von Softwarepaketen und ihre Zuverlässigkeit geschätzt wird.
+
+- Zweitens betrachten wir Debian als Ursprung und Fundament für eine Vielzahl anderer Linux-Distributionen. Diese 'Abkömmlinge' von Debian nutzen oft dessen stabile Basis und fügen ihre eigenen einzigartigen Funktionen und Optimierungen hinzu. Einige der bekanntesten Distributionen, die auf Debian aufbauen, sind Ubuntu, Knoppix und Raspbian.
 
 ### **Arch Linux:**
 
-- Arch Linux ist eine benutzerorientierte Rolling-Release-Distribution, die sich an fortgeschrittene Benutzer richtet. Rolling-Release bedeutet, dass das Betriebssystem ständig aktualisiert wird, anstatt periodisch neue Versionen zu veröffentlichen. Arch Linux bietet ein einfaches und minimalistisches Design und ermöglicht es den Benutzern, ihr System von Grund auf zu konfigurieren.
+- Arch Linux nimmt eine einzigartige Stellung in der Welt der Linux-Distributionen ein. Es ist für seine 'Keep It Simple, Stupid' (KISS) Philosophie bekannt, die es den Benutzern ermöglicht, ein minimales Basissystem zu haben, das sie nach ihren speziellen Bedürfnissen anpassen können. Arch ist ein Rolling-Release-Betriebssystem, das stets die neuesten Versionen von Softwarepaketen bereitstellt und dabei auf möglichst unveränderte, 'vanilla' Versionen der Software setzt.
+
+- Wenn wir von Arch Linux sprechen, beziehen wir uns meist auf zwei Dinge. Erstens auf Arch Linux selbst, das bei fortgeschrittenen und technisch versierten Linux-Nutzern beliebt ist, da es eine minimalistische Herangehensweise verfolgt und den Benutzern volle Kontrolle bietet.
+
+- Zweitens meinen wir Arch Linux als Grundlage für eine Vielzahl anderer Linux-Distributionen. Diese Distributionen bauen auf der Struktur und den Prinzipien von Arch auf und fügen häufig zusätzliche Funktionen oder Modifikationen hinzu, um den Bedürfnissen unterschiedlicher Nutzergruppen gerecht zu werden. Bekannte Beispiele dafür sind Antergos und Anarchy Linux.
+
+- Antergos, obwohl nicht mehr aktiv entwickelt, wurde für seine elegante und benutzerfreundliche Implementierung der Arch-Philosophie bekannt. Anarchy Linux hingegen bietet eine vereinfachte Installation und Konfiguration von Arch, ohne die Kernprinzipien des ursprünglichen Systems zu opfern.
+
+- In der Hacking- und Cybersecurity-Community sind Arch-basierte Distributionen besonders beliebt. BlackArch Linux ist eine solche Erweiterung von Arch Linux, die speziell für Sicherheitstests und Penetrationstests entwickelt wurde. Sie bietet über 2000 vorinstallierte Tools und deckt eine breite Palette von Anwendungsfällen in diesem Bereich ab. Parabola GNU/Linux-Libre, eine weitere Arch-Variante, verwendet ausschließlich freie Software und wird von der Free Software Foundation anerkannt.
+
+- Es ist jedoch zu beachten, dass nicht alle für die Cybersecurity beliebten Distributionen auf Arch basieren. Ein prominentes Beispiel ist Kali Linux, das auf Debian basiert und ebenfalls eine weit verbreitete Wahl für Penetrationstests und forensische Arbeit ist.
+
+### **Manjaro:**
+
+- Manjaro ist eine benutzerfreundliche Rolling-Release-Distribution, die auf Arch Linux basiert. Es bietet eine einfache Installation und eine intuitive Benutzeroberfläche. Manjaro eignet sich gut für Benutzer, die die Leistung von Arch Linux schätzen, aber eine leichtere Einrichtung bevorzugen.
+
+> Jede dieser Linux-Distributionen hat ihre eigenen Stärken und passt zu unterschiedlichen Bedürfnissen und Erfahrungsstufen der Benutzer. Es ist wichtig, die Eigenschaften und Merkmale jeder Distribution zu berücksichtigen, um diejenige zu wählen, die am besten zu Ihren Anforderungen und Vorlieben passt.
+
+## Garuda[^footnote] Linux, das Negativbeispiel
+
+### Wie man es nicht mache sollte zeigt und Garuda[^footnote]
+
+- Garuda Linux hat in der Linux-Welt für einige Kontroversen gesorgt. Obwohl es auf der soliden Basis von Arch Linux aufbaut und ein ansprechendes Aussehen bietet, hat es doch erhebliche Kritik für seine Benutzerunfreundlichkeit und Systeminstabilität erhalten. Ein zentraler Kritikpunkt liegt in seiner unübersichtlichen Struktur: Mit fünf verschiedenen Einstellungsfenstern fällt es den Benutzern schwer, den Überblick zu behalten und Änderungen effektiv vorzunehmen.
+
+- Darüber hinaus hat Garuda Linux den Ruf, anfällig für Systemabstürze zu sein, was das Vertrauen in seine Zuverlässigkeit untergräbt. Dies, kombiniert mit dem allgemein gehypten Image, hat dazu geführt, dass viele erfahrene Linux-Nutzer Garuda als Negativbeispiel für Linux-Distributionen ansehen.
+
+- Trotz seiner ansprechenden Oberfläche und der Versprechen von Benutzerfreundlichkeit und Leistung, hat Garuda Linux Schwierigkeiten, diese Versprechen in der Praxis umzusetzen. Es ist ein Beispiel dafür, dass eine gute Linux-Distribution mehr als nur ein hübsches Gesicht braucht. Es sind die grundlegenden Aspekte von Stabilität, Benutzerfreundlichkeit und zuverlässiger Performance, die den Kern einer guten Linux-Distribution ausmachen.
+
+- wer die vorzüge von Arch-Linux nutzen will und debei auf einfache Bedienung achtet dem ist Endever OS[^footnote] und Manjaro[^footnote] zu empfehlen.
 
 ### **MX Linux:**
 
@@ -82,13 +126,12 @@ Da Linux quelloffen ist, haben Entwickler und Organisationen die Freiheit, ihre 
 ### **Ubuntu:**
 
 - Ubuntu basiert auf Debian und bietet eine große Community-Unterstützung sowie eine Vielzahl von vorkonfigurierten Desktop-Umgebungen wie GNOME, KDE, XFCE und mehr. Ubuntu bietet auch LTS-Versionen (Long-Term Support), die für längere Zeit mit Sicherheitsupdates versorgt werden.
-- Ubuntu setzt in Künftigen Versionen auf den eigenen Packetmanager **Snap**[^footnote]. Dieser weist jedoch noch einige Fehler speziel in Firefox und teiweise in anderer Software auf
 
-### **Manjaro:**
+- Ubuntu setzt in Künftigen Versionen auf den eigenen Packetmanager **Snap**[^footnote]. Dieser weist jedoch noch einige Fehler speziel in Firefox und teiweise in anderer Software auf. Das betrifft übrigens auch die Derivaten von Ubuntu wie z.B. Linux Mint. Ein weiterer Fehler ist die Fehlerberichtmeldungen die das Nutzungserlebniss mindern. Im Video wird auch über die Masse der Fehlerberichte geprochen und wie wenig das jemanden interessiert[^footnote]. Insgesammt kommt Ubuntu am schlechtesten weg in der aktuellen Version. Es ist die Rede von Fehlerhafter Packete (Software) die sich nicht instalieren lässt. Einen erfahrenen Linux nutzer lässt das kalt, denn unter Ubuntu können natürlich auch andere Packetmanager benutzt werden. Dennoch schießt sich ubuntu ins Abseitz wenn es um Usebility und die Code-Stabilität geht.[^footnote] Ich finde es schade wie Ubuntu verbuggt ist, mittlerweile.
 
-- Manjaro ist eine benutzerfreundliche Rolling-Release-Distribution, die auf Arch Linux basiert. Es bietet eine einfache Installation und eine intuitive Benutzeroberfläche. Manjaro eignet sich gut für Benutzer, die die Leistung von Arch Linux schätzen, aber eine leichtere Einrichtung bevorzugen.
+### Linux Lite
 
-> Jede dieser Linux-Distributionen hat ihre eigenen Stärken und passt zu unterschiedlichen Bedürfnissen und Erfahrungsstufen der Benutzer. Es ist wichtig, die Eigenschaften und Merkmale jeder Distribution zu berücksichtigen, um diejenige zu wählen, die am besten zu Ihren Anforderungen und Vorlieben passt.
+Linux Lite, obwohl ursprünglich als Einsteiger-freundliche und ressourcenleichte Distribution beworben, hat in letzter Zeit einigen Gegenwind erfahren[^fn-nth-2]. Benutzer haben eine Reihe von Mängeln festgestellt, die die Nutzungserfahrung beeinträchtigen. Die Webseite der Distribution wurde als unprofessionell kritisiert, was potenzielle neue Nutzer abschrecken kann. Darüber hinaus gibt es Probleme mit den Spracheinstellungen, die trotz korrekter Konfiguration nicht konsequent angewendet werden. Es wurden auch Instabilitäten und fehlgeschlagene Updates gemeldet, die erhebliche Frustrationen verursachen und das Vertrauen in die Zuverlässigkeit des Systems untergraben. Diese Probleme verdeutlichen, dass nicht jede Linux-Distribution, selbst wenn sie sich an Einsteiger richtet, gleich gut ausgeführt wird.[^fn-nth-2]
 
 ## Stabilität, Sicherheit und Flexibilität
 
@@ -159,3 +202,5 @@ Gaming unter Linux hat in den letzten Jahren erhebliche Fortschritte gemacht und
 Gaming unter Linux hat in den letzten Jahren deutliche Fortschritte gemacht, und die Spielebibliothek wird kontinuierlich erweitert. Die Unterstützung von Steam, Proton und die wachsende Anzahl von nativen Linux-Spielen haben Gaming auf Linux zu einer lebensfähigen Option gemacht. Linux bietet eine attraktive und stabile Plattform für Gaming-Enthusiasten und ermöglicht es ihnen, ihre Lieblingsspiele auf einem Open-Source-Betriebssystem zu genießen.
 
 [^footnote]:> [Diese 5 Linux Distributionen haben mich am meisten enttäuscht! - Linux Guides DE](https://www.youtube.com/watch?v=mUlkQ-owDkc)
+
+[^fn-nth-2]:> [Linux Lite getestet - Meine größte Enttäuschung](https://www.youtube.com/watch?v=YpPXePn_1N8)
