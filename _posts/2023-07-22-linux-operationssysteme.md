@@ -51,33 +51,42 @@ Der GNU-Softwarestapel wurde mit dem Linux-Kern kombiniert, wodurch das heute be
 
 Da Linux quelloffen ist, haben Entwickler und Organisationen die Freiheit, ihre eigenen Versionen des Betriebssystems zu erstellen und zu verteilen. Diese verschiedenen Versionen werden als "Distributionen" oder "Distros" bezeichnet. Jede Distribution enthält den Linux-Kern, aber sie kann unterschiedliche Softwarepakete, Benutzeroberflächen und Konfigurationen enthalten.
 
-- **Debian:**
-  - Debian ist eine der ältesten und bekanntesten Linux-Distributionen. Sie zeichnet sich durch ihre Stabilität und ihren Fokus auf Freie Software aus. Debian hat ein riesiges Repository mit Tausenden von Softwarepaketen und wird häufig als Basis für andere Linux-Distributionen verwendet, darunter Ubuntu.
+### **Debian:**
 
-- **Arch Linux:**
-  - Arch Linux ist eine benutzerorientierte Rolling-Release-Distribution, die sich an fortgeschrittene Benutzer richtet. Rolling-Release bedeutet, dass das Betriebssystem ständig aktualisiert wird, anstatt periodisch neue Versionen zu veröffentlichen. Arch Linux bietet ein einfaches und minimalistisches Design und ermöglicht es den Benutzern, ihr System von Grund auf zu konfigurieren.
+- Debian ist eine der ältesten und bekanntesten Linux-Distributionen. Sie zeichnet sich durch ihre Stabilität und ihren Fokus auf Freie Software aus. Debian hat ein riesiges Repository mit Tausenden von Softwarepaketen und wird häufig als Basis für andere Linux-Distributionen verwendet, darunter Ubuntu.
 
-- **MX Linux:**
-  - MX Linux ist eine benutzerfreundliche und stabile Linux-Distribution, die auf Debian basiert. Sie kombiniert die Leistung von Debian mit dem XFCE-Desktop-Manager, um eine einfach zu bedienende Umgebung zu schaffen. MX Linux ist bekannt für seine Ressourceneffizienz und eignet sich daher gut für ältere Computer oder Laptops.
+### **Arch Linux:**
 
-- **openSUSE Tumbleweed:**
-  - Tumbleweed ist eine Rolling-Release-Variante von openSUSE. Im Gegensatz zur regulären openSUSE-Version bietet Tumbleweed ständige Aktualisierungen, was es zu einer hervorragenden Wahl für Benutzer macht, die immer die neuesten Softwareversionen haben möchten.
+- Arch Linux ist eine benutzerorientierte Rolling-Release-Distribution, die sich an fortgeschrittene Benutzer richtet. Rolling-Release bedeutet, dass das Betriebssystem ständig aktualisiert wird, anstatt periodisch neue Versionen zu veröffentlichen. Arch Linux bietet ein einfaches und minimalistisches Design und ermöglicht es den Benutzern, ihr System von Grund auf zu konfigurieren.
 
-- **Fedora:**
-  - Fedora ist eine von der Firma Red Hat unterstützte Linux-Distribution. Es dient oft als Testumgebung für neue Technologien, die später in Red Hat Enterprise Linux (RHEL) verwendet werden. Fedora ist bekannt für seine Innovation und wird häufig von Entwicklern und Technik-Enthusiasten verwendet.
+### **MX Linux:**
 
-- **Linux Mint:**
-  - Linux Mint ist eine benutzerfreundliche Linux-Distribution, die auf Ubuntu basiert. Sie zielt darauf ab, den Umstieg von Windows auf Linux so einfach wie möglich zu gestalten. Linux Mint bietet eine ansprechende Cinnamon-Desktop-Umgebung und bietet eine große Auswahl an vorinstallierten Anwendungen und Medien-Codecs.
+- MX Linux ist eine benutzerfreundliche und stabile Linux-Distribution, die auf Debian basiert. Sie kombiniert die Leistung von Debian mit dem XFCE-Desktop-Manager, um eine einfach zu bedienende Umgebung zu schaffen. MX Linux ist bekannt für seine Ressourceneffizienz und eignet sich daher gut für ältere Computer oder Laptops.
 
-- **elementary OS:**
-  - elementary OS ist eine elegante und benutzerfreundliche Linux-Distribution, die speziell für Ästhetik und Bedienbarkeit entwickelt wurde. Sie ähnelt in ihrem Design dem macOS und wird häufig von Benutzern bevorzugt, die ein modernes und schönes Erscheinungsbild schätzen.
+### **openSUSE Tumbleweed:**
 
-- **Ubuntu:**
-  - Ubuntu basiert auf Debian und bietet eine große Community-Unterstützung sowie eine Vielzahl von vorkonfigurierten Desktop-Umgebungen wie GNOME, KDE, XFCE und mehr. Ubuntu bietet auch LTS-Versionen (Long-Term Support), die für längere Zeit mit Sicherheitsupdates versorgt werden.
-  - Ubuntu setzt in Künftigen Versionen auf den eigenen Packetmanager **Snap**[^footnote]. Dieser weist jedoch noch einige Fehler speziel in Firefox und teiweise in anderer Software auf
+- Tumbleweed ist eine Rolling-Release-Variante von openSUSE. Im Gegensatz zur regulären openSUSE-Version bietet Tumbleweed ständige Aktualisierungen, was es zu einer hervorragenden Wahl für Benutzer macht, die immer die neuesten Softwareversionen haben möchten.
 
-- **Manjaro:**
-  - Manjaro ist eine benutzerfreundliche Rolling-Release-Distribution, die auf Arch Linux basiert. Es bietet eine einfache Installation und eine intuitive Benutzeroberfläche. Manjaro eignet sich gut für Benutzer, die die Leistung von Arch Linux schätzen, aber eine leichtere Einrichtung bevorzugen.
+### **Fedora:**
+
+- Fedora ist eine von der Firma Red Hat unterstützte Linux-Distribution. Es dient oft als Testumgebung für neue Technologien, die später in Red Hat Enterprise Linux (RHEL) verwendet werden. Fedora ist bekannt für seine Innovation und wird häufig von Entwicklern und Technik-Enthusiasten verwendet.
+
+### **Linux Mint:**
+
+- Linux Mint ist eine benutzerfreundliche Linux-Distribution, die auf Ubuntu basiert. Sie zielt darauf ab, den Umstieg von Windows auf Linux so einfach wie möglich zu gestalten. Linux Mint bietet eine ansprechende Cinnamon-Desktop-Umgebung und bietet eine große Auswahl an vorinstallierten Anwendungen und Medien-Codecs.
+
+### **elementary OS:**
+
+- elementary OS ist eine elegante und benutzerfreundliche Linux-Distribution, die speziell für Ästhetik und Bedienbarkeit entwickelt wurde. Sie ähnelt in ihrem Design dem macOS und wird häufig von Benutzern bevorzugt, die ein modernes und schönes Erscheinungsbild schätzen.
+
+### **Ubuntu:**
+
+- Ubuntu basiert auf Debian und bietet eine große Community-Unterstützung sowie eine Vielzahl von vorkonfigurierten Desktop-Umgebungen wie GNOME, KDE, XFCE und mehr. Ubuntu bietet auch LTS-Versionen (Long-Term Support), die für längere Zeit mit Sicherheitsupdates versorgt werden.
+- Ubuntu setzt in Künftigen Versionen auf den eigenen Packetmanager **Snap**[^footnote]. Dieser weist jedoch noch einige Fehler speziel in Firefox und teiweise in anderer Software auf
+
+### **Manjaro:**
+
+- Manjaro ist eine benutzerfreundliche Rolling-Release-Distribution, die auf Arch Linux basiert. Es bietet eine einfache Installation und eine intuitive Benutzeroberfläche. Manjaro eignet sich gut für Benutzer, die die Leistung von Arch Linux schätzen, aber eine leichtere Einrichtung bevorzugen.
 
 > Jede dieser Linux-Distributionen hat ihre eigenen Stärken und passt zu unterschiedlichen Bedürfnissen und Erfahrungsstufen der Benutzer. Es ist wichtig, die Eigenschaften und Merkmale jeder Distribution zu berücksichtigen, um diejenige zu wählen, die am besten zu Ihren Anforderungen und Vorlieben passt.
 
