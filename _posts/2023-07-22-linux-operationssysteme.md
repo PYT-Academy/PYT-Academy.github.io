@@ -129,9 +129,12 @@ Da Linux quelloffen ist, haben Entwickler und Organisationen die Freiheit, ihre 
 
 ### Linux Lite
 
-Linux Lite, obwohl ursprünglich als Einsteiger-freundliche und ressourcenleichte Distribution beworben, hat in letzter Zeit einigen Gegenwind erfahren[^fn-nth-2]. Benutzer haben eine Reihe von Mängeln festgestellt, die die Nutzungserfahrung beeinträchtigen. Die Webseite der Distribution wurde als unprofessionell kritisiert, was potenzielle neue Nutzer abschrecken kann. Darüber hinaus gibt es Probleme mit den Spracheinstellungen, die trotz korrekter Konfiguration nicht konsequent angewendet werden. Es wurden auch Instabilitäten und fehlgeschlagene Updates gemeldet, die erhebliche Frustrationen verursachen und das Vertrauen in die Zuverlässigkeit des Systems untergraben. Diese Probleme verdeutlichen, dass nicht jede Linux-Distribution, selbst wenn sie sich an Einsteiger richtet, gleich gut ausgeführt wird.[^fn-nth-2]
+- Linux Lite, obwohl ursprünglich als Einsteiger-freundliche und ressourcenleichte Distribution beworben, hat in letzter Zeit einigen Gegenwind erfahren[^fn-nth-2]. Benutzer haben eine Reihe von Mängeln festgestellt, die die Nutzungserfahrung beeinträchtigen. Die Webseite der Distribution wurde als unprofessionell kritisiert, was potenzielle neue Nutzer abschrecken kann. Darüber hinaus gibt es Probleme mit den Spracheinstellungen, die trotz korrekter Konfiguration nicht konsequent angewendet werden. Es wurden auch Instabilitäten und fehlgeschlagene Updates gemeldet, die erhebliche Frustrationen verursachen und das Vertrauen in die Zuverlässigkeit des Systems untergraben. Diese Probleme verdeutlichen, dass nicht jede Linux-Distribution, selbst wenn sie sich an Einsteiger richtet, gleich gut ausgeführt wird.[^fn-nth-2]
+
+- Wenn du ein Leichtes Linux, für ältere Systeme suchst. Schau dir Antex an. Antex läuft zuverlässig auf sehr alter Hardware. Oder für den Einsatz von Viertuellen Maschinen ist Xubuntu gut geignet.
 
 ## Warum Linux?
+
 ### Stabilität, Sicherheit und Flexibilität
 
 Linux hat sich als äußerst stabil, sicher und flexibel erwiesen, was es zu einer beliebten Wahl für Server, Mainframes und andere kritische Infrastrukturen gemacht hat. Die modulare Architektur ermöglicht es Benutzern, nur die Komponenten zu installieren, die sie benötigen, was das System schlank und effizient macht.
