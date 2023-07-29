@@ -91,8 +91,6 @@ Da Linux quelloffen ist, haben Entwickler und Organisationen die Freiheit, ihre 
 
 > Jede dieser Linux-Distributionen hat ihre eigenen Stärken und passt zu unterschiedlichen Bedürfnissen und Erfahrungsstufen der Benutzer. Es ist wichtig, die Eigenschaften und Merkmale jeder Distribution zu berücksichtigen, um diejenige zu wählen, die am besten zu Ihren Anforderungen und Vorlieben passt.
 
-## Garuda[^footnote] Linux, das Negativbeispiel
-
 ### Wie man es nicht mache sollte zeigt und Garuda[^footnote]
 
 - Garuda Linux hat in der Linux-Welt für einige Kontroversen gesorgt. Obwohl es auf der soliden Basis von Arch Linux aufbaut und ein ansprechendes Aussehen bietet, hat es doch erhebliche Kritik für seine Benutzerunfreundlichkeit und Systeminstabilität erhalten. Ein zentraler Kritikpunkt liegt in seiner unübersichtlichen Struktur: Mit fünf verschiedenen Einstellungsfenstern fällt es den Benutzern schwer, den Überblick zu behalten und Änderungen effektiv vorzunehmen.
@@ -133,7 +131,8 @@ Da Linux quelloffen ist, haben Entwickler und Organisationen die Freiheit, ihre 
 
 Linux Lite, obwohl ursprünglich als Einsteiger-freundliche und ressourcenleichte Distribution beworben, hat in letzter Zeit einigen Gegenwind erfahren[^fn-nth-2]. Benutzer haben eine Reihe von Mängeln festgestellt, die die Nutzungserfahrung beeinträchtigen. Die Webseite der Distribution wurde als unprofessionell kritisiert, was potenzielle neue Nutzer abschrecken kann. Darüber hinaus gibt es Probleme mit den Spracheinstellungen, die trotz korrekter Konfiguration nicht konsequent angewendet werden. Es wurden auch Instabilitäten und fehlgeschlagene Updates gemeldet, die erhebliche Frustrationen verursachen und das Vertrauen in die Zuverlässigkeit des Systems untergraben. Diese Probleme verdeutlichen, dass nicht jede Linux-Distribution, selbst wenn sie sich an Einsteiger richtet, gleich gut ausgeführt wird.[^fn-nth-2]
 
-## Stabilität, Sicherheit und Flexibilität
+## Warum Linux?
+### Stabilität, Sicherheit und Flexibilität
 
 Linux hat sich als äußerst stabil, sicher und flexibel erwiesen, was es zu einer beliebten Wahl für Server, Mainframes und andere kritische Infrastrukturen gemacht hat. Die modulare Architektur ermöglicht es Benutzern, nur die Komponenten zu installieren, die sie benötigen, was das System schlank und effizient macht.
 
@@ -141,13 +140,13 @@ Darüber hinaus ist Linux für seine Sicherheit bekannt. Regelmäßige Sicherhei
 
 Linux bietet eine hohe Anpassungsfähigkeit und ermöglicht es den Benutzern, nahezu jeden Aspekt des Systems nach ihren Wünschen zu verändern. Hier ist eine Anleitung,wie man alles auf Linux verändern kann, einschließlich einer Unterseite, die sich auf die Anpassung des Aussehens (GUI) konzentriert:
 
-## Alles auf Linux verändern
+### Alles auf Linux verändern
 
 1. **Paketverwaltung:** Mit Hilfe des Paketverwaltungssystems deiner Linux-Distribution kannst du Softwarepakete installieren, aktualisieren und entfernen. Die Paketverwaltung ermöglicht es dir, Anwendungen, Entwicklungstools, Bibliotheken und vieles mehr zu installieren und dein System zu erweitern.
 
 2. **Konfigurationsdateien:** Linux verwendet Konfigurationsdateien, um das Verhalten verschiedener Programme und Dienste zu steuern. Durch das Bearbeiten dieser Konfigurationsdateien kannst du das Verhalten deines Systems beeinflussen. Die meisten Konfigurationsdateien befinden sich im Verzeichnis `/etc/` und in den versteckten Ordnern im Benutzerverzeichnis (z.B. `~/.config/`).
 
-## Aussehen (GUI) verändern
+### Aussehen (GUI) verändern
 
 1. **Desktop-Umgebung und Themes:** Linux bietet verschiedene Desktop-Umgebungen (z.B. GNOME, KDE, XFCE, Cinnamon, etc.), zwischen denen du wählen kannst. Du kannst auch verschiedene Themes und Iconsets installieren, um das Aussehen der Desktop-Umgebung anzupassen.
 
@@ -163,19 +162,19 @@ Linux bietet eine hohe Anpassungsfähigkeit und ermöglicht es den Benutzern, na
 
 In dem Subreddit [UnixPorn](https://www.reddit.com/r/unixporn/) zeigen die Benutzer ihre kreativen und ansprechend gestalteten Desktops, die sie durch Anpassungen der Desktop-Umgebung, Fenstermanager, Icons, Themes, Hintergrundbilder, Cursor-Designs und vielem mehr erreicht haben. Es ist bekannt für seine ästhetischen Beiträge, die oft beeindruckende Desktop-Kreationen präsentieren.
 
-## Vielfältige Anwendungsbereiche
+### Vielfältige Anwendungsbereiche
 
 Linux findet Verwendung in einer breiten Palette von Geräten und Anwendungen, darunter Server, Desktop-Computer, Laptops, Mobiltelefone, Netzwerkgeräte, Smart-TVs, Embedded-Systeme und vieles mehr. Es wird oft auch als Basis für spezialisierte Betriebssysteme verwendet.
 
 Glücklicherweise gibt es zwei benutzerfreundliche Lösungen, die die Softwareverwaltung auf Linux erleichtern: der "Snap Store" und "GNOME Software"
 
-## Snap Store
+### Snap Store
 
 Der "Snap Store" ist ein Software-App-Store, der von Canonical entwickelt wurde und in Ubuntu und anderen Ubuntu-basierten Linux-Distributionen standardmäßig enthalten ist. Er ermöglicht den Benutzern, Snap-Pakete zu suchen, zu installieren und zu verwalten. Snap-Pakete sind universelle Softwarepakete, die alle benötigten Abhängigkeiten enthalten und somit unabhängig von der zugrunde liegenden Linux-Distribution laufen können.
 
 Der Snap Store bietet eine einfache grafische Benutzeroberfläche, mit der du nach Anwendungen suchen, ihre Details anzeigen und sie mit einem einzigen Klick installieren kannst. Darüber hinaus werden Snap-Pakete automatisch aktualisiert, sodass du immer die neuesten Versionen deiner installierten Anwendungen hast.
 
-## GNOME Software
+### GNOME Software
 
 GNOME Software ist ein Softwarecenter, das in der GNOME-Desktop-Umgebung, die in vielen Linux-Distributionen verwendet wird, enthalten ist. Es ist ein universelles Frontend für verschiedene Paketverwaltungssysteme, darunter APT (für Debian-basierte Distributionen) und DNF (für Fedora-basierte Distributionen).
 
@@ -183,7 +182,7 @@ Mit GNOME Software kannst du nach Anwendungen suchen, Anwendungen durchstöbern,
 
 Beide, der Snap Store und GNOME Software, bieten eine grafische Benutzeroberfläche, die es Benutzern ermöglicht, die gewünschten Anwendungen einfach zu suchen und zu installieren. Beide Anwendungen bieten eine Auswahl an Softwarepaketen, darunter verschiedene Anwendungen, Entwicklertools und Spiele. Die Installation und Aktualisierung von Software auf Linux wird durch diese Werkzeuge wesentlich einfacher und benutzerfreundlicher gestaltet.
 
-## Gaming
+### Gaming
 
 Gaming unter Linux hat in den letzten Jahren erhebliche Fortschritte gemacht und ist zu einer attraktiven Option für Spieler geworden. Obwohl Windows immer noch das vorherrschende Betriebssystem für Spiele ist, bietet Linux eine immer breitere Unterstützung für Spiele, dank der Anstrengungen der Linux-Community und der Spieleentwickler.
 
