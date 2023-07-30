@@ -1,7 +1,7 @@
 ---
 title: Jekyll, Statischer Webseitengenerator
 date: 2023-07-17 11:33:00 -0400 
-last_modified_at: 2023-07-17 11:33:00 -0400
+last_modified_at: 2023-07-30 11:33:00 -0400
 categories: [Community, Webdevelopment]
 tags: [webdevelopment, homepage, jekyll, github, webseitengenerator, statische-webseite, Hosting]
 author: sergius
@@ -84,6 +84,8 @@ Ich möchte euch eine kleine Auswahl an Themes vorstellen die ich entweder schon
 [Chirpy Theme](<https://chirpy.cotes.page/>){:target="_blank"}
 Das Chirpy Theme ist ein Typisches Blog Theme, welchen wir für unsere Homepage verwenden. Es ist schick und sehr Leistungsfähig. Bietet von haus aus einen Dark und White modus (die Farben lassen sich im Code natürlich ändern). Die Webseite wird auf Handy und Desktop schik dagestellt. 
 
+[Mr Green](<https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com/>){:target="_blank"}
+Ich denke das wird die Nächste Vorlage zum Testen und Experementieren. Sie hat einige interessante Features wie zb. die umstellung der Sprache.
 
 [Minimal Mistakes](<https://mmistakes.github.io/so-simple-theme/>){:target="_blank"}
 
