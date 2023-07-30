@@ -94,8 +94,8 @@ comments:
     shortname: https-pyt-academy-github-io # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: https://pyt-academy.github.io/ # <gh-username>/<repo>
-    issue_term: https://github.com/PYT-Academy/PYT-Academy.github.io/actions/runs/5706855000 # < url | pathname | title | ...>
+    repo: # <gh-username>/<repo>
+    issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
