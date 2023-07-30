@@ -4,7 +4,6 @@ date: 2023-01-01 12:00:00 -0400
 categories: [Community, Kommentarichtlinien]
 tags: [anleitung, Kommunikation, Kommentarichtlinien , PYT-Acadamy, gemeinschaftsprojekt, Comunity,]
 author: sergius
-layout: default
 comments: true
 image:
   path: /assets/img/Rules-1200x630.png
