@@ -4,13 +4,14 @@ date: 2023-01-01 12:00:00 -0400
 categories: [Community, Kommentarichtlinien]
 tags: [anleitung, Kommunikation, Kommentarichtlinien , PYT-Acadamy, gemeinschaftsprojekt, Comunity,]
 author: sergius
+comments: true
 image:
   path: /assets/img/Rules-1200x630.png
   lqip:
   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
-# Kommentarichtlinien 
+## Kommentarichtlinien
 
 1. Willkommen in unserem Kommentarbereich! Wir freuen uns über Ihre Teilnahme und möchten, dass dies ein Ort des respektvollen Austauschs bleibt. Bitte beachten Sie die folgenden Kommentarichtlinien:
 
