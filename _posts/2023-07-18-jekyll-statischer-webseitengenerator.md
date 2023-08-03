@@ -1,6 +1,6 @@
 ---
 title: Jekyll, Statischer Webseitengenerator
-date: 2023-07-18 11:33:00 -0400 
+date: 2023-07-19 11:33:00 -0400 
 last_modified_at: 2023-08-03 11:33:00 -0400
 categories: [Community, Webdevelopment]
 tags: [webdevelopment, homepage, jekyll, github, webseitengenerator, statische-webseite, Hosting, RSS-Feed]
@@ -147,4 +147,4 @@ Ich denke das wird die Nächste Vorlage zum Testen und Experementieren. Sie hat 
 
 ### Newsreader
 
-Ich habe mal testweise eine RSS-Feed Funktion hinzugefügt. Mal sehen wie es läuft.
+Ich habe mal testweise eine RSS-Feed Funktion hinzugefügt. Mal sehen wie es läuft. Läuft nicht wie gewünscht. Aber ich teste weiter
