@@ -1,7 +1,7 @@
 ---
 title: Jekyll, Statischer Webseitengenerator
 date: 2023-07-17 11:33:00 -0400 
-last_modified_at: 2023-07-30 11:33:00 -0400
+last_modified_at: 2023-08-03 11:33:00 -0400
 categories: [Community, Webdevelopment]
 tags: [webdevelopment, homepage, jekyll, github, webseitengenerator, statische-webseite, Hosting]
 author: sergius
@@ -64,7 +64,6 @@ Charts in Jason
 
 - [Chartsjs](https://www.chartjs.org/docs/latest/samples/other-charts/radar.html){:target="_blank"}
 
-
 Erleben Sie die Stärke statischer Webseiten und die Flexibilität von Jekyll und erstellen Sie Ihre perfekte Webseite. Wenn Sie Unterstützung benötigen oder Fragen haben, zögern Sie nicht, uns zu kontaktieren. Wir sind hier, um Ihnen zu helfen und Sie auf Ihrem Weg zur Erstellung Ihrer idealen Webseite zu begleiten.
 
 [Schreib mir auf WhatsApp](https://wa.me/595974276892)
@@ -82,7 +81,7 @@ Egal ob Sie einen Blog starten, ein Portfolio präsentieren oder eine Projektsei
 Ich möchte euch eine kleine Auswahl an Themes vorstellen die ich entweder schon benutze oder in Zukunft benutzen möchte.
 
 [Chirpy Theme](<https://chirpy.cotes.page/>){:target="_blank"}
-Das Chirpy Theme ist ein Typisches Blog Theme, welchen wir für unsere Homepage verwenden. Es ist schick und sehr Leistungsfähig. Bietet von haus aus einen Dark und White modus (die Farben lassen sich im Code natürlich ändern). Die Webseite wird auf Handy und Desktop schik dagestellt. 
+Das Chirpy Theme ist ein Typisches Blog Theme, welchen wir für unsere Homepage verwenden. Es ist schick und sehr Leistungsfähig. Bietet von haus aus einen Dark und White modus (die Farben lassen sich im Code natürlich ändern). Die Webseite wird auf Handy und Desktop schik dagestellt.
 
 [Mr Green](<https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com/>){:target="_blank"}
 Ich denke das wird die Nächste Vorlage zum Testen und Experementieren. Sie hat einige interessante Features wie zb. die umstellung der Sprache.
@@ -129,7 +128,7 @@ Ich denke das wird die Nächste Vorlage zum Testen und Experementieren. Sie hat 
 
 [Jasper 2](<https://jekyllt.github.io/jasper2/>){:target="_blank"}
 
-[yat](<https://jeffreytse.github.io/jekyll-theme-yat/>){:target="_blank"} 
+[yat](<https://jeffreytse.github.io/jekyll-theme-yat/>){:target="_blank"}
 : Mehrsprachig
 
 [Mundana](<https://wowthemesnet.github.io/mundana-theme-jekyll/>){:target="_blank"}
