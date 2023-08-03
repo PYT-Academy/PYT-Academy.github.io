@@ -145,3 +145,7 @@ Ich denke das wird die Nächste Vorlage zum Testen und Experementieren. Sie hat 
 [Thinkspace](<https://heiswayi.github.io/thinkspace/>){:target="_blank"}
 
 [Researcher](<https://ankitsultana.com/researcher/>){:target="_blank"}
+
+### Newsreader
+
+Ich habe mal testweise eine RSS-Feed Funktion hinzugefügt. Mal sehen wie es läuft.
