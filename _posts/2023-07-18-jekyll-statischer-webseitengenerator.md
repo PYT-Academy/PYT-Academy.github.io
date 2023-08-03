@@ -3,7 +3,7 @@ title: Jekyll, Statischer Webseitengenerator
 date: 2023-07-18 11:33:00 -0400 
 last_modified_at: 2023-08-03 11:33:00 -0400
 categories: [Community, Webdevelopment]
-tags: [webdevelopment, homepage, jekyll, github, webseitengenerator, statische-webseite, Hosting]
+tags: [webdevelopment, homepage, jekyll, github, webseitengenerator, statische-webseite, Hosting, RSS-Feed]
 author: sergius
 mermaid: true
 image:
