@@ -1,7 +1,7 @@
 ---
 title: PYT-Academy Self hosted Server Projekt
 date: 2023-07-18 12:00:00 -0400
-last_modified_at: 2023-07-24 23:55:00 -0400
+last_modified_at: 2023-08-04 14:00:00 -0400
 categories: [Projekte, Server]
 tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein, Cryptomator, Tutorial]
 author: david
@@ -31,7 +31,11 @@ Wir haben die Idee eines Passwortmanagement-Systems in Betracht gezogen. Allerdi
 
 
 ## Status
-Wir sind derzeit dabei, verschiedene Cloud-Speicher-Softwarelösungen zu überprüfen. Nachdem wir unsere Anforderungen analysiert haben, haben wir vier vielversprechende Optionen ins Auge gefasst: ownCloud, Nextcloud, Pydio und Seafile. Wir testen und bewerten diese Plattformen, um ihre Sicherheit, Datenschutzfunktionen und Leistung zu prüfen. Unser Fokus liegt darauf, die beste Lösung für unsere Bedürfnisse zu finden.
+Wir haben mit der Router-Installation begonnen. Wir haben ein eigenes WLAN-Netzwerk eingerichtet, das vom bestehenden Router getrennt ist, um eventuellen Problemen vorzubeugen. So konnten wir den Router mit unseren Zugangsdaten problemlos konfigurieren, ohne unser Hauptnetzwerk zu beeinträchtigen. Falls irgendetwas schiefgeht, können wir einfach die Router umstecken.
+
+Zusätzlich haben wir mit unserem Internetanbieter gesprochen und ein Upgrade unserer Leitung auf 300Mbits erhalten. Das ist eine erhebliche Verbesserung gegenüber den bisherigen 100 Up- und Downstream. Momentan verhandeln wir auch noch eine feste IP-Adresse und der Server wird auch bald zum Laufen gebracht.
+
+Für die Router-Konfiguration haben wir uns für den Mac mini entschieden, auf dem wir bereits eine Anleitung für unseren Blog vorbereitet haben. Jetzt warten wir nur noch auf unsere Zugangsdaten, um die Konfiguration abzuschließen. Als Nächstes werden wir den Server auf den zweiten Mac mini installieren.
 
 ## Ziel
 Unser Hauptziel ist es nicht, Gewinn zu erzielen, sondern das Projekt als Lern- und Übungsmöglichkeit zu sehen. Wir möchten jedoch auch unsere Dienste einer kleinen Gruppe anbieten und so unsere Vereinskasse für weitere Projekte und Investitionen aufbessern.
@@ -96,6 +100,18 @@ Tipp: Instaliere dir die Desktop-Anwendung deines Cloud-Anbieters {: .prompt-tip
 
 > Cryptomator ist eine effektive Lösung, um Ihre Daten in jeder Cloud sicher aufzubewahren. Es ist kompatibel mit verschiedenen Betriebssystemen wie Windows, MacOS und Linux sowie mobilen Plattformen wie Android und iOS. Es ist wichtig zu bedenken, dass während Cryptomator eine zusätzliche Schicht der Sicherheit bietet, es immer noch wichtig ist, sichere Praktiken für den Datenschutz zu befolgen und Ihre Passwörter sicher zu speichern.
 
-## CrowdSec, um aggressive IPs zu sperren
+## Crowdsack - Open Source Sicherheitstool für euren Server
+
+Wir möchten euch zudem ein fantastisches Open-Source-Sicherheitstool namens "Crowdsack" vorstellen. Mit Crowdsack wird es einfacher, euren Webserver oder auch andere komplexe Systeme abzusichern. Egal ob es sich um WordPress, eine Firewall oder verschiedene interne Systeme eures Unternehmens handelt, Crowdsack bietet euch einen Echtzeitschutz gegen aggressive IPs und das vollkommen kostenlos.
+
+Sicherheit sollte immer eine Priorität sein, vor allem wenn ihr euren Server im öffentlichen Internet betreibt. In wenigen Minuten könnt ihr mit hunderten Brute-Force-Angriffen rechnen, die von Bots aus der Ferne gestartet werden. Daher ist es wichtig, dass ihr eure Website oder Anwendung gut absichert.
+
+Crowdsack analysiert eure Server-Logs in Echtzeit und identifiziert aggressive IPs. Es hilft euch dabei, diese IP-Adressen zu blockieren, sodass sie keinen Zugriff mehr auf euren Server erhalten. Die Regeln, die dabei erstellt werden, basieren auf der Community und werden ständig aktualisiert. Das bedeutet, dass, wenn ihr eine bösartige IP-Adresse blockiert, auch andere Benutzer von Crowdsack von dieser Information profitieren können.
+
+Die Installation von Crowdsack auf eurem Webserver ist denkbar einfach. Ihr könnt den Quellcode von der Crowdsack-Website herunterladen und die Installationsanleitung befolgen. Es gibt auch kostenpflichtige Tarife, aber die meisten Funktionen sind in der kostenlosen Version verfügbar, was sie zu einer großartigen Option für viele Benutzer macht.
+
+Mit Crowdsack könnt ihr eure Server-Sicherheit auf ein neues Level heben. Es bietet Schutz vor Brute-Force-Angriffen, verfügt über eine Vielzahl von Szenarien und Blocklisten, und die Threat Intelligence-Funktion ermöglicht es euch, bösartige IPs zu identifizieren und zu blockieren.
+
+Insgesamt sind wir sehr beeindruckt von Crowdsack und werden es weiterhin auf unseren Servern einsetzen, um unsere Webanwendungen und Daten zu schützen.
 
 {% include embed/youtube.html id='REiTqc_WV9w' %}
