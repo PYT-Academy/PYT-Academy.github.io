@@ -107,7 +107,7 @@ Hallo, ich bin Sergius, dein persönlicher IT-Spezialist. Seit über 20 Jahren b
 
 - **Öffentliche Telegram-Gruppe:** Schließe dich meiner Gruppe [IT-Systemhaus](https://t.me/IT_Systemhaus) an.
 - **Privater Elements-Raum für Patreons:** Kommuniziere mit anderen Patreons und mir im [privaten Elements-Raum](https://matrix.to/#/!YYpPXvLWWylbyQewbm:matrix.org?via=matrix.org).
-- **PYT-Academy Blog und Discord:** Besuche die [PYT-Academy Webseite](https://pyt-academy.github.io/) und vernetze dich mit Jugendlichen aus der Region im dazugehörigen [Discord-Server](patreon.com/user?u=67742872).
+- **PYT-Academy Blog und Discord:** Besuche die [PYT-Academy Webseite](https://pyt-academy.github.io/) und vernetze dich mit Jugendlichen aus der Region im dazugehörigen [Discord-Server](https://patreon.com/user?u=67742872).
 
 ## Wichtig zu wissen
 
