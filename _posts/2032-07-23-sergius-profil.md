@@ -40,7 +40,7 @@ Du findest mich auf vielen Plattformen, und wenn du Kontakt aufnimmst, sei versi
 
 - **E-Mail:** Meine öffentliche Mail empfängt nur reinen Text. Links oder Code sortiert der Filter aus, und du kannst mir PGP-verschlüsselte E-Mails zusenden (was ich jedem nur empfehlen kann). [sergius@PYT.Academy](mailto:sergius@PYT.Academy){:target="_blank"}{: .prompt-tip }
 
-- **RSS-Feed:** Ich kümmere mich um einige Webseiten, und die [PYT-Academy](https://pyt-academy.github.io/){:target="_blank"}{: .prompt-tip } liegt mir aktuell 2023 besonders am Herzen. Zum einen ist es der Wechsel zu statischen Webseiten und deren Möglichkeiten, und zum anderen ist die PYT-Academy mein Baby. [Kopiere den RSS-Feed-Link](https://pyt-academy.github.io/feed.xml){:target="_blank"}{: .prompt-tip }, um auf dem Stand zu bleiben.
+- **RSS-Feed:** Ich kümmere mich um einige Webseiten, und die [PYT-Academy](https://pyt-academy.github.io/){:target="_blank"}{: .prompt-tip } liegt mir aktuell 2023 besonders am Herzen. Zum einen ist es der Wechsel zu statischen Webseiten und deren Möglichkeiten, und zum anderen ist die PYT-Academy mein Baby. Hier der [RSS-Link](https://pyt-academy.github.io/feed.xml){:target="_blank"}{: .prompt-tip }, um auf dem Stand zu bleiben.
 
 ### Statement / Überzeugung
 
