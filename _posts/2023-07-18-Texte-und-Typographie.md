@@ -5,6 +5,7 @@ last_modified_at: 2023-07-17 11:33:00 -0400
 categories: [Projekte, Homepage]
 tags: [Texte, Typographie, Kommunikation, Schriftarten, Zeilenabstände]
 author: sergius
+post: true
 math: true
 mermaid: true
 image:
