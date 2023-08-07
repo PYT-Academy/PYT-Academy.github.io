@@ -9,16 +9,17 @@ image:
   path: /assets/img/Sergius-Logo-1200x630.png
 ---
 
-![Desktop View](/assets/img/sergius-im-buero.png){: width="972" height="589" }
-# Willkommen
+## Willkommen
 
 Hallo und herzlich willkommen auf meinem Profil! Mein Name ist Sergius M., und ich bin ein IT-Enthusiast. Hier findest du alles, was du über meine Dienstleistungen und Projekte wissen musst, von der privaten Administration per Fernzugriff bis hin zur Unterstützung bei der Einrichtung von sicheren Verbindungen und der Content-Erstellung. Ob du Windows, Apple oder Linux nutzt, ich kenne mich aus und stehe bereit, dir zu helfen. Du kannst auch meine Patreon-Stufen erkunden und dich meiner öffentlichen Telegram-Gruppe anschließen. Kurz gesagt, diese Seite ist dein One-Stop-Shop für alle deine IT-Bedürfnisse.
 
-## Warum ich das mache
+### Warum ich das mache
 
 Effizienz und Übersichtlichkeit sind für mich Schlüsselwerte. In einer Welt, in der Technologie allgegenwärtig ist, möchte ich meinen Kunden eine klare und verständliche Ressource bieten, ohne dass ich jedem einzeln erklären muss, was ich mache. Diese Seite dient als meine digitale Visitenkarte, die dir nicht nur Zeit spart, sondern auch einen umfassenden Überblick über meine Angebote und Fähigkeiten gibt. Meine Leidenschaft für Technologie treibt mich an, und ich freue mich darauf, sie mit dir zu teilen.
 
 ## Über mich
+
+![Desktop View](/assets/img/sergius-im-buero.png){: width="972" height="589" }
 
 **Meine Geschichte:**
  ist eine von leidenschaftlichem Selbststudium und kontinuierlichem Lernen und anwenden. Seit über 20 Jahren tauche ich in die Welt der Technologie ein, seit 2019 arbeite ich komplett remote. Meine Reise hat mich nach Südamerika geführt, wo ich jetzt lebe und arbeite. Was mich antreibt? Die endlose Neugier auf alles, was mit Technologie zu tun hat, und der Wunsch, mein Wissen mit anderen zu teilen.
@@ -27,7 +28,7 @@ Effizienz und Übersichtlichkeit sind für mich Schlüsselwerte. In einer Welt, 
 Mit zwei Jahrzehnten Erfahrung in der IT-Welt habe ich ein breites Spektrum an Fähigkeiten und Kenntnissen, Autodidakt entwickelt. Was mit der Installation von Druckertreibern begonnen hat, endet noch lange nicht bei meinen Angeboten wie z.B. Einrichtung von sicherer Kommunikation, Datentausch und der Beratung zu Backup- und Anwendungs-Architekturen – ich kenne mich aus. Egal, ob du Windows, Apple oder Linux nutzt, du kannst darauf vertrauen, dass du von einem Experten lernst.
 
 **Kontaktiere mich – Ich bin echt!**
-Du findest mich auf vielen Plattformen, und wenn du Kontakt aufnimmst, sei versichert, dass immer ich selbst antworte. Keine Bots, keine automatisierten Nachrichten – nur ich, Sergius, mit all meinen menschlichen Eigenheiten, einschließlich meiner Rechtschreibfehler, die als eine Art menschliche Authentifizierung dienen. Und bitte wundere dich nicht über meine Nachfragen, ich möchte mich ebenso versichern, dass ich es mit einer echten Person zu tun habe. Deine Fragen und Anliegen sind mir wichtig, und ich freue mich darauf, persönlich mit dir in Kontakt zu treten.
+Du findest mich auf vielen Plattformen, und wenn du Kontakt aufnimmst, sei versichert, dass immer ich selbst antworte. Keine Bots, keine automatisierten Nachrichten – nur ich, Sergius, mit all meinen menschlichen Eigenheiten, einschließlich meiner Rechtschreibfehler, die als eine Art menschliche Authentifizierung dienen. Und bitte wundere dich nicht über meine Nachfragen, ich möchte mich ebenso versichern, dass ich es mit einer **echten Person** zu tun habe. Deine Fragen und Anliegen sind mir wichtig, und ich freue mich darauf, persönlich mit dir in Kontakt zu treten.
 
 ### Kontaktmöglichkeiten
 
@@ -35,15 +36,15 @@ Du findest mich auf vielen Plattformen, und wenn du Kontakt aufnimmst, sei versi
 
 - **Telegram:** Ist für die Gruppen und Kanäle. Ermöglicht mir, einfach Inhalte plattformunabhängig zu tauschen und zu teilen. Nutze ich gerne, um die Telegram-Kanäle mit interessanten Shorts zu füllen. [Telegram-Sergius](https://t.me/Sergius_M){:target="_blank"}{: .prompt-tip }
 
-- **Handynummer für Anrufe:** Es gibt keine SIM-Karte, und sie kann nicht gestohlen oder kopiert werden. Es ist eine VoIP-Nummer und kann nur Telefonanrufe annehmen, und auch erst zu gewissen Zeiten. [Handynummer: +49 15678 232115](tel:+4915678232115){:target="_blank"}{: .prompt-tip }
+- **Handynummer für Anrufe:** Es gibt keine SIM-Karte, und sie kann nicht gestohlen oder kopiert werden. Es ist eine VoIP-Nummer und kann nur Telefonanrufe annehmen, und auch erst zu gewissen Zeiten. [Handynummer](tel:+4915678232115){:target="_blank"}{: .prompt-tip }
 
 - **E-Mail:** Meine öffentliche Mail empfängt nur reinen Text. Links oder Code sortiert der Filter aus, und du kannst mir PGP-verschlüsselte E-Mails zusenden (was ich jedem nur empfehlen kann). [sergius@PYT.Academy](mailto:sergius@PYT.Academy){:target="_blank"}{: .prompt-tip }
 
 - **RSS-Feed:** Ich kümmere mich um einige Webseiten, und die [PYT-Academy](https://pyt-academy.github.io/){:target="_blank"}{: .prompt-tip } liegt mir aktuell 2023 besonders am Herzen. Zum einen ist es der Wechsel zu statischen Webseiten und deren Möglichkeiten, und zum anderen ist die PYT-Academy mein Baby. [Kopiere den RSS-Feed-Link](https://pyt-academy.github.io/feed.xml){:target="_blank"}{: .prompt-tip }, um auf dem Stand zu bleiben.
 
-### Statement
+### Statement / Überzeugung
 
-- Ich bin ein **CCC** und **Guy Fawkes** -Kind, dessen Philosophie und Werte ich seit 1995 (ich mit 14) verfolge und schätze. Die Veranstaltungen dieser Clubs haben mein Verständnis und meine Leidenschaft für die IT-Welt geprägt und sind heute wichtiger denn je. Hier sind einige Kernprinzipien, die meine persönlichen IT-Präferenzen definieren, ohne zu werten:
+- Ich bin ein **CCC** und **Guy Fawkes** -Kind, dessen Philosophie und Werte ich seit 1995 (ich mit 14) verfolge und schätze. Die Veranstaltungen dieser Clubs haben mein Verständnis und meine Leidenschaft für die IT-Welt geprägt und sind heute wichtiger denn je. Hier sind einige Kernprinzipien, die meine persönlichen IT-Präferenzen definieren, ohne andere zu werten:
 
   - **Open-Source:** Ich glaube an die Kraft der Gemeinschaft und die Freiheit, Software zu teilen, zu modifizieren und zu verbessern. Open-Source fördert Kreativität, Zusammenarbeit und Transparenz.
 
@@ -91,11 +92,9 @@ Erstellen und Aktualisieren von privaten statischen Homepages: Deine persönlich
 
 ## Wichtig zu wissen
 
-- **Nur für Privatpersonen:** Mein Service richtet sich ausschließlich an Privatpersonen, gewerbliche Anfragen kann und will ich nicht entgegennehmen.
+- **Nur für Privatpersonen:** Meine Dienstleistungen richtet sich ausschließlich an Privatpersonen, gewerbliche Anfragen kann und will ich nicht entgegennehmen.
 
-## Kontaktiere mich
-
-Du hast Fragen oder möchtest meinen Service in Anspruch nehmen? Schreib mir einfach auf [Telegram](https://t.me/Sergius_M){:target="_blank"}{: .prompt-tip } – ich freue mich darauf, dir zu helfen!
+- **Keine Werbung oder Cooperationen** Ich mache für niemanden Werbung und nehme auch keine Werbeanfragen entgegen.
 
 ## Unterstützung
 
