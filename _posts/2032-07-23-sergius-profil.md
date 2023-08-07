@@ -9,101 +9,70 @@ image:
   path: /assets/img/Sergius-Logo-1200x630.png
 ---
 
-## Aufbau des Profil's
-
-Ein persönliches Profil für deine Blogger-Webseite zu erstellen ist ein wichtiger Schritt, um deinen Lesern zu helfen, dich besser zu verstehen und zu verbinden. Hier sind einige Schritte, die du befolgen kannst. Weiterführende informationen findest du unter "Webanalyse"
-
-## Foto oder Profilbild
-
 ![Desktop View](/assets/img/sergius-im-buero.png){: width="972" height="589" }
+# Willkommen
 
-Ein Foto auswählen: Dein Profilfoto sollte professionell und freundlich wirken. Es sollte dich repräsentieren und sollte deinem Online-Image entsprechen.
+Hallo und herzlich willkommen auf meinem Profil! Mein Name ist Sergius M., und ich bin ein IT-Enthusiast. Hier findest du alles, was du über meine Dienstleistungen und Projekte wissen musst, von der privaten Administration per Fernzugriff bis hin zur Unterstützung bei der Einrichtung von sicheren Verbindungen und der Content-Erstellung. Ob du Windows, Apple oder Linux nutzt, ich kenne mich aus und stehe bereit, dir zu helfen. Du kannst auch meine Patreon-Stufen erkunden und dich meiner öffentlichen Telegram-Gruppe anschließen. Kurz gesagt, diese Seite ist dein One-Stop-Shop für alle deine IT-Bedürfnisse.
 
-## Über mich sektion
+## Warum ich das mache
 
-- [Einen Über-mich-Abschnitt schreiben] Erzähle den Lesern etwas über dich. Was ist deine Geschichte? Was motiviert dich, zu bloggen? Was sind deine Interessen und Leidenschaften? Versuche, die Informationen kurz und prägnant zu halten und gleichzeitig Persönlichkeit zu zeigen. Es könnte hilfreich sein, einen ersten Entwurf zu schreiben und diesen dann zu verfeinern, um sicherzustellen, dass er die richtige Botschaft vermittelt.
+Effizienz und Übersichtlichkeit sind für mich Schlüsselwerte. In einer Welt, in der Technologie allgegenwärtig ist, möchte ich meinen Kunden eine klare und verständliche Ressource bieten, ohne dass ich jedem einzeln erklären muss, was ich mache. Diese Seite dient als meine digitale Visitenkarte, die dir nicht nur Zeit spart, sondern auch einen umfassenden Überblick über meine Angebote und Fähigkeiten gibt. Meine Leidenschaft für Technologie treibt mich an, und ich freue mich darauf, sie mit dir zu teilen.
 
-- [Fachwissen hervorheben] Wenn du einen Fachblog betreibst, ist es eine gute Idee, deine Qualifikationen und Erfahrungen hervorzuheben. Dies verleiht deinen Beiträgen Glaubwürdigkeit und zeigt deinen Lesern, dass sie von einem Experten lernen.
+## Über mich
 
-- [Kontaktinformationen:] bereitstellen: Gib den Lesern eine Möglichkeit, dich zu erreichen. Dies könnte eine E-Mail-Adresse, Social-Media-Links oder ein Kontaktformular sein.
+**Meine Geschichte:**
+ ist eine von leidenschaftlichem Selbststudium und kontinuierlichem Lernen und anwenden. Seit über 20 Jahren tauche ich in die Welt der Technologie ein, seit 2019 arbeite ich komplett remote. Meine Reise hat mich nach Südamerika geführt, wo ich jetzt lebe und arbeite. Was mich antreibt? Die endlose Neugier auf alles, was mit Technologie zu tun hat, und der Wunsch, mein Wissen mit anderen zu teilen.
 
-- [Verwenden von SEO:] Denke daran, SEO (Search Engine Optimization) zu verwenden, um dein Profil auffindbar zu machen. Verwende Schlüsselwörter und Phrasen, nach denen deine Zielgruppe suchen könnte.
+**Mein Fachwissen:**
+Mit zwei Jahrzehnten Erfahrung in der IT-Welt habe ich ein breites Spektrum an Fähigkeiten und Kenntnissen, Autodidakt entwickelt. Was mit der Installation von Druckertreibern begonnen hat, endet noch lange nicht bei meinen Angeboten wie z.B. Einrichtung von sicherer Kommunikation, Datentausch und der Beratung zu Backup- und Anwendungs-Architekturen – ich kenne mich aus. Egal, ob du Windows, Apple oder Linux nutzt, du kannst darauf vertrauen, dass du von einem Experten lernst.
 
-- [Aktualisierung:] Halte dein Profil aktuell. Wenn sich deine Interessen, Erfahrungen oder Ziele ändern, solltest du dein Profil entsprechend aktualisieren.
+**Kontaktiere mich – Ich bin echt!**
+Du findest mich auf vielen Plattformen, und wenn du Kontakt aufnimmst, sei versichert, dass immer ich selbst antworte. Keine Bots, keine automatisierten Nachrichten – nur ich, Sergius, mit all meinen menschlichen Eigenheiten, einschließlich meiner Rechtschreibfehler, die als eine Art menschliche Authentifizierung dienen. Und bitte wundere dich nicht über meine Nachfragen, ich möchte mich ebenso versichern, dass ich es mit einer echten Person zu tun habe. Deine Fragen und Anliegen sind mir wichtig, und ich freue mich darauf, persönlich mit dir in Kontakt zu treten.
 
-## Beispiel
+**Kontaktmöglichkeiten**
 
-Hier ist ein Beispiel für die Struktur deines persönlichen Profils:
+- **Threema:** Nutze ich privat und im engsten Freundeskreis schon seit 2013 und vertraue der Architektur. Meine Threema ID: **TE23YB2P**
+- **Telegram:** Ist für die Gruppen und Kanäle. Ermöglicht mir, einfach Inhalte plattformunabhängig zu tauschen und zu teilen. Nutze ich gerne, um die Telegram-Kanäle mit interessanten Shorts zu füllen. [Telegram-Sergius](https://t.me/Sergius_M){:target="_blank"}{: .prompt-tip }
+- **Handynummer für Anrufe:** Es gibt keine SIM-Karte, und sie kann nicht gestohlen oder kopiert werden. Es ist eine VoIP-Nummer und kann nur Telefonanrufe annehmen, und auch erst zu gewissen Zeiten. [Handynummer: +49 15678 232115](tel:+4915678232115){:target="_blank"}{: .prompt-tip }
+- **E-Mail:** Meine öffentliche Mail empfängt nur reinen Text. Links oder Code sortiert der Filter aus, und du kannst mir PGP-verschlüsselte E-Mails zusenden (was ich jedem nur empfehlen kann). [sergius@PYT.Academy](mailto:sergius@PYT.Academy){:target="_blank"}{: .prompt-tip }
+- **RSS-Feed:** Ich kümmere mich um einige Webseiten, und die [PYT-Academy](https://pyt-academy.github.io/){:target="_blank"}{: .prompt-tip } liegt mir aktuell 2023 besonders am Herzen. Zum einen ist es der Wechsel zu statischen Webseiten und deren Möglichkeiten, und zum anderen ist die PYT-Academy mein Baby. [Kopiere den RSS-Feed-Link](URL_DEINES_RSS_FEEDS), um auf dem Stand zu bleiben.
 
-- Ein einprägsamer Titel
 
-- Eine kurze Einführung über dich
+### Statement
 
-  - Eine tiefere Erklärung über deinen Hintergrund und deine Erfahrungen
-  - Einige persönliche Details, um zu zeigen, dass du eine echte Person bist
-  - Deine Fachkenntnisse und Fähigkeiten
+- Ich bin ein **CCC** und **Guy Fawkes** -Kind, dessen Philosophie und Werte ich seit 1995 (ich mit 14) verfolge und schätze. Die Veranstaltungen dieser Clubs haben mein Verständnis und meine Leidenschaft für die IT-Welt geprägt und sind heute wichtiger denn je. Hier sind einige Kernprinzipien, die meine persönlichen IT-Präferenzen definieren, ohne zu werten:
 
-- Kontaktinformationen oder ein Kontaktformular
+  + **Open-Source:** Ich glaube an die Kraft der Gemeinschaft und die Freiheit, Software zu teilen, zu modifizieren und zu verbessern. Open-Source fördert Kreativität, Zusammenarbeit und Transparenz.
+  + **Plattformunabhängigkeit:** Die Fähigkeit, Anwendungen und Dienste über verschiedene Betriebssysteme und Geräte hinweg zu nutzen, ist für mich von zentraler Bedeutung. Es fördert die Freiheit der Wahl und verhindert die Einschränkung durch proprietäre Systeme.
+  + **Datenschutz und Privatsphäre:** Der Schutz persönlicher Daten und die Wahrung der Privatsphäre sind nicht nur ethische Imperative, sondern auch grundlegende Menschenrechte. Ich setze mich für Technologien und Praktiken ein, die diese Werte respektieren.
+  + **Gemeinschaft:** Die Stärke der IT-Welt liegt in der Gemeinschaft. Ich schätze die Zusammenarbeit, das gemeinsame Lernen und den Austausch von Ideen, die eine inklusive und vielfältige Technologiegemeinschaft fördern.
 
-Denke daran, authentisch zu sein und deine eigene Stimme zu nutzen. Dein persönliches Profil sollte ein echtes Bild von dir vermitteln und deine Leser dazu ermutigen, mehr von deinen Beiträgen lesen zu wollen. {: .prompt-tip }
-
-## Webanalyse
-
-### Kernbausteine einer Webseite oder Landingpage
-
-### Header mit den Kernfragen
-
-worum geht's und Was bekomme ich hier
-
-Der Header einer Webseite ist das Erste, was ein Besucher sieht. Er sollte klar und präzise vermitteln, was die Seite anbietet und welche Vorteile der Besucher daraus ziehen kann. Bei der Analyse des Headers stellen Sie sicher, dass er sowohl ansprechend als auch informativ ist. Prüfen Sie, ob er die Hauptfragen "Worum geht es hier?" und "Was bekomme ich hier?" klar und deutlich beantwortet.
-
-### Ein Statement
-
-eine Überzeugung, darf polarisieren, Prinzipien, Glauben
-
-Hier sollte klar kommuniziert werden, was die Seite, das Unternehmen oder die Person hinter der Seite repräsentiert. Das Statement kann stark, überzeugend und sogar polarisierend sein, um sich von der Masse abzuheben. Analysieren Sie, ob das Statement klar formuliert ist, ob es eindeutig ist und ob es zur Markenidentität passt.
+Diese Prinzipien spiegeln nicht nur meine beruflichen Überzeugungen wider, sondern auch meine persönliche Philosophie. Sie leiten meine Arbeit und meine Interaktionen in der digitalen Welt.
 
 ### Testimonials
 
-Feedback von anderen oder Referenzen
+## Meine Dienstleistungen
 
-Testimonials sind sehr effektiv, um Vertrauen und Glaubwürdigkeit aufzubauen. Überprüfen Sie, ob die Testimonials authentisch und überzeugend sind. Fragen Sie sich, ob sie einen Mehrwert bieten und ob sie dazu beitragen, das Vertrauen in die angebotene Leistung oder das Produkt zu stärken.
+### dein persönlicher IT-Spezialist
 
-### Über Mich Sektion
-
-Diese Sektion gibt dem Besucher einen persönlichen Einblick in die Person oder das Unternehmen hinter der Seite. Überprüfen Sie, ob diese Sektion klar, ehrlich und ansprechend ist. Sie sollte sowohl informative als auch emotionale Aspekte beinhalten, um eine persönliche Verbindung zum Besucher herzustellen.
-
-### Angebot oder die eigentliche Leistung
-
-Hier sollte genau erklärt werden, was das Produkt, die Dienstleistung oder das Angebot ist. Analysieren Sie, ob es klar und eindeutig erklärt wird, ob die Vorteile und Funktionen hervorgehoben werden und ob alle notwendigen Informationen enthalten sind, um eine Kaufentscheidung zu treffen.
-
-## Privat Administration per Fernzugriff – Dein Freund in der digitalen Welt
-
-Hallo, ich bin Sergius, dein persönlicher IT-Spezialist. Seit über 20 Jahren bin ich ein leidenschaftlicher Autodidakt in der IT-Welt, und seit 2019 arbeite ich komplett remote. 2022 zog es mich nach Südamerika, wo ich lebe und arbeite. Die Infrastruktur dafür stelle ich selbst bereit. Meine Leidenschaft für Technologie möchte ich nun mit dir teilen.
-
-## Was ich dir bieten kann
+- Mit über 20 Jahren leidenschaftlicher Selbstbildung in der IT-Welt und seit 2019 komplett remote tätig, habe ich 2022 meinen Lebensmittelpunkt nach Südamerika verlegt. Die Infrastruktur dafür stelle ich selbst bereit, und meine Begeisterung für Technologie möchte ich nun mit dir teilen.
 
 ### Für Anfänger und Fortgeschrittene
 
-- **Privat Administration per Fernzugriff:** Hilfe bei Computerproblemen, Einrichtung von Programmen, Unterstützung beim Umstieg auf Linux.
-- **Plattformunabhängige Unterstützung:** Windows, Apple, Linux – ich kenne mich aus.
-- **Cyber-Security:** Schutz deiner Daten, Hilfe bei der Einrichtung von sicheren Verbindungen.
-- **Beratung zu Backup- und Kommunikations-Architekturen.**
+- **Privat Administration per Fernzugriff:** Ob Computerprobleme, Einrichtung von Programmen oder Unterstützung beim Umstieg auf Linux – ich bin für dich da.
 
-### Für Content Creator und Webseiten-Betreiber
+- **Plattformunabhängige Unterstützung:** Windows, Apple, Linux? Kein Problem, ich kenne mich aus.
 
-- **Erstellen und Aktualisieren einer privaten statischen Homepage.**
-- **Content Creation nach Aufwand:** Texterstellung, Bildbearbeitung, Videobearbeitung.
+- **Cyber-Security:** Schütze deine Daten und lass dich bei der Einrichtung von sicheren Verbindungen unterstützen.
 
-## Meine Patreon-Stufen
+- **Beratung zu Backup- und Kommunikations-Architekturen:** Individuelle Lösungen für deine Bedürfnisse.
 
-1. **Stufe 1 – Der Direkte Draht:** Zugang zu einem privaten [Elements-Raum](https://matrix.to/#/!YYpPXvLWWylbyQewbm:matrix.org?via=matrix.org){:target="_blank"}{: .prompt-tip }, wo du direkten Kontakt zu mir hast.
-2. **Stufe 2 – Beratung und Planung:** Alles aus Stufe 1 plus 1 Stunde Beratung monatlich.
-3. **Stufe 3 – Hands-On Unterstützung:** Alles aus Stufe 2 plus 2 Stunden Fernzugriff monatlich.
-4. **Stufe 4 – Webseiten-Management:** Alles aus Stufe 3 plus Erstellen und Aktualisieren einer privaten statischen Homepage.
-5. **Stufe 5 – Content Creation:** Individuell nach Aufwand.
+- **Für Content Creator und Webseiten-Betreiber**
+Erstellen und Aktualisieren von privaten statischen Homepages: Deine persönliche Webseite, professionell und effizient.
 
-## Kommunikation und Community
+- **Content Creation:** Von Texterstellung, Bildbearbeitung bis Videoeditierung – ich helfe dir, deinen Content zu gestalten.
+
+### Kommunikation und Community
 
 ![Desktop View](/assets/img/sergius/matrix-qr-pyt.academy.png){: width="256" height="256" .w-25 .right}
 
@@ -119,3 +88,27 @@ Hallo, ich bin Sergius, dein persönlicher IT-Spezialist. Seit über 20 Jahren b
 ## Kontaktiere mich
 
 Du hast Fragen oder möchtest meinen Service in Anspruch nehmen? Schreib mir einfach auf [Telegram](https://t.me/Sergius_M){:target="_blank"}{: .prompt-tip } – ich freue mich darauf, dir zu helfen!
+
+## Unterstützung
+
+Möchtest du mich unterstützen? Hier sind die Möglichkeiten:
+
+### Patreon
+
+**Patreon** ist eine Crowdfunding-Plattform, die es Künstlern, Schöpfern und Fachleuten ermöglicht, regelmäßige finanzielle Unterstützung von ihren Fans und Followern zu erhalten. Im Gegenzug bieten die Schöpfer auf Patreon oft exklusive Inhalte, Dienstleistungen oder Erfahrungen für ihre Unterstützer an, die als "Patrons" bekannt sind. Die Unterstützung erfolgt in der Regel auf monatlicher Basis und kann in verschiedenen Stufen oder "Tiers" erfolgen, die jeweils unterschiedliche Vorteile bieten. Patreon ermöglicht es Schöpfern, eine nachhaltige Einkommensquelle aufzubauen und gleichzeitig eine engere Verbindung zu ihrer Community herzustellen.
+
+- **Tear 1 – Der Direkte Draht:** Zugang zu einem privaten Elements-Raum{:target="_blank"}{: .prompt-tip }, für direkten Kontakt.
+
+- **Tear 2 – Beratung, Planung und Architektur:** Alles aus Tear-1 plus 1h. persönliche Beratung monatlich. Ich nehem mir zeit, nur für Dich ;-)
+
+- **Tear 3 – Hands-On Unterstützung:** Alles aus Tear-2 plus Remote Unterstützung. Hier lege ich selbst hand an deinem Rechner.
+
+- **Tear 4 – Webseiten-Management:** Alles aus Tear-3 plus Erstellung und Aktualisierung einer privaten statischen Homepage.
+
+- **Tear 5 – Content Creation:** Individuell nach Aufwand.
+
+### Direkter Support
+
+- **PayPal:** [Zahlung über PayPal](https://www.paypal.me/@sergiusmuschalle)
+- **Bitcoin:** [Zahlung mit Bitcoin](bitcoin:deineBitcoinAdresse)
+- **Ethereum:** [Zahlung mit Ethereum](ethereum:0xe5b82e31964a70698f2703dc17EB2Fd3E9780973)
