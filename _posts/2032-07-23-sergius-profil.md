@@ -1,9 +1,9 @@
 ---
-title: Sergius, Profil und Angebot
+title: Sergius, mein Profil, Projekte und Dienstleistungen
 date: 2023-07-19 17:36:00 -0400
-last_modified_at: 2023-07-19 17:36:00 -0400
-categories: [Autobiografie]
-tags: [Autobiografie]
+last_modified_at: 2023-08-07 10:30:00 -0400
+categories: [Profil, Kontakt, Dienstleistungen]
+tags: [IT-Spezialist, Fernzugriff, Cyber-Security, Plattformunabhängigkeit, Open-Source, Datenschutz, Content Creation, Patreon, Remote, Südamerika, Selbststudium, Technologie-Enthusiast, Community, Privatsphäre, Linux, Windows, Apple, Android]
 author: sergius
 image:
   path: /assets/img/Sergius-Logo-1200x630.png
@@ -11,11 +11,11 @@ image:
 
 ## Willkommen
 
-Hallo und herzlich willkommen auf meinem Profil! Mein Name ist Sergius M., und ich bin ein IT-Enthusiast. Hier findest du alles, was du über meine Dienstleistungen und Projekte wissen musst, von der privaten Administration per Fernzugriff bis hin zur Unterstützung bei der Einrichtung von sicheren Verbindungen und der Content-Erstellung. Ob du Windows, Apple oder Linux nutzt, ich kenne mich aus und stehe bereit, dir zu helfen. Du kannst auch meine Patreon-Stufen erkunden und dich meiner öffentlichen Telegram-Gruppe anschließen. Kurz gesagt, diese Seite ist dein One-Stop-Shop für alle deine IT-Bedürfnisse.
+Hallo und herzlich willkommen auf meinem Profil! Mein Name ist Sergius M., und ich bin ein IT-Enthusiast. Hier findest du alles, was du über meine Dienstleistungen und Projekte wissen musst, von der privaten Administration per Fernzugriff bis hin zur Unterstützung bei der Einrichtung von sicheren Verbindungen und der Content-Erstellung. Ob du Windows, Apple oder Linux nutzt, ich kenne mich aus und stehe bereit, dir zu helfen. Du kannst auch meine Patreon-Stufen erkunden und dich meiner öffentlichen Telegram-Gruppe anschließen. Kurz gesagt, diese Seite ist ein One-Stop-Shop, oder auch **Landingpage**, als übersicht für alle deine IT-Bedürfnisse.
 
 ### Warum ich das mache
 
-Effizienz und Übersichtlichkeit sind für mich Schlüsselwerte. In einer Welt, in der Technologie allgegenwärtig ist, möchte ich meinen Kunden eine klare und verständliche Ressource bieten, ohne dass ich jedem einzeln erklären muss, was ich mache. Diese Seite dient als meine digitale Visitenkarte, die dir nicht nur Zeit spart, sondern auch einen umfassenden Überblick über meine Angebote und Fähigkeiten gibt. Meine Leidenschaft für Technologie treibt mich an, und ich freue mich darauf, sie mit dir zu teilen.
+**Effizienz und Übersichtlichkeit** sind für mich Schlüsselwerte. In einer Welt, in der Technologie allgegenwärtig ist, möchte ich meinen Kontakten eine klare und verständliche Ressource bieten, ohne dass ich jedem einzeln erklären muss, was ich mache. Diese Seite dient als meine **digitale Visitenkarte**, die dir nicht nur Zeit spart, sondern auch einen umfassenden Überblick über meine **Angebote und Fähigkeiten** gibt. Meine Leidenschaft für Technologie treibt mich an, und ich freue mich darauf, sie mit dir zu teilen.
 
 ### Über mich
 
@@ -40,11 +40,11 @@ Du findest mich auf vielen Plattformen, und wenn du Kontakt aufnimmst, sei versi
 
 - **E-Mail:** Meine öffentliche Mail empfängt nur reinen Text. Links oder Code sortiert der Filter aus, und du kannst mir PGP-verschlüsselte E-Mails zusenden (was ich jedem nur empfehlen kann). [sergius@PYT.Academy](mailto:sergius@PYT.Academy){:target="_blank"}{: .prompt-tip }
 
-- **RSS-Feed:** Ich kümmere mich um einige Webseiten, und die [PYT-Academy](https://pyt-academy.github.io/){:target="_blank"}{: .prompt-tip } liegt mir aktuell 2023 besonders am Herzen. Zum einen ist es der Wechsel zu statischen Webseiten und deren Möglichkeiten, und zum anderen ist die PYT-Academy mein Baby. Hier der [RSS-Link](https://pyt-academy.github.io/feed.xml){:target="_blank"}{: .prompt-tip }, um auf dem Stand zu bleiben.
+- **RSS-Feed:** Ich kümmere mich um einige Webseiten, und die [PYT-Academy](https://pyt-academy.github.io/){:target="_blank"}{: .prompt-tip } liegt mir aktuell (2023) besonders am Herzen. Zum einen ist es der Wechsel zu statischen Webseiten und deren Möglichkeiten, und zum anderen ist die PYT-Academy mein Baby. Hier der [RSS-Link](https://pyt-academy.github.io/feed.xml){:target="_blank"}{: .prompt-tip }, um auf dem Stand zu bleiben.
 
 ### Statement / Überzeugung
 
-- Ich bin ein **CCC** und **Guy Fawkes** -Kind, dessen Philosophie und Werte ich seit 1995 (ich mit 14) verfolge und schätze. Die Veranstaltungen dieser Clubs haben mein Verständnis und meine Leidenschaft für die IT-Welt geprägt und sind heute wichtiger denn je. Hier sind einige Kernprinzipien, die meine persönlichen IT-Präferenzen definieren, ohne andere zu werten:
+- Ich bin ein **CCC** und **Guy Fawkes** -Kind, dessen Philosophie und Werte seit meinem 14ten Lebensjahr verfolge und schätze. Die Veranstaltungen und Veröffentlichung dieser Clubs haben mein Verständnis und meine Leidenschaft für die IT-Welt geprägt und sind heute wichtiger denn je. Hier sind einige Kernprinzipien, die meine persönlichen IT-Präferenzen definieren, ohne andere zu werten:
 
   - **Open-Source:** Ich glaube an die Kraft der Gemeinschaft und die Freiheit, Software zu teilen, zu modifizieren und zu verbessern. Open-Source fördert Kreativität, Zusammenarbeit und Transparenz.
 
@@ -58,13 +58,13 @@ Diese Prinzipien spiegeln nicht nur meine beruflichen Überzeugungen wider, sond
 
 ### Testimonials
 
-hier ist der Absatz für meine Referenzen
+hier ist der Absatz für meine Referenzen. Kontaktiere mich, wenn du etwas übr mich zu sagen hast.
 
 ## Meine Dienstleistungen
 
 ### dein persönlicher IT-Spezialist
 
-- Mit über 20 Jahren leidenschaftlicher Selbstbildung in der IT-Welt und seit 2019 komplett remote tätig, habe ich 2022 meinen Lebensmittelpunkt nach Südamerika verlegt. Die Infrastruktur dafür stelle ich selbst bereit, und meine Begeisterung für Technologie möchte ich nun mit dir teilen.
+- Mit über 20 Jahren leidenschaftlicher Selbstbildung in der IT-Welt und seit 2019 komplett remote tätig, habe ich 2022 meinen Lebensmittelpunkt nach Südamerika verlegt. Die Digitale Infrastruktur dafür stelle ich selbst bereit, und meine Begeisterung für Technologie möchte ich nun mit dir teilen.
 
 ### Für Anfänger und Fortgeschrittene
 
@@ -94,7 +94,7 @@ Erstellen und Aktualisieren von privaten statischen Homepages: Deine persönlich
 
 - **Nur für Privatpersonen:** Meine Dienstleistungen richtet sich ausschließlich an Privatpersonen, gewerbliche Anfragen kann und will ich nicht entgegennehmen.
 
-- **Keine Werbung oder Cooperationen** Ich mache für niemanden Werbung und nehme auch keine Werbeanfragen entgegen.
+- **Keine Werbung oder Cooperationen** Ich mache für niemanden Werbung und nehme auch keine Werbeanfragen entgegen. Biite vertraut keinen Werbelinks in meinem Namen, es sit mit sicherheit Spam oder Fishing.
 
 ## Unterstützung
 
