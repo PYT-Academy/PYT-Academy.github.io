@@ -36,7 +36,7 @@ Du findest mich auf vielen Plattformen, und wenn du Kontakt aufnimmst, sei versi
 
 - **Telegram:** Ist für die Gruppen und Kanäle. Ermöglicht mir, einfach Inhalte plattformunabhängig zu tauschen und zu teilen. Nutze ich gerne, um die Telegram-Kanäle mit interessanten Shorts zu füllen. [Telegram-Sergius](https://t.me/Sergius_M){:target="_blank"}{: .prompt-tip }
 
-- **Handynummer für Anrufe:** Es gibt keine SIM-Karte, und sie kann nicht gestohlen oder kopiert werden. Es ist eine VoIP-Nummer und kann nur Telefonanrufe annehmen, und auch erst zu gewissen Zeiten. [Handynummer](tel:+4915678232115){:target="_blank"}{: .prompt-tip }
+- **Handynummer für Anrufe:** Es gibt keine SIM-Karte, und sie kann nicht gestohlen oder kopiert werden. Es ist eine VoIP-Nummer und kann nur Telefonanrufe annehmen, und auch erst zu bestimmten Zeiten. [Handynummer](tel:+4915678232115){:target="_blank"}{: .prompt-tip }
 
 - **E-Mail:** Meine öffentliche Mail empfängt nur reinen Text. Links oder Code sortiert der Filter aus, und du kannst mir PGP-verschlüsselte E-Mails zusenden (was ich jedem nur empfehlen kann). [sergius@PYT.Academy](mailto:sergius@PYT.Academy){:target="_blank"}{: .prompt-tip }
 
@@ -44,7 +44,7 @@ Du findest mich auf vielen Plattformen, und wenn du Kontakt aufnimmst, sei versi
 
 ### Statement / Überzeugung
 
-- Ich bin ein **CCC** und **Guy Fawkes** -Kind, dessen Philosophie und Werte seit meinem 14ten Lebensjahr verfolge und schätze. Die Veranstaltungen und Veröffentlichung dieser Clubs haben mein Verständnis und meine Leidenschaft für die IT-Welt geprägt und sind heute wichtiger denn je. Hier sind einige Kernprinzipien, die meine persönlichen IT-Präferenzen definieren, ohne andere zu werten:
+- Ich bin ein **"CCC-"** und **"Guy Fawkes-"** **-Kind**, dessen Philosophie und Werte seit meinem 14ten Lebensjahr verfolge und schätze. Die Veranstaltungen und Veröffentlichung dieser Clubs haben mein Verständnis und meine Leidenschaft für die IT-Welt geprägt und sind heute wichtiger denn je. Hier sind einige Kernprinzipien, die meine persönlichen IT-Präferenzen definieren, ohne andere zu werten:
 
   - **Open-Source:** Ich glaube an die Kraft der Gemeinschaft und die Freiheit, Software zu teilen, zu modifizieren und zu verbessern. Open-Source fördert Kreativität, Zusammenarbeit und Transparenz.
 
@@ -58,7 +58,7 @@ Diese Prinzipien spiegeln nicht nur meine beruflichen Überzeugungen wider, sond
 
 ### Testimonials
 
-hier ist der Absatz für meine Referenzen. Kontaktiere mich, wenn du etwas übr mich zu sagen hast.
+hier ist der Absatz für meine Referenzen. Kontaktiere mich, wenn du etwas über mich sagen möchtest.
 
 ## Meine Dienstleistungen
 
