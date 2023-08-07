@@ -97,7 +97,7 @@ Hallo, ich bin Sergius, dein persönlicher IT-Spezialist. Seit über 20 Jahren b
 
 ## Meine Patreon-Stufen
 
-1. **Stufe 1 – Der Direkte Draht:** Zugang zu einem privaten [Elements-Raum](https://matrix.to/#/!YYpPXvLWWylbyQewbm:matrix.org?via=matrix.org){:target="_blank"} {: .prompt-tip }, wo du direkten Kontakt zu mir hast.
+1. **Stufe 1 – Der Direkte Draht:** Zugang zu einem privaten [Elements-Raum](https://matrix.to/#/!YYpPXvLWWylbyQewbm:matrix.org?via=matrix.org){:target="_blank"}{: .prompt-tip }, wo du direkten Kontakt zu mir hast.
 2. **Stufe 2 – Beratung und Planung:** Alles aus Stufe 1 plus 1 Stunde Beratung monatlich.
 3. **Stufe 3 – Hands-On Unterstützung:** Alles aus Stufe 2 plus 2 Stunden Fernzugriff monatlich.
 4. **Stufe 4 – Webseiten-Management:** Alles aus Stufe 3 plus Erstellen und Aktualisieren einer privaten statischen Homepage.
@@ -105,10 +105,10 @@ Hallo, ich bin Sergius, dein persönlicher IT-Spezialist. Seit über 20 Jahren b
 
 ## Kommunikation und Community
 
-- **Öffentliche Telegram-Gruppe:** Schließe dich meiner Gruppe [IT-Systemhaus](https://t.me/IT_Systemhaus){:target="_blank"} {: .prompt-tip } an.
-- **Privater Elements-Raum für Patreons:** Kommuniziere mit anderen Patreons und mir im [privaten Elements-Raum](https://matrix.to/#/!YYpPXvLWWylbyQewbm:matrix.org?via=matrix.org){:target="_blank"} {: .prompt-tip }.
-- **PYT-Academy Blog und Discord:** Besuche die [PYT-Academy Webseite](https://pyt-academy.github.io/){:target="_blank"} {: .prompt-tip } und vernetze dich mit Jugendlichen aus der Region
-- **Patreon Raum auf Discord:** [PYT Discord-Server](https://discord.gg/WxaJcnuXAh){:target="_blank"} {: .prompt-tip } wird automatisch mit Patreon freigeschalten.
+- **Öffentliche Telegram-Gruppe:** Schließe dich meiner Gruppe [IT-Systemhaus](https://t.me/IT_Systemhaus){:target="_blank"}{: .prompt-tip } an.
+- **Privater Elements-Raum für Patreons:** Kommuniziere mit anderen Patreons und mir im [privaten Elements-Raum](https://matrix.to/#/!YYpPXvLWWylbyQewbm:matrix.org?via=matrix.org){:target="_blank"}{: .prompt-tip }.
+- **PYT-Academy Blog und Discord:** Besuche die [PYT-Academy Webseite](https://pyt-academy.github.io/){:target="_blank"}{: .prompt-tip } und vernetze dich mit Jugendlichen aus der Region
+- **Patreon Raum auf Discord:** [PYT Discord-Server](https://discord.gg/WxaJcnuXAh){:target="_blank"}{: .prompt-tip } wird automatisch mit Patreon freigeschalten.
 
 ## Wichtig zu wissen
 
