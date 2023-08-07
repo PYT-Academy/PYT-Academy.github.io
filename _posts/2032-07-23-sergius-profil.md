@@ -110,5 +110,4 @@ Möchtest du mich unterstützen? Hier sind die Möglichkeiten:
 ### Direkter Support
 
 - **PayPal:** [Zahlung über PayPal](https://www.paypal.me/@sergiusmuschalle)
-- **Bitcoin:** [Zahlung mit Bitcoin](bitcoin:deineBitcoinAdresse)
-- **Ethereum:** [Zahlung mit Ethereum](ethereum:0xe5b82e31964a70698f2703dc17EB2Fd3E9780973)
+- **Ethereum:** **0xe5b82e31964a70698f2703dc17EB2Fd3E9780973**
