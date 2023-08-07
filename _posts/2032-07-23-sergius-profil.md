@@ -17,7 +17,7 @@ Hallo und herzlich willkommen auf meinem Profil! Mein Name ist Sergius M., und i
 
 Effizienz und Übersichtlichkeit sind für mich Schlüsselwerte. In einer Welt, in der Technologie allgegenwärtig ist, möchte ich meinen Kunden eine klare und verständliche Ressource bieten, ohne dass ich jedem einzeln erklären muss, was ich mache. Diese Seite dient als meine digitale Visitenkarte, die dir nicht nur Zeit spart, sondern auch einen umfassenden Überblick über meine Angebote und Fähigkeiten gibt. Meine Leidenschaft für Technologie treibt mich an, und ich freue mich darauf, sie mit dir zu teilen.
 
-## Über mich
+### Über mich
 
 ![Desktop View](/assets/img/sergius-im-buero.png){: width="972" height="589" }
 
@@ -86,9 +86,9 @@ Erstellen und Aktualisieren von privaten statischen Homepages: Deine persönlich
 ![Desktop View](/assets/img/sergius/matrix-qr-pyt.academy.png){: width="256" height="256" .w-25 .right}
 
 - **Öffentliche Telegram-Gruppe:** Schließe dich meiner Gruppe [IT-Systemhaus](https://t.me/IT_Systemhaus){:target="_blank"}{: .prompt-tip } an.
-- **Privater Elements-Raum für Patreons:** Kommuniziere mit anderen Patreons und mir im [privaten Elements-Raum](https://matrix.to/#/!YYpPXvLWWylbyQewbm:matrix.org?via=matrix.org){:target="_blank"}{: .prompt-tip }.
+- **Privater Elements-Raum:** Kommuniziere mit anderen Patreons und mir im [privaten Elements-Raum](https://matrix.to/#/!YYpPXvLWWylbyQewbm:matrix.org?via=matrix.org){:target="_blank"}{: .prompt-tip }.
 - **PYT-Academy Blog und Discord:** Besuche die [PYT-Academy Webseite](https://pyt-academy.github.io/){:target="_blank"}{: .prompt-tip } und vernetze dich mit Jugendlichen aus der Region
-- **Patreon Raum auf Discord:** [PYT Discord-Server](https://discord.gg/WxaJcnuXAh){:target="_blank"}{: .prompt-tip } wird automatisch mit Patreon freigeschalten.
+- **Patreon Raum auf Discord:** [PYT Discord-Server](https://discord.gg/WxaJcnuXAh){:target="_blank"}{: .prompt-tip } wird automatisch mit der Entsprechenden Patreon-stufe freigeschalten.
 
 ## Wichtig zu wissen
 
@@ -106,7 +106,7 @@ Möchtest du mich unterstützen? Hier sind die Möglichkeiten:
 
 [mein Patreon Link](https://patreon.com/user?u=67742872){:target="_blank"}{: .prompt-tip }
 
-- **Tear 1 – Der Direkte Draht:** Zugang zu einem privaten Elements-Raum{:target="_blank"}{: .prompt-tip }, für direkten Kontakt.
+- **Tear 1 – Der Direkte Draht:** Zugang zu einem privaten Elements-Raum, für direkten Chat-Kontakt.
 
 - **Tear 2 – Beratung, Planung und Architektur:** Alles aus Tear-1 plus 1h. persönliche Beratung monatlich. Ich nehem mir zeit, nur für Dich
 
@@ -114,7 +114,7 @@ Möchtest du mich unterstützen? Hier sind die Möglichkeiten:
 
 - **Tear 4 – Webseiten-Management:** Alles aus Tear-3 plus Erstellung und Aktualisierung einer privaten statischen Homepage.
 
-- **Tear 5 – Content Creation:** Individuell nach Aufwand.
+- **Tear 5 – Content Creation:** alles aus den vorherigen Tears und mehr Individuell nach Aufwand.
 
 ### Direkter Support
 
