@@ -35,3 +35,7 @@ $$ c^{2} = a^{2} + b^{2} - 2 \cdot a \cdot b \cdot \cos(C) $$
 Der Sinussatz erlaubt es uns, Seiten und Winkel in einem Dreieck zu berechnen, wenn entweder zwei Seiten und ein nicht eingeschlossener Winkel oder zwei Winkel und eine Seite gegeben sind.
 
 $$ \frac{a}{\sin(A)} = \frac{b}{\sin(B)} = \frac{c}{\sin(C)} $$
+
+Mathe
+
+$$\sqrt{\frac{1}{2}} = \frac{1}{\sqrt{2}} = \frac{\sqrt{2}}{2} = \left(\frac{1}{2}\right)^{\frac{1}{2}} = \left(\frac{1}{4} right)^{\frac{1}{4}} = {\huge 2}^{-\frac{1}{2}} = \sin(45^\circ) = \cos(45^\circ) = \frac{\sqrt{2} \cdot a}{2}$$
