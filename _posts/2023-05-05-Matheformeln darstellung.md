@@ -26,7 +26,9 @@ $$ \text{Kosinus} (\cos) = \frac{\text{Ankathete} (\text{ca})}{\text{Hypotenuse}
 Der Kosinussatz erlaubt es uns, Seiten und Winkel in einem Dreieck zu berechnen, wenn entweder zwei Seiten und der eingeschlossene Winkel oder drei Seiten gegeben sind.
 
 $$ a^{2} = b^{2} + c^{2} - 2 \cdot b \cdot c \cdot \cos(A) $$
+
 $$ b^{2} = a^{2} + c^{2} - 2 \cdot a \cdot c \cdot \cos(B) $$
+
 $$ c^{2} = a^{2} + b^{2} - 2 \cdot a \cdot b \cdot \cos(C) $$
 
 ### Sinussatz
