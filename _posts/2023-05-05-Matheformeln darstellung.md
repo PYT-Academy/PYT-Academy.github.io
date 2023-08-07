@@ -38,4 +38,15 @@ $$ \frac{a}{\sin(A)} = \frac{b}{\sin(B)} = \frac{c}{\sin(C)} $$
 
 Mathe
 
-$$\sqrt{\frac{1}{2}} = \frac{1}{\sqrt{2}} = \frac{\sqrt{2}}{2} = \left(\frac{1}{2}\right)^{\frac{1}{2}} = \left(\frac{1}{4} right)^{\frac{1}{4}} = {\huge 2}^{-\frac{1}{2}} = \sin(45^\circ) = \cos(45^\circ) = \frac{\sqrt{2} \cdot a}{2}$$
+$$ \sqrt{\frac{1}{2}} = \frac{1}{\sqrt{2}} = \frac{\sqrt{2}}{2} = \left(\frac{1}{2}\right)^{\frac{1}{2}} = \left(\frac{1}{4} right)^{\frac{1}{4}} = {\huge 2}^{-\frac{1}{2}} = \sin(45^\circ) = \cos(45^\circ) = \frac{\sqrt{2} \cdot a}{2} $$
+
+\[
+\sqrt{\frac{1}{2}} =
+\frac{1}{\sqrt{2}} = 
+\frac{\sqrt{2}}{2} = 
+\left(\frac{1}{2}\right)^{\frac{1}{2}} = \left(\frac{1}{4}\right)^{\frac{1}{4}} = 
+{\Huge 2}^{-\frac{1}{2}} = 
+\sin(45^\circ) = 
+\cos(45^\circ) = 
+\frac{\sqrt{2} \cdot a}{2}
+\]
