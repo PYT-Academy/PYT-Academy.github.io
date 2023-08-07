@@ -118,4 +118,4 @@ Hallo, ich bin Sergius, dein persönlicher IT-Spezialist. Seit über 20 Jahren b
 
 ## Kontaktiere mich
 
-Du hast Fragen oder möchtest meinen Service in Anspruch nehmen? Schreib mir einfach auf [Telegram](https://t.me/Sergius_M) – ich freue mich darauf, dir zu helfen!
+Du hast Fragen oder möchtest meinen Service in Anspruch nehmen? Schreib mir einfach auf [Telegram](https://t.me/Sergius_M){:target="_blank"}{: .prompt-tip } – ich freue mich darauf, dir zu helfen!
