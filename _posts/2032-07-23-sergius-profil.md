@@ -105,7 +105,8 @@ Hallo, ich bin Sergius, dein persönlicher IT-Spezialist. Seit über 20 Jahren b
 
 ## Kommunikation und Community
 
-![Desktop View](/assets/img/sergius/matrix-qr-pyt.academy.png){: width="256" height="256" .w-25 .right}
+<img src="/assets/img/sergius/matrix-qr-pyt.academy.png" alt="Desktop View" width="256" height="256" class="w-50 right" />
+
 
 - **Öffentliche Telegram-Gruppe:** Schließe dich meiner Gruppe [IT-Systemhaus](https://t.me/IT_Systemhaus){:target="_blank"}{: .prompt-tip } an.
 - **Privater Elements-Raum für Patreons:** Kommuniziere mit anderen Patreons und mir im [privaten Elements-Raum](https://matrix.to/#/!YYpPXvLWWylbyQewbm:matrix.org?via=matrix.org){:target="_blank"}{: .prompt-tip }.
