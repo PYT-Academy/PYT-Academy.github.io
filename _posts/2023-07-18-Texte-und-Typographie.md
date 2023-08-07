@@ -1,7 +1,7 @@
 ---
 title: Texte und Typographiebeispiele
 date: 2023-07-17 11:33:00 -0400
-last_modified_at: 2023-07-20 11:33:00 -0400
+last_modified_at: 2023-08-07 11:33:00 -0400
 categories: [Projekte, Homepage]
 tags: [Texte, Typographie, Kommunikation, Schriftarten, Zeilenabstände]
 author: sergius
@@ -10,10 +10,10 @@ mermaid: true
 image:
   path: /assets/img/devices-mockup.png
   lqip:
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  alt: Profilbild
 ---
 
-# Gute Typographie
+## Gute Typographie
 >
 > ist mehr als nur Ästhetik. Sie ist ein entscheidender Aspekt der effektiven Kommunikation. Durch eine durchdachte Auswahl von Schriftarten, Schriftgrößen, Zeilenabständen und -längen kann eine gute Typographie dazu beitragen, Informationen klarer zu vermitteln, die Lesbarkeit zu verbessern und das allgemeine Benutzererlebnis zu verbessern.
 
