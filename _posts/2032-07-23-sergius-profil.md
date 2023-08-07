@@ -105,7 +105,7 @@ Möchtest du mich unterstützen? Hier sind die Möglichkeiten:
 
 **Patreon** ist eine Crowdfunding-Plattform, die es Künstlern, Schöpfern und Fachleuten ermöglicht, regelmäßige finanzielle Unterstützung von ihren Fans und Followern zu erhalten. Im Gegenzug bieten die Schöpfer auf Patreon oft exklusive Inhalte, Dienstleistungen oder Erfahrungen für ihre Unterstützer an, die als "Patrons" bekannt sind. Die Unterstützung erfolgt in der Regel auf monatlicher Basis und kann in verschiedenen Stufen oder "Tiers" erfolgen, die jeweils unterschiedliche Vorteile bieten. Patreon ermöglicht es Schöpfern, eine nachhaltige Einkommensquelle aufzubauen und gleichzeitig eine engere Verbindung zu ihrer Community herzustellen.
 
-[mein Patreon Link](patreon.com/user?u=67742872){:target="_blank"}{: .prompt-tip }
+[mein Patreon Link](https://patreon.com/user?u=67742872){:target="_blank"}{: .prompt-tip }
 
 - **Tear 1 – Der Direkte Draht:** Zugang zu einem privaten Elements-Raum{:target="_blank"}{: .prompt-tip }, für direkten Kontakt.
 
