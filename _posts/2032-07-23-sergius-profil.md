@@ -9,7 +9,7 @@ image:
   path: /assets/img/Sergius-Logo-1200x630.png
 ---
 
-# Aufbau des Profil's
+## Aufbau des Profil's
 
 Ein persönliches Profil für deine Blogger-Webseite zu erstellen ist ein wichtiger Schritt, um deinen Lesern zu helfen, dich besser zu verstehen und zu verbinden. Hier sind einige Schritte, die du befolgen kannst. Weiterführende informationen findest du unter "Webanalyse"
 
@@ -39,9 +39,9 @@ Hier ist ein Beispiel für die Struktur deines persönlichen Profils:
 
 - Eine kurze Einführung über dich
 
-  + Eine tiefere Erklärung über deinen Hintergrund und deine Erfahrungen
-  + Einige persönliche Details, um zu zeigen, dass du eine echte Person bist
-  + Deine Fachkenntnisse und Fähigkeiten
+  - Eine tiefere Erklärung über deinen Hintergrund und deine Erfahrungen
+  - Einige persönliche Details, um zu zeigen, dass du eine echte Person bist
+  - Deine Fachkenntnisse und Fähigkeiten
 
 - Kontaktinformationen oder ein Kontaktformular
 
@@ -104,6 +104,8 @@ Hallo, ich bin Sergius, dein persönlicher IT-Spezialist. Seit über 20 Jahren b
 5. **Stufe 5 – Content Creation:** Individuell nach Aufwand.
 
 ## Kommunikation und Community
+
+![Desktop View](/assets/img/sergius/matrix-qr-pyt.academy.png){: width="256" height="256" .w-50 .right}
 
 - **Öffentliche Telegram-Gruppe:** Schließe dich meiner Gruppe [IT-Systemhaus](https://t.me/IT_Systemhaus){:target="_blank"}{: .prompt-tip } an.
 - **Privater Elements-Raum für Patreons:** Kommuniziere mit anderen Patreons und mir im [privaten Elements-Raum](https://matrix.to/#/!YYpPXvLWWylbyQewbm:matrix.org?via=matrix.org){:target="_blank"}{: .prompt-tip }.
