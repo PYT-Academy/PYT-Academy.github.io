@@ -175,8 +175,7 @@ fi;
 
 ## Mathematische darstellung für Formeln
 
-The mathematics powered by [**MathJax**](https://www.mathjax.org/){:target="_blank"}
-{: .prompt-tip }:
+The mathematics powered by [**MathJax**](https://www.mathjax.org/){:target="_blank"}{: .prompt-tip }:
 
 $$ \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6} $$
 
