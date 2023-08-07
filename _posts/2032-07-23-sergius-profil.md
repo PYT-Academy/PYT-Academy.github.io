@@ -29,27 +29,35 @@ Mit zwei Jahrzehnten Erfahrung in der IT-Welt habe ich ein breites Spektrum an F
 **Kontaktiere mich – Ich bin echt!**
 Du findest mich auf vielen Plattformen, und wenn du Kontakt aufnimmst, sei versichert, dass immer ich selbst antworte. Keine Bots, keine automatisierten Nachrichten – nur ich, Sergius, mit all meinen menschlichen Eigenheiten, einschließlich meiner Rechtschreibfehler, die als eine Art menschliche Authentifizierung dienen. Und bitte wundere dich nicht über meine Nachfragen, ich möchte mich ebenso versichern, dass ich es mit einer echten Person zu tun habe. Deine Fragen und Anliegen sind mir wichtig, und ich freue mich darauf, persönlich mit dir in Kontakt zu treten.
 
-**Kontaktmöglichkeiten**
+### Kontaktmöglichkeiten
 
 - **Threema:** Nutze ich privat und im engsten Freundeskreis schon seit 2013 und vertraue der Architektur. Meine Threema ID: **TE23YB2P**
-- **Telegram:** Ist für die Gruppen und Kanäle. Ermöglicht mir, einfach Inhalte plattformunabhängig zu tauschen und zu teilen. Nutze ich gerne, um die Telegram-Kanäle mit interessanten Shorts zu füllen. [Telegram-Sergius](https://t.me/Sergius_M){:target="_blank"}{: .prompt-tip }
-- **Handynummer für Anrufe:** Es gibt keine SIM-Karte, und sie kann nicht gestohlen oder kopiert werden. Es ist eine VoIP-Nummer und kann nur Telefonanrufe annehmen, und auch erst zu gewissen Zeiten. [Handynummer: +49 15678 232115](tel:+4915678232115){:target="_blank"}{: .prompt-tip }
-- **E-Mail:** Meine öffentliche Mail empfängt nur reinen Text. Links oder Code sortiert der Filter aus, und du kannst mir PGP-verschlüsselte E-Mails zusenden (was ich jedem nur empfehlen kann). [sergius@PYT.Academy](mailto:sergius@PYT.Academy){:target="_blank"}{: .prompt-tip }
-- **RSS-Feed:** Ich kümmere mich um einige Webseiten, und die [PYT-Academy](https://pyt-academy.github.io/){:target="_blank"}{: .prompt-tip } liegt mir aktuell 2023 besonders am Herzen. Zum einen ist es der Wechsel zu statischen Webseiten und deren Möglichkeiten, und zum anderen ist die PYT-Academy mein Baby. [Kopiere den RSS-Feed-Link](URL_DEINES_RSS_FEEDS), um auf dem Stand zu bleiben.
 
+- **Telegram:** Ist für die Gruppen und Kanäle. Ermöglicht mir, einfach Inhalte plattformunabhängig zu tauschen und zu teilen. Nutze ich gerne, um die Telegram-Kanäle mit interessanten Shorts zu füllen. [Telegram-Sergius](https://t.me/Sergius_M){:target="_blank"}{: .prompt-tip }
+
+- **Handynummer für Anrufe:** Es gibt keine SIM-Karte, und sie kann nicht gestohlen oder kopiert werden. Es ist eine VoIP-Nummer und kann nur Telefonanrufe annehmen, und auch erst zu gewissen Zeiten. [Handynummer: +49 15678 232115](tel:+4915678232115){:target="_blank"}{: .prompt-tip }
+
+- **E-Mail:** Meine öffentliche Mail empfängt nur reinen Text. Links oder Code sortiert der Filter aus, und du kannst mir PGP-verschlüsselte E-Mails zusenden (was ich jedem nur empfehlen kann). [sergius@PYT.Academy](mailto:sergius@PYT.Academy){:target="_blank"}{: .prompt-tip }
+
+- **RSS-Feed:** Ich kümmere mich um einige Webseiten, und die [PYT-Academy](https://pyt-academy.github.io/){:target="_blank"}{: .prompt-tip } liegt mir aktuell 2023 besonders am Herzen. Zum einen ist es der Wechsel zu statischen Webseiten und deren Möglichkeiten, und zum anderen ist die PYT-Academy mein Baby. [Kopiere den RSS-Feed-Link](URL_DEINES_RSS_FEEDS), um auf dem Stand zu bleiben.
 
 ### Statement
 
 - Ich bin ein **CCC** und **Guy Fawkes** -Kind, dessen Philosophie und Werte ich seit 1995 (ich mit 14) verfolge und schätze. Die Veranstaltungen dieser Clubs haben mein Verständnis und meine Leidenschaft für die IT-Welt geprägt und sind heute wichtiger denn je. Hier sind einige Kernprinzipien, die meine persönlichen IT-Präferenzen definieren, ohne zu werten:
 
-  + **Open-Source:** Ich glaube an die Kraft der Gemeinschaft und die Freiheit, Software zu teilen, zu modifizieren und zu verbessern. Open-Source fördert Kreativität, Zusammenarbeit und Transparenz.
-  + **Plattformunabhängigkeit:** Die Fähigkeit, Anwendungen und Dienste über verschiedene Betriebssysteme und Geräte hinweg zu nutzen, ist für mich von zentraler Bedeutung. Es fördert die Freiheit der Wahl und verhindert die Einschränkung durch proprietäre Systeme.
-  + **Datenschutz und Privatsphäre:** Der Schutz persönlicher Daten und die Wahrung der Privatsphäre sind nicht nur ethische Imperative, sondern auch grundlegende Menschenrechte. Ich setze mich für Technologien und Praktiken ein, die diese Werte respektieren.
-  + **Gemeinschaft:** Die Stärke der IT-Welt liegt in der Gemeinschaft. Ich schätze die Zusammenarbeit, das gemeinsame Lernen und den Austausch von Ideen, die eine inklusive und vielfältige Technologiegemeinschaft fördern.
+  - **Open-Source:** Ich glaube an die Kraft der Gemeinschaft und die Freiheit, Software zu teilen, zu modifizieren und zu verbessern. Open-Source fördert Kreativität, Zusammenarbeit und Transparenz.
+
+  - **Plattformunabhängigkeit:** Die Fähigkeit, Anwendungen und Dienste über verschiedene Betriebssysteme und Geräte hinweg zu nutzen, ist für mich von zentraler Bedeutung. Es fördert die Freiheit der Wahl und verhindert die Einschränkung durch proprietäre Systeme.
+
+  - **Datenschutz und Privatsphäre:** Der Schutz persönlicher Daten und die Wahrung der Privatsphäre sind nicht nur ethische Imperative, sondern auch grundlegende Menschenrechte. Ich setze mich für Technologien und Praktiken ein, die diese Werte respektieren.
+
+  - **Gemeinschaft:** Die Stärke der IT-Welt liegt in der Gemeinschaft. Ich schätze die Zusammenarbeit, das gemeinsame Lernen und den Austausch von Ideen, die eine inklusive und vielfältige Technologiegemeinschaft fördern.
 
 Diese Prinzipien spiegeln nicht nur meine beruflichen Überzeugungen wider, sondern auch meine persönliche Philosophie. Sie leiten meine Arbeit und meine Interaktionen in der digitalen Welt.
 
 ### Testimonials
+
+hier ist der Absatz für meine Referenzen
 
 ## Meine Dienstleistungen
 
@@ -97,9 +105,11 @@ Möchtest du mich unterstützen? Hier sind die Möglichkeiten:
 
 **Patreon** ist eine Crowdfunding-Plattform, die es Künstlern, Schöpfern und Fachleuten ermöglicht, regelmäßige finanzielle Unterstützung von ihren Fans und Followern zu erhalten. Im Gegenzug bieten die Schöpfer auf Patreon oft exklusive Inhalte, Dienstleistungen oder Erfahrungen für ihre Unterstützer an, die als "Patrons" bekannt sind. Die Unterstützung erfolgt in der Regel auf monatlicher Basis und kann in verschiedenen Stufen oder "Tiers" erfolgen, die jeweils unterschiedliche Vorteile bieten. Patreon ermöglicht es Schöpfern, eine nachhaltige Einkommensquelle aufzubauen und gleichzeitig eine engere Verbindung zu ihrer Community herzustellen.
 
+[mein Patreon Link](patreon.com/user?u=67742872){:target="_blank"}{: .prompt-tip }
+
 - **Tear 1 – Der Direkte Draht:** Zugang zu einem privaten Elements-Raum{:target="_blank"}{: .prompt-tip }, für direkten Kontakt.
 
-- **Tear 2 – Beratung, Planung und Architektur:** Alles aus Tear-1 plus 1h. persönliche Beratung monatlich. Ich nehem mir zeit, nur für Dich ;-)
+- **Tear 2 – Beratung, Planung und Architektur:** Alles aus Tear-1 plus 1h. persönliche Beratung monatlich. Ich nehem mir zeit, nur für Dich
 
 - **Tear 3 – Hands-On Unterstützung:** Alles aus Tear-2 plus Remote Unterstützung. Hier lege ich selbst hand an deinem Rechner.
 
