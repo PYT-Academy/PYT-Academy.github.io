@@ -8,11 +8,24 @@ author: david
 pin: true
 ---
 
-Hallo Team, 
-Lasst uns an den Aufbaudiagramm arbeiten. Hier der Chatverlauf für weiterführende Informationen
+## Update 09.08.2023
 
-> [Chatverlauf ChatGPT](https://chat.openai.com/share/5a6b8490-468f-4960-89b4-9ff8ea1c5178){:target="_blank"}
-{: .prompt-tip }
+### Installation und Einrichtung von OPNsense
+
+- das Immage AMD64 in der VGA Version runderladen und mit Rufus Brennen
+- den Rechner von USB Booten, das system startet als Live-System. Nichts machen bis der Anmeldebilschirm erscheint
+- Als User: install und Passwort: opnsense eingeben
+- Es öffnet sich ein Installations-Assisten. Das einzige was ich ändere ist die Tastatur auf Deutsch und das Dateisystem auf "ZFS". Vergebe ein neues Root Passwort und lasse den Installationsmanager durchlaufen. Bestätige dass die Installation und das Formatieren der Festplatte. Der Installationsmanager startet den Rechner neu und dann geht es im Lokalen Netzwerk weiter
+- im Browser die Lokale IP-Adresse eingeben, standard ist 192.168.1.1/24
+- es öffnet sich die web-Oberfläche von OPNsense
+- als erstes starte ich System-Assistent die Allgemeine Konfiguration und konfiguriere den LAN und WAN Port. Für den WAN-Port werden die Zugansdaten vom Provider benötigt. Ich stelle als Prinären DNS 1.1.1.1 von Cloudflair und als Secundären DNS 8.8.8.8 von Google ein, gebe die PPPoE Zugansdaten ein. Thats it!
+
+Alles weitere sind erstmal grundeinstellungen. Das ändern der Schnittstellen kann schwierigkeiten verursachen. Bzw. kommt man an die web-Oberfläche nicht mehr ran und muss über die Konsole die Schnittstellen neu konfigurieren.
+
+Ansonsten ist die Installation und Ersteinrichtung sehr simple. Die Grundeinstellungen sind Solide. Ich nutze die USB zu Ethernet Adapter die mit 100Mbits als Flaschenhals gelten. Kabel und Teile sind bestellt und sobald alles da ist geht es an den Server.
+
+Hallo Team,
+Lasst uns an den Aufbaudiagramm arbeiten. Hier der Chatverlauf für weiterführende Informationen
 
 Hier das Diagramm. Es fehlen noch sämtliche Verbindungen und Anschlüsse und schaut mal ob ich alle Anwendungen und Hardware erfasst habe. Auch die Jetzigen Anschlüsse müssen definiert werden. Welche Anschlüsse der Mac Mini hat teile ich weiter unten
 
@@ -71,7 +84,6 @@ Bei der Auswahl einer Cloud-Software für Ihren Server ist es wichtig, Ihre Anfo
 | Lizenz | AGPLv3 | AGPLv3 | AGPLv3 | AGPLv3 |
 | Community | Aktive und engagierte<br>Community | Aktive und engagierte<br>Community | Aktive Community | Aktive Community |
 | Verschlüsselung | Server-seitig | Server-seitig | Datei-basiert | Datei-basiert |
-
 
 ## Cryptomator, verschlüsselung auf dem Client
 
