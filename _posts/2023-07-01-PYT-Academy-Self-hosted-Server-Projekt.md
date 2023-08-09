@@ -7,7 +7,7 @@ tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein, Cryptomator, Tu
 author: david
 pin: true
 image:
-  path: /assets/img(sergius/mac-mini.jpg)
+  path: /assets/img/sergius/mac-mini.jpg)
   lqip:
   alt: Profilbild
 ---
