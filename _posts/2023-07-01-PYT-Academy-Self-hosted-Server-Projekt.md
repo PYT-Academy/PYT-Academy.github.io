@@ -6,6 +6,10 @@ categories: [Projekte, Server]
 tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein, Cryptomator, Tutorial]
 author: david
 pin: true
+image:
+  path: /assets/draw/PYT-Server.svg
+  lqip:
+  alt: Profilbild
 ---
 
 ## Update 09.08.2023
