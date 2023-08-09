@@ -38,7 +38,7 @@ Hier das Diagramm. Es fehlen noch sämtliche Verbindungen und Anschlüsse und sc
 
 ![Test Diagram](/assets/draw/PYT-Server.svg)
 
-# Gesprächpunkte
+## Gesprächpunkte
 
 1. [Cloud-Speicher](#cloud)
 Wir haben die Absicht, einen Cloud-Speicher für unseren Verein einzurichten. Angesichts unserer Anforderungen und Nutzungsvolumens, haben wir vorläufig eine Speichergröße von 250 bis 500GB ins Auge gefasst. Details zur Umsetzung müssen noch geklärt werden.
@@ -49,8 +49,8 @@ Wir planen, einen E-Mail-Server für unseren Verein aufzusetzen. Die Einzelheite
 3. Passwortmanagement
 Wir haben die Idee eines Passwortmanagement-Systems in Betracht gezogen. Allerdings sind die Details zu dieser Anwendung noch unklar und müssen noch erörtert werden.
 
-
 ## Status
+
 Wir haben mit der Router-Installation begonnen. Wir haben ein eigenes WLAN-Netzwerk eingerichtet, das vom bestehenden Router getrennt ist, um eventuellen Problemen vorzubeugen. So konnten wir den Router mit unseren Zugangsdaten problemlos konfigurieren, ohne unser Hauptnetzwerk zu beeinträchtigen. Falls irgendetwas schiefgeht, können wir einfach die Router umstecken.
 
 Zusätzlich haben wir mit unserem Internetanbieter gesprochen und ein Upgrade unserer Leitung auf 300Mbits erhalten. Das ist eine erhebliche Verbesserung gegenüber den bisherigen 100 Up- und Downstream. Momentan verhandeln wir auch noch eine feste IP-Adresse und der Server wird auch bald zum Laufen gebracht.
@@ -58,12 +58,15 @@ Zusätzlich haben wir mit unserem Internetanbieter gesprochen und ein Upgrade un
 Für die Router-Konfiguration haben wir uns für den Mac mini entschieden, auf dem wir bereits eine Anleitung für unseren Blog vorbereitet haben. Jetzt warten wir nur noch auf unsere Zugangsdaten, um die Konfiguration abzuschließen. Als Nächstes werden wir den Server auf den zweiten Mac mini installieren.
 
 ## Ziel
+
 Unser Hauptziel ist es nicht, Gewinn zu erzielen, sondern das Projekt als Lern- und Übungsmöglichkeit zu sehen. Wir möchten jedoch auch unsere Dienste einer kleinen Gruppe anbieten und so unsere Vereinskasse für weitere Projekte und Investitionen aufbessern.
 
 ### Wie entscheiden wir uns für unser software?
+
 Bei der Evaluierung von Softwarelösungen liegt unser besonderer Fokus auf Sicherheit, Datensicherheit und der Einhaltung von *Datenschutzrichtlinien*. Wir setzen auf *Open-Source-Software*, um Transparenz, Flexibilität und die Unterstützung einer engagierten Community sicherzustellen. Neben der *Kompatibilität mit verschiedenen Betriebssystemen* bewerten wir *Benutzerfreundlichkeit*, *Skalierbarkeit* und Sicherheitsfunktionen wie *Verschlüsselung*, *Zugriffskontrolle* sowie die Implementierung von *2FA (Two-Factor Authentication) und MFA (Multi-Factor Authentication)* als zusätzliche Sicherheitsmaßnahmen. Darüber hinaus achten wir darauf, dass die Software den Anforderungen und Vorschriften der *Datenschutzgesetzen* entspricht. Unsere Zielsetzung ist es, eine umfassende Sicherheitsarchitektur bereitzustellen, die die Vertraulichkeit, Integrität und der Benutzerdaten gewährleistet. Wir suchen nach einer Softwarelösung, die unseren hohen Standards in Bezug auf Sicherheit, Datensicherheit, *2FA* und *MFA* entspricht und den geltenden Datenschutzrichtlinien entspricht.
 
-## Besonderheiten:
+## Besonderheiten
+
 Wir haben darüber beraten, uns durch bestimmte Alleinstellungsmerkmale von großen Unternehmen abzuheben. Diese sind: hohe Sicherheit, persönlicher Kontakt und exzellenter Service.
 
 ## Cloud
@@ -71,18 +74,23 @@ Wir haben darüber beraten, uns durch bestimmte Alleinstellungsmerkmale von gro�
 Die Auswahl der richtigen Cloud-Speicher-Software für einen Server kann eine herausfordernde Aufgabe sein. Wir haben uns verschiedene Optionen angesehen und möchten in diesem Artikel ownCloud, Nextcloud, Pydio und Seafile vergleichen. Hier sind unsere Notizen zu den jeweiligen Lösungen:
 
 ### ownCloud
+
 ownCloud scheint auf den ersten Blick eine gute Wahl zu sein. Es handelt sich um eine Open-Source-Software mit einer aktiven Community, die kontinuierlich daran arbeitet. Ein großer Pluspunkt ist, dass ownCloud den Datenschutzvorschriften, wie der GDPR (General Data Protection Regulation) und der LGPD (Lei Geral de Proteção de Dados), entspricht. Die Software bietet auch die Möglichkeit zur Aktivierung von 2FA (Two-Factor Authentication) und MFA (Multi-Factor Authentication) für zusätzliche Sicherheit. Allerdings könnte ownCloud mehr Informationen über die Funktionalitäten ihrer Software bereitstellen, da ihre Werbung hauptsächlich oberflächlich ist und nicht ins Detail geht.
 
 ### Nextcloud
+
 Nextcloud ist ähnlich wie ownCloud, da es ebenfalls als Open-Source-Lösung mit einer aktiven Community entwickelt wird. Nextcloud wirbt mit einem ansprechenden Design und einer Vielzahl von Features. Jedoch liegt uns die Sicherheit besonders am Herzen, und in dieser Hinsicht bietet Nextcloud nicht viel Neues im Vergleich zu ownCloud.
 
 ### Pydio
+
 Pydio hebt sich von den vorherigen Lösungen ab, indem es bereits auf den ersten Blick mit seiner Sicherheit, Skalierbarkeit, Open-Source-Natur und den Self-Hosting-Möglichkeiten wirbt. Pydio gibt uns außerdem detailliertere Einblicke in die Funktionsweise ihrer Software. Auf ihrer Webseite konnten wir feststellen, dass Pydio eine breite Palette von Geräten unterstützt, darunter Windows, MacOS, Linux, Android, iPads und iPhones. Die Sicherheit hat für Pydio einen hohen Stellenwert.
 
 ### Seafile
+
 Zuletzt haben wir uns Seafile angesehen. Diese Lösung ähnelt Pydio, bietet jedoch zusätzliche Möglichkeiten beim Download. Seafile unterstützt auch ältere Geräte wie Windows 7 und ältere Macs. Interessanterweise kann Seafile auch vollständig über die Kommandozeile unter Linux gesteuert werden, falls dies gewünscht ist. Für Android-Nutzer gibt es die Möglichkeit, Seafile sowohl aus dem Google Play Store als auch von F-Droid herunterzuladen. Selbstverständlich werden auch iPad- und iPhone-Geräte unterstützt.
 
 ### Abschließende Gedanken
+
 Bei der Auswahl einer Cloud-Software für Ihren Server ist es wichtig, Ihre Anforderungen an Sicherheit, Funktionalität und Kompatibilität mit verschiedenen Geräten zu berücksichtigen. OwnCloud und Nextcloud sind solide Optionen mit einer aktiven Community, während Pydio mit einem Schwerpunkt auf Sicherheit und Einblick in die Funktionsweise hervorsticht. Seafile bietet zusätzliche Möglichkeiten beim Download und unterstützt eine Vielzahl von Geräten.
 
 | Plattform | ownCloud | Nextcloud | Seafile | Pydio |
@@ -109,7 +117,7 @@ Cryptomator erstellt einen virtuellen Laufwerksordner auf Ihrem System, in dem S
 
 - Nach der Installation starten Sie Cryptomator und klicken auf das Plus-Symbol, um einen neuen Tresor zu erstellen.
 
-- Wählen Sie den Ort Ihres Cloud-Ordners aus, in dem Sie den Tresor speichern möchten. 
+- Wählen Sie den Ort Ihres Cloud-Ordners aus, in dem Sie den Tresor speichern möchten.
 
 Tipp: Instaliere dir die Desktop-Anwendung deines Cloud-Anbieters {: .prompt-tip }
 
