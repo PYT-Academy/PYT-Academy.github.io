@@ -20,6 +20,9 @@ pin: true
 - es öffnet sich die web-Oberfläche von OPNsense
 - als erstes starte ich System-Assistent die Allgemeine Konfiguration und konfiguriere den LAN und WAN Port. Für den WAN-Port werden die Zugansdaten vom Provider benötigt. Ich stelle als Prinären DNS 1.1.1.1 von Cloudflair und als Secundären DNS 8.8.8.8 von Google ein, gebe die PPPoE Zugansdaten ein. Thats it!
 
+Diese Anleitung habe ich benutzt:
+{% include embed/youtube.html id='mFEib0zQWg' %}
+
 Alles weitere sind erstmal grundeinstellungen. Das ändern der Schnittstellen kann schwierigkeiten verursachen. Bzw. kommt man an die web-Oberfläche nicht mehr ran und muss über die Konsole die Schnittstellen neu konfigurieren.
 
 Ansonsten ist die Installation und Ersteinrichtung sehr simple. Die Grundeinstellungen sind Solide. Ich nutze die USB zu Ethernet Adapter die mit 100Mbits als Flaschenhals gelten. Kabel und Teile sind bestellt und sobald alles da ist geht es an den Server.
