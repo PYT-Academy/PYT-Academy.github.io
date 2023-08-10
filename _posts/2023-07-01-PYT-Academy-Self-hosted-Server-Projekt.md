@@ -6,6 +6,7 @@ categories: [Projekte, Server]
 tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein, Cryptomator, Tutorial]
 author: david
 pin: true
+comments: true
 image:
   path: /assets/img/mac-mini-router.png
   lqip:
