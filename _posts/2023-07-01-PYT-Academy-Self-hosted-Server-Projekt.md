@@ -156,4 +156,3 @@ Insgesamt sind wir sehr beeindruckt von Crowdsack und werden es weiterhin auf un
         (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
