@@ -145,6 +145,7 @@ Insgesamt sind wir sehr beeindruckt von Crowdsack und werden es weiterhin auf un
 {% include embed/youtube.html id='REiTqc_WV9w' %}
 
 <div id="disqus_thread"></div>
+<script id="dsq-count-scr" src="//https-pyt-academy-github-io.disqus.com/count.js" async></script>
 <script>
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
