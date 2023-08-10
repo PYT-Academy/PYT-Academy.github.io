@@ -2,12 +2,12 @@
 title: PYT-Academy Self hosted Server Projekt
 date: 2023-07-18 12:00:00 -0400
 last_modified_at: 2023-08-09 14:00:00 -0400
+layout: default
+comments: true
 categories: [Projekte, Server]
 tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein, Cryptomator, Tutorial]
 author: sergius
 pin: true
-layout: default
-comments: true
 image:
   path: /assets/img/mac-mini-router.png
   lqip:
