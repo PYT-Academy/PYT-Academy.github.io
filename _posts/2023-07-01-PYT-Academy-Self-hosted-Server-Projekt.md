@@ -4,7 +4,7 @@ date: 2023-07-18 12:00:00 -0400
 last_modified_at: 2023-08-09 14:00:00 -0400
 categories: [Projekte, Server]
 tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein, Cryptomator, Tutorial]
-author: david
+author: sergius
 pin: true
 comments: true
 image:
@@ -163,4 +163,3 @@ Insgesamt sind wir sehr beeindruckt von Crowdsack und werden es weiterhin auf un
     (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
