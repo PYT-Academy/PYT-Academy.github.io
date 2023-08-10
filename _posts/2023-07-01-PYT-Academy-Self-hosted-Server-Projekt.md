@@ -142,15 +142,3 @@ Mit Crowdsack könnt ihr eure Server-Sicherheit auf ein neues Level heben. Es bi
 Insgesamt sind wir sehr beeindruckt von Crowdsack und werden es weiterhin auf unseren Servern einsetzen, um unsere Webanwendungen und Daten zu schützen.
 
 {% include embed/youtube.html id='REiTqc_WV9w' %}
-
-<div id="disqus_thread"></div>
-<script>
-      (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        
-        s.src = 'https://https-pyt-academy-github-io.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
