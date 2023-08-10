@@ -7,6 +7,7 @@ tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein, Cryptomator, Tu
 author: sergius
 pin: true
 comments: true
+layout: default
 image:
   path: /assets/img/mac-mini-router.png
   lqip:
