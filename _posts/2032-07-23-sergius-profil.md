@@ -5,8 +5,6 @@ last_modified_at: 2023-08-07 10:30:00 -0400
 categories: [Profil, Kontakt, Dienstleistungen]
 tags: [IT-Spezialist, Fernzugriff, Cyber-Security, Plattformunabhängigkeit, Open-Source, Datenschutz, Content Creation, Patreon, Remote, Südamerika, Selbststudium, Technologie-Enthusiast, Community, Privatsphäre, Linux, Windows, Apple, Android]
 author: sergius
-layout: default
-comments: true
 image:
   path: /assets/img/Sergius-Logo-1200x630.png
 ---
