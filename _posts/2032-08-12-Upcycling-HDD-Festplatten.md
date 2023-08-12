@@ -5,7 +5,7 @@ categories: [DIY, Projekte, Anleitung]
 tags: [DIY, Festplattenlautsprecher, Technologie, Upcycling, Elektronik-Mods, Nachhaltigkeit, Computerzubehör, Einzigartiges Design, Acrylgehäuse, VU-Messgerät, Elektronikprojekte, Festplatten-Recycling, Heimwerken, Technik-Enthusiasten, Umweltfreundlich, Computer-Mods, Kreative Lösungen, Alte Technologie, Audio-Geräte, Handgemachte Elektronik]
 author: sergius
 image:
-  path: assets/img/blogpost-001/hdd-uhr.png
+  path: /assets/img/blogpost-001/hdd-uhr.png
 ---
 
 ## Einleitung
