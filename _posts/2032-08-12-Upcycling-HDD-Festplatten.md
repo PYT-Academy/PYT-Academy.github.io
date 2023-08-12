@@ -44,8 +44,7 @@ Elektronischer Abfall, auch `Elektroschrott` genannt, ist ein wachsendes Problem
 
 Es ist einfach cool in seiner Innovation und seinem Beitrag zur Umwelt. Ich habe gerade diesen schönen Couchtisch in Inhabitat entdeckt und konnte nicht loslassen, ohne ihn zu erwähnen.  Couchtisch mit der Festplatte von Grand Idea Studio hat sich diese umweltfreundliche Innovation ausgedacht. Es wird sicherlich jeden in die Augen nehmen, der darauf stoßen würde.
 
-Der [Hard Drive Coffe Table](http://www.grandideastudio.com/hard-drive-coffee-table/){:target="_blank"}
-{: .prompt-tip } besteht aus einer originalen Festplatte mit 26 Zoll Durchmesser aus einem frühen Speichergerät aus den 1950er oder 1960er Jahren.
+Der [Hard Drive Coffe Table](http://www.grandideastudio.com/hard-drive-coffee-table/){:target="_blank"}{: .prompt-tip } besteht aus einer originalen Festplatte mit 26 Zoll Durchmesser aus einem frühen Speichergerät aus den 1950er oder 1960er Jahren.
 
 Als Tischsockel dient ein massiver Aluminiumzylinder mit einem Durchmesser von 5 9/10 Zoll und einer Länge von 18 1/2 Zoll. Vier Schrauben werden in abgezapfte Löcher oben auf dem Sockel geschraubt, um die Festplattenplatte zu sichern. Der Boden des Sockels ist in die Basis eingebaut, die einen Durchmesser von 12 Zoll und eine Höhe von 1 3/4 Zoll hat. Der Tisch ist mit Standardglas von 1/4 Zoll bedeckt. Das fertige Design ist 19 1/2 Zoll hoch und wiegt 64 Pfund.
 
