@@ -1,11 +1,11 @@
 ---
 title: Solar-Inselanlage für Wohnmobile
-date: 2023-08-14 08:00:00 -0400
+date: 2023-08-13 08:00:00 -0400
 categories: [DIY, Projekte, Solaranlage]
-tags: [DIY, Festplattenlautsprecher, Technologie, Upcycling, Elektronik-Mods, Nachhaltigkeit, Computerzubehör, Einzigartiges Design, Acrylgehäuse, VU-Messgerät, Elektronikprojekte, Festplatten-Recycling, Heimwerken, Technik-Enthusiasten, Umweltfreundlich, Computer-Mods, Kreative Lösungen, Alte Technologie, Audio-Geräte, Handgemachte Elektronik]
+tags: [Wohnmobil, Solar-Inselanlage, Photovoltaik, Erzeuger, Speicher, Entnahme, LiFePO4, Akkutechnologie, Systemspannung, 48V, Elektrische Versorgung, Großverbraucher, Mittelverbraucher, Kleinverbraucher, Primer-Verbraucher, Sekundär-Verbraucher, Kostenschätzung, Elektrische Absicherung, Energieunabhängigkeit, Off-Grid, Selbstversorgung]
 author: sergius
 image:
-  path: /assets/img/blogpost-001/hdd-uhr.png
+  path: /assets/img/blogpost-inselanlage/230814-blogpost-inselanlage.png
 ---
 
 ## Solar-Inselanlage für Wohnmobile
