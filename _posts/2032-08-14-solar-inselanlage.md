@@ -54,8 +54,8 @@ Hierbei handelt es sich um einen Akku. Es wurde über die verschiedenen Akkutech
 Die Entnahme bezieht sich auf die elektrische Absicherung und Verteilung im Wohnmobil. Sie wurde in drei Kategorien unterteilt:
 
 1. **Großverbraucher**: Wechselstromverbraucher mit 230V und 2500W Nominallaeitung und 3500W Peakleistung
-2. **Mittelverbraucher**: Gleichstrom mit ca. 600W, z.B. Kühlschrank, Küchengeräte, Primärverbraucher wie Heizungen bis 500W Infarotstrahler. *Hinweis*: Die Beschaffung der Geräte aus dem üblichen Markt muss geplant werden. Bei DC-Anschluss ist entweder ein Umbau oder die direkte Beschaffung von DC-Verbrauchern zu berücksichtigen.
-3. **Kleinverbraucher**: Alles bis 100W, z.B. Handy, Laptop, Primärverbraucher wie Beleuchtung, Haustechnik, Pumpen usw.
+2. **Mittelverbraucher**: Gleichstrom mit ca. 600W, z.B. Kühlschrank, Küchengeräte, Primerverbraucher wie Heizungen bis 500W Infarotstrahler. *Hinweis*: Die Beschaffung der Geräte aus dem üblichen Markt muss geplant werden. Bei DC-Anschluss ist entweder ein Umbau oder die direkte Beschaffung von DC-Verbrauchern zu berücksichtigen.
+3. **Kleinverbraucher**: Alles bis 100W, z.B. Handy, Laptop, Primerverbraucher wie Beleuchtung, Haustechnik, Pumpen usw.
 
 Zwischen diesen Verbrauchsklassen wird weiter differenziert, ob es sich um **Primer-** oder **Sekundär-Verbraucher** handelt.
 
