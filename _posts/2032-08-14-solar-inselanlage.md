@@ -5,7 +5,7 @@ categories: [DIY, Projekte, Solaranlage]
 tags: [Wohnmobil, Solar-Inselanlage, Photovoltaik, Erzeuger, Speicher, Entnahme, LiFePO4, Akkutechnologie, Systemspannung, 48V, Elektrische Versorgung, Großverbraucher, Mittelverbraucher, Kleinverbraucher, Primer-Verbraucher, Sekundär-Verbraucher, Kostenschätzung, Elektrische Absicherung, Energieunabhängigkeit, Off-Grid, Selbstversorgung]
 author: sergius
 image:
-  path: /assets/img/blogpost-inselanlage/230814-blogpost-inselanlage.png
+  path: /assets/img/blogpost-230814/230814-blogpost-inselanlage.png
 ---
 
 ## Solar-Inselanlage für Wohnmobile
