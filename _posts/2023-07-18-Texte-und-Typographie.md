@@ -124,8 +124,7 @@ Verwenden Sie Links, um auf andere Webseiten oder Ressourcen zu verweisen:
 
 - [PYT-Academy](https://pyt-academy.github.io/){:target="_blank"}
 
-> [PYT-Academy](https://pyt-academy.github.io/){:target="_blank"}
-{: .prompt-tip }
+> [PYT-Academy](https://pyt-academy.github.io/){:target="_blank"}{: .prompt-tip }
 
 ## Fußnote
 

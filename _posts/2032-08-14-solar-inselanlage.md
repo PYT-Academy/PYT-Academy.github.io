@@ -77,3 +77,22 @@ Für die Planung wurden Annahmen getroffen über den Bedarf. Wobei der eigentlic
 
 ![erte Kostenschätzung](/assets/img/blogpost-230814/230814-kostenschatzung-Inselanlage.png)
 _Erste Kostenschätzung der Solar-Inselanlage_
+
+## Entscheidungsfindung: DIY vs. Vorgefertigte Solar-Inselanlage
+
+Bei der Planung und Umsetzung eines Projekts, insbesondere eines so wichtigen wie der autarken Energieversorgung für ein Wohnmobil, ist es entscheidend, alle Optionen sorgfältig zu prüfen. Das Ziel ist es, das bestmögliche Ergebnis zu erzielen, das sowohl `funktional` als auch `wirtschaftlich` sinnvoll ist. In diesem Sinne möchten wir die Vor- und Nachteile von zwei Ansätzen gegenüberstellen: dem DIY (Do It Yourself) und dem Kauf einer vorgefertigten Lösung.
+
+| Kriterium | DIY (Do It Yourself) | Vorgefertigte Lösung |
+|-----------|----------------------|----------------------|
+| **Kosten** | Oft kostengünstiger durch den Kauf einzelner Teile. | Oft teurer, aber mit dem Vorteil der Optimierung und Integration. |
+| **Anpassbarkeit** | `Hoch anpassbar an individuelle Bedürfnisse.` | Erweiterbar durch den Kauf weiterer Module. |
+| **Lernmöglichkeit** | `Bietet die Chance, viel über die Technologie zu lernen.` | Weniger Lernmöglichkeiten, da alles vorgefertigt ist. |
+| **Zeitaufwand** | Kann zeitaufwändig sein (Recherche, Beschaffung, Montage). | `Schnellere Installation durch Plug-and-Play`. |
+| **Zuverlässigkeit** | Abhängig von individuellem Fachwissen, Montage und Planung. | Oft `von Fachleuten entworfen und getestet`. |
+| **Garantie** | Oft keine umfassende Garantie. | In der Regel mit Garantie. |
+| **Erweiterbarkeit** | `Einfacher und günstiger zu erweitern oder zu modifizieren`. | Erweiterbar durch den Kauf weiterer Module. |
+| **Abhängigkeit** | wird auf mehere Anbieter verteilt sowie eigenverantwortung bei Problemen | Abhängigkeit vom Hersteller bei Problemen oder Erweiterungen. |
+
+Während der DIY-Ansatz die Möglichkeit bietet, ein System genau nach den eigenen Vorstellungen zu gestalten, bieten vorgefertigte Lösungen eine gewichts- und platzoptimierte, transportable Option, die besonders interessant sein kann, wenn Strom abseits des Wohnmobils benötigt wird.
+
+Ich bin bestrebt, die beste Lösung zu finden, die sowohl funktional als auch wirtschaftlich sinnvoll ist. Dabei möchte ich alle verfügbaren Optionen sorgfältig prüfen und mich nicht nur auf meine DIY-Begeisterung verlassen. Es geht darum, die optimale Lösung für das Projekt zu finden und dabei alle Aspekte zu berücksichtigen.
