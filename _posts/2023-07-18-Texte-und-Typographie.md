@@ -3,7 +3,7 @@ title: Texte und Typographiebeispiele
 date: 2023-07-17 11:33:00 -0400
 last_modified_at: 2023-07-17 11:33:00 -0400
 categories: [Projekte, Homepage]
-tags: [Texte, Typographie, Kommunikation, Schriftarten, Zeilenabstände]
+tags: [Typographie, Kommunikation, Schriftarten, Schriftgrößen, Zeilenabstand, Lesbarkeit, Benutzererlebnis, Überschriften, Paragraphen, Listen, Zitate, Tabellen, PYT-Academy]
 author: sergius
 post: true
 math: true
