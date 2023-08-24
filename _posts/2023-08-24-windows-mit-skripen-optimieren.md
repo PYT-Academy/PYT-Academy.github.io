@@ -1,5 +1,5 @@
 ---
-title: Einfache Windows-Skripte und Sicherheitstipps für den Alltag
+title: Einfache Windows-Skripte und Sicherheitstipps für den Büro-Alltag
 date: 2023-08-23 10:00:00 -0400
 last_modified_at: 2023-08-24 12:00:00 -0400
 categories: [Tutorials, Windows]
@@ -45,7 +45,7 @@ Da war zu einfach, stimmts? Ok, lass uns aus den hässlichen Batch-Dateien ausf�
 
 ... Gönn dir einen Kaffee und lade das Tool herunter:
 
-- [Bat to EXE](https://pyt-academy.github.io/){:target="_blank"} natürlich direkt von der `Heise.de` Webseite
+- [Bat to EXE](https://www.heise.de/download/product/quick-batch-file-compiler-69417/download/danke?id=da8772aa-2147-4281-bfb8-fe63d4ec5c17){:target="_blank"}{: .prompt-tip } natürlich direkt von der [heise.de](https://www.heise.de/download/){:target="_blank"}{: .prompt-tip } Download-Webseite
 
 Installiere das Tool, ziehe die `*.bat` Datei hinein und erstelle mit `F9` eine `*.exe`. Das ist die ganze Magie. Die `EXE-File` kannst du beliebing im Aussehen anpassen und auf dem Desktop oder Startmenu plazieren.
 
