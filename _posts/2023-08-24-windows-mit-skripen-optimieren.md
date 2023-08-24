@@ -62,6 +62,9 @@ Um das zu machen, fügst du einen benutzerdefinierten Filter in Brave hinzu. Hie
 ||softonic.com^
 ```
 
+![Desktop View](/assets/img/blogpost-230824/brave-filter.png){: width="972" height="240" }
+_Screenshot der Brave-Einstellung für Filter_
+
 Und zack – keine nervigen Softonic-Ergebnisse mehr!
 
 ## Weitere Skripe zum Üben
