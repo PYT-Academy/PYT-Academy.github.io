@@ -98,4 +98,6 @@ pause
 
 ## Fazit und Kommentare
 
+So simle kann Skripten sein, vieles basiert darauf auch das schreiben diesen Block-Artikel wird in der Markdown Skripsprache geschrieben und per Jekyll in eine Statische Webseite generiert.
+
 Teile mit mir deine Anpassungen und Codesnipsel auf Discord [PYT Discord-Server](https://discord.gg/WxaJcnuXAh) ich nehme sie gerne hier auf, dann haben wir alle was davon.
