@@ -51,7 +51,7 @@ Installiere das Tool, ziehe die `*.bat` Datei hinein und erstelle mit `F9` eine 
 
 ### Filterregeln in Brave
 
-Wenn ich im Netz nach Tools suche, lande ich oft bei nicht trauenswürdigen Quellen wie *Softtonic*. Ja genau, die mit den fragwürdigen Downloads, die immer ganz oben in den Suchergebnissen auftauchen. Ehrlich gesagt, ich hab da noch nie was wirklich Brauchbares gefunden. Und wenn du, so wie ich, den Brave-Browser nutzt, dann hab ich einen kleinen Tipp für dich: 
+Wenn ich im Netz nach Tools suche, lande ich oft bei nicht trauenswürdigen Quellen wie *Softtonic*. Ja genau, die mit den fragwürdigen Downloads, die immer ganz oben in den Suchergebnissen auftauchen. Ehrlich gesagt, ich hab da noch nie was wirklich Brauchbares gefunden. Und wenn du, so wie ich, den Brave-Browser nutzt, dann hab ich einen kleinen Tipp für dich:
 
 > Blockier einfach alles von softonic.com. Du wirst nichts verpassen, versprochen!
 {: .prompt-tip }
