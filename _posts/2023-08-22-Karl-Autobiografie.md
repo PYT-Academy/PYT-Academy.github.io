@@ -2,7 +2,7 @@
 title: Karls Blogartikel
 date: 2023-08-22 16:11:00 -0400
 last_modified_at: 2023-08-22 16:11:00 -0400
-categories: [Autobiografie]
+categories: [Profil, Karl]
 tags: [Autobiografie]
 author: karl
 ---
