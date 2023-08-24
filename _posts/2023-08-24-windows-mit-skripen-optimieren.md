@@ -17,9 +17,11 @@ In diesem Blogbeitrag werden wir uns ansehen, wie man einfache Skripte in Window
 
 Ein einfaches Beispiel ist das Ein- und Ausblenden von versteckten Dateien.
 
-erstelel eine Datei im Texteditor und benene sie nach vorlieben. Als Dateiendung brauchen wir ``*.bat``
+erstel eine Datei im Texteditor und benene sie nach vorlieben. Als Dateiendung brauchen wir ``*.bat``
 
-```Dateiendungen anzeigen
+Dateiendungen anzeigen
+
+```batch 
 @echo off
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v Hidden /t REG_DWORD /d 1 /f
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowSuperHidden /t REG_DWORD /d 1 /f
@@ -27,9 +29,9 @@ RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters ,1 ,True
 Pfad_zu_nircmd\nircmd.exe sendkeypress f5
 ```
 
-und eine zum ausblenden
+Dateiendungen verbergen
 
-```Dateiendungen verbergen
+```batch
 @echo off
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v Hidden /t REG_DWORD /d 2 /f
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowSuperHidden /t REG_DWORD /d 0 /f
@@ -46,6 +48,17 @@ Da war zu einfach, stimmts? Ok, lass uns aus den hässlichen Batch-Dateien ausf�
 - [Bat to EXE](https://pyt-academy.github.io/){:target="_blank"} natürlich direkt von der `Heise.de` Webseite
 
 Installiere das Tool, ziehe die `*.bat` Datei hinein und erstelle mit `F9` eine `*.exe`. Das ist die ganze Magie.
+
+> Pro-Tipp: Eigene Filterregeln im Brave braowser
+{: .prompt-tip }
+
+Wenn ich im Netz nach Tools suche, lande ich oft bei vertrauenswürdigen Quellen wie heise.de. Aber, und das kennst du sicher auch, stolpert man immer wieder über diese softonic-Ergebnisse. Softonic? Ja genau, die mit den fragwürdigen Downloads, die immer ganz oben in den Suchergebnissen auftauchen. Ehrlich gesagt, ich hab da noch nie was wirklich Brauchbares gefunden. Und wenn du, so wie ich, den Brave-Browser nutzt, dann hab ich einen kleinen Tipp für dich: Blockier einfach alles von softonic.com. Du wirst nichts verpassen, versprochen!
+
+Um das zu machen, fügst du einfach einen benutzerdefinierten Filter in Brave hinzu. Hier die Syntax dafür:
+
+```code
+||softonic.com^
+```
 
 Und da du jetzt ein halber Windows Programmierer bist, kannst du zur Übung diesen Code verwenden, um ausführbare Dateien zu erstellen, die den Defender ein- und ausschalten.
 
