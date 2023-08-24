@@ -9,8 +9,6 @@ image:
   path: /assets/img/Sergius-Logo-1200x630.png
 ---
 
-# Einfache Windows-Skripte und Sicherheitstipps für den Alltag
-
 In diesem Blogbeitrag werden wir uns ansehen, wie man einfache Skripte in Windows erstellt, diese in ausführbare Dateien umwandelt und wie man sicher im Internet surft, insbesondere im Hinblick auf potenziell unerwünschte Download-Portale.
 
 ## 1. Erstellung einfacher Skripte in Windows als BAT-Datei
@@ -21,7 +19,7 @@ erstel eine Datei im Texteditor und benene sie nach vorlieben. Als Dateiendung b
 
 ### Dateiendungen anzeigen
 
-```batch 
+```batch
 @echo off
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v Hidden /t REG_DWORD /d 1 /f
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowSuperHidden /t REG_DWORD /d 1 /f
