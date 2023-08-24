@@ -2,7 +2,7 @@
 title: Sergius, mein Profil, Projekte und Dienstleistungen
 date: 2023-07-19 17:36:00 -0400
 last_modified_at: 2023-08-07 10:30:00 -0400
-categories: [Profil, Kontakt, Dienstleistungen]
+categories: [Profil, Sergius]
 tags: [IT-Spezialist, Fernzugriff, Cyber-Security, Plattformunabhängigkeit, Open-Source, Datenschutz, Content Creation, Patreon, Remote, Südamerika, Selbststudium, Technologie-Enthusiast, Community, Privatsphäre, Linux, Windows, Apple, Android, test]
 author: sergius
 image:
