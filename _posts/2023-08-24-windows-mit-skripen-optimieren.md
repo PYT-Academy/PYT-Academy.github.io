@@ -41,22 +41,22 @@ Doppelklcik auf deine `*.bat`-Datei fürht den Skript aus. Um die geänderten Ei
 
 ### BAT to exe
 
-Da war zu einfach, stimmts? Ok, lass uns aus den hässlichen Batch-Dateien ausführbare Dateien machen. Dazu brauchen wir ein Tool namens "Bat to Exe". Such danach im Netz und du wirst eine Menge Quellen finden. Ich benutze gerne vertrauenswürdige Quellen, wie `heise.de`, und dir wird in der Suche bestimmt `softonic` auffallen. ...
+Da war zu einfach, stimmts? Ok, lass uns aus den hässlichen Batch-Dateien ausführbare Dateien machen. Dazu brauchen wir ein Tool namens "Bat to Exe". Such danach im Netz und du wirst eine Menge Quellen finden. Ich benutze gerne vertrauenswürdige Quellen, wie [heise.de](https://www.heise.de/download/){:target="_blank"}{:.prompt-tip}
 
 ... Gönn dir einen Kaffee und lade das Tool herunter:
 
-- [Bat to EXE](https://www.heise.de/download/product/quick-batch-file-compiler-69417/download/danke?id=da8772aa-2147-4281-bfb8-fe63d4ec5c17){:target="_blank"}{: .prompt-tip } natürlich direkt von der [heise.de](https://www.heise.de/download/){:target="_blank"}{: .prompt-tip } Download-Webseite
+- [Bat to EXE](https://www.heise.de/download/product/quick-batch-file-compiler-69417/download/danke?id=da8772aa-2147-4281-bfb8-fe63d4ec5c17){:target="_blank"}{: .prompt-tip } natürlich direkt, kostenlos und Virenfrei von der [heise.de](https://www.heise.de/download/){:target="_blank"}{:.prompt-tip} Download-Webseite
 
 Installiere das Tool, ziehe die `*.bat` Datei hinein und erstelle mit `F9` eine `*.exe`. Das ist die ganze Magie. Die `EXE-File` kannst du beliebing im Aussehen anpassen und auf dem Desktop oder Startmenu plazieren.
 
 ### Filterregeln in Brave
 
-> Pro-Tipp: Eigene Filterregeln im Brave braowser
+Wenn ich im Netz nach Tools suche, lande ich oft bei nicht trauenswürdigen Quellen wie *Softtonic*. Ja genau, die mit den fragwürdigen Downloads, die immer ganz oben in den Suchergebnissen auftauchen. Ehrlich gesagt, ich hab da noch nie was wirklich Brauchbares gefunden. Und wenn du, so wie ich, den Brave-Browser nutzt, dann hab ich einen kleinen Tipp für dich: 
+
+> Blockier einfach alles von softonic.com. Du wirst nichts verpassen, versprochen!
 {: .prompt-tip }
 
-Wenn ich im Netz nach Tools suche, lande ich oft bei vertrauenswürdigen Quellen wie heise.de. Aber, und das kennst du sicher auch, stolpert man immer wieder über diese softonic-Ergebnisse. Softonic? Ja genau, die mit den fragwürdigen Downloads, die immer ganz oben in den Suchergebnissen auftauchen. Ehrlich gesagt, ich hab da noch nie was wirklich Brauchbares gefunden. Und wenn du, so wie ich, den Brave-Browser nutzt, dann hab ich einen kleinen Tipp für dich: Blockier einfach alles von softonic.com. Du wirst nichts verpassen, versprochen!
-
-Um das zu machen, fügst du einfach einen benutzerdefinierten Filter in Brave hinzu. Hier die Syntax dafür:
+Um das zu machen, fügst du einen benutzerdefinierten Filter in Brave hinzu. Hier die Syntax dafür:
 
 ```batch
 ||softonic.com^
