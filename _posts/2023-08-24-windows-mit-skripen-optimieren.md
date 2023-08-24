@@ -19,7 +19,7 @@ Ein einfaches Beispiel ist das Ein- und Ausblenden von versteckten Dateien.
 
 erstel eine Datei im Texteditor und benene sie nach vorlieben. Als Dateiendung brauchen wir ``*.bat``
 
-Dateiendungen anzeigen
+### Dateiendungen anzeigen
 
 ```batch 
 @echo off
@@ -29,7 +29,7 @@ RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters ,1 ,True
 Pfad_zu_nircmd\nircmd.exe sendkeypress f5
 ```
 
-Dateiendungen verbergen
+### Dateiendungen verbergen
 
 ```batch
 @echo off
@@ -39,7 +39,9 @@ RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters ,1 ,True
 Pfad_zu_nircmd\nircmd.exe sendkeypress f5
 ```
 
-um die geänderten Einstellungen zu sehen, drücke im Explorer `F5` und das war die ganze Magie.
+Doppelklcik auf deine `*.bat`-Datei fürht den Skript aus. Um die geänderten Einstellungen zu sehen, drücke im Explorer `F5` und das war die ganze Magie.
+
+### BAT to exe
 
 Da war zu einfach, stimmts? Ok, lass uns aus den hässlichen Batch-Dateien ausführbare Dateien machen. Dazu brauchen wir ein Tool namens "Bat to Exe". Such danach im Netz und du wirst eine Menge Quellen finden. Ich benutze gerne vertrauenswürdige Quellen, wie `heise.de`, und dir wird in der Suche bestimmt `softonic` auffallen. ...
 
@@ -47,7 +49,9 @@ Da war zu einfach, stimmts? Ok, lass uns aus den hässlichen Batch-Dateien ausf�
 
 - [Bat to EXE](https://pyt-academy.github.io/){:target="_blank"} natürlich direkt von der `Heise.de` Webseite
 
-Installiere das Tool, ziehe die `*.bat` Datei hinein und erstelle mit `F9` eine `*.exe`. Das ist die ganze Magie.
+Installiere das Tool, ziehe die `*.bat` Datei hinein und erstelle mit `F9` eine `*.exe`. Das ist die ganze Magie. Die `EXE-File` kannst du beliebing im Aussehen anpassen und auf dem Desktop oder Startmenu plazieren.
+
+### Filterregeln in Brave
 
 > Pro-Tipp: Eigene Filterregeln im Brave braowser
 {: .prompt-tip }
@@ -56,13 +60,19 @@ Wenn ich im Netz nach Tools suche, lande ich oft bei vertrauenswürdigen Quellen
 
 Um das zu machen, fügst du einfach einen benutzerdefinierten Filter in Brave hinzu. Hier die Syntax dafür:
 
-```code
+```batch
 ||softonic.com^
 ```
 
-Und da du jetzt ein halber Windows Programmierer bist, kannst du zur Übung diesen Code verwenden, um ausführbare Dateien zu erstellen, die den Defender ein- und ausschalten.
+Und zack – keine nervigen Softonic-Ergebnisse mehr!
 
-```Defender OFF
+## Weitere Skripe zum Üben
+
+Und da du jetzt ein halber Windows Programmierer bist, kannst du zur Übung diesen Code verwenden, um ausführbare Dateien zu erstellen
+
+### Defender OFF
+
+```batch
 @echo off
 echo Sind Sie sicher, dass Sie den Windows Defender deaktivieren moechten? Druecken Sie die Leertaste zum Bestaetigen.
 choice /C " " /N
@@ -73,7 +83,9 @@ echo Windows Defender wurde deaktiviert.
 pause
 ```
 
-```Defender ON
+### Defender ON
+
+```batch
 @echo off
 echo Sind Sie sicher, dass Sie den Windows Defender aktivieren moechten? Druecken Sie die Leertaste zum Bestaetigen.
 choice /C " " /N
@@ -83,5 +95,7 @@ net start WinDefend
 echo Windows Defender wurde aktiviert.
 pause
 ```
+
+## Fazit und Kommentare
 
 Teile mit mir deine Anpassungen und Codesnipsel auf Discord [PYT Discord-Server](https://discord.gg/WxaJcnuXAh) ich nehme sie gerne hier auf, dann haben wir alle was davon.
