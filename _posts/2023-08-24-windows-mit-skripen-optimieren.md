@@ -1,6 +1,6 @@
 ---
 title: Einfache Windows-Skripte und Sicherheitstipps für den Alltag
-date: 2023-08-24 10:00:00 -0400
+date: 2023-08-23 10:00:00 -0400
 last_modified_at: 2023-08-24 12:00:00 -0400
 categories: [Tutorials, Windows]
 tags: [BAT-Dateien, Windows-Skripte, Brave-Browser, Softonic, Sicherheit, Datenschutz, "Bat to EXE"]
