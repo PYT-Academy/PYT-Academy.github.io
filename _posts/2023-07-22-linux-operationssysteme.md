@@ -19,6 +19,9 @@ Es gibt viele verschiedene Betriebssysteme, darunter bekannte Beispiele wie Wind
 
 Unter den verschiedenen Betriebssystemen sticht Linux besonders hervor. Vor allem auf Desktop-Geräten ist es wegen seiner Open-Source-Natur, die den Nutzern uneingeschränkte Kontrolle und Anpassungsfähigkeit ermöglicht, sowie seiner Stabilität und Sicherheit sehr beliebt. Darüber hinaus findet Linux in einer Vielzahl von Anwendungen weit über den Desktop-Bereich hinaus Verwendung, beispielsweise in Servern, Supercomputern und eingebetteten Systemen. Es bildet auch die Basis für Android, das weltweit am meisten verbreitete Betriebssystem für Mobilgeräte. Trotz seiner vielseitigen Einsatzmöglichkeiten ist Linux gegenüber Viren und Malware resistenter als viele andere Betriebssysteme. Ein weiterer Vorteil von Linux ist die starke und aktive Community, die eine Fülle von Ressourcen und Support bereitstellt.
 
+> **Wusstest du?** Der Name `Tux`, das Maskottchen von Linux, stammt von den Anfangsbuchstaben des Namens `Torvalds` und der Endung `ux` von `Unix`. Dies ehrt Linus Torvalds, den Schöpfer von Linux, und zeigt die Verbindung zur Unix-Philosophie im Open-Source-Betriebssystem.
+{: .prompt-info }
+
 ## Die Geschichte von Linux
 
 ### Eine Reise durch die Zeit
@@ -132,6 +135,10 @@ Da Linux quelloffen ist, haben Entwickler und Organisationen die Freiheit, ihre 
 - Linux Lite, obwohl ursprünglich als Einsteiger-freundliche und ressourcenleichte Distribution beworben, hat in letzter Zeit einigen Gegenwind erfahren[^fn-nth-2]. Benutzer haben eine Reihe von Mängeln festgestellt, die die Nutzungserfahrung beeinträchtigen. Die Webseite der Distribution wurde als unprofessionell kritisiert, was potenzielle neue Nutzer abschrecken kann. Darüber hinaus gibt es Probleme mit den Spracheinstellungen, die trotz korrekter Konfiguration nicht konsequent angewendet werden. Es wurden auch Instabilitäten und fehlgeschlagene Updates gemeldet, die erhebliche Frustrationen verursachen und das Vertrauen in die Zuverlässigkeit des Systems untergraben. Diese Probleme verdeutlichen, dass nicht jede Linux-Distribution, selbst wenn sie sich an Einsteiger richtet, gleich gut ausgeführt wird.[^fn-nth-2]
 
 - Wenn du ein Leichtes Linux, für ältere Systeme suchst. Schau dir Antex an. Antex läuft zuverlässig auf sehr alter Hardware. Oder für den Einsatz von Viertuellen Maschinen ist Xubuntu gut geignet.
+
+Wenn Sie tieferes Verständnis für Ihre Linux-Distribution erlangen oder unsicher sind, welche Linux-Distribution Sie wählen sollten, empfehlen wir Ihnen, einen Blick auf den Leitfaden von c't zu werfen. Dieser Leitfaden bietet umfassende Informationen und hilfreiche Einblicke in die Welt der Linux-Distributionen.
+
+![Test Diagram](/assets/img/linuxLinienplan.png)
 
 ## Warum Linux?
 
