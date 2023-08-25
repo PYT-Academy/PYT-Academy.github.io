@@ -55,3 +55,5 @@ Die Wiederverwendung alter Technologie ist nicht nur umweltfreundlich, sondern a
 ## Kontaktiere mich
 
 Hast du Fragen oder möchtest du mehr über dieses Thema erfahren? Zögere nicht, mich zu kontaktieren. Ich bin immer bereit, mein Wissen und meine Leidenschaft für Technologie zu teilen.
+
+
