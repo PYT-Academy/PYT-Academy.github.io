@@ -3,7 +3,7 @@ title: Gaming unter Linux, Herausforderungen und Möglichkeiten
 date: 2023-08-19 11:00:00 -0400
 last_modified_at: 2023-08-19 11:00:00 -0400
 categories: [Technik, Linux, Gaming]
-tags: [gaming, linux, spiele, open-source, wine, proton]
+tags: [Linux, Gaming, Proton, Wine, Valve, Steam, Minecraft, MultiMC, Lutris, Bottles, Battle.net, League of Legends, Anticheat-Systeme, Valorant, Roblox]
 author: david
 image:
   path: /assets/img/gaming-banner.png
@@ -121,6 +121,11 @@ Lutris ist eine großartige Ergänzung für Linux-Gamer, die eine zentrale Anlau
 3. **Erstellen einer Bottle**: Klicke auf "New Bottle erstellen" und wähle den Namen für deine neue Wine-Instanz aus. Du kannst auch die Wine-Version auswählen, die für diese Instanz verwendet werden soll.
 
 4. **Installation von Windows Programmen**: Nachdem die Bottle erstellt wurde, klicke auf "Programm installieren" und wähle die Datei aus, die du ausführen möchtest. Befolge die Anweisungen des Installationsprogramms.
+
+Hier ist die offizielle Liste der von Wine unterstützten Programme: [WineHQ-Database](https://appdb.winehq.org/)
+
+### Video
+{% include embed/youtube.html id='o2HUNRPUDkU' %}
 
 ### Battle.net und dessen Spiele
 
