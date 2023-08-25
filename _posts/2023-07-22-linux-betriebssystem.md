@@ -136,7 +136,7 @@ Da Linux quelloffen ist, haben Entwickler und Organisationen die Freiheit, ihre 
 
 - Wenn du ein Leichtes Linux, für ältere Systeme suchst. Schau dir Antex an. Antex läuft zuverlässig auf sehr alter Hardware. Oder für den Einsatz von Viertuellen Maschinen ist Xubuntu gut geignet.
 
-Wenn Sie tieferes Verständnis für Ihre Linux-Distribution erlangen oder unsicher sind, welche Linux-Distribution Sie wählen sollten, empfehlen wir Ihnen, einen Blick auf den Leitfaden von c't zu werfen. Dieser Leitfaden bietet umfassende Informationen und hilfreiche Einblicke in die Welt der Linux-Distributionen.
+Wenn du tieferes Verständnis für Ihre Linux-Distribution erlangen oder unsicher bist, welche Linux-Distribution du wählen sollst, empfehlen wir dir, einen Blick auf den Leitfaden von c't zu werfen. Dieser Leitfaden bietet umfassende Informationen und hilfreiche Einblicke in die Welt der Linux-Distributionen.
 
 ![Test Diagram](/assets/img/linuxLinienplan.png)
 

@@ -6,27 +6,27 @@ Die PYT-Academy ist mehr als nur eine Webseite - sie ist ein lebendiges Gemeinsc
 
 Unsere Webseite bietet eine reichhaltige Fülle von Ressourcen, die darauf warten, von Ihnen erkundet zu werden:
 
-- **Informativer Blog:** Tauchen Sie ein in unsere detaillierten Blogbeiträge, die Ihnen tiefgehende Einblicke in verschiedene technische Themen bieten. Unsere Autoren teilen ihr Fachwissen und ihre Erfahrungen, um Ihnen das Verständnis zu erleichtern.
+- **Informativer Blog:** Tauche ein in unsere detaillierten Blogbeiträge, die Ihnen tiefgehende Einblicke in verschiedene technische Themen bieten. Unsere Autoren teilen ihr Fachwissen und ihre Erfahrungen, um Ihnen das Verständnis zu erleichtern.
 
-- **Spannende Projektvorstellungen:** Lassen Sie sich von unseren aufregenden Projektvorstellungen inspirieren. Wir möchten Ihre Kreativität anregen und Sie dazu motivieren, Ihre eigenen Projekte in Angriff zu nehmen. Seien Sie mutig und teilen Sie Ihre Erfahrungen mit der Community!
+- **Spannende Projektvorstellungen:** Lasse dich sich von unseren aufregenden Projektvorstellungen inspirieren. Wir möchten Ihre Kreativität anregen und Sie dazu motivieren, Ihre eigenen Projekte in Angriff zu nehmen. Sei mutig und teilen deine Erfahrungen mit der Community!
 
 ## Unser Ziel
 
 Wir glauben daran, Wissen zu teilen und das Lernen zu fördern. Deshalb haben wir eine breite Palette an Inhalten entwickelt, die gleichermaßen für Anfänger und erfahrene Technikbegeisterte geeignet sind:
 
-- **Für Anfänger:** Wenn Sie gerade erst in die Welt der Technik eintauchen, sind Sie hier richtig! Unsere einfachen und verständlichen Ressourcen helfen Ihnen dabei, die Grundlagen zu erlernen und sich Schritt für Schritt zu verbessern.
+- **Für Anfänger:** Wenn du gerade erst in die Welt der Technik eintauchen, bist du hier richtig! Unsere einfachen und verständlichen Ressourcen helfen Ihnen dabei, die Grundlagen zu erlernen und sich Schritt für Schritt zu verbessern.
 
 - **Für Experten:** Auch erfahrene Profis finden bei uns Herausforderungen und interessante Einblicke. Unsere fortgeschrittenen Artikel und Diskussionen bieten eine Plattform, um Ihr Wissen zu vertiefen und sich mit Gleichgesinnten auszutauschen.
 
-## Machen Sie mit!
+## Mach mit!
 
-Wir laden Sie herzlich ein, sich unserer Gemeinschaft anzuschließen. Nutzen Sie unsere Ressourcen, tauschen Sie Ihr Wissen aus und werden Sie Teil unserer aufregenden Reise in die faszinierende Welt der Technik. Hier sind einige Möglichkeiten, wie Sie mitmachen können:
+Wir laden dich herzlich ein, sich unserer Gemeinschaft anzuschließen. Nutze unsere Ressourcen, tausche dein Wissen aus und werde Teil unserer aufregenden Reise in die faszinierende Welt der Technik. Hier sind einige Möglichkeiten, wie du mitmachen kannst:
 
-- **Lesen und Lernen:** Stöbern Sie durch unsere Artikel und lernen Sie Neues dazu. Ganz gleich, ob Sie eine kurze Pause einlegen oder tief in ein Thema eintauchen möchten - bei uns finden Sie die passenden Inhalte.
+- **Lesen und Lernen:** Stöber durch unsere Artikel und lerne Neues dazu. Ganz gleich, ob du eine kurze Pause einlegen oder tief in ein Thema eintauchen möchten - bei uns findest du die passenden Inhalte.
 
-- **Teilen Sie Ihre Projekte:** Haben Sie an einem spannenden DIY-Projekt gearbeitet? Teilen Sie es mit der Community! Wir freuen uns darauf, von Ihren Erfahrungen zu hören und von Ihrem Projekt zu erfahren.
+- **Teile deine Projekte:** Hast du an einem spannenden Projekt gearbeitet? Teile sie mit der Community! Wir freuen uns darauf, von Ihren Erfahrungen zu hören und von Ihrem Projekt zu erfahren.
 
-- **Mitgestalten und Diskutieren:** Haben Sie Ideen, wie wir die PYT-Academy noch besser machen können? Oder möchten Sie sich an Diskussionen über aktuelle Techniktrends beteiligen? Ihre Meinung ist uns wichtig!
+- **Mitgestalten und Diskutieren:** Hast du Ideen, wie wir die PYT-Academy noch besser machen können? Oder möchtest du sich an Diskussionen über aktuelle Techniktrends beteiligen? Ihre Meinung ist uns wichtig!
 
 # Mitwirken bei der PYT-Academy: Ein Pull Request auf GitHub erstellen
 
