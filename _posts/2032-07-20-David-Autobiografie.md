@@ -10,8 +10,6 @@ image:
   path: /assets/img/david_autobiogafie_profilbild.png
 ---
 
-# Autobiografie
-
 Hallo, ich bin David, 16 Jahre alt, und ich möchte euch in diesem Artikel einen Einblick in meine Leidenschaften, Interessen und Erfahrungen geben. Videospiele und Informatik sind meine große Leidenschaft, und ich genieße es, meine Fähigkeiten in der Programmierung zu erweitern. Neben meiner technischen Begeisterung habe ich auch wertvolle Erfahrungen als Pfadfinder und Freiwilliger bei der Feuerwehr gesammelt. Zudem bin ich sprachlich vielseitig, da ich Deutsch, Ungarisch, Englisch und sogar ein bisschen Spanisch spreche.
 
 ## Informatik
