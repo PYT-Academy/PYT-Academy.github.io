@@ -5,6 +5,8 @@ last_modified_at: 2023-06-15 12:00:00 -0400
 categories: [Community, News]
 tags: [pyt-academy, launch, online]
 author: sergius
+layout: default
+comments: true
 ---
 
 Hallo liebe Technikbegeisterte,
