@@ -11,8 +11,6 @@ image:
 comments: true
 ---
 
-## Kommentarichtlinien
-
 1. **Willkommen in unserem Kommentarbereich!**  
    Wir freuen uns über deine Teilnahme und möchten, dass dies ein Ort des respektvollen Austauschs bleibt. Bitte beachte die folgenden Kommentarichtlinien:
 
