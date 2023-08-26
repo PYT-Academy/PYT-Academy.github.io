@@ -8,6 +8,7 @@ image:
   path: /assets/img/Rules-1200x630.png
   lqip:
   alt: Responsive rendering of Chirpy theme on multiple devices.
+  
 ---
 
 ## Kommentarichtlinien
