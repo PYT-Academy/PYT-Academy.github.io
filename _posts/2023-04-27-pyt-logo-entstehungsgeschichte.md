@@ -1,5 +1,6 @@
 ---
 title: die Geburt des PYT-Logo's
+comments: true
 date: 2023-04-27 11:33:00 -0400
 last_modified_at: 2023-07-23 10:12:00 -0400
 categories: [Projekte, Grafik]

@@ -6,6 +6,7 @@ categories: [Willkommen, Comunity]
 tags: [Technikbegeisterte, Informatik, Webentwicklung, DIY-Projekte, Comunity, PYT-Academy]
 author: sergius
 pin: true
+comments: true
 ---
 
 Die PYT-Academy ist mehr als nur eine Webseite - sie ist eine Gemeinschaftsprojekt von Technikbegeisterten, die ihr Wissen und ihre Leidenschaft für verschiedene Bereiche wie Informatik, Programieren und DIY-Projekte teilen.
