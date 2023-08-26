@@ -5,6 +5,7 @@ last_modified_at: 2023-07-21 17:30:00 -0400
 categories: [Git, Github, Anleitung]
 tags: [git, github, anleitung]
 author: david
+comments: true
 image:
   path: /assets/img/GitHub-banner.png
 ---

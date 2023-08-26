@@ -5,6 +5,7 @@ last_modified_at: 2023-08-04 13:50:00 -0400
 categories: [Profil, David]
 tags: [Autobiografie]
 author: david
+comments: true
 image:
   path: /assets/img/david_autobiogafie_profilbild.png
 ---

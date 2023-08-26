@@ -5,6 +5,7 @@ last_modified_at: 2023-08-19 11:00:00 -0400
 categories: [Technik, Linux, Gaming]
 tags: [Linux, Gaming, Proton, Wine, Valve, Steam, Minecraft, MultiMC, Lutris, Bottles, Battle.net, League of Legends, Anticheat-Systeme, Valorant, Roblox]
 author: david
+comments: true
 image:
   path: /assets/img/gaming-banner.png
 ---

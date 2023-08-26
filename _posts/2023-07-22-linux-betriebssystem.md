@@ -5,6 +5,7 @@ last_modified_at: 2023-07-29 13:15:00 -0400
 categories: [Linux, Gaming]
 tags: [open-source, it-security, linux, gaming, gnu]
 author: david
+comments: true
 image:
   path: /assets/img/Linux-banner.png
   lqip:

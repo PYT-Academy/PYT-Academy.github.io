@@ -5,6 +5,7 @@ last_modified_at: 2023-08-24 12:00:00 -0400
 categories: [Tutorials, Windows]
 tags: [BAT-Dateien, Windows-Skripte, Brave-Browser, Softonic, Sicherheit, Datenschutz, "Bat to EXE"]
 author: sergius
+comments: true
 image:
   path: /assets/img/Sergius-Logo-1200x630.png
 ---

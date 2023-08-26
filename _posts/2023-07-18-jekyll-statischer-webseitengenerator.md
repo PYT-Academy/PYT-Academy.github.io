@@ -5,6 +5,7 @@ last_modified_at: 2023-08-03 11:33:00 -0400
 categories: [Community, Webdevelopment]
 tags: [webdevelopment, homepage, jekyll, github, webseitengenerator, statische-webseite, Hosting, RSS-Feed]
 author: sergius
+comments: true
 mermaid: true
 image:
   path: /assets/img/JG-logo.png

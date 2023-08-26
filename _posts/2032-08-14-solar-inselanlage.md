@@ -4,6 +4,7 @@ date: 2023-08-13 08:00:00 -0400
 categories: [DIY, Projekte, Solaranlage]
 tags: [Wohnmobil, Solar-Inselanlage, Photovoltaik, Erzeuger, Speicher, Entnahme, LiFePO4, Akkutechnologie, Systemspannung, 48V, Elektrische Versorgung, Großverbraucher, Mittelverbraucher, Kleinverbraucher, Primer-Verbraucher, Sekundär-Verbraucher, Kostenschätzung, Elektrische Absicherung, Energieunabhängigkeit, Off-Grid, Selbstversorgung]
 author: sergius
+comments: true
 image:
   path: /assets/img/blogpost-230814/230814-blogpost-inselanlage.png
 ---

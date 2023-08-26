@@ -5,6 +5,7 @@ last_modified_at: 2023-08-22 16:11:00 -0400
 categories: [Profil, Karl]
 tags: [Autobiografie]
 author: karl
+comments: true
 ---
 
 # Karls Blogartikel

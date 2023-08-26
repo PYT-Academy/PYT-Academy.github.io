@@ -9,6 +9,7 @@ image:
   path: /assets/img/DIY-Powerwall.png
   lqip:
   alt: Responsive rendering of Chirpy theme on multiple devices.
+comments: true
 ---
 
 ![Desktop View](/assets/img/DIY-Powerwall.png){: width="972" height="589" }

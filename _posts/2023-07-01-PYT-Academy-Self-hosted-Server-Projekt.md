@@ -5,6 +5,7 @@ last_modified_at: 2023-08-09 14:00:00 -0400
 categories: [Projekte, Server]
 tags: [open-source, Self-hosted, Server, Projekt, Cloud, Verein, Cryptomator, Tutorial]
 author: sergius
+comments: true
 pin: true
 image:
   path: /assets/img/mac-mini-router.png

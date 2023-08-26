@@ -7,6 +7,7 @@ tags: [Passwörter, Passwortmanager, it-security]
 author: david
 image:
   path: /assets/img/Passwort-banner.png
+comments: true
 ---
 
 # Passwortmanager: Dein digitales Gehirn für Passwörter

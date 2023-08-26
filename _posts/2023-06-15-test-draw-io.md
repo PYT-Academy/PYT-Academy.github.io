@@ -5,6 +5,7 @@ last_modified_at: 2023-06-15 12:00:00 -0400
 categories: [Projekte, draw.io]
 tags: [webdevelopment, open-source, Draw.io]
 author: sergius
+comments: true
 image:
   path: /assets/img/Draw.io-banner.png
 ---
