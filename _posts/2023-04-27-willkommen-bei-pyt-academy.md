@@ -7,6 +7,9 @@ tags: [Technikbegeisterte, Informatik, Webentwicklung, DIY-Projekte, Comunity, P
 author: sergius
 pin: true
 comments: true
+image:
+  path: /assets/img/willkommen.png
+  alt: einfach ein von 'Midjourney erstelltes Bild
 ---
 
 Hallo Technikfreunde! Du bist auf der offiziellen Webseite der **PYT-Academy** gelandet, dem Aushängeschild unserer lebendigen Community von Technikbegeisterten in Paraguay.
