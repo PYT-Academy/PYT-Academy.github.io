@@ -2,15 +2,13 @@
 title: Gaming unter Linux, Herausforderungen und Möglichkeiten
 date: 2023-08-19 11:00:00 -0400
 last_modified_at: 2023-08-19 11:00:00 -0400
-categories: [Technik, Linux, Gaming]
+categories: [Linux, Gaming]
 tags: [Linux, Gaming, Proton, Wine, Valve, Steam, Minecraft, MultiMC, Lutris, Bottles, Battle.net, League of Legends, Anticheat-Systeme, Valorant, Roblox]
 author: david
 comments: true
 image:
   path: /assets/img/gaming-banner.png
 ---
-
-# Gaming unter Linux: Herausforderungen und Möglichkeiten
 
 Linux ist bekannt für seine Vielseitigkeit und Anpassungsfähigkeit in der Welt der Technologie. Neben seiner Verwendung in Serverumgebungen und als Betriebssystem für Entwickler hat Linux in den letzten Jahren auch große Fortschritte im Bereich Gaming gemacht. In diesem Artikel werfen wir einen Blick auf die Herausforderungen und Möglichkeiten des Gamings unter Linux.
 
@@ -89,7 +87,7 @@ Die Verwendung von MultiMC kann deine Minecraft-Erfahrung unter Linux erheblich 
 
 **Lutris** ist eine Open Source-Plattform, die es ermöglicht, Spiele unter Linux zu installieren, zu organisieren und auszuführen. Es bietet eine benutzerfreundliche Schnittstelle, die es dir erleichtert, Spiele von verschiedenen Quellen zu installieren und zu spielen, unabhängig davon, ob sie für Linux, Windows oder andere Plattformen entwickelt wurden.
 
-### Vorteile von Lutris:
+### Vorteile von Lutris
 
 1. **Spielintegration**: Lutris bietet eine wachsende Liste von Spielen, die direkt über die Plattform installiert und verwaltet werden können. Dabei handelt es sich sowohl um Linux-spezifische als auch um Windows-Spiele, die unter Wine oder Proton laufen.
 
@@ -99,7 +97,7 @@ Die Verwendung von MultiMC kann deine Minecraft-Erfahrung unter Linux erheblich 
 
 4. **Community**: Lutris bietet eine aktive Community, in der Nutzer Erfahrungen, Tipps und Ratschläge zum Spielen unter Linux austauschen können.
 
-### Lutris verwenden:
+### Lutris verwenden
 
 1. **Installation von Lutris**: Abhängig von deiner Linux-Distribution kannst du Lutris aus den Paketquellen installieren.
 
@@ -116,7 +114,7 @@ Lutris ist eine großartige Ergänzung für Linux-Gamer, die eine zentrale Anlau
 **Bottles** ist ein Frontend für **Wine**, das dazu dient, Windows-Programme auf Linux-Systemen auszuführen. Es bietet eine benutzerfreundliche Oberfläche, um Wine-Instanzen zu erstellen und Programme darin zu installieren. Hier ist eine Anleitung zur Einrichtung von Bottles und zur Ausführung von Windows Programmen:
 
 1. **Installation von Bottles**: Öffne ein Terminal und befolge die Anweisungen, um Bottles zu installieren. Abhängig von deiner Linux-Distribution kann der Befehl variieren.
-   
+
 2. **Bottles starten**: Suche nach "Bottles" in deinem Anwendungsmenü und starte die Anwendung.
 
 3. **Erstellen einer Bottle**: Klicke auf "New Bottle erstellen" und wähle den Namen für deine neue Wine-Instanz aus. Du kannst auch die Wine-Version auswählen, die für diese Instanz verwendet werden soll.
@@ -126,18 +124,21 @@ Lutris ist eine großartige Ergänzung für Linux-Gamer, die eine zentrale Anlau
 Hier ist die offizielle Liste der von Wine unterstützten Programme: [WineHQ-Database](https://appdb.winehq.org/)
 
 ### Video
+
 {% include embed/youtube.html id='o2HUNRPUDkU' %}
 
 ### Battle.net und dessen Spiele
 
 ![Desktop View](/assets/img/battle.net-logo.png){: width="256" height="256" .left}
 
-1. **Battle.net Launcher**:
+1. **Battle.net Launcher**
+
 - Erstelle eine neue Bottle für den Battle.net Launcher.
 - Installiere den Launcher, indem du die Installer Datei auswählst.
 - Nach der Installation öffne den Launcher innerhalb der Bottle.
 
-2. **Battle.net Spiele**:
+1. **Battle.net Spiele**
+
 - Installiere Overwatch 2, Hearthstone oder andere Battle.net Spiele über den Battle.net Launcher in der Bottle.
 - Danach kannst du die spiele starten und in der Wine basierten Umgebung spielen.
 
@@ -145,7 +146,8 @@ Hier ist die offizielle Liste der von Wine unterstützten Programme: [WineHQ-Dat
 
 ![Desktop View](/assets/img/league-of-legends-logo.png){: width="256" height="256" .left}
 
-1. **League of Legends**:
+1. **League of Legends**
+
 - Erstelle eine neue Bottle für League of Legends.
 - Lade den League of Legends Installer von der offiziellen Website herunter.
 - Installiere das Spiel in der Bottle, indem du den heruntergeladenen Installer auswählst.
@@ -170,4 +172,3 @@ Während Linux eine zunehmend attraktive Plattform für Gaming geworden ist, gib
 **Roblox** ist eine Gaming-Plattform, auf der Nutzer ihre eigenen Spiele erstellen und spielen können. Auch hier gibt es eine Einschränkung für Linux-Nutzer aufgrund von Anticheat-Systemen. Das Spiel verwendet einen Client-seitigen Anticheat, der unter Linux nicht unterstützt wird. Das bedeutet, dass das Spielen von Roblox auf einem Linux-System ebenfalls kompliziert sein kann.
 
 Es ist wichtig, sich bewusst zu sein, dass die fehlende Unterstützung für Linux in diesen Fällen nicht immer in der Kontrolle der Entwickler liegt, sondern oft auf den Anforderungen von Anticheat-Systemen basiert.
-

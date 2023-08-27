@@ -11,8 +11,6 @@ image:
 comments: true
 ---
 
-# Wie das Logo der PYT-Academy entstand
-
 ## Eine Kreativreise mit künstlicher Intelligenz
 
 Es war ein ungewöhnlicher Tag, an dem ich beschloss, das Logo der PYT-Academy zu gestalten. Ich erinnere mich, wie ich stundenlang vor meinem Computer saß, meinen Kaffee trank und darüber nachdachte, wie das Logo aussehen sollte. Ich wollte etwas, das unsere Identität als Online-Akademie im Bereich IT und Technologie darstellte.
