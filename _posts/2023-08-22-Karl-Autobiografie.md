@@ -13,7 +13,7 @@ comments: true
 Hallo, mein Name ist Karl, ich bin 12 Jahre alt, ich lebe in Paraguay und möchte im Folgenden etwas über mich erzählen.
 
 ## Freizeit
-Ich programmiere gerne; außerdem fahre ich auch gerne Fahrrad und lese Bücher. Auch Klavier spiele ich. Mein größtes Programmierprojekt ist vielleicht die Webseite https://akemsoft.com, an der ich zusammen mit einem Freund programmiere (der hat auch das Design der Webseite größtenteils gemacht). Aktuell arbeite ich an einem Redesign mit Bootstrap.
+Ich programmiere gerne; außerdem fahre ich auch gerne Fahrrad und lese Bücher. Auch Klavier spiele ich. Mein größtes Programmierprojekt ist vielleicht die Webseite [Akemsoft](https://akemsoft.com){:target="_blank"} , an der ich zusammen mit einem Freund programmiere (der hat auch das Design der Webseite größtenteils gemacht). Aktuell arbeite ich an einem Redesign mit Bootstrap.
 
 ## Sprachkenntnisse
 Meine Muttersprache ist Deutsch, Englisch kann ich recht gut, Spanisch noch nicht so gut und zudem lerne ich Latein.

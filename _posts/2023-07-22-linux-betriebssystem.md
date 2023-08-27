@@ -145,7 +145,7 @@ Wenn du tieferes Verständnis für Ihre Linux-Distribution erlangen oder unsiche
 
 ### Stabilität, Sicherheit und Flexibilität
 
-Linux hat sich als äußerst stabil, sicher und flexibel erwiesen, was es zu einer beliebten Wahl für Server, Mainframes und andere kritische Infrastrukturen gemacht hat. Die modulare Architektur ermöglicht es Benutzern, nur die Komponenten zu installieren, die sie benötigen, was das System schlank und effizient macht.
+Linux hat sich als äußerst stabil, sicher und flexibel erwiesen, was es zu einer beliebten Wahl für Server, Mainframes und andere kritische Infrastrukturen gemacht hat. Die modulare Architektur ermöglicht es Benutzern, nur die Komponenten zu installieren, die du benötigst, was das System schlank und effizient macht.
 
 Darüber hinaus ist Linux für seine Sicherheit bekannt. Regelmäßige Sicherheitsupdates und die Tatsache, dass der Quellcode von einer großen Gemeinschaft überprüft wird, tragen dazu bei, dass Sicherheitslücken schnell entdeckt und behoben werden.
 
