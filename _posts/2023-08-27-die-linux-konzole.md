@@ -66,3 +66,5 @@ Die Linux-Dateistruktur ist hierarchisch. Einige grundlegende Befehle zur Naviga
 Die Linux-Konsole ist ein mächtiges Werkzeug, das eine steile Lernkurve haben kann. Mit Übung kannst du jedoch die Kontrolle über dein System übernehmen, komplexe Aufgaben automatisieren und tiefe Einblicke in den Betrieb deines Computers gewinnen.
 
 In diesem Leitfaden haben wir nur an der Oberfläche gekratzt, aber er bietet dir eine solide Grundlage, um die Linux-Konsole zu erkunden und ihre umfangreichen Funktionen zu nutzen. Nimm dir die Zeit, um zu üben und zu experimentieren, und du wirst bald die Vorteile dieser leistungsfähigen Schnittstelle schätzen.
+
+Falls du weitere Tipps oder Befehle hast die du ergänzen möchtest kannst du gerne einen Pull-request auf underer [Github](https://github.com/PYT-Academy/PYT-Academy.github.io){:target="_blank"} Seite hinterlassen.
