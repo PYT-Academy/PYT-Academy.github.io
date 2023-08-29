@@ -47,8 +47,8 @@ Listen spielen eine wichtige Rolle in der schriftlichen Kommunikation, indem sie
 ### Geordnete liste
 
 1. Erstens
-2. Zweitens
-3. Drittens
+1. Zweitens
+1. Drittens
 
 > Nummerierte Listen werden verwendet, wenn die Reihenfolge der Punkte wichtig ist, wie bei Schritt-für-Schritt-Anleitungen oder Ranglisten. Sie helfen dem Leser, den Verlauf oder die Priorität der Punkte zu verstehen.
 
