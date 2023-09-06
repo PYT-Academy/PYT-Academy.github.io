@@ -18,7 +18,7 @@ Das Spielen unter Linux war lange Zeit mit einigen Herausforderungen verbunden. 
 
 ## Die Möglichkeiten
 
-In den letzten Jahren hat sich die Situation jedoch drastisch verändert. Dank Projekten wie [Proton](https://www.protondb.com/) und [Wine](https://www.winehq.org/) können viele Windows-Spiele jetzt auch unter Linux gespielt werden. Diese Kompatibilitätsschichten haben die Tür für eine breitere Palette von Spielen geöffnet, die zuvor auf Linux nicht verfügbar waren.
+In den letzten Jahren hat sich die Situation jedoch drastisch verändert. Dank Projekten wie [Proton](https://www.protondb.com/){:target="_blank"} und [Wine](https://www.winehq.org/){:target="_blank"} können viele Windows-Spiele jetzt auch unter Linux gespielt werden. Diese Kompatibilitätsschichten haben die Tür für eine breitere Palette von Spielen geöffnet, die zuvor auf Linux nicht verfügbar waren.
 
 ## Proton und Wine: Spielen mit Kompatibilität
 
