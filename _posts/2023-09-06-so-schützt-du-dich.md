@@ -2,7 +2,7 @@
 title: So schützt du dich nach einem möglichen digitalen Angriff
 date: 2023-09-06 16:50:00 -0400
 last_modified_at: 2023-09-06 16:50:00 -0400
-categories: [Digitale Sicherheit, Praxistipp]
+categories: [Cyber-Security, Praxistipp]
 tags: [Cyber-Security, Sicherheit, Anleitung, Internet, Datenschutz, Notfallplan, Online-Sicherheit, Microsoft-Konto, Angriffserkennung, Netzwerk-Sicherheit, Krisenbewältigung, Schadensbegrenzung, Online-Identität, Notfallmaßnahmen, Datenwiederherstellung, Krisenmanagement, Online-Verteidigung, Informationsaustausch, Risikobewertung, Datensicherheit, Online-Verhalten, Vorsichtsmaßnahmen, Kommunikationskanäle, Social Engineering, Sicherheitsbewusstsein, Passwortsicherheit, Kontenmanagement]
 author: david
 comments: true
