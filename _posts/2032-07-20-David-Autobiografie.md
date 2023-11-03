@@ -15,7 +15,7 @@ Hallo, ich bin David, 16 Jahre alt, und ich möchte euch in diesem Artikel einen
 ## Informatik
 
 Schon in jungen Jahren habe ich eine tiefe Faszination für Technologie und Videospiele entwickelt. Die Welt der Programmierung hat mich besonders in ihren Bann gezogen. Mit Stolz kann ich sagen, dass ich die Programmiersprache Python beherrsche und derzeit dabei bin, meine Kenntnisse in Java zu vertiefen. Zusätzlich bin ich mit JSON und Markdown vertraut, was mir vielseitige Möglichkeiten in der Technikwelt eröffnet.
-Falls ihr interessiert seid, könnt ihr meine Projekte auf GitHub entdecken! Hier ist der Link: <https://github.com/david-star-git>
+Falls ihr interessiert seid, könnt ihr [meine Projekte auf GitHub](https://github.com/david-star-git){:target="_blank"} entdecken!
 
 ## Erfahrungen
 
