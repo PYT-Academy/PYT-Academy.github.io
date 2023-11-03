@@ -8,7 +8,7 @@ pin: true #ist zum Anpinnen des Artikels auf den Oberen Rängen. mehrere Angepin
 math: true #nur für Matematische Formeln im Artikel benötigt
 mermaid: true #nur für Mermaid diagramme benötigt
 image:
-  path: assets/img/blogpost-231103/Arch-kiss.png
+  path: /assets/img/blogpost-231103/Arch-kiss.png
   alt: Arch Logo mit KISS-Philosophie (Keep it simple and Stupid)
 ---
 
