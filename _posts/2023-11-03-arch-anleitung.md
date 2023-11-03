@@ -2,15 +2,14 @@
 title: Arch-Linux, mein Setup 
 author: sergius
 date: 2023-11-03 11:33:00 +0800 #Datumformat entscheidet über die Sortierreinfolge.
-categories: [Linux, Archsetup Sergius ] #Kategorieauswahl laut Webseite bestimmen.
+categories: [Linux, Arch-Setup Sergius ] #Kategorieauswahl laut Webseite bestimmen.
 tags: [Anfänger, Anleitung, Arch, Community, ] #mindestens 3 Tags aus jeweils einzelnen Wörtern verfassen
 pin: true #ist zum Anpinnen des Artikels auf den Oberen Rängen. mehrere Angepinnte Artikel werden nach Datum sortiert
 math: true #nur für Matematische Formeln im Artikel benötigt
 mermaid: true #nur für Mermaid diagramme benötigt
 image:
-  path: /assets/img/devices-mockup.png
-  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  path: assets/img/blogpost-231103/Arch-kiss.png
+  alt: Arch Logo mit KISS-Philosophie (Keep it simple and Stupid)
 ---
 
 ## Begrüßung
