@@ -35,4 +35,6 @@ Natürlich gehen auch andere Modelle und neuere Hardware. Fühl dich frei zu nut
 ## bevor es losgeht
 
 - nutze die `Kommentarfunktion` und schreibe mir bei unklarheiten oder allgemenen Fragen.
-- Kontaktiere mich. Ich bin über [Discord]()
+- Kontaktiere mich. 
+  - [PYT-Academy Discord Server](https://discord.gg/WxaJcnuXAh){:target="_blank"}
+  - [IT-Systemhaus Telegram-Gruppe](https://t.me/IT_Systemhaus){:target="_blank"}
