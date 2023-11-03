@@ -27,9 +27,12 @@ Nach monatelangem Distro-Hopping und dem desaster der Desktopmanager bin ich jet
 
 hier möchte ich kurz auf die Hardware von meinem Studium-System sprechen. Ich präferiere die ThinkPad Reihe aus 2011. Insbesondere die ThinkPad Modelle [X220](https://thinkwiki.de/X220){:target="_blank"}, [W520](https://thinkwiki.de/W520){:target="_blank"} und das [T420](https://thinkwiki.de/T420){:target="_blank"}. Die Anderen modelle aus der Rheihe sind möglich, jedoch obsolet. es werden die Displaydiagonalen 12,5", 14" und 15" abgedeckt und jedes Modell steht für seinen Zweck top ausgestattet und solide da. In der [Deutschsprachigen ThinkPad-Wiki](https://thinkwiki.de/Hauptseite){:target="_blank"} findest du alle informationen. 
 
-Natürlich gehen auch andere Modelle und neuere Hardware. Fühl dich frei zu nutze was du willst. Ich beziehe meine Anleitungen ausschließlich auf diese Geräte und Arch-Linux basierte Systeme.
+Natürlich gehen auch andere Modelle und neuere Hardware. Fühl dich frei zu nutzen was du willst oder deine bestehende Hardware. Ich beziehe meine Anleitungen ausschließlich auf diese Geräte und Arch-Linux basierte Systeme.
+
+> Wichtige Begriffe stelle ich in solchen `Promts` dar. In diesem Fall möcht ich den Begriff `Propriätär` ansprechen. Wenn du mit Linux oder allgemein mit Open-Source oder dich mit dem [GNU-Project](https://www.gnu.org/philosophy/philosophy.html){:target="_blank"} auseinadersetzen willst. Dann solltest du den begriff `Proprietär` unbeingt verstehen und wissen welche Software und Hardware Proprietär ist. 
+{: .prompt-warning }
 
 ## bevor es losgeht
 
-- nutze die `Kommentarfunktion` und schreibe mir bei unklerheiten.
-- nutze den 
+- nutze die `Kommentarfunktion` und schreibe mir bei unklarheiten oder allgemenen Fragen.
+- Kontaktiere mich. Ich bin über [Discord]()
