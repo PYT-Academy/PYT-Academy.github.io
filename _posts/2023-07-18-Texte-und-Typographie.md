@@ -152,7 +152,7 @@ Codeblöcke sind Abschnitte in Markdown, die zum Hervorheben von Codebeispielen 
 ### Common
 
 ```text
-Dies ist ein gewöhnlicher Codeschnipsel, ohne Syntaxhervorhebung und Zeilennummer.
+Dies ist ein gewöhnlicher Codeschnipsel, ohne Syntaxhervorhebung
 ```
 
 ### Spezifische Programiersprache
