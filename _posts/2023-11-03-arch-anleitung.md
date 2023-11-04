@@ -54,9 +54,9 @@ Natürlich gehen auch andere Modelle und neuere eigene Hardware. Fühl dich frei
 
 ### BIOS oder UEFI
 
-- Du musst verstehen wie dein Rechner Startet. Das ältere System ist `BIOS` (Basic Input/Output System) welches nach und nach durch `UEFI` (Unified Extensible Firmware Interface) ersetzt. Ich gehe von UEFI aus was heutzutage der Standard ist. Die Thinkpads aus 2011 habe bereits alle UEFI. Die Projekte [Coreboot](https://www.coreboot.org/){:target="_blank"} und [Libreboot](https://libreboot.org/){:target="_blank"} lasse ich mal beiseite. 
+- Du musst verstehen wie dein Rechner Startet. Das ältere System ist `BIOS` (Basic Input/Output System) welches nach und nach durch `UEFI` (Unified Extensible Firmware Interface) ersetzt. Ich gehe von UEFI aus was heutzutage der Standard ist. Die Thinkpads aus 2011 habe bereits alle UEFI. Die Projekte [Coreboot](https://www.coreboot.org/){:target="_blank"} und [Libreboot](https://libreboot.org/){:target="_blank"} lasse ich mal beiseite.
 
-
+- **UEFI** benötigt eine **EFI System Partition** siehe [EN Arch-Wiki](https://wiki.archlinux.org/title/EFI_system_partition){:target="_blank"}
 
 ### Partitionierung. 
 
@@ -159,7 +159,8 @@ sdb...
 > **gdisk**,  oder auch **fdisk** eingaben werden per Tastatur gesteuert mit `m` rufst du die Hilfe auf. mit `Enter` wählst und bestätigst du die `Vorauswahl in Klammern` mit `w` (whrite) schreibst du die Änderungen und mit `q` (quit) verlässt du das Tool. Mit `man fdisk` rufst du das Handbuch auf. 
 {: .prompt-tip }
 
-Starten von **gdisk** mit dem Argument **/dev/sda**
+> Die **EFI**-Partition wird immer mit **gdisk** erstellt!
+{: .prompt-info }
 
 ```bash
 gdisk /dev/sda
