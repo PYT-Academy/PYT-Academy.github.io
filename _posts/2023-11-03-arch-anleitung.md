@@ -172,10 +172,6 @@ Los gehts mit **gdisk /dev/sda** mit `n` erstellst du eine neue Partition mit `p
 {: .prompt-tip }
 
 
-<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; border-radius: 2px; -webkit-box-shadow: 1px 2px 2px #ddd; box-shadow: 1px 2px 2px #ddd; background-color: #f9f9f9; background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(to bottom, #eee, #f9f9f9, #eee); padding: 1px 3px; font-family: inherit; font-size: 0.85em; white-space: nowrap;">y</kbd>
-
-<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; border-radius: 2px; -webkit-box-shadow: 1px 2px 2px #ddd; box-shadow: 1px 2px 2px #ddd; background-color: #f9f9f9; background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(to bottom, #eee, #f9f9f9, #eee); padding: 1px 3px; font-family: inherit; font-size: 0.85em; white-space: nowrap;">↵ Enter</kbd>
-
 <kbd class="keyboard-key nowrap" style="
   border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
   border-radius: 2px;
@@ -186,4 +182,6 @@ Los gehts mit **gdisk /dev/sda** mit `n` erstellst du eine neue Partition mit `p
   font-family: inherit;
   font-size: 0.85em;
   white-space: nowrap;
-">↵ Enter</kbd>
+">↵ Enter</kbd> text
+
+

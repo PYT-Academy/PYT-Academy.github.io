@@ -227,6 +227,20 @@ Das Bild unten schaltet den Dunkel-/Hellmodus je nach Designpräferenz um. Beach
 
 {% include embed/youtube.html id='hLuv-nO4QvQ' %}
 
+## Tasten mit inline CSS
+
+<kbd class="keyboard-key nowrap" style="
+  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
+  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
+  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
+  padding: 1px 3px;
+  font-family: inherit;
+  font-size: 0.85em;
+  white-space: nowrap;
+">↵ Enter</kbd> Bestätigen
+
 ## Reverse Footnote
 
 [^footnote]: The footnote source
