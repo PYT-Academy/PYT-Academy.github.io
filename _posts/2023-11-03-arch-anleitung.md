@@ -19,8 +19,13 @@ Nach monatelangem Distro-Hopping und dem desaster der Desktopmanager bin ich jet
 ### warum Arch?
 
 - ist primär eine Persönliche Entscheidung. Ich mag das System hauptsächlich wegen der dahinterstehenden Philosophie und der Community. 
-- Wer lesen kann ist ist hier klar im Vorteil. Das meiste ist bereits Dokumentiert, mann muss nur wissen wo ind wie man darauf zugreift.
-- Arch bietet ein Minimales Grundsystem und überlässt dem Nutzer sämtliche Entscheidungen über die weitere Konfiguration. Arch zwingt dich dazu sich mit deinem System zu beschäftigen. Das gilt auch für Arch basierende Distributionen (ausnahme bidet Manjaro, von der Disro habe ich mich bereits Distanziert) Aber mein Berufliches Linux System ist EndevourOS und diese Distribution verzichtet bewusst auf Grafische Packetmanager wie es auch die Arch-Wiki empfielt.
+- `Wer lesen kann ist ist klar im Vorteil`. Das meiste ist bereits Dokumentiert, mann muss nur wissen wo ind wie man darauf zugreift.
+- Arch bietet ein Minimales Grundsystem und überlässt dem Nutzer sämtliche Entscheidungen über die weitere Konfiguration und die Grafische Benutzeroberfläche. 
+- Arch zwingt dich dazu sich mit deinem System zu beschäftigen. Das gilt auch für Arch basierende Distributionen (ausnahme bidet Manjaro, von der Disro habe ich mich bereits Distanziert) meine Berufliches Linux-Distribution ist EndevourOS `(EOS)` und diese Distribution verzichtet bewusst auf Grafische Packetmanager und lässt dir bei der Installation deine Desktopumgebung oder sogar einen Windowmanager wählen.
+
+> An dieser stelle möchte ich über den `Orangenen` Promt sprechen. Sobald du den Orangenen Promt siehst kannst du mich unterstützen. In diesem fall geht es um die [UNIX-Philosophie von Mike Gancars](https://de.wikipedia.org/wiki/Unix-Philosophie#Mike_Gancarz:_The_UNIX_Philosophy){:target="_blank"} er hat ein Buch dazu veröffentlicht und ich würde die Kernessenz daraus, gerne in einem Blogartikel zusammenfassen. Wenn du mich unterstützen willst, schicke mir ein Script in dem du die wichtigsten Punkte zusammenfasst
+{: .prompt-warning }
+
 - Ich beziehe mich auch oft auch die [Deutschsprachige Arch-Wiki](https://wiki.archlinux.de/title/Hauptseite){:target="_blank"} und deren Unterseiten. Falls es keine Deutschsprachige Anleitung gibt geht es mit der [Englischsprachigen Arch-Wiki](https://wiki.archlinux.org/){:target="_blank"} weiter. Und zu guterletzt geht's weiter ins [Arch-Forum](https://bbs.archlinux.org/){:target="_blank"}. Achtung: wer im Forum Fragen stellt die in der Arch-Wiki beschrieben sind, erntet unter umständen Hohn und Spott. Bitte benutze das Forum ausschließlich wenn du in der Arch-Wiki nicht weiterkommst und verweise auch auf die Entsprechenden Artikel damit sich die Forumleute das genau ansehen können...
 
 ### Hardware
