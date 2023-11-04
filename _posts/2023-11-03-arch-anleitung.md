@@ -56,11 +56,7 @@ Natürlich gehen auch andere Modelle und neuere eigene Hardware. Fühl dich frei
 ![Desktop View](/assets/img/blogpost-231103/lsblk-devices.png){: width="419" height="162" .w-75 .right}
 mit [lsblk](https://wiki.archlinux.de/title/Lsblk){:target="_blank"} kann man sich alle angeschlossenen Blockgeräte, also Festplatten, CD/DVD-Laufwerke und USB-Sticks, anzeigen lassen. `sda`, `sdb`, `scd`, `sr0` stehen für die verschiedenen Blockgeräte. Für den anfang identifizieren wir unsere Installationsfestplatte die als `sda` gekennzeichnet ist.
 
-```bach
-lsblk
-```
-
-#### Ausgabe von `lsblk`
+#### Ausgabe von `lsblk` mit Optionen `-ld` und Argumenten `NAME,FSTYPE,GROUP,MODEL,MODE`
 
 ```
 lsblk -ld --output NAME,FSTYPE,GROUP,MODEL,MODE
