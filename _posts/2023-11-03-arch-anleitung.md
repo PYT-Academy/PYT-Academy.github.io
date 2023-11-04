@@ -68,7 +68,7 @@ mit [lsblk](https://wiki.archlinux.de/title/Lsblk){:target="_blank"} kann man si
 
 #### Ausgabe von `lsblk` mit Optionen `-ld` und Argumenten `NAME,FSTYPE,GROUP,MODEL,MODE`
 
-```bach
+```bash
 lsblk -ld --output NAME,FSTYPE,GROUP,MODEL,MODE
 ```
 
