@@ -163,3 +163,4 @@ fdisk /dev/sda
 > fdisk Eingaben werden per Tastatur gesteuert mit `m` rufst du die Hilfe auf. mit `Enter` wählst und bestätigst du die `Vorauswahl in Klammern` mit `w` (whrite) schreibst du die Änderungen und mit `q` (quit) verlässt du das Tool
 {: .prompt-tip }
 
+Weiter gehts mit `fdisk /dev/sda` mit `n` erstellst du eine neue Partition mit `p` setzt du den TYPE auf primary. Der Startsektor ist 2048, du kannst also die `vorgabe 2048` bestätigen. der Letzte Sektor kannst du mit `500M` bestätigen. Mit `a` setzt du die `Bootfähig-Markierung` auf Partition `1`
