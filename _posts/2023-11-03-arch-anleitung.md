@@ -254,6 +254,9 @@ gdisk /dev/sda
   white-space: nowrap;
 ">q</kbd> - (quit) **gdisk** verlassen
 
+> wenn du ein Dualboot-System erstellen willst musst du einfach die bestehende EFI-Partition Mounten. Der Beitrag über die Installation eines Dual-Boot Systems ist für Erfahrene Benutzer, ich arbeite daran...
+{: .prompt-tip }
+
 das ergebniss wie folgt aus:
 
 ```
