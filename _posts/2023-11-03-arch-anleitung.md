@@ -53,12 +53,14 @@ Natürlich gehen auch andere Modelle und neuere eigene Hardware. Fühl dich frei
 - Ist ein Riesiges Themengebiet und wird in der  Der [DE-Arch-Wiki "Einrichtung des Datenträgers"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger){:target="_blank"} beschrieben. Der Einfachheit halber benutze ich ein Standard-Layout bestehend aus einer `Boot`, `Root` und `SWAP` Partition. Der Vorteil ist dass die Einrichtung wesentlich einfacher ist und ich kann die SSD von einem Laptop in einen andaren umbauen und mit minimalen einrichtugnen läuft mein eigenes System wieder.
 
 
-![Desktop View](/assets/img/blogpost-231103/lsblk-devices.png){: width="419" height="162" .w-50 .right}
+![Desktop View](/assets/img/blogpost-231103/lsblk-devices.png){: width="419" height="162" .w-75 .right}
 mit [lsblk](https://wiki.archlinux.de/title/Lsblk){:target="_blank"} kann man sich alle angeschlossenen Blockgeräte, also Festplatten, CD/DVD-Laufwerke und USB-Sticks, anzeigen lassen. `sda`, `sdb`, `scd`, `sr0` stehen für die verschiedenen Blockgeräte. Für den anfang identifizieren wir unsere Installationsfestplatte die als `sda` gekennzeichnet ist.
 
 ```bach
 lsblk
 ```
+
+#### Ausgabe von `lsblk`
 
 ```
 lsblk -ld --output NAME,FSTYPE,GROUP,MODEL,MODE
