@@ -143,9 +143,13 @@ das dauert, je nach größe. `status=progress` erlaubt dir den Fortschritt zu ve
 `Achtung:` der `dd` Promt fürht aus was er soll ohne wiederrede! in diesem fall überschreibt er das gesammte `sda` Laufwerk. Alle Daten werden mit einer null überschrieben. Wenn du das mehrmals ausführst lassen sich selbst Magnetische Festplatten (HDD Hard Disk Drive) von niemanden wiederhersstellen!
 {: .prompt-danger }
 
+```bash
+lsblk
 ```
-NAME                    MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
-sda                     259:0    0     1T  0 disk  
+das **sda** Laufwerk wurde bereinigt
+```
+NAME         MAJ:MIN  RM   SIZE RO TYPE  MOUNTPOINTS
+sda           259:0    0 479,9G  0 disk  
 sdb...
 ```
 
@@ -154,7 +158,9 @@ sdb...
 
 ### Datenträger Partitionieren
 
-#### Die erste Partition (sba1) soll für **/boot** mit **512 MB** als **EFI-Partitionstyp** erstellt werden
+#### Boot-Partition
+
+Die erste Partition **sba1** soll für **/boot** mit **512 MB** als **EFI-System Partition** erstellt werden
 
 > **gdisk**,  oder auch **fdisk** eingaben werden per Tastatur gesteuert mit `m` rufst du die Hilfe auf. mit `Enter` wählst und bestätigst du die `Vorauswahl in Klammern` mit `w` (whrite) schreibst du die Änderungen und mit `q` (quit) verlässt du das Tool. Mit `man fdisk` rufst du das Handbuch auf. 
 {: .prompt-tip }
