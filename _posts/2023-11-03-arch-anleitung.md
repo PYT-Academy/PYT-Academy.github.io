@@ -151,3 +151,15 @@ sdb...
 
 > Unterschätze nicht den Datenmüll einer Alten Festplatte. Ich empfehle Dringent vor jder installation das Laufwerk zu säubern um Fehler zu vermeiden und Persönliche Daten zu schützen
 {: .prompt-tip }
+
+### Datenträger Partitionieren
+
+Erstelle eine `Boot` Partition. Nehmen wir dazu das Tool `fdisk`
+
+```bash
+fdisk /dev/sda
+```
+
+> fdisk Eingaben werden per Tastatur gesteuert mit `m` rufst du die Hilfe auf. mit `Enter` wählst und bestätigst du die `Vorauswahl in Klammern` mit `w` (whrite) schreibst du die Änderungen und mit `q` (quit) verlässt du das Tool
+{: .prompt-tip }
+
