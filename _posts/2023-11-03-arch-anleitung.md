@@ -122,7 +122,7 @@ lsblk
 ```
 
 ```
-NAME                      MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
+NAME                      MAJ:MIN RM   SIZE RO TYPE
 sda                       259:0    0     1T  0 disk  
 ├─sda1                    259:1    0   525M  0 part  
 ├─sda2                    259:2    0   140G  0 part  
@@ -137,10 +137,10 @@ unser Laufwerk haben wir als `sda` identifiziert.
 dd status=progress if=/dev/zero of=/dev/sda
 ```
 
-das dauert einen Moment `status=progress` erlaut dir den Fortschritt zu verfolgen. 
+das dauert (je nach größe) einen Moment `status=progress` erlaubt dir den Fortschritt zu verfolgen. 
 
 > Gefähliche Aktionen stelle ich in `roten` "Danger"-Promt dar. 
-`Achtung:` der `dd` Promt fürht aus was er soll ohne wiederrede! in diesem fall überschreibt er das gesammte `sda` Laufwerk mit `zero` nullen. Alle daten werden mit einer null überschrieben. Wenn du das mehrmals ausführst sich selbst Magnetische platten von niemanden wiederhersstellbar!
+`Achtung:` der `dd` Promt fürht aus was er soll ohne wiederrede! in diesem fall überschreibt er das gesammte `sda` Laufwerk. Alle Daten werden mit einer null überschrieben. Wenn du das mehrmals ausführst lassen sich selbst Magnetische Festplatten (HDD Hard Disk Drive) von niemanden wiederhersstellen!
 {: .prompt-danger }
 
 ```
