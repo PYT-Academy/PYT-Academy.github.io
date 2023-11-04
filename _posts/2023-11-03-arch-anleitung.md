@@ -139,7 +139,7 @@ dd status=progress if=/dev/zero of=/dev/sda
 
 das dauert einen Moment `status=progress` erlaut dir den Fortschritt zu verfolgen. 
 
-> Gefähliche Aktionen stelle ich in `roten` Danger-Promts dar. 
+> Gefähliche Aktionen stelle ich in `roten` "Danger"-Promt dar. 
 `Achtung:` der `dd` Promt fürht aus was er soll ohne wiederrede! in diesem fall überschreibt er das gesammte `sda` Laufwerk mit `zero` nullen. Alle daten werden mit einer null überschrieben. Wenn du das mehrmals ausführst sich selbst Magnetische platten von niemanden wiederhersstellbar!
 {: .prompt-danger }
 
