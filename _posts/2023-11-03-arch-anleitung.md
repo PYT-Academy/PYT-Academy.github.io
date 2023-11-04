@@ -159,17 +159,107 @@ Die erste Partition (sba1) soll für **/boot** mit 512MiB als **EFI-Partitionsty
 > **gdisk**,  oder auch **fdisk** eingaben werden per Tastatur gesteuert mit `m` rufst du die Hilfe auf. mit `Enter` wählst und bestätigst du die `Vorauswahl in Klammern` mit `w` (whrite) schreibst du die Änderungen und mit `q` (quit) verlässt du das Tool. Mit `man fdisk` rufst du das Handbuch auf. 
 {: .prompt-tip }
 
+Starten von **gdisk** mit dem Argument **/dev/sda**
+
 ```bash
 gdisk /dev/sda
 ```
 
-Los gehts mit **gdisk /dev/sda** mit `n` erstellst du eine neue Partition mit `p` setzt du den **TYPE** auf primary. Der Startsektor ist 2048, du kannst also die `vorgabe 2048` bestätigen. der Letzte Sektor kannst du mit `500M` bestätigen. Mit `a` setzt du die `"Bootfähig" Markierung` für Partition `1` mit `w` schreibst du die Änderungen und mit `q` verlässt du `fdisk`
+<kbd class="keyboard-key nowrap" style="
+  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
+  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
+  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
+  padding: 1px 3px;
+  font-family: inherit;
+  font-size: 0.85em;
+  white-space: nowrap;
+">o</kbd> - Erzeugen einer neuen GPT im cache.
+
+<kbd class="keyboard-key nowrap" style="
+  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
+  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
+  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
+  padding: 1px 3px;
+  font-family: inherit;
+  font-size: 0.85em;
+  white-space: nowrap;
+">y</kbd> - Bestätigen
+
+<kbd class="keyboard-key nowrap" style="
+  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
+  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
+  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
+  padding: 1px 3px;
+  font-family: inherit;
+  font-size: 0.85em;
+  white-space: nowrap;
+">n</kbd> - neue Partition erstellen
+
+<kbd class="keyboard-key nowrap" style="
+  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
+  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
+  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
+  padding: 1px 3px;
+  font-family: inherit;
+  font-size: 0.85em;
+  white-space: nowrap;
+">↵ Enter</kbd> - Partitionsnummer **1** bestätigen
+
+<kbd class="keyboard-key nowrap" style="
+  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
+  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
+  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
+  padding: 1px 3px;
+  font-family: inherit;
+  font-size: 0.85em;
+  white-space: nowrap;
+">↵ Enter</kbd> - den ersten Sektor bei **2048** bestätigen
+
+`512M` - Die Partitionsgröße festlegen
+
+`ef00` - Den Partitionstyp einer EFI-Partition setzen
+
+<kbd class="keyboard-key nowrap" style="
+  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
+  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
+  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
+  padding: 1px 3px;
+  font-family: inherit;
+  font-size: 0.85em;
+  white-space: nowrap;
+">w</kbd> - (whrite) die änderungen Schreiben
+
+<kbd class="keyboard-key nowrap" style="
+  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
+  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
+  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
+  padding: 1px 3px;
+  font-family: inherit;
+  font-size: 0.85em;
+  white-space: nowrap;
+">q</kbd> - (quit) **gdisk** verlassen
 
 > Die **Boot-Partition** ist der Speicherbereich für den Bootloader und Teile des Kernels. Um mehrere Kernel-Versionen zu installieren, kann es nötig sein, die Boot-Partition zu vergrößern. Ein Speicherplatz von **1GB** ist in der Regel ausreichend. Die [Arch-Linux-Wiki](https://wiki.archlinux.org/index.php/Partitioning#Boot_partition) empfiehlt mindestens **300MB** für die Boot-Partition.
 {: .prompt-tip }
 
 > Der Startsektor **2048** wird oft für Partitionen auf modernen Festplatten gewählt, da er mit den Speicherblöcken von Festplatten mit einer Sektorgröße von **4K** optimal ausgerichtet ist. Dieser Bereich, der einer Größe von **1MB** entspricht, wird für die Partitionstabelle und den Bootloader genutzt.
 {: .prompt-tip }
+
+
 
 
 <kbd class="keyboard-key nowrap" style="
@@ -182,6 +272,6 @@ Los gehts mit **gdisk /dev/sda** mit `n` erstellst du eine neue Partition mit `p
   font-family: inherit;
   font-size: 0.85em;
   white-space: nowrap;
-">↵ Enter</kbd> text
+">↵ Enter</kbd> Bestätigen
 
 
