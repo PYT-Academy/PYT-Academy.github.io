@@ -253,7 +253,7 @@ gdisk /dev/sda
   white-space: nowrap;
 ">q</kbd> - (quit) **gdisk** verlassen
 
-das ergebniss sieht so aus:
+das ergebniss wie folgt aus:
 
 ```
 NAME                    MAJ:MIN RM   SIZE RO TYPE
@@ -272,3 +272,26 @@ sdb...
 
 
 
+
+
+
+
+## Sonstiges
+
+### Installation einer Virtuellen maschiene
+
+[DE Arch-Wiki](https://wiki.archlinux.de/title/VirtualBox){:target="_blank"}
+
+### Lese- und Schreibgeschwindigkeit eines Laufwerks messen
+
+#### Schreibgeschwindigkeit
+
+```bash
+dd if=/dev/zero of=tempfile bs=1M count=1024 conv=fdatasync,notrunc
+```
+
+#### Lesegeschwindigkeit
+
+```bash
+dd if=tempfile of=/dev/null bs=1M count=1024
+```
