@@ -252,7 +252,7 @@ gdisk /dev/sda
   font-family: inherit;
   font-size: 0.85em;
   white-space: nowrap;
-">q</kbd> - (quit) **gdisk** verlassen
+">y</kbd> - (YES) mit Ja bestätigen
 
 > wenn du ein Dualboot-System erstellen willst musst du einfach die bestehende EFI-Partition Mounten. Der Beitrag über die Installation eines Dual-Boot Systems ist für Erfahrene Benutzer, ich arbeite daran...
 {: .prompt-tip }
@@ -260,9 +260,9 @@ gdisk /dev/sda
 das ergebniss wie folgt aus:
 
 ```
-NAME                    MAJ:MIN RM   SIZE RO TYPE
-sda                     259:0    0     1T  0 disk  
-└─sda1                  259:1    0   512M  0 part 
+NAME          MAJ:MIN RM   SIZE RO TYPE
+sda           259:0    0     1T  0 disk  
+└─sda1        259:1    0   512M  0 part 
 sdb... 
 ```
 
