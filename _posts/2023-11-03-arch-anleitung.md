@@ -154,19 +154,24 @@ sdb...
 
 ### Datenträger Partitionieren
 
-Erstelle eine `Boot` Partition. Nehmen wir dazu das Tool `fdisk`
+Die erste Partition (sba1) soll für **/boot** mit 512MiB als **EFI-Partitionstyp** erstellt werden
+
+> **gdisk**,  oder auch **fdisk** eingaben werden per Tastatur gesteuert mit `m` rufst du die Hilfe auf. mit `Enter` wählst und bestätigst du die `Vorauswahl in Klammern` mit `w` (whrite) schreibst du die Änderungen und mit `q` (quit) verlässt du das Tool. Mit `man fdisk` rufst du das Handbuch auf. 
+{: .prompt-tip }
 
 ```bash
 gdisk /dev/sda
 ```
 
-> `gdisk` oder auch `fdisk` eingaben werden per Tastatur gesteuert mit `m` rufst du die Hilfe auf. mit `Enter` wählst und bestätigst du die `Vorauswahl in Klammern` mit `w` (whrite) schreibst du die Änderungen und mit `q` (quit) verlässt du das Tool. Mit `man fdisk` rufst du das Handbuch auf. 
-{: .prompt-tip }
-
-Los gehts mit **fdisk /dev/sda** mit `n` erstellst du eine neue Partition mit `p` setzt du den TYPE auf primary. Der Startsektor ist 2048, du kannst also die `vorgabe 2048` bestätigen. der Letzte Sektor kannst du mit `500M` bestätigen. Mit `a` setzt du die `"Bootfähig" Markierung` für Partition `1` mit `w` schreibst du die Änderungen und mit `q` verlässt du `fdisk`
+Los gehts mit **gdisk /dev/sda** mit `n` erstellst du eine neue Partition mit `p` setzt du den **TYPE** auf primary. Der Startsektor ist 2048, du kannst also die `vorgabe 2048` bestätigen. der Letzte Sektor kannst du mit `500M` bestätigen. Mit `a` setzt du die `"Bootfähig" Markierung` für Partition `1` mit `w` schreibst du die Änderungen und mit `q` verlässt du `fdisk`
 
 > Die **Boot-Partition** ist der Speicherbereich für den Bootloader und Teile des Kernels. Um mehrere Kernel-Versionen zu installieren, kann es nötig sein, die Boot-Partition zu vergrößern. Ein Speicherplatz von **1GB** ist in der Regel ausreichend. Die [Arch-Linux-Wiki](https://wiki.archlinux.org/index.php/Partitioning#Boot_partition) empfiehlt mindestens **300MB** für die Boot-Partition.
 {: .prompt-tip }
 
 > Der Startsektor **2048** wird oft für Partitionen auf modernen Festplatten gewählt, da er mit den Speicherblöcken von Festplatten mit einer Sektorgröße von **4K** optimal ausgerichtet ist. Dieser Bereich, der einer Größe von **1MB** entspricht, wird für die Partitionstabelle und den Bootloader genutzt.
 {: .prompt-tip }
+
+
+<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; border-radius: 2px; -webkit-box-shadow: 1px 2px 2px #ddd; box-shadow: 1px 2px 2px #ddd; background-color: #f9f9f9; background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(to bottom, #eee, #f9f9f9, #eee); padding: 1px 3px; font-family: inherit; font-size: 0.85em; white-space: nowrap;">y</kbd>
+
+<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; border-radius: 2px; -webkit-box-shadow: 1px 2px 2px #ddd; box-shadow: 1px 2px 2px #ddd; background-color: #f9f9f9; background-image: -o-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: -webkit-linear-gradient(top, #eee, #f9f9f9, #eee); background-image: linear-gradient(to bottom, #eee, #f9f9f9, #eee); padding: 1px 3px; font-family: inherit; font-size: 0.85em; white-space: nowrap;">↵ Enter</kbd>
