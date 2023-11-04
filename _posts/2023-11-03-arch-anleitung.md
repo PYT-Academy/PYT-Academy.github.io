@@ -108,10 +108,8 @@ du hast erfolgreich von deinem USB-Stick gebootet und bist jetzt im Arch Live-Sy
 loadkeys de-latin1
 ```
 
-wenn du auf der Englischen Tastatur den Promt eingeben willst:
-```bash
-loadkezs de/latin1
-```
+> wenn du auf der Englischen Tastatur den Promt eingeben willst: `loadkezs deßlatin1`
+{: .prompt-tip }
 
 ## Einrichtung des Datenrägers
 
