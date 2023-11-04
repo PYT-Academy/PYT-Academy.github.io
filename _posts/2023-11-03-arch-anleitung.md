@@ -44,7 +44,7 @@ Natürlich gehen auch andere Modelle und neuere eigene Hardware. Fühl dich frei
 
 ### befor es losgeht
 
-- nutze die [Kommentarfunktion](#/disqus_thread){:target="_blank"} und schreibe mir bei unklarheiten oder allgemenen Fragen.
+- nutze die [Kommentarfunktion](https://pyt-academy.github.io/posts/arch-anleitung/#disqus_thread) und schreibe mir bei unklarheiten oder allgemenen Fragen.
 - Kontaktiere mich. 
   - [PYT-Academy Discord Server](https://discord.gg/WxaJcnuXAh){:target="_blank"}
   - [IT-Systemhaus Telegram-Gruppe](https://t.me/IT_Systemhaus){:target="_blank"}
