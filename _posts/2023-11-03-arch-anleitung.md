@@ -72,7 +72,7 @@ sr0  udf    optical CD/DVDW SH-S182M brw-rw----
 
 ### iso auf USB-Stick schreiben
 
-Du solltest die Arch-Linux ISO auf einen USB-Stick schreiben können und von diesem anschließend auch Booten [DE-Arch-Wiki "Vorbereitung"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger){:target="_blank"}
+Du solltest die Arch-Linux ISO auf einen USB-Stick schreiben können und von diesem anschließend auch Booten [DE-Arch-Wiki "Vorbereitung"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger#Vorbereitung){:target="_blank"}
 
 #### Spickzettel
 ```bash
@@ -88,4 +88,19 @@ dd bs=4M if=/pfad/archlinux-*-x86_64.iso of=/dev/sdx status=progress oflag=sync
 ![Desktop View](/assets/img/blogpost-231103/Arch-Linux-Start.png){: width="290" height="117" .w-25 .right}
 Das Bootmenu der Live-ISO gibt dir hinweise auf dein System achte auf `UEFI` in der obersten Zeile.
 
+## Arch Linux Live System
 
+du hast erfolgreich von deinem USB-Stick gebootet und bist jetzt im Arch Live-System. 
+
+### Tastaturlayout auf Deutsch umstellen
+
+```bash
+loadkeys de-latin1
+```
+
+wenn du auf der Englischen Tastatur den Promt eingeben willst:
+```bash
+loadkezs de/latin1
+```
+
+### 
