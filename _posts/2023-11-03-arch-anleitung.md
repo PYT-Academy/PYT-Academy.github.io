@@ -32,7 +32,7 @@ Natürlich gehen auch andere Modelle und neuere eigene Hardware. Fühl dich frei
 > Wichtige Begriffe stelle ich in solchen `Promts` dar. In diesem Fall möcht ich den Begriff `Propriätär` ansprechen. Wenn du mit Linux oder allgemein mit Open-Source oder dich mit dem [GNU-Project](https://www.gnu.org/philosophy/philosophy.html){:target="_blank"} auseinadersetzen willst. Dann solltest du den begriff `Proprietär` unbeingt verstehen und wissen welche Software und Hardware Proprietär ist. 
 {: .prompt-warning }
 
-### bevor es losgeht
+### befor es losgeht
 
 - nutze die `Kommentarfunktion` und schreibe mir bei unklarheiten oder allgemenen Fragen.
 - Kontaktiere mich. 
@@ -58,8 +58,11 @@ mit [lsblk](https://wiki.archlinux.de/title/Lsblk){:target="_blank"} kann man si
 
 #### Ausgabe von `lsblk` mit Optionen `-ld` und Argumenten `NAME,FSTYPE,GROUP,MODEL,MODE`
 
-```
+```bach
 lsblk -ld --output NAME,FSTYPE,GROUP,MODEL,MODE
+```
+
+```
 NAME FSTYPE GROUP   MODEL            MODE
 sda         disk    WDC WD5000AAKS   brw-rw----
 sdb         disk    ST3250410AS      brw-rw----
@@ -67,10 +70,11 @@ sdc         disk    STORE N GO       brw-rw----
 sr0  udf    optical CD/DVDW SH-S182M brw-rw----
 ```
 
-### iso auf USB-Schreiben
+### iso auf USB-Stick schreiben
 
 Du solltest die Arch-Linux ISO auf einen USB-Stick schreiben können und von diesem anschließend auch Booten [DE-Arch-Wiki "Vorbereitung"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger){:target="_blank"}
 
+#### Spickzettel
 ```bash
 dd bs=4M if=/pfad/archlinux-*-x86_64.iso of=/dev/sdx status=progress oflag=sync
 ```
@@ -81,4 +85,4 @@ dd bs=4M if=/pfad/archlinux-*-x86_64.iso of=/dev/sdx status=progress oflag=sync
 
 ### im Arch-Linux Livesystem
 
-
+Der 
