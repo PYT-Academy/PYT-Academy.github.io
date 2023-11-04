@@ -260,17 +260,17 @@ gdisk /dev/sda
   white-space: nowrap;
 ">y</kbd> - (YES) mit Ja bestätigen
 
-> wenn du ein Dualboot-System erstellen willst musst du einfach die bestehende EFI-Partition Mounten. Der Beitrag über die Installation eines Dual-Boot Systems ist für Erfahrene Benutzer, ich arbeite daran...
-{: .prompt-tip }
-
 das ergebniss wie folgt aus:
 
 ```
 NAME          MAJ:MIN RM   SIZE RO TYPE
-sda           259:0    0     1T  0 disk  
-└─sda1        259:1    0   512M  0 part 
+sda           8:16    0  476,9G  0 disk  
+└─sda1        8:16    0    511M  0 part 
 sdb... 
 ```
+
+> wenn du ein Dualboot-System erstellen willst musst du einfach die bestehende EFI-Partition Mounten. Der Beitrag über die Installation eines Dual-Boot Systems ist für Erfahrene Benutzer, ich arbeite daran...
+{: .prompt-tip }
 
 > Die **Boot-Partition** ist der Speicherbereich für den Bootloader und Teile des Kernels. Um mehrere Kernel-Versionen zu installieren, kann es nötig sein, die Boot-Partition zu vergrößern. Ein Speicherplatz von **1GB** ist in der Regel ausreichend. Die [Arch-Linux-Wiki](https://wiki.archlinux.org/index.php/Partitioning#Boot_partition){:target="_blank"} empfiehlt mindestens **300MB** für die Boot-Partition.
 {: .prompt-tip }
@@ -278,7 +278,9 @@ sdb...
 > Der Startsektor **2048** wird oft für Partitionen auf modernen Festplatten gewählt, da er mit den Speicherblöcken von Festplatten mit einer Sektorgröße von **4K** optimal ausgerichtet ist. Dieser Bereich, der einer Größe von **1MB** entspricht, wird für die Partitionstabelle und den Bootloader genutzt.
 {: .prompt-tip }
 
-
+> wenn du ein Dualboot-System erstellen willst musst du einfach die bestehende EFI-Partition Mounten. Der Beitrag über die Installation eines Dual-Boot Systems ist für Erfahrene Benutzer, ich arbeite daran... 
+Oder du hilfst mir dabei. Vorraussetung ist die Installation von Arch-Linux als erstes System und die Partitionierung unter Linux. Das Verwenden von Installations-Scripen ist zu meiden. GRUB ist zu meiden.
+{: .prompt-warning }
 
 
 
