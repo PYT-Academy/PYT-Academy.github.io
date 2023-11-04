@@ -9,6 +9,7 @@ comments: true
 post: true
 math: true
 mermaid: true
+pin: true
 image:
   path: /assets/img/devices-mockup.png
   lqip:

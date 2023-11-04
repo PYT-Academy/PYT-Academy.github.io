@@ -60,6 +60,15 @@ mit [lsblk](https://wiki.archlinux.de/title/Lsblk){:target="_blank"} kann man si
 lsblk
 ```
 
+```
+lsblk -ld --output NAME,FSTYPE,GROUP,MODEL,MODE
+NAME FSTYPE GROUP   MODEL            MODE
+sda         disk    WDC WD5000AAKS   brw-rw----
+sdb         disk    ST3250410AS      brw-rw----
+sdc         disk    STORE N GO       brw-rw----
+sr0  udf    optical CD/DVDW SH-S182M brw-rw----
+```
+
 ### iso auf USB-Schreiben
 
 - Du solltest die Arch-Linux ISO auf einen USB-Stick schreiben können und von diesem anschließend auch Booten [DE-Arch-Wiki "Vorbereitung"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger){:target="_blank"}
