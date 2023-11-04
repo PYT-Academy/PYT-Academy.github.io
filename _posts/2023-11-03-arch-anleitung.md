@@ -149,3 +149,5 @@ sda                       259:0    0     1T  0 disk
 sdb...
 ```
 
+> Unterschätze nicht den Datenmüll einer Alten Festplatte. Ich empfehle Dringent vor jder installation das Laufwerk zu säubern um Fehler zu vermeiden und Persönliche Daten zu schützen
+{: .prompt-tip }
