@@ -131,13 +131,13 @@ sda                       259:0    0     1T  0 disk
 
 unser Laufwerk haben wir als `sda` identifiziert. 
 
-### Datenträger bereinigen
+### Datenträger bereinigen (Optional)
 
 ```bash
 dd status=progress if=/dev/zero of=/dev/sda
 ```
 
-das dauert (je nach größe) einen Moment `status=progress` erlaubt dir den Fortschritt zu verfolgen. 
+das dauert, je nach größe. `status=progress` erlaubt dir den Fortschritt zu verfolgen.
 
 > Gefähliche Aktionen stelle ich in `roten` "Danger"-Promt dar. 
 `Achtung:` der `dd` Promt fürht aus was er soll ohne wiederrede! in diesem fall überschreibt er das gesammte `sda` Laufwerk. Alle Daten werden mit einer null überschrieben. Wenn du das mehrmals ausführst lassen sich selbst Magnetische Festplatten (HDD Hard Disk Drive) von niemanden wiederhersstellen!
@@ -157,10 +157,16 @@ sdb...
 Erstelle eine `Boot` Partition. Nehmen wir dazu das Tool `fdisk`
 
 ```bash
-fdisk /dev/sda
+gdisk /dev/sda
 ```
 
-> `fdisk` eingaben werden per Tastatur gesteuert mit `m` rufst du die Hilfe auf. mit `Enter` wählst und bestätigst du die `Vorauswahl in Klammern` mit `w` (whrite) schreibst du die Änderungen und mit `q` (quit) verlässt du das Tool. Mit `man fdisk` rufst du das Handbuch auf. 
+> `gdisk` oder auch `fdisk` eingaben werden per Tastatur gesteuert mit `m` rufst du die Hilfe auf. mit `Enter` wählst und bestätigst du die `Vorauswahl in Klammern` mit `w` (whrite) schreibst du die Änderungen und mit `q` (quit) verlässt du das Tool. Mit `man fdisk` rufst du das Handbuch auf. 
 {: .prompt-tip }
 
-Los gehts mit `fdisk /dev/sda` mit `n` erstellst du eine neue Partition mit `p` setzt du den TYPE auf primary. Der Startsektor ist 2048, du kannst also die `vorgabe 2048` bestätigen. der Letzte Sektor kannst du mit `500M` bestätigen. Mit `a` setzt du die `Bootfähig-Markierung` auf Partition `1`
+Los gehts mit **fdisk /dev/sda** mit `n` erstellst du eine neue Partition mit `p` setzt du den TYPE auf primary. Der Startsektor ist 2048, du kannst also die `vorgabe 2048` bestätigen. der Letzte Sektor kannst du mit `500M` bestätigen. Mit `a` setzt du die `"Bootfähig" Markierung` für Partition `1` mit `w` schreibst du die Änderungen und mit `q` verlässt du `fdisk`
+
+> Die **Boot-Partition** ist der Speicherbereich für den Bootloader und Teile des Kernels. Um mehrere Kernel-Versionen zu installieren, kann es nötig sein, die Boot-Partition zu vergrößern. Ein Speicherplatz von **1GB** ist in der Regel ausreichend. Die [Arch-Linux-Wiki](https://wiki.archlinux.org/index.php/Partitioning#Boot_partition) empfiehlt mindestens **300MB** für die Boot-Partition.
+{: .prompt-tip }
+
+> Der Startsektor **2048** wird oft für Partitionen auf modernen Festplatten gewählt, da er mit den Speicherblöcken von Festplatten mit einer Sektorgröße von **4K** optimal ausgerichtet ist. Dieser Bereich, der einer Größe von **1MB** entspricht, wird für die Partitionstabelle und den Bootloader genutzt.
+{: .prompt-tip }
