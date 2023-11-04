@@ -66,7 +66,7 @@ Natürlich gehen auch andere Modelle und neuere eigene Hardware. Fühl dich frei
 
 mit [lsblk](https://wiki.archlinux.de/title/Lsblk){:target="_blank"} kann man sich alle angeschlossenen Blockgeräte, also Festplatten, CD/DVD-Laufwerke und USB-Sticks, anzeigen lassen. `sda`, `sdb`, `scd`, `sr0` stehen für die verschiedenen Blockgeräte. Für den anfang identifizieren wir unsere Installationsfestplatte die als `sda` gekennzeichnet ist.
 
-#### Ausgabe von `lsblk` mit Optionen `-ld` und Argumenten `NAME,FSTYPE,GROUP,MODEL,MODE`
+#### Ausgabe von `lsblk` mit Optionen `-ld` und Argumenten `--output NAME,FSTYPE,GROUP,MODEL,MODE`
 
 ```bash
 lsblk -ld --output NAME,FSTYPE,GROUP,MODEL,MODE
@@ -113,4 +113,39 @@ wenn du auf der Englischen Tastatur den Promt eingeben willst:
 loadkezs de/latin1
 ```
 
-### 
+## Einrichtung des Datenrägers
+
+### identifitzieren des Installations-Datenrägers
+
+```bash
+lsblk
+```
+
+```
+NAME                      MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
+sda                       259:0    0     1T  0 disk  
+├─sda1                    259:1    0   525M  0 part  
+├─sda2                    259:2    0   140G  0 part  
+└─sda3                    259:3    0   858G  0 part  
+```
+
+unser Laufwerk haben wir als `sda` identifiziert. 
+
+### Datenträger bereinigen
+
+```bash
+dd status=progress if=/dev/zero of=/dev/sda
+```
+
+das dauert einen Moment `status=progress` erlaut dir den Fortschritt zu verfolgen. 
+
+> Gefähliche Aktionen stelle ich in `roten` Danger-Promts dar. 
+`Achtung:` der `dd` Promt fürht aus was er soll ohne wiederrede! in diesem fall überschreibt er das gesammte `sda` Laufwerk mit `zero` nullen. Alle daten werden mit einer null überschrieben. Wenn du das mehrmals ausführst sich selbst Magnetische platten von niemanden wiederhersstellbar!
+{: .prompt-tip }
+
+```
+NAME                      MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
+sda                       259:0    0     1T  0 disk  
+sdb...
+```
+
