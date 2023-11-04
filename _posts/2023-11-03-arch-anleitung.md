@@ -18,15 +18,20 @@ Nach monatelangem Distro-Hopping und dem desaster der Desktopmanager bin ich jet
 
 ### warum Arch?
 
-- ist primär eine Persönliche Entscheidung. Ich mag das System hauptsächlich wegen der dahinterstehenden Philosophie und der Community. 
-- `Wer lesen kann ist ist klar im Vorteil`. Das meiste ist bereits Dokumentiert, mann muss nur wissen wo ind wie man darauf zugreift.
-- Arch bietet ein Minimales Grundsystem und überlässt dem Nutzer sämtliche Entscheidungen über die weitere Konfiguration und die Grafische Benutzeroberfläche. 
-- Arch zwingt dich dazu sich mit deinem System zu beschäftigen. Das gilt auch für Arch basierende Distributionen (ausnahme bidet Manjaro, von der Disro habe ich mich bereits Distanziert) meine Berufliches Linux-Distribution ist EndevourOS `(EOS)` und diese Distribution verzichtet bewusst auf Grafische Packetmanager und lässt dir bei der Installation deine Desktopumgebung oder sogar einen Windowmanager wählen.
+- ist primär eine `Persönliche Entscheidung`. Ich mag das System hauptsächlich wegen der dahinterstehenden Philosophie und der Community. 
 
-> An dieser stelle möchte ich über den `Orangenen` Promt sprechen. Sobald du den Orangenen Promt siehst kannst du mich unterstützen. In diesem fall geht es um die [UNIX-Philosophie von Mike Gancars](https://de.wikipedia.org/wiki/Unix-Philosophie#Mike_Gancarz:_The_UNIX_Philosophy){:target="_blank"} er hat ein Buch dazu veröffentlicht und ich würde die Kernessenz daraus, gerne in einem Blogartikel zusammenfassen. Wenn du mich unterstützen willst, schicke mir ein Script in dem du die wichtigsten Punkte zusammenfasst
+- `Wer lesen kann ist ist klar im Vorteil`. Das meiste ist bereits Dokumentiert, mann muss nur wissen wo ind wie man darauf zugreift. Die Hier erstellten Links verweisen auf die Entsprechende Webseite und scrallen automatisch zum Abstz um den es geht.
+
+- Arch bietet ein `Minimales Grundsystem` und überlässt dem Nutzer sämtliche Entscheidungen über die weitere Konfiguration und die Grafische Benutzeroberfläche. 
+
+- Arch-Linux und dessen Derivate `zwingen dich dazu sich mit deinem System zu beschäftigen`. Das gilt auch für Arch basierende Distributionen (ausnahme bidet Manjaro, von der Disro habe ich mich bereits Distanziert)
+
+- meine Berufliche Linux-Distribution ist EndevourOS `(EOS)` und diese Distribution verzichtet bewusst auf Grafische Packetmanager und lässt dir bei der Installation deine Desktopumgebung oder sogar einen Windowmanager wählen.
+
+> An dieser stelle möchte ich über den `Orangenen Promt` sprechen. Sobald du den Orangenen Promt siehst kannst du mich unterstützen. In diesem fall geht es um die [UNIX-Philosophie von Mike Gancars](https://de.wikipedia.org/wiki/Unix-Philosophie#Mike_Gancarz:_The_UNIX_Philosophy){:target="_blank"} er hat ein Buch dazu veröffentlicht und ich würde die Kernessenz daraus, gerne in einem Blogartikel zusammenfassen. Wenn du mich unterstützen willst, schicke mir ein Script in dem du die wichtigsten Punkte der UNIX-Philosophy von Mike zusammenfasst.
 {: .prompt-warning }
 
-- Ich beziehe mich auch oft auch die [Deutschsprachige Arch-Wiki](https://wiki.archlinux.de/title/Hauptseite){:target="_blank"} und deren Unterseiten. Falls es keine Deutschsprachige Anleitung gibt geht es mit der [Englischsprachigen Arch-Wiki](https://wiki.archlinux.org/){:target="_blank"} weiter. Und zu guterletzt geht's weiter ins [Arch-Forum](https://bbs.archlinux.org/){:target="_blank"}. Achtung: wer im Forum Fragen stellt die in der Arch-Wiki beschrieben sind, erntet unter umständen Hohn und Spott. Bitte benutze das Forum ausschließlich wenn du in der Arch-Wiki nicht weiterkommst und verweise auch auf die Entsprechenden Artikel damit sich die Forumleute das genau ansehen können...
+- Ich beziehe mich auch oft auch die [Deutschsprachige Arch-Wiki](https://wiki.archlinux.de/title/Hauptseite){:target="_blank"} und deren Unterseiten. Falls es keine Deutschsprachige Anleitung gibt geht es mit der [Englischsprachigen Arch-Wiki](https://wiki.archlinux.org/){:target="_blank"} weiter. Und zu guterletzt geht's weiter ins [Arch-Forum](https://bbs.archlinux.org/){:target="_blank"}. Achtung: wer im Forum Fragen stellt die in der Arch-Wiki beschrieben sind, erntet unter umständen Hohn und Spott. Bitte benutze das Forum ausschließlich wenn du in der Arch-Wiki nicht weiterkommst und verweise auch auf die Entsprechenden Artikel damit sich die Comunity das genau ansehen können...
 
 ### Hardware
 
@@ -34,8 +39,8 @@ hier möchte ich kurz auf die Hardware von meinem Studium-System sprechen. Ich p
 
 Natürlich gehen auch andere Modelle und neuere eigene Hardware. Fühl dich frei zu nutzen was du willst. Ich beziehe meine Anleitungen ausschließlich auf diese Geräte und Arch-Linux basierte Systeme.
 
-> Wichtige Begriffe stelle ich in solchen `Promts` dar. In diesem Fall möcht ich den Begriff `Propriätär` ansprechen. Wenn du mit Linux oder allgemein mit Open-Source oder dich mit dem [GNU-Project](https://www.gnu.org/philosophy/philosophy.html){:target="_blank"} auseinadersetzen willst. Dann solltest du den begriff `Proprietär` unbeingt verstehen und wissen welche Software und Hardware Proprietär ist. 
-{: .prompt-warning }
+> wichtige Begriffe stelle ich in `gelben` Tip-Promts dar. In diesem Fall möchte ich den Begriff `Propriätär` ansprechen. Wenn du mit Linux oder allgemein mit Open-Source oder dich mit dem [GNU-Project](https://www.gnu.org/philosophy/philosophy.html){:target="_blank"} auseinadersetzen willst. Dann solltest du den begriff `Proprietär` unbeingt verstehen und wissen welche Software und Hardware Proprietär ist. 
+{: .prompt-tip }
 
 ### befor es losgeht
 
