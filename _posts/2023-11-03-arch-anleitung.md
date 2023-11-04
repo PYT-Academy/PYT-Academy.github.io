@@ -141,7 +141,7 @@ das dauert einen Moment `status=progress` erlaut dir den Fortschritt zu verfolge
 
 > Gefähliche Aktionen stelle ich in `roten` Danger-Promts dar. 
 `Achtung:` der `dd` Promt fürht aus was er soll ohne wiederrede! in diesem fall überschreibt er das gesammte `sda` Laufwerk mit `zero` nullen. Alle daten werden mit einer null überschrieben. Wenn du das mehrmals ausführst sich selbst Magnetische platten von niemanden wiederhersstellbar!
-{: .prompt-tip }
+{: .prompt-danger }
 
 ```
 NAME                      MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
