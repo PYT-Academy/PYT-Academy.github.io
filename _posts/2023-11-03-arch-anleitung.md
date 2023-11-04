@@ -46,21 +46,23 @@ Natürlich gehen auch andere Modelle und neuere Hardware. Fühl dich frei zu nut
 
 - Du musst verstehen wie dein Rechner Startet. Das ältere System ist `BIOS` (Basic Input/Output System) welches nach und nach durch `UEFI` (Unified Extensible Firmware Interface) ersetzt. Ich gehe von UEFI aus was heutzutage der Standard ist. Die Thinkpads aus 2011 habe bereits alle UEFI. Die Projekte [Coreboot](https://www.coreboot.org/){:target="_blank"} und [Libreboot](https://libreboot.org/){:target="_blank"} lasse ich mal beiseite. 
 
-- Partitionierung. Ist ein Riesiges Themengebiet und wird in der  Der [DE-Arch-Wiki "Einrichtung des Datenträgers"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger){:target="_blank"} beschrieben. Der Einfachheit halber benutze ich ein Standard-Layout bestehend aus einer `Boot`, `Root` und `SWAP` Partition. Der Vorteil ist dass die Einrichtung wesentlich einfacher ist und ich kann die SSD von einem Laptop in einen andaren umbauen und mit minimalen einrichtugnen läuft mein eigenes System wieder.
+
+
+### Partitionierung. 
+
+- Ist ein Riesiges Themengebiet und wird in der  Der [DE-Arch-Wiki "Einrichtung des Datenträgers"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger){:target="_blank"} beschrieben. Der Einfachheit halber benutze ich ein Standard-Layout bestehend aus einer `Boot`, `Root` und `SWAP` Partition. Der Vorteil ist dass die Einrichtung wesentlich einfacher ist und ich kann die SSD von einem Laptop in einen andaren umbauen und mit minimalen einrichtugnen läuft mein eigenes System wieder.
+
+### iso auf USB-Schreiben
 
 - Du solltest die Arch-Linux ISO auf einen USB-Stick schreiben können und von diesem anschließend auch Booten [DE-Arch-Wiki "Vorbereitung"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger){:target="_blank"}
 
-### Kommandozeilen-Befehle
-
-Die Installation und Einrichtung von Arch-Linux erfolgt im Terminal. Mach dich damit vertraut und verstehe das Konzept. 
-
-#### lsblk
-
-`list block devices` wird verwendet, um Informationen über alle verfügbaren Blockgeräte anzuzeigen.
-
-```bash
-lsblk
+```Spickzettel
+dd bs=4M if=/pfad/archlinux-*-x86_64.iso of=/dev/sdx status=progress oflag=sync
 ```
+
+### Programiersprache "Bash" (Bourne-Again SHell) im Terminal
+
+[Bash](https://wiki.archlinux.de/title/Bash){:target="_blank"} ist die Standard Shell unter Arch-Linux. Es ist eine Scriptsprache für die Kommunikation mit dem Kernel. Der Grundaubau besteht aus einem `Operator` (oder `Task`) gefolgt von (optionalen) `Option:en` und `Argument:en`. Für den Anfang ist es wichtig zu verstehen dass im Terminal jedes Zeichen eine bedeutung hat (sogar ein Lehrzeichen) und Groß-Kleinschreibung spielt eine wichtige rolle.
 
 ### im Arch-Linux Livesystem
 
