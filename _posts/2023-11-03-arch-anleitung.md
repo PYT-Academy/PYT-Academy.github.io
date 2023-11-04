@@ -39,12 +39,12 @@ hier möchte ich kurz auf die Hardware von meinem Studium-System sprechen. Ich p
 
 Natürlich gehen auch andere Modelle und neuere eigene Hardware. Fühl dich frei zu nutzen was du willst. Ich beziehe meine Anleitungen ausschließlich auf diese Geräte und Arch-Linux basierte Systeme.
 
-> wichtige Begriffe stelle ich in `gelben` Tip-Promts dar. In diesem Fall möchte ich den Begriff `Propriätär` ansprechen. Wenn du mit Linux oder allgemein mit Open-Source oder dich mit dem [GNU-Project](https://www.gnu.org/philosophy/philosophy.html){:target="_blank"} auseinadersetzen willst. Dann solltest du den begriff `Proprietär` unbeingt verstehen und wissen welche Software und Hardware Proprietär ist. 
+> wichtige Begriffe stelle ich in `grünen` Tip-Promts dar. In diesem Fall möchte ich den Begriff `Propriätär` ansprechen. Wenn du mit Linux oder allgemein mit Open-Source oder dich mit dem [GNU-Project](https://www.gnu.org/philosophy/philosophy.html){:target="_blank"} auseinadersetzen willst. Dann solltest du den begriff `Proprietär` unbeingt verstehen und wissen welche Software und Hardware Proprietär ist. 
 {: .prompt-tip }
 
 ### befor es losgeht
 
-- nutze die `Kommentarfunktion` und schreibe mir bei unklarheiten oder allgemenen Fragen.
+- nutze die [Kommentarfunktion](#/disqus_thread){:target="_blank"} und schreibe mir bei unklarheiten oder allgemenen Fragen.
 - Kontaktiere mich. 
   - [PYT-Academy Discord Server](https://discord.gg/WxaJcnuXAh){:target="_blank"}
   - [IT-Systemhaus Telegram-Gruppe](https://t.me/IT_Systemhaus){:target="_blank"}
