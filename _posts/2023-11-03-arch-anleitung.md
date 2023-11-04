@@ -144,8 +144,8 @@ das dauert, je nach größe. `status=progress` erlaubt dir den Fortschritt zu ve
 {: .prompt-danger }
 
 ```
-NAME                      MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
-sda                       259:0    0     1T  0 disk  
+NAME                    MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
+sda                     259:0    0     1T  0 disk  
 sdb...
 ```
 
@@ -154,7 +154,7 @@ sdb...
 
 ### Datenträger Partitionieren
 
-Die erste Partition (sba1) soll für **/boot** mit 512MiB als **EFI-Partitionstyp** erstellt werden
+#### Die erste Partition (sba1) soll für **/boot** mit **512 MB** als **EFI-Partitionstyp** erstellt werden
 
 > **gdisk**,  oder auch **fdisk** eingaben werden per Tastatur gesteuert mit `m` rufst du die Hilfe auf. mit `Enter` wählst und bestätigst du die `Vorauswahl in Klammern` mit `w` (whrite) schreibst du die Änderungen und mit `q` (quit) verlässt du das Tool. Mit `man fdisk` rufst du das Handbuch auf. 
 {: .prompt-tip }
@@ -253,7 +253,16 @@ gdisk /dev/sda
   white-space: nowrap;
 ">q</kbd> - (quit) **gdisk** verlassen
 
-> Die **Boot-Partition** ist der Speicherbereich für den Bootloader und Teile des Kernels. Um mehrere Kernel-Versionen zu installieren, kann es nötig sein, die Boot-Partition zu vergrößern. Ein Speicherplatz von **1GB** ist in der Regel ausreichend. Die [Arch-Linux-Wiki](https://wiki.archlinux.org/index.php/Partitioning#Boot_partition) empfiehlt mindestens **300MB** für die Boot-Partition.
+das ergebniss sieht so aus:
+
+```
+NAME                    MAJ:MIN RM   SIZE RO TYPE
+sda                     259:0    0     1T  0 disk  
+└─sda1                  259:1    0   512M  0 part 
+sdb... 
+```
+
+> Die **Boot-Partition** ist der Speicherbereich für den Bootloader und Teile des Kernels. Um mehrere Kernel-Versionen zu installieren, kann es nötig sein, die Boot-Partition zu vergrößern. Ein Speicherplatz von **1GB** ist in der Regel ausreichend. Die [Arch-Linux-Wiki](https://wiki.archlinux.org/index.php/Partitioning#Boot_partition){:target="_blank"} empfiehlt mindestens **300MB** für die Boot-Partition.
 {: .prompt-tip }
 
 > Der Startsektor **2048** wird oft für Partitionen auf modernen Festplatten gewählt, da er mit den Speicherblöcken von Festplatten mit einer Sektorgröße von **4K** optimal ausgerichtet ist. Dieser Bereich, der einer Größe von **1MB** entspricht, wird für die Partitionstabelle und den Bootloader genutzt.
@@ -261,17 +270,5 @@ gdisk /dev/sda
 
 
 
-
-<kbd class="keyboard-key nowrap" style="
-  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
-  border-radius: 2px;
-  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
-  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
-  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
-  padding: 1px 3px;
-  font-family: inherit;
-  font-size: 0.85em;
-  white-space: nowrap;
-">↵ Enter</kbd> Bestätigen
 
 
