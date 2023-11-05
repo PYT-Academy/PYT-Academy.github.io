@@ -417,6 +417,12 @@ Es gibt mehrere Netzwerktools. Die meisten Anleitungen empfehlen den `networkman
 pacman --root /mnt -S networkmanager intel-ucode
 ```
 
+Networkmanager aktivieren
+
+```bash
+systemctl enable NetworkManager
+```
+
 ### fstab erzeugen
 
 Die /etc/fstab (file system table) Datei wird beim Systemstart von systemd ausgelesen und mountet die Partitionen.
@@ -453,7 +459,7 @@ aus `root@archiso ~ #` wird `[root@archiso /]#` das rotgeschriebene Root wird We
 ### Hostnamen vergeben
 
 ```bash
-echo myhost > /etc/hostname
+echo arch-rechner > /etc/hostname
 ```
 
 ### Sprache auf deutsch umstellen
@@ -481,12 +487,106 @@ mit `strg`+`o` änderungen schreiben `Y` bestätigen `strg`+`X` nano verlassen. 
 #de_DE@euro ISO-8859-15     de_DE@euro ISO-8859-15
 ```
 
+die "entrauteten" Zeichensätze generieren
 
+```bash
+locale-gen
+```
 
+### Die Tastaturbelegung und Schriftart der Konsole festlegen
 
-### 
+```bash
+echo KEYMAP=de-latin1 > /etc/vconsole.conf
+echo FONT=lat9w-16 >> /etc/vconsole.conf
+```
 
+ein `>` bedeutet dass die Zeile in eine neue Datei geschrieben wird und `>>` in eine bestehende hinzugefügt
 
+zur kotrolle mit `nano` die 2 eintragungen prüfen...
+
+```bash
+nano /etc/vconsole.conf
+```
+
+### Die Zeitzone festlegen
+
+- Berlin
+
+```bash
+ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+```
+- oder Asunktion
+```bach
+ln -sf /usr/share/zoneinfo/America/Asunction /etc/localtime
+```
+
+### host's einrichten
+
+```bash
+nano /etc/hosts
+```
+
+```
+127.0.0.1   localhost
+::1         localhost
+127.0.1.1   arch-rechner.localdomain
+```
+
+### zusaätzliche Kernelmodule laden
+
+pro Zeile ein Modul in die `meinemodule.conf` eintragen
+
+```bash
+nano /etc/modules-load.d/meinemodule.conf
+```
+
+### root Passwort setzen
+
+```bash
+passwd
+```
+
+### Bootloader instalieren
+
+```bash
+bootctl install
+```
+
+- nlegen der Datei `/boot/loader/entries/arch-uefi.conf`
+
+```bash
+nano /boot/loader/entries/arch-uefi.conf
+```
+
+- und wie folgt editieren:
+
+```
+title    Arch Linux
+linux    /vmlinuz-linux
+initrd   /initramfs-linux.img
+options  root=LABEL=ROOT rw lang=de init=/usr/lib/systemd/systemd locale=de_DE.UTF-8
+```
+
+> `Info:` **Standard initramfs** *(initramfs-linux.img)*: 
+Diese Datei wird mit einer optimierten Menge von Modulen erstellt, die basierend auf der aktuellen Hardware-Konfiguration des Systems ausgewählt werden. Es enthält nur die Module, die notwendig sind, um die meisten Systeme zu starten, wodurch die Größe des Images und die Bootzeit reduziert werden.
+{: .prompt-info }
+
+- Für den Fallback wird die Datei `/boot/loader/entries/arch-uefi-fallback.conf` angelegt
+
+```bash
+nano /boot/loader/entries/arch-uefi-fallback.conf
+```
+
+```
+title    Arch Linux Fallback
+linux    /vmlinuz-linux
+initrd   /initramfs-linux-fallback.img
+options  root=LABEL=ROOT rw lang=de init=/usr/lib/systemd/systemd locale=de_DE.UTF-8
+```
+
+> `Info:` **Fallback initramfs** *(initramfs-linux-fallback.img)*: 
+Diese Datei enthält eine umfassendere Sammlung von Modulen, um eine höhere Kompatibilität mit verschiedenen Hardware-Konfigurationen zu gewährleisten. Es ist gedacht als Backup, falls die Standardversion aufgrund fehlender Treiber oder Module das Root-Dateisystem nicht erfolgreich mounten kann.
+{: .prompt-info }
 
 
 ## Sonstiges
