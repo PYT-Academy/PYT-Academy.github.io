@@ -453,7 +453,7 @@ aus `root@archiso ~ #` wird `[root@archiso /]#` das rotgeschriebene Root wird We
 ### Hostnamen vergeben
 
 ```bash
-echo myhost > /etc/locale.conf
+echo myhost > /etc/hostname
 ```
 
 ### Sprache auf deutsch umstellen
