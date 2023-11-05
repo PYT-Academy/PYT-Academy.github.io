@@ -120,14 +120,14 @@ lsblk
 ```
 
 ```
-NAME                      MAJ:MIN RM   SIZE RO TYPE
-sda                       259:0    0     1T  0 disk  
-├─sda1                    259:1    0   525M  0 part  
-├─sda2                    259:2    0   140G  0 part  
-└─sda3                    259:3    0   858G  0 part  
+NAME            MAJ:MIN RM   SIZE RO TYPE
+sda             259:0    0 476,9G  0 disk  
 ```
 
-unser Laufwerk haben wir als `sda` identifiziert. 
+das Laufwerk auf dem Arch-Linux instaliert werden soll ist `sda`
+
+> Achtung: Natürlich kann die Bezeichnung bei jedem Rechner unterschiedlich sein. NVME's weden `nvme0n1` genannt. USB-Stiks und Festplatten `sd`**a** oder `sd`**b** usw.. Du musst dein Laufwerk identifizieren. Ich spreche in diesem Tutorial immer vom **sda** 
+{: .prompt-danger }
 
 ### Datenträger bereinigen (Optional)
 
