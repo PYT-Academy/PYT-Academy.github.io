@@ -91,7 +91,7 @@ du hast erfolgreich von deinem USB-Stick gebootet und bist jetzt im Arch Live-Sy
 loadkeys de-latin1
 ```
 
-> wenn du auf der Englischen Tastatur den Promt eingeben willst: `loadkezs deßlatin1`
+> `Tip:` wenn du auf der Englischen Tastatur den Promt eingeben willst: `loadkezs deßlatin1`
 {: .prompt-tip }
 
 ## Einrichtung des Datenrägers
@@ -109,7 +109,7 @@ sda             259:0    0 476,9G  0 disk
 
 das Laufwerk auf dem Arch-Linux instaliert werden soll ist `sda`
 
-> Achtung: Natürlich kann die Bezeichnung *(NAME)* bei jedem Rechner unterschiedlich sein. NVME's weden `nvme0n1` benannt. USB-Stiks und Festplatten `sda` oder `sdb` usw.. Du musst dein Laufwerk identifizieren. Ich spreche in diesem Tutorial immer vom **sda** 
+> `Achtung:` Natürlich kann die Bezeichnung *(NAME)* bei jedem Rechner unterschiedlich sein. NVME's weden `nvme0n1` benannt. USB-Stiks und Festplatten `sda` oder `sdb` usw.. Du musst dein Laufwerk identifizieren. Ich spreche in diesem Tutorial immer vom **sda** 
 {: .prompt-danger }
 
 ### Datenträger bereinigen (Optional)
@@ -120,11 +120,10 @@ dd status=progress if=/dev/zero of=/dev/sda
 
 das dauert, je nach größe. `status=progress` erlaubt dir den Fortschritt zu verfolgen.
 
-> Gefähliche Aktionen stelle ich in `roten` "Danger"-Promt dar. 
-`Achtung:` der `dd` Promt fürht aus was er soll ohne wiederrede! in diesem fall überschreibt er das gesammte `sda` Laufwerk. Alle Daten werden mit einer null überschrieben. Wenn du das mehrmals ausführst lassen sich selbst Magnetische Festplatten (HDD Hard Disk Drive) von niemanden wiederhersstellen!
+> `Achtung:` der `dd` Promt fürht aus was er soll ohne wiederrede! in diesem fall überschreibt er das gesammte `sda` Laufwerk. Alle Daten werden mit einer null überschrieben. Wenn du das mehrmals ausführst lassen sich selbst Magnetische Festplatten (HDD Hard Disk Drive) von niemanden wiederhersstellen!
 {: .prompt-danger }
 
-> Unterschätze nicht den Datenmüll einer Alten Festplatte. Ich empfehle Dringent vor jder installation das Laufwerk zu säubern um Fehler zu vermeiden und Persönliche Daten zu schützen
+> `Tip:` Unterschätze nicht den Datenmüll einer Alten Festplatte. Ich empfehle Dringent vor jder installation das Laufwerk zu säubern um Fehler zu vermeiden und Persönliche Daten zu schützen
 {: .prompt-tip }
 
 ### Datenträger Partitionieren
@@ -133,7 +132,7 @@ das dauert, je nach größe. `status=progress` erlaubt dir den Fortschritt zu ve
 
 Die erste Partition **sba1** soll für **/boot** mit **512 MB** als **EFI-System Partition** erstellt werden
 
-> **gdisk**,  oder auch **fdisk** eingaben werden per Tastatur gesteuert mit `m` rufst du die Hilfe auf. mit `Enter` wählst und bestätigst du die `Vorauswahl in Klammern` mit `w` (whrite) schreibst du die Änderungen und mit `q` (quit) verlässt du das Tool. Mit `man fdisk` rufst du das Handbuch auf. 
+> `Tip:` **gdisk**,  oder auch **fdisk** eingaben werden per Tastatur gesteuert mit `m` rufst du die Hilfe auf. mit `Enter` wählst und bestätigst du die `Vorauswahl in Klammern` mit `w` (whrite) schreibst du die Änderungen und mit `q` (quit) verlässt du das Tool. Mit `man fdisk` rufst du das Handbuch auf. 
 {: .prompt-tip }
 
 > Die **EFI**-Partition wird immer mit **gdisk** erstellt!
@@ -237,10 +236,10 @@ mit `pardet` überprüfst du das Ergebniss
 parted /dev/sda print
 ```
 
-> Begriffe wie [gpt](https://wiki.archlinux.de/title/Partitionierung#GUID_Partition_Table_.28GPT.29){:target="_blank"} [EFI system Partition](https://wiki.archlinux.org/title/EFI_system_partition){:target="_blank"} kannst du hier nachlesen. 
-{: .prompt-tip }
+![Desktop View](/assets/img/blogpost-231103/parted-sda1.png){: width="972" height="589" }
+_so sollte es aussehen mit einer Boot-Partition_
 
-> wenn du ein Dualboot-System erstellen willst musst du einfach die bestehende EFI-Partition Mounten. Der Beitrag über die Installation eines Dual-Boot Systems ist für Erfahrene Benutzer, ich arbeite daran...
+> Begriffe wie [gpt](https://wiki.archlinux.de/title/Partitionierung#GUID_Partition_Table_.28GPT.29){:target="_blank"} [EFI system Partition](https://wiki.archlinux.org/title/EFI_system_partition){:target="_blank"} kannst du hier nachlesen. 
 {: .prompt-tip }
 
 > Die **Boot-Partition** ist der Speicherbereich für den Bootloader und Teile des Kernels. Um mehrere Kernel-Versionen zu installieren, kann es nötig sein, die Boot-Partition zu vergrößern. Ein Speicherplatz von **1GB** ist in der Regel ausreichend. Die [Arch-Linux-Wiki](https://wiki.archlinux.org/index.php/Partitioning#Boot_partition){:target="_blank"} empfiehlt mindestens **300MB** für die Boot-Partition.
@@ -249,11 +248,11 @@ parted /dev/sda print
 > Der Startsektor **2048** wird oft für Partitionen auf modernen Festplatten gewählt, da er mit den Speicherblöcken von Festplatten mit einer Sektorgröße von **4K** optimal ausgerichtet ist. Dieser Bereich, der einer Größe von **1MB** entspricht, wird für die Partitionstabelle und den Bootloader genutzt.
 {: .prompt-tip }
 
-> wenn du ein Dualboot-System erstellen willst musst du einfach die bestehende EFI-Partition Mounten. Der Beitrag über die Installation eines Dual-Boot Systems ist für Erfahrene Benutzer, ich arbeite daran... 
+> wenn du ein **Dualboot-System** erstellen willst musst du einfach die bestehende EFI-Partition Mounten. Der Beitrag über die Installation eines Dual-Boot Systems ist für Erfahrene Benutzer, ich arbeite daran... 
 Oder du hilfst mir dabei. Vorraussetung ist die Installation von Arch-Linux als erstes System und die Partitionierung unter Linux. Das Verwenden von Installations-Scripen ist zu meiden. GRUB ist zu meiden.
 {: .prompt-warning }
 
-
+#### SWAP-Partition
 
 
 
