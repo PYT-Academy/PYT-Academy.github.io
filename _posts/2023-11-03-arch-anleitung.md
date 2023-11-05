@@ -469,7 +469,11 @@ echo LANG=de_DE.UTF-8 > /etc/locale.conf
 nano /etc/locale.gen
 ```
 
-in der `locale.conf` die `#` vor den Deutschen Sprachen entfernen
+mit `strg`+`X` nano verlassen und mit `clear` Terminal bereinigen
+
+
+![Desktop View](/assets/img/blogpost-231103/nano-locale.gen.png){: width="290" height="117" .w-25 .right}
+in der `locale.gen` die `#` vor den Deutschen Sprachen entfernen
 ```
 #de_DE.UTF-8 UTF-8          de_DE.UTF-8 UTF-8 
 #de_DE ISO-8859-1           de_DE ISO-8859-1
