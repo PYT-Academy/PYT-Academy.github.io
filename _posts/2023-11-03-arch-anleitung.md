@@ -473,7 +473,8 @@ mit `strg`+`X` nano verlassen und mit `clear` Terminal bereinigen
 
 
 ![Desktop View](/assets/img/blogpost-231103/nano-locale.gen.png){: width="290" height="117" .w-25 .right}
-in der `locale.gen` die `#` vor den Deutschen Sprachen entfernen
+in der `locale.gen` die `#` vor den Deutschen Sprachen entfernen.
+mit `strg`+`o` änderungen schreiben `Y` bestätigen `strg`+`X` nano verlassen. `clear` Bilschirm bereinigen
 ```
 #de_DE.UTF-8 UTF-8          de_DE.UTF-8 UTF-8 
 #de_DE ISO-8859-1           de_DE ISO-8859-1
