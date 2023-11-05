@@ -277,16 +277,28 @@ _und hier die Ausgabe von lsblk mit unserer 18G Swap-Partition auf sda2_
 
 #### ROOT-Partition
 
-Der Rest unseres Speichers verwenden wir für die Boot Partition und ich übelasse dir die Wahl deines Tools (fdisk, gdisk oder cfdisk) das ergebniss sollte so ausschauen
+Der Rest unseres Speichers verwenden wir für die `Root` Partition und ich übelasse dir die Wahl deines Tools (fdisk, gdisk oder cfdisk) das ergebniss sollte so ausschauen
 
 ![Desktop View](/assets/img/blogpost-231103/lsblk-boot-swap-root.png){: width="972" }
 _finale ausgabe von unserer Partitionstabelle mit sda1 als boot, sda2 als swap und sda3 als root_
 
 ### Formatiren der Partitionen
 
+Jetz kommt `mkfs` (make filesystem) und genau das tuen wir für jede einzelne Partition
 
+```bash
+mkfs
+```
 
 ## Sonstiges
+
+### lunx browser 
+
+> `Tip:` du kannst im Live-System den eingebauten Webbrowser verwenden um die [Arch-Wiki Spickzettel für EUFI-Rechner systemd-boot brs](https://wiki.archlinux.de/title/UEFI-Rechner_systemd-boot_brs){:target="_blank"} (`brs` steht für *boot root swap*) direkt anschauen mit `strg`+`alf`+`F2` machst du einen zweiten Terminal auf und mit `strg`+`alf`+`F1` kannst du zum Terminal mit der Anleitung wechseln
+
+```bash
+lunx https://wiki.archlinux.de/title/UEFI-Rechner_systemd-boot_brs
+```
 
 ### Installation einer Virtuellen maschiene
 
