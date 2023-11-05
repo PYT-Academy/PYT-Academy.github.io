@@ -436,7 +436,7 @@ so sollte es in Nano aussehen.
 ![Desktop View](/assets/img/blogpost-231103/nano-fstab.png){: width="972" }
 _Nano (Texteditor) zeigt die fstab mit ihren eintragungen an_
 
-- jetzt kommt zum ersten mal die **UUID** zum vorschein. Es ist eine Eindeutige Bezeichnung für die einzubindene Partition und wird vom Bootloader gelesen und alle Eintragungen werden in unser System eingehangen
+- **UUID** ist eine Eindeutige Bezeichnung für die einzubindene Partition und wird vom Bootloader gelesen.
 
 ## Arch-Linux Konfigurieren
 
@@ -447,6 +447,41 @@ wir wechseln vom Live-System zum eben Instalierten Arch Linux
 ```bash
 arch-chroot /mnt
 ```
+
+aus `root@archiso ~ #` wird `[root@archiso /]#` das rotgeschriebene Root wird Weiß.
+
+### Hostnamen vergeben
+
+```bash
+echo myhost > /etc/locale.conf
+```
+
+### Sprache auf deutsch umstellen
+
+*schreibe* `LANG=de_DE.UTF-8` *in die* `locale.conf`
+
+```bash
+echo LANG=de_DE.UTF-8 > /etc/locale.conf
+```
+
+`nano` *öffne im Verzeichniss* `/etc/` *die Datei* `locale.conf`
+```bash
+nano /etc/locale.gen
+```
+
+in der `locale.conf` die `#` vor den Deutschen Sprachen entfernen
+```
+#de_DE.UTF-8 UTF-8          de_DE.UTF-8 UTF-8 
+#de_DE ISO-8859-1           de_DE ISO-8859-1
+#de_DE@euro ISO-8859-15     de_DE@euro ISO-8859-15
+```
+
+
+
+
+### 
+
+
 
 
 ## Sonstiges
