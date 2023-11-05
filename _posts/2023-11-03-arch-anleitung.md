@@ -328,9 +328,77 @@ _lsblk ausgabe mit der Option **-o** und den Argumenten Name, Format, Label, Gr�
 
 Als „mounten“ wird der Vorgang des Einhängens eines Dateisystems in die bestehende Verzeichnisstruktur bezeichnet. Dieses Einhängen ist notwendig, um mit üblichen Programmen auf Dateien eines Dateisystems zugreifen zu können. Dateisysteme werden mittels des Programms mount eingehängt. „Einhängen“ und „mounten“ werden synonym verwendet. [DE Arch-Wiki](https://wiki.archlinux.de/title/Mounten){:target="_blank"}
 
+#### Root Einhängen
+
 ```bash
 mount -L ROOT /mnt
 ```
+
+#### Boot Einhängen 
+
+Bevor wir `BOOT` einhängen brauchen wir das Verzeichniss dafür
+
+```bash
+mkdir /mnt/boot
+```
+
+```bash
+mount -L BOOT /mnt/boot
+```
+
+#### Swap EAktivieren
+
+```bash
+swapon -L SWAP
+```
+
+## Installation
+
+### Basispackete
+
+Die eigentliche Installation von Arch-Linux ist ein einziger bash Befehl. Als erstes instalieren wir die enpfohlenen Basispakete.
+
+#### Die Basis-Installation erfolt mit 3 Packetgruppen
+
+- `base` und `base-devel` wobei das devel für **Development** steht. Es ist die Metapakete für ein Minimales System
+
+- `linux` und `linux-firmaware` sind die Arch-Linux Kernel. Alternativ oder Optional kannst du auch ein **lts** (Longtime support) oder einen **hardend** Kernel wählen. Die Packete dazu sind `linux-lts` und `linux-hardend`
+
+#### Texteditoren
+
+Ein Texteditor ist ein Standart-Tool und eines der wichtigsten Werkzeuge für Linux und zum Programieren. Sie sind hoch anpassungsfähig und werden meist aus dem Terminal heraus gestartet. Ich möchte es an dieser stelle nur kurz anreisen und eine Übersicht geben damit du im Skrip erkennst dass es jetzt in den Texteditor zur weiteren bearbeitung geht. 
+
+- [Nano](https://wiki.archlinux.de/title/Nano){:target="_blank"} ist ein einfach zu bedienender Texteditor, mit dem man leicht Dateien auf der Konsole oder in einem Terminal bearbeiten kann. Für `Einsteiger` und kleinere Editierarbeiten. 
+
+- [Vi](https://wiki.archlinux.de/title/Vi){:target="_blank"} ist seit Jahrzehnten der Standardeditor vieler Unixsysteme, als solcher weit verbreitet, wohl bekannt und gut dokumentiert.
+
+- [Vim](https://wiki.archlinux.de/title/Vim){:target="_blank"} ist einer der am weitesten fortgeschrittenen, freien Klone des Standardeditors **Vi** und als solcher ein de-facto-Standard vor allem auf Linux Systemen und unter Proffesionellen Programierern. Er verfügt über `Syntax-Highlighting`, `Programmierbarkeit`, `Erweiterbarkeit` durch Plug-Ins, `Code Folding` (Einklappen von Abschnitten im Text) sowie
+Darstellung in mehreren `Teilfenstern`. 
+
+- [Kakoune](https://kakoune.org/){:target="_blank"} stammt von **Vim** ab ist vom Leistungsumpfang auch mit diesem vergleichbar. Allerdings bietet er ein anderes Konzept der Auswahl an und ist näher an der UNIX-Philosophie. Weshalb das auch mein bevorzugert Editor ist. 
+
+Es gibt sicher noch viele mehr, bei der Grundinstallation von Arch wähle ich `nano` `vim` und `kakoune` Obwohl ich den Kakoune nutze möchte ich dennoch Vim lernen. Aber das ist meien Persönliche Entscheidung. Mindestvorraussetzung ist `nano`
+
+```bash
+pacstrap /mnt base base-devel linux linux-firmware nano vim kakoune
+```
+
+
+
+
+
+
+
+#### Netzwerk
+
+Es gibt mehrere Netzwerktools. Die meisten Anleitungen empfehlen den `networkmanager` aber es gibt auch leichtere tools die ich euch nicht vorenthalten will
+
+- [networkmanager](https://wiki.archlinux.de/title/Networkmanager){:target="_blank"} ist ein Umfangreiches Tool für Netzwerkverbindungen wie **Ethernet** und **WiFi** es wird in den meisten Desktopumgebungen intergriet, es gibt **applets** für Gnome und KDE. Das Tool kann sowohl im Terminal als auch Grafisch konfiguriert werden.
+
+- https://wiki.archlinux.de/title/Dhcpd
+
+- https://wiki.archlinux.de/title/Netctl
+
 
 
 ## Sonstiges
