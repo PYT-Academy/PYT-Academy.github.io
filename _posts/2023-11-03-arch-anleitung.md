@@ -236,7 +236,7 @@ mit `pardet` überprüfst du das Ergebniss
 parted /dev/sda print
 ```
 
-![Desktop View](/assets/img/blogpost-231103/parted-sda1.png){: width="972" height="589" }
+![Desktop View](/assets/img/blogpost-231103/parted-sda1.png){: width="972" }
 _so sollte es aussehen mit einer Boot-Partition_
 
 > Begriffe wie [gpt](https://wiki.archlinux.de/title/Partitionierung#GUID_Partition_Table_.28GPT.29){:target="_blank"} [EFI system Partition](https://wiki.archlinux.org/title/EFI_system_partition){:target="_blank"} kannst du hier nachlesen. 
@@ -253,6 +253,24 @@ Oder du hilfst mir dabei. Vorraussetung ist die Installation von Arch-Linux als 
 {: .prompt-warning }
 
 #### SWAP-Partition
+
+die [Swap Partition](https://wiki.archlinux.de/title/Swap){:target="_blank"} dient als Auslagerungsspeicher und ist in unserem Fall (Root-Partition als ext4) mit mindestens 512MB besser 1GB Empfohlen.
+
+Willst du den [Ruhezustand](https://wiki.archlinux.de/title/Bereitschaft_und_Ruhezustand){:target="_blank"} deines Laptop's nutzen *wie in diesem Tutorial* dann muss der Swap speicher etwas größer als der RAM sein. 
+
+> Hinweis: `standby` oder *Bereitschaft* und `Ruhezustand` oder *hibernate* sind zwei verschiedene Modi. Im Bereitschaftszustand wird der Arbeitsspeicher noch mit Energie versorgt und ist dadurch nach kurzer Zeit wieder einsatzfähig. Im Ruhezustand wird der Inhalt des Arbeitsspeichers auf die Swap-Partition der Festplatte geschrieben.
+**Beide Zustände können unter bestimmten Hardwarezusammenstellungen Probleme bereiten und nicht richtig funktionieren.**
+
+Wir nehmen das Tool `cfdisk` um die Swap-Partition zu erstellen
+
+```bash
+cfdisk /dev/sda
+```
+
+Mein System hat 16GB Ram, somit erstelle ich die Swap Partition mit 18GB
+
+![Desktop View](/assets/img/blogpost-231103/cfdisk-swap.png){: width="972" }
+_so sollte es aussehen mit einer Boot-Partition_
 
 
 
