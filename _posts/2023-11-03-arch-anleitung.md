@@ -516,6 +516,7 @@ nano /etc/vconsole.conf
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 ```
 - oder Asunktion
+
 ```bach
 ln -sf /usr/share/zoneinfo/America/Asunction /etc/localtime
 ```
