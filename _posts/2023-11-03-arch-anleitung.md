@@ -588,6 +588,62 @@ options  root=LABEL=ROOT rw lang=de init=/usr/lib/systemd/systemd locale=de_DE.U
 Diese Datei enthält eine umfassendere Sammlung von Modulen, um eine höhere Kompatibilität mit verschiedenen Hardware-Konfigurationen zu gewährleisten. Es ist gedacht als Backup, falls die Standardversion aufgrund fehlender Treiber oder Module das Root-Dateisystem nicht erfolgreich mounten kann.
 {: .prompt-info }
 
+```bash
+nano /boot/loader/loader.conf
+```
+
+```
+default   arch-uefi.conf
+timeout   4
+```
+
+## Exit - Unmount - Booten
+
+### Exit
+
+Nachdem nun alle nötigen Komponenten installiert und konfiguriert sind, kann die Chroot Umgebung verlassen werden.
+
+```bash
+exit
+```
+
+### unmount
+
+Und die gemounteten Datenträger aushängt werden.
+
+```bash
+umount /mnt/boot
+umount /mnt
+```
+
+### reboot
+
+```bash
+reboot
+```
+
+
+
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+
+
+
+
+
 
 ## Sonstiges
 
