@@ -126,7 +126,7 @@ sda             259:0    0 476,9G  0 disk
 
 das Laufwerk auf dem Arch-Linux instaliert werden soll ist `sda`
 
-> Achtung: Natürlich kann die Bezeichnung bei jedem Rechner unterschiedlich sein. NVME's weden `nvme0n1` genannt. USB-Stiks und Festplatten `sd`**a** oder `sd`**b** usw.. Du musst dein Laufwerk identifizieren. Ich spreche in diesem Tutorial immer vom **sda** 
+> Achtung: Natürlich kann die Bezeichnung *(NAME)* bei jedem Rechner unterschiedlich sein. NVME's weden `nvme0n1` benannt. USB-Stiks und Festplatten `sda` oder `sdb` usw.. Du musst dein Laufwerk identifizieren. Ich spreche in diesem Tutorial immer vom **sda** 
 {: .prompt-danger }
 
 ### Datenträger bereinigen (Optional)
