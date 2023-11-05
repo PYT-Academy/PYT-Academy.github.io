@@ -270,15 +270,19 @@ cfdisk /dev/sda
 Mein System hat 16GB Ram, somit erstelle ich die Swap Partition mit 18GB
 
 ![Desktop View](/assets/img/blogpost-231103/cfdisk-swap.png){: width="972" }
-_so sollte es aussehen mit einer Boot-Partition_
+_so sollte es in cfdisk aussehen mit einer Boot-Partition_
 
 ![Desktop View](/assets/img/blogpost-231103/lsblk-boot-swap.png){: width="972" }
-_und fier die Ausgabe von lsblk mit unserer 18G Swap-Partition auf sda2_
+_und hier die Ausgabe von lsblk mit unserer 18G Swap-Partition auf sda2_
 
 #### ROOT-Partition
 
+Der Rest unseres Speichers verwenden wir für die Boot Partition und ich übelasse dir die Wahl deines Tools (fdisk, gdisk oder cfdisk) das ergebniss sollte so ausschauen
 
+![Desktop View](/assets/img/blogpost-231103/lsblk-boot-swap-root.png){: width="972" }
+_finale ausgabe von unserer Partitionstabelle mit sda1 als boot, sda2 als swap und sda3 als root_
 
+### Formatiren der Partitionen
 
 
 
