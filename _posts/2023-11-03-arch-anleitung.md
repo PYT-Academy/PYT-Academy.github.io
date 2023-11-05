@@ -239,18 +239,18 @@ parted /dev/sda print
 ![Desktop View](/assets/img/blogpost-231103/parted-sda1.png){: width="972" }
 _so sollte es aussehen mit einer Boot-Partition_
 
-> Begriffe wie [gpt](https://wiki.archlinux.de/title/Partitionierung#GUID_Partition_Table_.28GPT.29){:target="_blank"} [EFI system Partition](https://wiki.archlinux.org/title/EFI_system_partition){:target="_blank"} kannst du hier nachlesen. 
+> `tip:` Begriffe wie [gpt](https://wiki.archlinux.de/title/Partitionierung#GUID_Partition_Table_.28GPT.29){:target="_blank"} [EFI system Partition](https://wiki.archlinux.org/title/EFI_system_partition){:target="_blank"} kannst du hier nachlesen. 
 {: .prompt-tip }
 
-> Die **Boot-Partition** ist der Speicherbereich für den Bootloader und Teile des Kernels. Um mehrere Kernel-Versionen zu installieren, kann es nötig sein, die Boot-Partition zu vergrößern. Ein Speicherplatz von **1GB** ist in der Regel ausreichend. Die [Arch-Linux-Wiki](https://wiki.archlinux.org/index.php/Partitioning#Boot_partition){:target="_blank"} empfiehlt mindestens **300MB** für die Boot-Partition.
+> `tip:` Die **Boot-Partition** ist der Speicherbereich für den Bootloader und Teile des Kernels. Um mehrere Kernel-Versionen zu installieren, kann es nötig sein, die Boot-Partition zu vergrößern. Ein Speicherplatz von **1GB** ist in der Regel ausreichend. Die [Arch-Linux-Wiki](https://wiki.archlinux.org/index.php/Partitioning#Boot_partition){:target="_blank"} empfiehlt mindestens **300MB** für die Boot-Partition.
 {: .prompt-tip }
 
-> Der Startsektor **2048** wird oft für Partitionen auf modernen Festplatten gewählt, da er mit den Speicherblöcken von Festplatten mit einer Sektorgröße von **4K** optimal ausgerichtet ist. Dieser Bereich, der einer Größe von **1MB** entspricht, wird für die Partitionstabelle und den Bootloader genutzt.
+> `tip:`Der Startsektor **2048** wird oft für Partitionen auf modernen Festplatten gewählt, da er mit den Speicherblöcken von Festplatten mit einer Sektorgröße von **4K** optimal ausgerichtet ist. Dieser Bereich, der einer Größe von **1MB** entspricht, wird für die Partitionstabelle und den Bootloader genutzt.
 {: .prompt-tip }
 
-> wenn du ein **Dualboot-System** erstellen willst musst du einfach die bestehende EFI-Partition Mounten. Der Beitrag über die Installation eines Dual-Boot Systems ist für Erfahrene Benutzer, ich arbeite daran... 
+> `info:`wenn du ein **Dualboot-System** erstellen willst musst du einfach die bestehende EFI-Partition Mounten. Der Beitrag über die Installation eines Dual-Boot Systems ist für Erfahrene Benutzer, ich arbeite daran... 
 Oder du hilfst mir dabei. Vorraussetung ist die Installation von Arch-Linux als erstes System und die Partitionierung unter Linux. Das Verwenden von Installations-Scripen ist zu meiden. GRUB ist zu meiden.
-{: .prompt-warning }
+{: .prompt-info }
 
 #### SWAP-Partition
 
@@ -258,7 +258,7 @@ die [Swap Partition](https://wiki.archlinux.de/title/Swap){:target="_blank"} die
 
 Willst du den [Ruhezustand](https://wiki.archlinux.de/title/Bereitschaft_und_Ruhezustand){:target="_blank"} deines Laptop's nutzen *wie in diesem Tutorial* dann muss der Swap speicher etwas größer als der RAM sein. 
 
-> Hinweis: `standby` oder *Bereitschaft* und `Ruhezustand` oder *hibernate* sind zwei verschiedene Modi. Im Bereitschaftszustand wird der Arbeitsspeicher noch mit Energie versorgt und ist dadurch nach kurzer Zeit wieder einsatzfähig. Im Ruhezustand wird der Inhalt des Arbeitsspeichers auf die Swap-Partition der Festplatte geschrieben.
+> `info:` `standby` oder *Bereitschaft* und `Ruhezustand` oder *hibernate* sind zwei verschiedene Modi. Im Bereitschaftszustand wird der Arbeitsspeicher noch mit Energie versorgt und ist dadurch nach kurzer Zeit wieder einsatzfähig. Im Ruhezustand wird der Inhalt des Arbeitsspeichers auf die Swap-Partition der Festplatte geschrieben.
 **Beide Zustände können unter bestimmten Hardwarezusammenstellungen Probleme bereiten und nicht richtig funktionieren.**
 {: .prompt-info }
 
@@ -277,7 +277,7 @@ _so sollte es in cfdisk aussehen mit einer Boot-Partition_
 _und hier die Ausgabe von lsblk mit unserer 18G Swap-Partition auf sda2_
 
 > `Tip:` falls du die Partition mit `fdisk` oder `gdisk` ersteleln willst ist `8300` der hex-Code für den `Linux Partitionstyp` gild ebenso für die Root-Partition.
-{: .prompt-info }
+{: .prompt-tip }
 
 #### ROOT-Partition
 
@@ -291,15 +291,17 @@ _finale ausgabe von unserer Partitionstabelle mit sda1 als boot, sda2 als swap u
 Jetz kommt `mkfs` (make filesystem) und genau das tuen wir für jede einzelne Partition
 
 ```bash
-mkfs
+mkfs.fat -F 32 -n BOOT /dev/sda1
 ```
+
+
 
 ## Sonstiges
 
 ### lunx browser 
 
-> `Tip:` du kannst im Live-System den eingebauten Webbrowser verwenden um die [Arch-Wiki Spickzettel für EUFI-Rechner systemd-boot brs](https://wiki.archlinux.de/title/UEFI-Rechner_systemd-boot_brs){:target="_blank"} (`brs` steht für *boot root swap*) direkt anschauen mit `strg`+`alf`+`F2` machst du einen zweiten Terminal auf und mit `strg`+`alf`+`F1` kannst du zum Terminal mit der Anleitung wechseln
-
+> `info:` du kannst im Live-System den eingebauten Webbrowser verwenden um die [Arch-Wiki Spickzettel für EUFI-Rechner systemd-boot brs](https://wiki.archlinux.de/title/UEFI-Rechner_systemd-boot_brs){:target="_blank"} (`brs` steht für *boot root swap*) direkt anschauen mit `strg`+`alf`+`F2` machst du einen zweiten Terminal auf und mit `strg`+`alf`+`F1` kannst du zum Terminal mit der Anleitung wechseln
+{: .prompt-info }
 
 ```bash
 lunx https://wiki.archlinux.de/title/UEFI-Rechner_systemd-boot_brs
