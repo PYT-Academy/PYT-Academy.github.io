@@ -258,14 +258,14 @@ gdisk /dev/sda
   white-space: nowrap;
 ">y</kbd> - (YES) mit Ja bestätigen
 
-das ergebniss wie folgt aus:
+mit `pardet` überprüfst du das Ergebniss
 
+```bash
+parted /dev/sda print
 ```
-NAME          MAJ:MIN RM   SIZE RO TYPE
-sda           8:16    0  476,9G  0 disk  
-└─sda1        8:16    0    511M  0 part 
-sdb... 
-```
+
+> Begriffe wie [gpt](https://wiki.archlinux.de/title/Partitionierung#GUID_Partition_Table_.28GPT.29){:target="_blank"} [EFI system Partition](https://wiki.archlinux.org/title/EFI_system_partition){:target="_blank"} kannst du hier nachlesen. 
+{: .prompt-tip }
 
 > wenn du ein Dualboot-System erstellen willst musst du einfach die bestehende EFI-Partition Mounten. Der Beitrag über die Installation eines Dual-Boot Systems ist für Erfahrene Benutzer, ich arbeite daran...
 {: .prompt-tip }
