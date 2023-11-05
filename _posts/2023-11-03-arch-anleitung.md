@@ -62,24 +62,6 @@ Natürlich gehen auch andere Modelle und neuere eigene Hardware. Fühl dich frei
 
 - Ist ein Riesiges Themengebiet und wird in der  Der [DE-Arch-Wiki "Einrichtung des Datenträgers"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger#Einrichtung_des_Datentr.C3.A4gers){:target="_blank"} beschrieben. Der Einfachheit halber benutze ich ein Standard-Layout bestehend aus einer `Boot`, `Root` und `SWAP` Partition. Der Vorteil ist dass die Einrichtung wesentlich einfacher ist und ich kann die SSD von einem Laptop in einen andaren umbauen und mit minimalen einrichtugnen läuft mein eigenes System wieder.
 
-
-
-mit [lsblk](https://wiki.archlinux.de/title/Lsblk){:target="_blank"} kann man sich alle angeschlossenen Blockgeräte, also Festplatten, CD/DVD-Laufwerke und USB-Sticks, anzeigen lassen. `sda`, `sdb`, `scd`, `sr0` stehen für die verschiedenen Blockgeräte. Für den anfang identifizieren wir unsere Installationsfestplatte die als `sda` gekennzeichnet ist.
-
-#### Ausgabe von `lsblk` mit Optionen `-ld` und Argumenten `--output NAME,FSTYPE,GROUP,MODEL,MODE`
-
-```bash
-lsblk -ld --output NAME,FSTYPE,GROUP,MODEL,MODE
-```
-
-```
-NAME FSTYPE GROUP   MODEL            MODE
-sda         disk    WDC WD5000AAKS   brw-rw----
-sdb         disk    ST3250410AS      brw-rw----
-sdc         disk    STORE N GO       brw-rw----
-sr0  udf    optical CD/DVDW SH-S182M brw-rw----
-```
-
 ### iso auf USB-Stick schreiben
 
 Du solltest die Arch-Linux ISO auf einen USB-Stick schreiben können und von diesem anschließend auch Booten [DE-Arch-Wiki "Vorbereitung"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger#Vorbereitung){:target="_blank"}
