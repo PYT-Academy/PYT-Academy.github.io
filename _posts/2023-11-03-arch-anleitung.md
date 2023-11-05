@@ -260,6 +260,7 @@ Willst du den [Ruhezustand](https://wiki.archlinux.de/title/Bereitschaft_und_Ruh
 
 > Hinweis: `standby` oder *Bereitschaft* und `Ruhezustand` oder *hibernate* sind zwei verschiedene Modi. Im Bereitschaftszustand wird der Arbeitsspeicher noch mit Energie versorgt und ist dadurch nach kurzer Zeit wieder einsatzfähig. Im Ruhezustand wird der Inhalt des Arbeitsspeichers auf die Swap-Partition der Festplatte geschrieben.
 **Beide Zustände können unter bestimmten Hardwarezusammenstellungen Probleme bereiten und nicht richtig funktionieren.**
+{: .prompt-info }
 
 Wir nehmen das Tool `cfdisk` um die Swap-Partition zu erstellen
 
@@ -274,6 +275,9 @@ _so sollte es in cfdisk aussehen mit einer Boot-Partition_
 
 ![Desktop View](/assets/img/blogpost-231103/lsblk-boot-swap.png){: width="972" }
 _und hier die Ausgabe von lsblk mit unserer 18G Swap-Partition auf sda2_
+
+> `Tip:` falls du die Partition mit `fdisk` oder `gdisk` ersteleln willst ist `8300` der hex-Code für den `Linux Partitionstyp` gild ebenso für die Root-Partition.
+{: .prompt-info }
 
 #### ROOT-Partition
 
@@ -295,6 +299,7 @@ mkfs
 ### lunx browser 
 
 > `Tip:` du kannst im Live-System den eingebauten Webbrowser verwenden um die [Arch-Wiki Spickzettel für EUFI-Rechner systemd-boot brs](https://wiki.archlinux.de/title/UEFI-Rechner_systemd-boot_brs){:target="_blank"} (`brs` steht für *boot root swap*) direkt anschauen mit `strg`+`alf`+`F2` machst du einen zweiten Terminal auf und mit `strg`+`alf`+`F1` kannst du zum Terminal mit der Anleitung wechseln
+
 
 ```bash
 lunx https://wiki.archlinux.de/title/UEFI-Rechner_systemd-boot_brs
