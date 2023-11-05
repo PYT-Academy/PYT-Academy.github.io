@@ -60,20 +60,21 @@ Natürlich gehen auch andere Modelle und neuere eigene Hardware. Fühl dich frei
 
 ### Partitionierung. 
 
-- Ist ein Riesiges Themengebiet und wird in der  Der [DE-Arch-Wiki "Einrichtung des Datenträgers"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger#Einrichtung_des_Datentr.C3.A4gers){:target="_blank"} beschrieben. Der Einfachheit halber benutze ich ein Standard-Layout bestehend aus einer `Boot`, `Root` und `SWAP` Partition. Der Vorteil ist dass die Einrichtung wesentlich einfacher ist und ich kann die SSD von einem Laptop in einen andaren umbauen und mit minimalen einrichtugnen läuft mein eigenes System wieder.
+- Ist ein Riesiges Themengebiet und wird in der  Der [DE-Arch-Wiki "Einrichtung des Datenträgers"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger#Einrichtung_des_Datentr.C3.A4gers){:target="_blank"} beschrieben. Der Einfachheit halber benutze ich ein Standard-Layout bestehend aus einer `Boot`, `Root` und `SWAP` Partition.
 
-### iso auf USB-Stick schreiben
+### ISO auf USB-Stick schreiben (im Terminal)
 
-Du solltest die Arch-Linux ISO auf einen USB-Stick schreiben können und von diesem anschließend auch Booten [DE-Arch-Wiki "Vorbereitung"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger#Vorbereitung){:target="_blank"}
+Du solltest die Arch-Linux ISO auf einen USB-Stick schreiben können und von diesem anschließend auch Booten [DE-Arch-Wiki "Vorbereitung"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger#Vorbereitung){:target="_blank"} Benutze dazu Tools die das Erledigen, der Spickzettel ist etwas für Erfahrene Nutzer ;-)
 
 #### Spickzettel
 ```bash
 dd bs=4M if=/pfad/archlinux-*-x86_64.iso of=/dev/sdx status=progress oflag=sync
 ```
 
-### Programiersprache "Bash" (Bourne-Again SHell) im Terminal
+### Programmiersprache "Bash" (Bourne-Again SHell) im Terminal
 
-[Bash](https://wiki.archlinux.de/title/Bash){:target="_blank"} ist die Standard Shell unter Arch-Linux. Es ist eine Scriptsprache für die Kommunikation mit dem Kernel. Der Grundaubau besteht aus einem `Operator` (oder `Task`) gefolgt von (optionalen) `Option:en` und `Argument:en`. Für den Anfang ist es wichtig zu verstehen dass im Terminal jedes Zeichen eine bedeutung hat (sogar ein Lehrzeichen) und Groß-Kleinschreibung spielt eine wichtige rolle.
+[Bash](https://wiki.archlinux.de/title/Bash){:target="_blank"} ist die Standardshell unter Arch Linux und dient als Skriptsprache zur Automatisierung von Aufgaben im Betriebssystem. Ein Bash-Befehl setzt sich typischerweise aus einem `Kommando` oder `Befehl` und (optionalen) `Optionen` sowie `Argumenten` zusammen. Es ist für Anfänger wichtig zu verstehen, dass im Terminal jedes Zeichen eine Bedeutung hat – selbst ein Leerzeichen. Außerdem ist die Beachtung von Groß- und Kleinschreibung entscheidend.
+
 
 ### im Arch-Linux Livesystem
 
@@ -122,16 +123,6 @@ das dauert, je nach größe. `status=progress` erlaubt dir den Fortschritt zu ve
 > Gefähliche Aktionen stelle ich in `roten` "Danger"-Promt dar. 
 `Achtung:` der `dd` Promt fürht aus was er soll ohne wiederrede! in diesem fall überschreibt er das gesammte `sda` Laufwerk. Alle Daten werden mit einer null überschrieben. Wenn du das mehrmals ausführst lassen sich selbst Magnetische Festplatten (HDD Hard Disk Drive) von niemanden wiederhersstellen!
 {: .prompt-danger }
-
-```bash
-lsblk
-```
-das **sda** Laufwerk wurde bereinigt
-```
-NAME         MAJ:MIN  RM   SIZE RO TYPE  MOUNTPOINTS
-sda           259:0    0 479,9G  0 disk  
-sdb...
-```
 
 > Unterschätze nicht den Datenmüll einer Alten Festplatte. Ich empfehle Dringent vor jder installation das Laufwerk zu säubern um Fehler zu vermeiden und Persönliche Daten zu schützen
 {: .prompt-tip }
