@@ -288,12 +288,42 @@ _finale ausgabe von unserer Partitionstabelle mit sda1 als boot, sda2 als swap u
 
 ### Formatiren der Partitionen
 
-Jetz kommt `mkfs` (make filesystem) und genau das tuen wir für jede einzelne Partition
+Jetz kommt `mkfs` (make filesystem) und genau das tun wir für jede einzelne Partition
+
+#### Boot Formatieren
 
 ```bash
 mkfs.fat -F 32 -n BOOT /dev/sda1
 ```
 
+Für eine **ef00** Partition mit **fat32** Dateisystem und **LABEL=BOOT**
+
+> `info:` wenn du [Grub](https://wiki.archlinux.de/title/GRUB){:target="_blank"} verwenden willst kannst du die Boot-Partition auch als **ext2 ext3** oder **ext4** Formatieren. *für erfahrene Benutzer und Multiboot Systeme* für unsere Zwecke reicht `system-boot` vollkommen aus.
+{: .prompt-info }
+
+#### Root Formatieren
+
+```bash
+mkfs.ext4 -L ROOT /dev/sda3
+```
+
+Für eine 83 bzw. 8300 Partition mit ext4 Dateisystem und LABEL=ROOT
+
+#### Swap Erstellen
+
+richtig gelesen, erstellen und nicht (nur) formatieren. Durch `mkswap` wird ein Swap-Header auf der Partition oder dem Gerät erstellt, was es dem Betriebssystem ermöglicht, den Bereich als Swap-Speicher zu erkennen und zu nutzen. `mk` steht dabei für `make`
+
+```bash
+mkswap -L SWAP /dev/sda2
+```
+
+### Mounten (Einhängen) der formatierten Partitionen
+
+Als „mounten“ wird der Vorgang des Einhängens eines Dateisystems in die bestehende Verzeichnisstruktur bezeichnet. Dieses Einhängen ist notwendig, um mit üblichen Programmen auf Dateien eines Dateisystems zugreifen zu können. Dateisysteme werden mittels des Programms mount eingehängt. „Einhängen“ und „mounten“ werden synonym verwendet. [DE Arch-Wiki](https://wiki.archlinux.de/title/Mounten){:target="_blank"}
+
+```bash
+mount -L ROOT /mnt
+```
 
 
 ## Sonstiges
