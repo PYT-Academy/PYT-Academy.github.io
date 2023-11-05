@@ -354,11 +354,13 @@ swapon -L SWAP
 
 ## Installation
 
-### Basispackete
+### Basispakete
 
-Die eigentliche Installation von Arch-Linux ist ein einziger bash Befehl. Als erstes instalieren wir die enpfohlenen Basispakete.
+Die eigentliche Installation von Arch-Linux ist ein einziger bash-script.
 
-#### Die Basis-Installation erfolt mit 3 Packetgruppen
+Die Basis-Installation erfolt mit 3 Packetgruppen `System`, `Texteditor`, `Netzwerk` und `optional`
+
+#### System
 
 - `base` und `base-devel` wobei das devel für **Development** steht. Es ist die Metapakete für ein Minimales System
 
@@ -380,8 +382,9 @@ Darstellung in mehreren `Teilfenstern`.
 Es gibt sicher noch viele mehr, bei der Grundinstallation von Arch wähle ich `nano` `vim` und `kakoune` Obwohl ich den Kakoune nutze möchte ich dennoch Vim lernen. Aber das ist meien Persönliche Entscheidung. Mindestvorraussetzung ist `nano`
 
 ```bash
-pacstrap /mnt base base-devel linux linux-firmware nano vim kakoune
+pacstrap /mnt base base-devel linux linux-firmware
 ```
+
 
 
 
