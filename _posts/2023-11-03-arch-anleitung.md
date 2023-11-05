@@ -317,6 +317,13 @@ richtig gelesen, erstellen und nicht (nur) formatieren. Durch `mkswap` wird ein 
 mkswap -L SWAP /dev/sda2
 ```
 
+```bash
+lsblk -o NAME,FSTYPE,LABEL,SIZE,MOUNTPOINT
+```
+
+![Desktop View](/assets/img/blogpost-231103/lsblk-detailierte-ausgabe.png){: width="972" }
+_lsblk ausgabe mit der Option **-o** und den Argumenten Name, Format, Label, Größe, Einhängepunkt_
+
 ### Mounten (Einhängen) der formatierten Partitionen
 
 Als „mounten“ wird der Vorgang des Einhängens eines Dateisystems in die bestehende Verzeichnisstruktur bezeichnet. Dieses Einhängen ist notwendig, um mit üblichen Programmen auf Dateien eines Dateisystems zugreifen zu können. Dateisysteme werden mittels des Programms mount eingehängt. „Einhängen“ und „mounten“ werden synonym verwendet. [DE Arch-Wiki](https://wiki.archlinux.de/title/Mounten){:target="_blank"}
@@ -354,3 +361,7 @@ dd if=/dev/zero of=tempfile bs=1M count=1024 conv=fdatasync,notrunc
 ```bash
 dd if=tempfile of=/dev/null bs=1M count=1024
 ```
+
+#### Neofetch
+
+[Blogartikel von David](https://pyt-academy.github.io/posts/LNM-neofetch/){:target="_blank"}
