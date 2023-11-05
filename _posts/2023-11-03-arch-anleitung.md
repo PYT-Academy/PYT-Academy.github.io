@@ -428,17 +428,25 @@ genfstab -U /mnt > /mnt/etc/fstab
 Überprüfen der fstab Datei:
 
 ```bash
-cat /mnt/etc/fstab
+nano /mnt/etc/fstab
 ```
 
-```
-# /dev/sda1 LABEL=ROOT
-UUID=e79bf648-bb6c-4204-8e01-aff13df2bf03    /      ext4	rw,relatime             0 1
-	 
-# /dev/sda2 LABEL=SWAP	
-UUID=cd6d7140-c450-4eb5-a93e-b448173b3014    none   swap	defaults	        0 0
-```
+so sollte es in Nano aussehen. 
 
+![Desktop View](/assets/img/blogpost-231103/nano-fstab.png){: width="972" }
+_Nano (Texteditor) zeigt die fstab mit ihren eintragungen an_
+
+- jetzt kommt zum ersten mal die **UUID** zum vorschein. Es ist eine Eindeutige Bezeichnung für die einzubindene Partition und wird vom Bootloader gelesen und alle Eintragungen werden in unser System eingehangen
+
+## Arch-Linux Konfigurieren
+
+### CHrooten
+
+wir wechseln vom Live-System zum eben Instalierten Arch Linux
+
+```bash
+arch-chroot /mnt
+```
 
 
 ## Sonstiges
