@@ -390,14 +390,7 @@ pacstrap /mnt base base-devel linux linux-firmware nano vim kakoune
 
 ### Installation zusätzlicher Pakete
 
-lass uns aus dem Live-System zuästzliche Pakete instalieren um einen weiteren Promt zu lernen.
-
-
-
-
-
-
-
+lass uns aus dem Live-System zuästzliche Pakete instalieren 
 
 #### Netzwerk
 
@@ -408,6 +401,43 @@ Es gibt mehrere Netzwerktools. Die meisten Anleitungen empfehlen den `networkman
 - https://wiki.archlinux.de/title/Dhcpd
 
 - https://wiki.archlinux.de/title/Netctl
+
+
+#### Optionale Packete
+
+- [intel-ucode](https://wiki.archlinux.de/title/Microcode){:target="_blank"} kann bei Intel-Prozessoren sinnfoll sein um die Firmware der CPU bei jedem Startvorgang zu Aktualisieren. Achtung, der sogenannte Microcode muss in den Boatloader intergriert werden damit der Rechener bei jedem neustart gepacht wird. 
+
+- `iwd` ist ein Wlan Packet und ist wichtig für Rechenr ohne Lan
+
+- [lvm2](https://wiki.archlinux.de/title/LVM){:target="_blank"} einbinden von **LVM-Partitionen**
+
+- weitere werden hier folgen
+
+```bash
+pacman --root /mnt -S networkmanager intel-ucode
+```
+
+### fstab erzeugen
+
+Die /etc/fstab (file system table) Datei wird beim Systemstart von systemd ausgelesen und mountet die Partitionen.
+
+```bash
+genfstab -U /mnt > /mnt/etc/fstab
+```
+
+Überprüfen der fstab Datei:
+
+```bash
+cat /mnt/etc/fstab
+```
+
+```
+# /dev/sda1 LABEL=ROOT
+UUID=e79bf648-bb6c-4204-8e01-aff13df2bf03    /      ext4	rw,relatime             0 1
+	 
+# /dev/sda2 LABEL=SWAP	
+UUID=cd6d7140-c450-4eb5-a93e-b448173b3014    none   swap	defaults	        0 0
+```
 
 
 
