@@ -272,6 +272,12 @@ Mein System hat 16GB Ram, somit erstelle ich die Swap Partition mit 18GB
 ![Desktop View](/assets/img/blogpost-231103/cfdisk-swap.png){: width="972" }
 _so sollte es aussehen mit einer Boot-Partition_
 
+![Desktop View](/assets/img/blogpost-231103/lsblk-boot-swap.png){: width="972" }
+_und fier die Ausgabe von lsblk mit unserer 18G Swap-Partition auf sda2_
+
+#### ROOT-Partition
+
+
 
 
 
