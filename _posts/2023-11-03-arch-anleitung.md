@@ -358,8 +358,6 @@ swapon -L SWAP
 
 Die eigentliche Installation von Arch-Linux ist ein einziger bash-script.
 
-Die Basis-Installation erfolt mit 3 Packetgruppen `System`, `Texteditor`, `Netzwerk` und `optional`
-
 #### System
 
 - `base` und `base-devel` wobei das devel für **Development** steht. Es ist die Metapakete für ein Minimales System
@@ -381,9 +379,18 @@ Darstellung in mehreren `Teilfenstern`.
 
 Es gibt sicher noch viele mehr, bei der Grundinstallation von Arch wähle ich `nano` `vim` und `kakoune` Obwohl ich den Kakoune nutze möchte ich dennoch Vim lernen. Aber das ist meien Persönliche Entscheidung. Mindestvorraussetzung ist `nano`
 
+Die Basis-Installation erfolt mit 3 Packetgruppen `System`, `Texteditor`, `Netzwerk`
+
 ```bash
-pacstrap /mnt base base-devel linux linux-firmware
+pacstrap /mnt base base-devel linux linux-firmware nano vim kakoune
 ```
+
+> `info:` Du hast jetzt Arch instaliert, keine sorge wir sich bei ca 50%. Was du als Anfänger verstehen musst ist dass du mit den Verschiedensten Systemen aus dem Terminal arbeiten kannst. Du bist jetzt gerade in `live-System` welches sich komplett in RAM befindet. Du könntest den USB-Stick entfernen und das Live-System läuft weiter. Zusätzlich befindet sich ein Arch-Linux unter `/mnt` in welches du einfach mit `chroot` wechseln kannst und zurück kommst du mit `exit` Wenn du dieses Wichtige Konzept verstanden hast ist die Hälfte schon geschafft!
+{: .prompt-info }
+
+### Installation zusätzlicher Pakete
+
+lass uns aus dem Live-System zuästzliche Pakete instalieren um einen weiteren Promt zu lernen.
 
 
 
