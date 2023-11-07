@@ -1,5 +1,5 @@
 ---
-title: Arch-Linux, mein Setup 
+title: Arch-Linux, mein Studium Setup 
 author: sergius
 date: 2023-11-03 11:33:00 +0800 #Datumformat entscheidet über die Sortierreinfolge.
 categories: [Linux, Arch-Setup Sergius ] #Kategorieauswahl laut Webseite bestimmen.
@@ -12,9 +12,15 @@ image:
   alt: Arch Logo mit KISS-Philosophie (Keep it simple and Stupid)
 ---
 
-## Begrüßung
+## Begrüßung und Einleitung
 
-Nach monatelangem Distro-Hopping und dem desaster der Desktopmanager bin ich jetzt zu einer Entscheidung gekommen und möchte sie dir vorstellen. Ich benutze 4 Systeme. Zwei sind für die Arbeit das dritte ist für's Studium und das Vierte ist Privat. Hier soll es um das Studium Setup gehen welches später mein Privates Setup erseten wird. 
+In einer Welt, die oft durch unnötige Komplexität und aufgeblähte Technologien verwirrt wird, möchte ich dir eine Oase der Effizienz vorstellen: Mein aktuelles Academy Setup. Diese "Anleitung" zielt darauf ab, Anfängern zu zeigen, wie sie mit einem klaren Fokus auf Effizienz und Kontrolle eine leistungsstarke Arbeitsumgebung schaffen können. Bei Fragen, zögere nicht, mich per [Mail](mailto:sergius@pyt.academy) zu kontaktieren.
+
+Folge dieser Anleitung, und du wirst erfahren, wie du selbst mit minimaler Hardware ein Höchstmaß an Effizienz erreichen kannst. Die Lernkurve mag herausfordernd sein, aber der Mehrwert ist unbezahlbar.
+
+Diese Seite ist nicht nur eine Ressource, sondern auch ein laufendes Projekt, das ich selbst nutze, um unsere Academy-Laptops einzurichten. Achte bitte auf die Hinweise in den Prompts, denn sie sind der Schlüssel zu einer mühelosen Erfahrung.
+
+
 
 ### warum Arch?
 
