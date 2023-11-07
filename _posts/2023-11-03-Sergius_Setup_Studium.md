@@ -20,19 +20,33 @@ Folge dieser Anleitung, und du wirst erfahren, wie du selbst mit minimaler Hardw
 
 Diese Seite ist nicht nur eine Ressource, sondern auch ein laufendes Projekt, das ich selbst nutze, um unsere Academy-Laptops einzurichten. Achte bitte auf die Hinweise in den Prompts, denn sie sind der Schlüssel zu einer mühelosen Erfahrung.
 
+> **Hinweis** Unterstütze mich. Bau das System nach und greife einzelne Tools auf, schreibe Anleitungen dafür. Gib dein gelerntes Wissen weiter!
+{: .prompt-info }
 
 
-### warum Arch?
+## Voraussetzungen
 
-- ist primär eine `Persönliche Entscheidung`. Ich mag das System hauptsächlich wegen der dahinterstehenden Philosophie und der Community. 
+### Persönlich
 
-- `Wer lesen kann ist ist klar im Vorteil`. Das meiste ist bereits Dokumentiert, mann muss nur wissen wo ind wie man darauf zugreift. Die Hier erstellten Links verweisen auf die Entsprechende Webseite und scrallen automatisch zum Abstz um den es geht.
+Lese und verstehe: [Perfektion](https://de.wikipedia.org/wiki/Paretoprinzip){:target="_blank"} ist nicht das Ziel; es geht darum, deinen aktuellen Stand zu verbessern. Du musst nicht jedes Detail sofort erfassen oder jedem Link folgen. Vermeide es, dich in Nebensächlichkeiten zu verlieren. Alles Notwendige, um dein Studiumssystem aufzusetzen, findest du hier.
 
-- Arch bietet ein `Minimales Grundsystem` und überlässt dem Nutzer sämtliche Entscheidungen über die weitere Konfiguration und die Grafische Benutzeroberfläche. 
+Dranbleiben: Die Herausforderung ist groß, aber beharrlich zu sein zahlt sich aus. Vertiefe das Gelernte kontinuierlich.
 
-- Arch-Linux und dessen Derivate `zwingen dich dazu sich mit deinem System zu beschäftigen`. Das gilt auch für Arch basierende Distributionen (ausnahme bidet Manjaro, von der Disro habe ich mich bereits Distanziert)
+### Hardware
 
-- meine Berufliche Linux-Distribution ist EndevourOS `(EOS)` und diese Distribution verzichtet bewusst auf Grafische Packetmanager und lässt dir bei der Installation deine Desktopumgebung oder sogar einen Windowmanager wählen.
+Wähle Open Source 
+
+- Ein [ThinkPad](https://thinkwiki.de/Hauptseite){:target="_blank"} [X220](https://thinkwiki.de/X220){:target="_blank"} mit [Coreboot](https://www.coreboot.org/){:target="_blank"} ist ideal. (keine Maus)
+
+Eine Internetverbindung ist essentiell.
+
+### Software
+
+Alle erforderlichen Programme sind (oder werden) hier aufgelistet.
+
+
+
+
 
 > An dieser stelle möchte ich über den `Orangenen Promt` sprechen. Sobald du den Orangenen Promt siehst kannst du mich unterstützen. In diesem fall geht es um die [UNIX-Philosophie von Mike Gancars](https://de.wikipedia.org/wiki/Unix-Philosophie#Mike_Gancarz:_The_UNIX_Philosophy){:target="_blank"} er hat ein Buch dazu veröffentlicht und ich würde die Kernessenz daraus, gerne in einem Blogartikel zusammenfassen. Wenn du mich unterstützen willst, schicke mir ein Script in dem du die wichtigsten Punkte der UNIX-Philosophy von Mike zusammenfasst.
 {: .prompt-warning }
