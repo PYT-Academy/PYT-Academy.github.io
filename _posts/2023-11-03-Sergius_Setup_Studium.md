@@ -34,57 +34,36 @@ Dranbleiben: Die Herausforderung ist groß, aber beharrlich zu sein zahlt sich a
 
 ### Hardware
 
-Wähle Open Source 
+**Wähle Open Source**
 
 - Ein [ThinkPad](https://thinkwiki.de/Hauptseite){:target="_blank"} [X220](https://thinkwiki.de/X220){:target="_blank"} mit [Coreboot](https://www.coreboot.org/){:target="_blank"} ist ideal. (keine Maus)
 
-Eine Internetverbindung ist essentiell.
+- Eine Internetverbindung ist essentiell.
+
+- USB-Stick 
 
 ### Software
 
-Alle erforderlichen Programme sind (oder werden) hier aufgelistet.
+**Wähle Open Source**
 
+Alle erforderlichen Programme sind hier aufgelistet.
 
+## Hinweise
 
+[](){:target="_blank"}
 
-
-> An dieser stelle möchte ich über den `Orangenen Promt` sprechen. Sobald du den Orangenen Promt siehst kannst du mich unterstützen. In diesem fall geht es um die [UNIX-Philosophie von Mike Gancars](https://de.wikipedia.org/wiki/Unix-Philosophie#Mike_Gancarz:_The_UNIX_Philosophy){:target="_blank"} er hat ein Buch dazu veröffentlicht und ich würde die Kernessenz daraus, gerne in einem Blogartikel zusammenfassen. Wenn du mich unterstützen willst, schicke mir ein Script in dem du die wichtigsten Punkte der UNIX-Philosophy von Mike zusammenfasst.
+> Warning
 {: .prompt-warning }
 
-- Ich beziehe mich auch oft auch die [Deutschsprachige Arch-Wiki](https://wiki.archlinux.de/title/Hauptseite){:target="_blank"} und deren Unterseiten. Falls es keine Deutschsprachige Anleitung gibt geht es mit der [Englischsprachigen Arch-Wiki](https://wiki.archlinux.org/){:target="_blank"} weiter. Und zu guterletzt geht's weiter ins [Arch-Forum](https://bbs.archlinux.org/){:target="_blank"}. Achtung: wer im Forum Fragen stellt die in der Arch-Wiki beschrieben sind, erntet unter umständen Hohn und Spott. Bitte benutze das Forum ausschließlich wenn du in der Arch-Wiki nicht weiterkommst und verweise auch auf die Entsprechenden Artikel damit sich die Comunity das genau ansehen können...
 
-### Hardware
 
-hier möchte ich kurz auf die Hardware von meinem Studium-System sprechen. Ich präferiere die ThinkPad Reihe aus 2011. Insbesondere die ThinkPad Modelle [X220](https://thinkwiki.de/X220){:target="_blank"}, [W520](https://thinkwiki.de/W520){:target="_blank"} und das [T420](https://thinkwiki.de/T420){:target="_blank"}. Die Anderen modelle aus der Rheihe sind möglich, jedoch obsolet. es werden die Displaydiagonalen 12,5", 14" und 15" abgedeckt und jedes Modell steht für seinen Zweck top ausgestattet und solide da. In der [Deutschsprachigen ThinkPad-Wiki](https://thinkwiki.de/Hauptseite){:target="_blank"} findest du alle informationen.
-
-Natürlich gehen auch andere Modelle und neuere eigene Hardware. Fühl dich frei zu nutzen was du willst. Ich beziehe meine Anleitungen ausschließlich auf diese Geräte und Arch-Linux basierte Systeme.
-
-> wichtige Begriffe stelle ich in `grünen` Tip-Promts dar. In diesem Fall möchte ich den Begriff `Propriätär` ansprechen. Wenn du mit Linux oder allgemein mit Open-Source oder dich mit dem [GNU-Project](https://www.gnu.org/philosophy/philosophy.html){:target="_blank"} auseinadersetzen willst. Dann solltest du den begriff `Proprietär` unbeingt verstehen und wissen welche Software und Hardware Proprietär ist. 
-{: .prompt-tip }
-
-### befor es losgeht
-
-- nutze die [Kommentarfunktion](https://pyt-academy.github.io/posts/arch-anleitung/#disqus_thread) und schreibe mir bei unklarheiten oder allgemenen Fragen.
-- Kontaktiere mich. 
-  - [PYT-Academy Discord Server](https://discord.gg/WxaJcnuXAh){:target="_blank"}
-  - [IT-Systemhaus Telegram-Gruppe](https://t.me/IT_Systemhaus){:target="_blank"}
-  - Lass ein Like im Kommentarbereich da ;-)
-
-## Vorbereitung für die Arch-Installation
-
-### BIOS oder UEFI
-
-- Du musst verstehen wie dein Rechner Startet. Das ältere System ist `BIOS` (Basic Input/Output System) welches nach und nach durch `UEFI` (Unified Extensible Firmware Interface) ersetzt. Ich gehe von UEFI aus was heutzutage der Standard ist. Die Thinkpads aus 2011 habe bereits alle UEFI. Die Projekte [Coreboot](https://www.coreboot.org/){:target="_blank"} und [Libreboot](https://libreboot.org/){:target="_blank"} lasse ich mal beiseite.
-
-- **UEFI** benötigt eine **EFI System Partition** siehe [EN Arch-Wiki](https://wiki.archlinux.org/title/EFI_system_partition){:target="_blank"}
+## Nützliche Links
 
 - [osresarch.net](https://osresearch.net/){:target="_blank"}
 
-### Partitionierung. 
+## Installation 
 
-- Ist ein Riesiges Themengebiet und wird in der  Der [DE-Arch-Wiki "Einrichtung des Datenträgers"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger#Einrichtung_des_Datentr.C3.A4gers){:target="_blank"} beschrieben. Der Einfachheit halber benutze ich ein Standard-Layout bestehend aus einer `Boot`, `Root` und `SWAP` Partition.
-
-### ISO auf USB-Stick schreiben (im Terminal)
+### ISO auf USB-Stick schreiben
 
 Du solltest die Arch-Linux ISO auf einen USB-Stick schreiben können und von diesem anschließend auch Booten [DE-Arch-Wiki "Vorbereitung"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger#Vorbereitung){:target="_blank"} Benutze dazu Tools die das Erledigen, der Spickzettel ist etwas für Erfahrene Nutzer ;-)
 
