@@ -58,6 +58,8 @@ Natürlich gehen auch andere Modelle und neuere eigene Hardware. Fühl dich frei
 
 - **UEFI** benötigt eine **EFI System Partition** siehe [EN Arch-Wiki](https://wiki.archlinux.org/title/EFI_system_partition){:target="_blank"}
 
+- [osresarch.net](https://osresearch.net/){:target="_blank"}
+
 ### Partitionierung. 
 
 - Ist ein Riesiges Themengebiet und wird in der  Der [DE-Arch-Wiki "Einrichtung des Datenträgers"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger#Einrichtung_des_Datentr.C3.A4gers){:target="_blank"} beschrieben. Der Einfachheit halber benutze ich ein Standard-Layout bestehend aus einer `Boot`, `Root` und `SWAP` Partition.
