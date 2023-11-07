@@ -63,14 +63,17 @@ Alle erforderlichen Programme sind hier aufgelistet.
 
 ## Installation 
 
-### ISO auf USB-Stick schreiben
+### ARCH-ISO auf USB-Stick schreiben
 
-Du solltest die Arch-Linux ISO auf einen USB-Stick schreiben können und von diesem anschließend auch Booten [DE-Arch-Wiki "Vorbereitung"](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger#Vorbereitung){:target="_blank"} Benutze dazu Tools die das Erledigen, der Spickzettel ist etwas für Erfahrene Nutzer ;-)
+1. [Das neueste ISO-Abbild beziehen](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger#Das_neueste_ISO-Abbild_beziehen){:target="_blank"}
 
-#### Spickzettel
+1. die ISO auf einen USB-Stick schreiben
+
 ```bash
 dd bs=4M if=/pfad/archlinux-*-x86_64.iso of=/dev/sdx status=progress oflag=sync
 ```
+
+
 
 ### Programmiersprache "Bash" (Bourne-Again SHell) im Terminal
 
