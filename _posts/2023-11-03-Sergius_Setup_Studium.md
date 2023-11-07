@@ -65,13 +65,16 @@ Alle erforderlichen Programme sind hier aufgelistet.
 
 ### ARCH-ISO auf USB-Stick schreiben
 
-1. [Das neueste ISO-Abbild beziehen](https://wiki.archlinux.de/title/Anleitung_f%C3%BCr_Einsteiger#Das_neueste_ISO-Abbild_beziehen){:target="_blank"}
+1. [Das neueste ISO-Abbild beziehen](https://www.archlinux.de/download){:target="_blank"}
 
 1. die ISO auf einen USB-Stick schreiben
 
 ```bash
-dd bs=4M if=/pfad/archlinux-*-x86_64.iso of=/dev/sdx status=progress oflag=sync
+dd bs=4M if=/pfad/archlinux-*archlinux-2023.11.01-x86_64.iso of=/dev/sdx status=progress oflag=sync
 ```
+
+1. vom USB-Stick ins Arch Linux Live System booten
+
 
 
 
