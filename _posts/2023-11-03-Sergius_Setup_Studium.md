@@ -65,17 +65,39 @@ Alle erforderlichen Programme sind hier aufgelistet.
 
 ### ARCH-ISO auf USB-Stick schreiben
 
-1. [Das neueste ISO-Abbild beziehen](https://www.archlinux.de/download){:target="_blank"}
+- **1** [Das neueste ISO-Abbild beziehen](https://www.archlinux.de/download){:target="_blank"}
 
-1. die ISO auf einen USB-Stick schreiben
+- **2** die ISO auf einen USB-Stick schreiben
 
 ```bash
 dd bs=4M if=/pfad/archlinux-*archlinux-2023.11.01-x86_64.iso of=/dev/sdx status=progress oflag=sync
 ```
 
-1. vom USB-Stick ins Arch Linux Live System booten
+**3** vom USB-Stick ins Arch Linux Live System booten
 
+**4** Tastaturlayout anpassen
 
+```bash
+loadkeys de-latin1
+```
+
+**5** Paketquellen Syncronisieren
+
+```bash
+pacman -Sy
+```
+
+**6** Installationsscript für Arch-Linux instalieren
+
+```bash
+pacman -S archinstall
+```
+
+**7** `archinstall` ausführen
+
+```bash
+archinstall
+```
 
 
 ### Programmiersprache "Bash" (Bourne-Again SHell) im Terminal
@@ -88,15 +110,7 @@ dd bs=4M if=/pfad/archlinux-*archlinux-2023.11.01-x86_64.iso of=/dev/sdx status=
 ![Desktop View](/assets/img/blogpost-231103/Arch-Linux-Start.png){: width="290" height="117" .w-25 .right}
 Das Bootmenu der Live-ISO gibt dir hinweise auf dein System achte auf `UEFI` in der obersten Zeile.
 
-## Arch Linux Live System
 
-du hast erfolgreich von deinem USB-Stick gebootet und bist jetzt im Arch Live-System. 
-
-### Tastaturlayout auf Deutsch umstellen
-
-```bash
-loadkeys de-latin1
-```
 
 > `Tip:` wenn du auf der Englischen Tastatur den Promt eingeben willst: `loadkezs deßlatin1`
 {: .prompt-tip }
