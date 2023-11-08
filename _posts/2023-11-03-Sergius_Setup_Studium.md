@@ -99,6 +99,67 @@ pacman -S archinstall
 archinstall
 ```
 
+> `Info` **Archinstall** ist ein Installations-Script für die Automatische Installation und Einrichtung. Man wird grafisch durch den Konfigurationsprozess geführt.
+{: .prompt-info }
+
+- `Deusch` als Menusprache
+
+- `Spiegelserver` Brazi, Germany, Netherlands, United States, Worldwide
+
+- `Lokalisierung`
+  - `de` als Systemsprache
+  - `de_DE.UTF-8` als Tastaturlayout
+  - `UTF-8` als Zeichenkodierung
+
+- `Laufwerkskonfiguration`
+  - `Empfohlenes Partitionslayout verwenden`
+  - `Laufwerk` das Laufwerk auf dem Arch instaliert werden soll auswählen
+  - `BTRFS` als Formatierung wählen
+    - `Subvolumen mit vorgegebenr Struktur` auswählen
+    - keine `Komprimierung` verwenden
+
+- `Verschlüsselung` 
+  - `Passwort` für Festplattenverschlüsselung eingeben und bestätigen
+  - `Partition` die verschlüsselt werden soll auswählen
+
+- `systemd-boot` als **Bootmanager** auswählen
+
+- `Swap` als **True** setzen um Swap zu verwenden
+
+- `Gerätename` vergeben. **arch-hp** (sollte einmalig im heimnetzwerk sein)
+
+- `Root Passwort` vergeben
+
+- `benutzerkonto` einrichten
+  - `nutzername` vergeben (**Spitzname** für dich selbst) ich nehme **sergi**
+  - `Nutzerpasswort` setzen (einfaches Passwort für deinen Nutzeraccount)
+
+- `minimal` als **Installationsprofi** wählen
+
+> `Info` **Archinstall** kann dir auch eine Grafische Desktopumgebung instalieren. (verzichte ich bewusst darauf und nutze [DWM](https://dwm.suckless.org/){:target="_blank"} mit [LARBS](https://github.com/LukeSmithxyz/LARBS){:target="_blank"}
+{: .prompt-info }
+
+- `NetworkManager` bei **Netzwerkdiesnt** auswählen (hab vergessen an welcher stelle das passiert...)
+
+- kein `Audio Server`
+
+- als `Kernel` kann zusätzlich der **linux-lts** hinzugefügt werden
+
+- keine `zusätzlichen Packete`
+
+- `Zeitzohne` **America/Asunction** wählen
+
+- `Zeitsyncronisierung` auf **true** bestätigen
+
+- `Instalieren` auswählen
+
+Das `archinstall` Script erledigt die Installationsarbeit und richtet einen Benutzer ein.
+
+nach der Installation wählst du `nein` bei **chroot** umgebung. Mit `reboot` startet das system neu. Melde dich mit deinem `Benutzername` und `Passwort` an. 
+
+**8** yay Instalieren
+
+- 
 
 ### Programmiersprache "Bash" (Bourne-Again SHell) im Terminal
 
