@@ -65,35 +65,35 @@ Alle erforderlichen Programme sind hier aufgelistet.
 
 ### ARCH-ISO auf USB-Stick schreiben
 
-- **1** [Das neueste ISO-Abbild beziehen](https://www.archlinux.de/download){:target="_blank"}
+### **1.)** [Das neueste ISO-Abbild beziehen](https://www.archlinux.de/download){:target="_blank"}
 
-- **2** die ISO auf einen USB-Stick schreiben
+### **2.)** die ISO auf einen USB-Stick schreiben
 
 ```bash
 dd bs=4M if=/pfad/archlinux-*archlinux-2023.11.01-x86_64.iso of=/dev/sdx status=progress oflag=sync
 ```
 
-**3** vom USB-Stick ins Arch Linux Live System booten
+### **3.)** vom USB-Stick ins Arch Linux Live System booten
 
-**4** Tastaturlayout anpassen
+### **4.)** Tastaturlayout anpassen
 
 ```bash
 loadkeys de-latin1
 ```
 
-**5** Paketquellen Syncronisieren
+### **5.)** Paketquellen Syncronisieren
 
 ```bash
 pacman -Sy
 ```
 
-**6** Installationsscript für Arch-Linux instalieren
+### **6.)** Installationsscript für Arch-Linux instalieren
 
 ```bash
 pacman -S archinstall
 ```
 
-**7** `archinstall` ausführen
+### **7.)** [archinstall](https://www.archlinux.de/packages/extra/x86_64/archinstall){:target="_blank"} ausführen
 
 ```bash
 archinstall
@@ -126,6 +126,9 @@ archinstall
 
 - `Swap` als **True** setzen um Swap zu verwenden
 
+> `info:` `standby` und `Ruhezustand` sind zwei verschiedene Modi. Im standby wird der Arbeitsspeicher noch mit Energie versorgt und ist dadurch nach kurzer Zeit wieder einsatzfähig. Im Ruhezustand wird der Inhalt des Arbeitsspeichers auf die Swap-Partition der Festplatte geschrieben. In unserem Fall ist die Größe von 4GB voreingestellt und durch die **BTRFS** Formatierung kann die Größe einfach angepasst werden.
+{: .prompt-info }
+
 - `Gerätename` vergeben. **arch-hp** (sollte einmalig im heimnetzwerk sein)
 
 - `Root Passwort` vergeben
@@ -136,7 +139,7 @@ archinstall
 
 - `minimal` als **Installationsprofi** wählen
 
-> `Info` **Archinstall** kann dir auch eine Grafische Desktopumgebung instalieren. (verzichte ich bewusst darauf und nutze [DWM](https://dwm.suckless.org/){:target="_blank"} mit [LARBS](https://github.com/LukeSmithxyz/LARBS){:target="_blank"}
+> `Info` **Archinstall** kann dir auch eine Grafische Desktopumgebung instalieren. Ich verzichte ich bewusst darauf und nutze [DWM](https://dwm.suckless.org/){:target="_blank"} mit [LARBS](https://github.com/LukeSmithxyz/LARBS){:target="_blank"}
 {: .prompt-info }
 
 - `NetworkManager` bei **Netzwerkdiesnt** auswählen (hab vergessen an welcher stelle das passiert...)
@@ -157,294 +160,62 @@ Das `archinstall` Script erledigt die Installationsarbeit und richtet einen Benu
 
 nach der Installation wählst du `nein` bei **chroot** umgebung. Mit `reboot` startet das system neu. Melde dich mit deinem `Benutzername` und `Passwort` an. 
 
-**8** yay Instalieren
+### **8.)** [yay](https://github.com/Jguer/yay){:target="_blank"} Instalieren
 
-- 
-
-### Programmiersprache "Bash" (Bourne-Again SHell) im Terminal
-
-[Bash](https://wiki.archlinux.de/title/Bash){:target="_blank"} ist die Standardshell unter Arch Linux und dient als Skriptsprache zur Automatisierung von Aufgaben im Betriebssystem. Ein Bash-Befehl setzt sich typischerweise aus einem `Kommando` oder `Befehl` und (optionalen) `Optionen` sowie `Argumenten` zusammen. Es ist für Anfänger wichtig zu verstehen, dass im Terminal jedes Zeichen eine Bedeutung hat – selbst ein Leerzeichen. Außerdem ist die Beachtung von Groß- und Kleinschreibung entscheidend.
-
-
-### im Arch-Linux Livesystem
-
-![Desktop View](/assets/img/blogpost-231103/Arch-Linux-Start.png){: width="290" height="117" .w-25 .right}
-Das Bootmenu der Live-ISO gibt dir hinweise auf dein System achte auf `UEFI` in der obersten Zeile.
-
-
-
-> `Tip:` wenn du auf der Englischen Tastatur den Promt eingeben willst: `loadkezs deßlatin1`
-{: .prompt-tip }
-
-## Einrichtung des Datenrägers
-
-### identifitzieren des Installations-Datenrägers
+- `yay` Repository clonen (der gesammte **yay**-Ordner wird in's **home** verzeichniss kopiert)
 
 ```bash
-lsblk
+git clone https://aur.archlinux.org/yay.git
 ```
 
-```
-NAME            MAJ:MIN RM   SIZE RO TYPE
-sda             259:0    0 476,9G  0 disk  
+- in das verzeichniss `yay` verchseln **cd** (change directory)
+
+```bash
+cd yay
 ```
 
-das Laufwerk auf dem Arch-Linux instaliert werden soll ist `sda`
+- packet mit **makepkg** erstellen 
 
-> `Achtung:` Natürlich kann die Bezeichnung *(NAME)* bei jedem Rechner unterschiedlich sein. NVME's weden `nvme0n1` benannt. USB-Stiks und Festplatten `sda` oder `sdb` usw.. Du musst dein Laufwerk identifizieren. Ich spreche in diesem Tutorial immer vom **sda** 
+```bash
+makepkg -si
+```
+
+> `Info` während `pacman` für die **Arch-Packete** zuständig ist kann `yay` Arch und **AUR** als Paketquelle nutzen und verwalten. Die Nutzung von yay ist an pacman angelehnt. 
+{: .prompt-info }
+
+```bash
+yay -Suy
+```
+
+> `Warning` yay wird immer im `user`-modus ausgeführt und fragt im Installationsverlauf nach dem Nutzerpasswort. (**niemals** *sudo* **yay**... einfach nur **yay**)
+{: .prompt-warning }
+
+
+### **9.)** [LARBS](https://github.com/LukeSmithxyz/LARBS){:target="_blank"} script für die restliche Einrichtung von Arch-Linux
+
+
+
+
+## sonstige Terminal befehle
+
+```bash
+dd status=progress if=/dev/### of=/dev/sd#
+```
+## Promt's
+
+> `Achtung:`
 {: .prompt-danger }
 
-### Datenträger bereinigen (Optional)
-
-```bash
-dd status=progress if=/dev/zero of=/dev/sda
-```
-
-das dauert, je nach größe. `status=progress` erlaubt dir den Fortschritt zu verfolgen.
-
-> `Achtung:` der `dd` Promt fürht aus was er soll ohne wiederrede! in diesem fall überschreibt er das gesammte `sda` Laufwerk. Alle Daten werden mit einer null überschrieben. Wenn du das mehrmals ausführst lassen sich selbst Magnetische Festplatten (HDD Hard Disk Drive) von niemanden wiederhersstellen!
-{: .prompt-danger }
-
-> `Tip:` Unterschätze nicht den Datenmüll einer Alten Festplatte. Ich empfehle Dringent vor jder installation das Laufwerk zu säubern um Fehler zu vermeiden und Persönliche Daten zu schützen
+> `Tip:`
 {: .prompt-tip }
 
-### Datenträger Partitionieren
-
-#### Boot-Partition
-
-Die erste Partition **sba1** soll für **/boot** mit **512 MB** als **EFI-System Partition** erstellt werden
-
-> `Tip:` **gdisk**,  oder auch **fdisk** eingaben werden per Tastatur gesteuert mit `m` rufst du die Hilfe auf. mit `Enter` wählst und bestätigst du die `Vorauswahl in Klammern` mit `w` (whrite) schreibst du die Änderungen und mit `q` (quit) verlässt du das Tool. Mit `man fdisk` rufst du das Handbuch auf. 
-{: .prompt-tip }
-
-> Die **EFI**-Partition wird immer mit **gdisk** erstellt!
+> `info:`
 {: .prompt-info }
 
-```bash
-gdisk /dev/sda
-```
 
-<kbd class="keyboard-key nowrap" style="
-  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
-  border-radius: 2px;
-  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
-  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
-  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
-  padding: 1px 3px;
-  font-family: inherit;
-  font-size: 0.85em;
-  white-space: nowrap;
-">o</kbd> - Erzeugen einer neuen GPT im cache.
+# Unfertiger Abschnitt... Wird überarbeitet, bitte um Geduld oder hilf mit ;-)
 
-<kbd class="keyboard-key nowrap" style="
-  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
-  border-radius: 2px;
-  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
-  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
-  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
-  padding: 1px 3px;
-  font-family: inherit;
-  font-size: 0.85em;
-  white-space: nowrap;
-">y</kbd> - Bestätigen
 
-<kbd class="keyboard-key nowrap" style="
-  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
-  border-radius: 2px;
-  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
-  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
-  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
-  padding: 1px 3px;
-  font-family: inherit;
-  font-size: 0.85em;
-  white-space: nowrap;
-">n</kbd> - neue Partition erstellen
-
-<kbd class="keyboard-key nowrap" style="
-  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
-  border-radius: 2px;
-  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
-  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
-  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
-  padding: 1px 3px;
-  font-family: inherit;
-  font-size: 0.85em;
-  white-space: nowrap;
-">↵ Enter</kbd> - Partitionsnummer **1** bestätigen
-
-<kbd class="keyboard-key nowrap" style="
-  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
-  border-radius: 2px;
-  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
-  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
-  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
-  padding: 1px 3px;
-  font-family: inherit;
-  font-size: 0.85em;
-  white-space: nowrap;
-">↵ Enter</kbd> - den ersten Sektor bei **2048** bestätigen
-
-`512M` - Die Partitionsgröße festlegen
-
-`ef00` - Den Partitionstyp einer EFI-Partition setzen
-
-<kbd class="keyboard-key nowrap" style="
-  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
-  border-radius: 2px;
-  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
-  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
-  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
-  padding: 1px 3px;
-  font-family: inherit;
-  font-size: 0.85em;
-  white-space: nowrap;
-">w</kbd> - (whrite) die änderungen Schreiben
-
-<kbd class="keyboard-key nowrap" style="
-  border: 1px solid {{ 'dark' == page.theme || 'dark' == site.theme ? '#ccc' : '#aaa' }};
-  border-radius: 2px;
-  box-shadow: 1px 2px 2px {{ 'dark' == page.theme || 'dark' == site.theme ? '#666' : '#ddd' }};
-  background-color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#333' : '#f9f9f9' }};
-  color: {{ 'dark' == page.theme || 'dark' == site.theme ? '#ddd' : '#000' }};
-  padding: 1px 3px;
-  font-family: inherit;
-  font-size: 0.85em;
-  white-space: nowrap;
-">y</kbd> - (YES) mit Ja bestätigen
-
-mit `pardet` überprüfst du das Ergebniss
-
-```bash
-parted /dev/sda print
-```
-
-![Desktop View](/assets/img/blogpost-231103/parted-sda1.png){: width="972" }
-_so sollte es aussehen mit einer Boot-Partition_
-
-> `tip:` Begriffe wie [gpt](https://wiki.archlinux.de/title/Partitionierung#GUID_Partition_Table_.28GPT.29){:target="_blank"} [EFI system Partition](https://wiki.archlinux.org/title/EFI_system_partition){:target="_blank"} kannst du hier nachlesen. 
-{: .prompt-tip }
-
-> `tip:` Die **Boot-Partition** ist der Speicherbereich für den Bootloader und Teile des Kernels. Um mehrere Kernel-Versionen zu installieren, kann es nötig sein, die Boot-Partition zu vergrößern. Ein Speicherplatz von **1GB** ist in der Regel ausreichend. Die [Arch-Linux-Wiki](https://wiki.archlinux.org/index.php/Partitioning#Boot_partition){:target="_blank"} empfiehlt mindestens **300MB** für die Boot-Partition.
-{: .prompt-tip }
-
-> `tip:`Der Startsektor **2048** wird oft für Partitionen auf modernen Festplatten gewählt, da er mit den Speicherblöcken von Festplatten mit einer Sektorgröße von **4K** optimal ausgerichtet ist. Dieser Bereich, der einer Größe von **1MB** entspricht, wird für die Partitionstabelle und den Bootloader genutzt.
-{: .prompt-tip }
-
-> `info:`wenn du ein **Dualboot-System** erstellen willst musst du einfach die bestehende EFI-Partition Mounten. Der Beitrag über die Installation eines Dual-Boot Systems ist für Erfahrene Benutzer, ich arbeite daran... 
-Oder du hilfst mir dabei. Vorraussetung ist die Installation von Arch-Linux als erstes System und die Partitionierung unter Linux. Das Verwenden von Installations-Scripen ist zu meiden. GRUB ist zu meiden.
-{: .prompt-info }
-
-#### SWAP-Partition
-
-die [Swap Partition](https://wiki.archlinux.de/title/Swap){:target="_blank"} dient als Auslagerungsspeicher und ist in unserem Fall (Root-Partition als ext4) mit mindestens 512MB besser 1GB Empfohlen.
-
-Willst du den [Ruhezustand](https://wiki.archlinux.de/title/Bereitschaft_und_Ruhezustand){:target="_blank"} deines Laptop's nutzen *wie in diesem Tutorial* dann muss der Swap speicher etwas größer als der RAM sein. 
-
-> `info:` `standby` oder *Bereitschaft* und `Ruhezustand` oder *hibernate* sind zwei verschiedene Modi. Im Bereitschaftszustand wird der Arbeitsspeicher noch mit Energie versorgt und ist dadurch nach kurzer Zeit wieder einsatzfähig. Im Ruhezustand wird der Inhalt des Arbeitsspeichers auf die Swap-Partition der Festplatte geschrieben.
-**Beide Zustände können unter bestimmten Hardwarezusammenstellungen Probleme bereiten und nicht richtig funktionieren.**
-{: .prompt-info }
-
-Wir nehmen das Tool `cfdisk` um die Swap-Partition zu erstellen
-
-```bash
-cfdisk /dev/sda
-```
-
-Mein System hat 16GB Ram, somit erstelle ich die Swap Partition mit 18GB
-
-![Desktop View](/assets/img/blogpost-231103/cfdisk-swap.png){: width="972" }
-_so sollte es in cfdisk aussehen mit einer Boot-Partition_
-
-![Desktop View](/assets/img/blogpost-231103/lsblk-boot-swap.png){: width="972" }
-_und hier die Ausgabe von lsblk mit unserer 18G Swap-Partition auf sda2_
-
-> `Tip:` falls du die Partition mit `fdisk` oder `gdisk` ersteleln willst ist `8300` der hex-Code für den `Linux Partitionstyp` gild ebenso für die Root-Partition.
-{: .prompt-tip }
-
-#### ROOT-Partition
-
-Der Rest unseres Speichers verwenden wir für die `Root` Partition und ich übelasse dir die Wahl deines Tools (fdisk, gdisk oder cfdisk) das ergebniss sollte so ausschauen
-
-![Desktop View](/assets/img/blogpost-231103/lsblk-boot-swap-root.png){: width="972" }
-_finale ausgabe von unserer Partitionstabelle mit sda1 als boot, sda2 als swap und sda3 als root_
-
-### Formatiren der Partitionen
-
-Jetz kommt `mkfs` (make filesystem) und genau das tun wir für jede einzelne Partition
-
-#### Boot Formatieren
-
-```bash
-mkfs.fat -F 32 -n BOOT /dev/sda1
-```
-
-Für eine **ef00** Partition mit **fat32** Dateisystem und **LABEL=BOOT**
-
-> `info:` wenn du [Grub](https://wiki.archlinux.de/title/GRUB){:target="_blank"} verwenden willst kannst du die Boot-Partition auch als **ext2 ext3** oder **ext4** Formatieren. *für erfahrene Benutzer und Multiboot Systeme* für unsere Zwecke reicht `system-boot` vollkommen aus.
-{: .prompt-info }
-
-#### Root Formatieren
-
-```bash
-mkfs.ext4 -L ROOT /dev/sda3
-```
-
-Für eine 83 bzw. 8300 Partition mit ext4 Dateisystem und LABEL=ROOT
-
-#### Swap Erstellen
-
-richtig gelesen, erstellen und nicht (nur) formatieren. Durch `mkswap` wird ein Swap-Header auf der Partition oder dem Gerät erstellt, was es dem Betriebssystem ermöglicht, den Bereich als Swap-Speicher zu erkennen und zu nutzen. `mk` steht dabei für `make`
-
-```bash
-mkswap -L SWAP /dev/sda2
-```
-
-```bash
-lsblk -o NAME,FSTYPE,LABEL,SIZE,MOUNTPOINT
-```
-
-![Desktop View](/assets/img/blogpost-231103/lsblk-detailierte-ausgabe.png){: width="972" }
-_lsblk ausgabe mit der Option **-o** und den Argumenten Name, Format, Label, Größe, Einhängepunkt_
-
-### Mounten (Einhängen) der formatierten Partitionen
-
-Als „mounten“ wird der Vorgang des Einhängens eines Dateisystems in die bestehende Verzeichnisstruktur bezeichnet. Dieses Einhängen ist notwendig, um mit üblichen Programmen auf Dateien eines Dateisystems zugreifen zu können. Dateisysteme werden mittels des Programms mount eingehängt. „Einhängen“ und „mounten“ werden synonym verwendet. [DE Arch-Wiki](https://wiki.archlinux.de/title/Mounten){:target="_blank"}
-
-#### Root Einhängen
-
-```bash
-mount -L ROOT /mnt
-```
-
-#### Boot Einhängen 
-
-Bevor wir `BOOT` einhängen brauchen wir das Verzeichniss dafür
-
-```bash
-mkdir /mnt/boot
-```
-
-```bash
-mount -L BOOT /mnt/boot
-```
-
-#### Swap EAktivieren
-
-```bash
-swapon -L SWAP
-```
-
-## Installation
-
-### Basispakete
-
-Die eigentliche Installation von Arch-Linux ist ein einziger bash-script.
-
-#### System
-
-- `base` und `base-devel` wobei das devel für **Development** steht. Es ist die Metapakete für ein Minimales System
-
-- `linux` und `linux-firmaware` sind die Arch-Linux Kernel. Alternativ oder Optional kannst du auch ein **lts** (Longtime support) oder einen **hardend** Kernel wählen. Die Packete dazu sind `linux-lts` und `linux-hardend`
 
 #### Texteditoren
 
