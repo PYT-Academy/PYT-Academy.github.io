@@ -73,7 +73,13 @@ Alle erforderlichen Programme sind hier aufgelistet.
 dd bs=4M if=/pfad/archlinux-*archlinux-2023.11.01-x86_64.iso of=/dev/sdx status=progress oflag=sync
 ```
 
+> `Info:` - 1.) und 2.) aus [Arch-Install-Script](https://wiki.archlinux.de/title/Arch_Install_Scripts){:target="_blank"}
+{: .prompt-info }
+
+
 ### **3.)** vom USB-Stick ins Arch Linux Live System booten
+
+
 
 ### **4.)** Tastaturlayout anpassen
 
