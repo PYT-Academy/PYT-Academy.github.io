@@ -79,8 +79,6 @@ dd bs=4M if=/pfad/archlinux-*archlinux-2023.11.01-x86_64.iso of=/dev/sdx status=
 
 ### **3.)** vom USB-Stick ins Arch Linux Live System booten
 
-
-
 ### **4.)** Tastaturlayout anpassen
 
 ```bash
@@ -199,6 +197,32 @@ yay -Suy
 
 ### **9.)** [LARBS](https://github.com/LukeSmithxyz/LARBS){:target="_blank"} script für die restliche Einrichtung von Arch-Linux
 
+### LARBS einrichtungsassistent
+
+Probs gehen an [Luke Smith](https://lukesmith.xyz/){:target="_blank"} der dieses großartige Toolsammlung und Scripte geschrieben hat. 
+
+Strate dein System neu und melde dich als root an
+
+```bash
+curl -LO larbs.xyz/larbs.sh
+```
+Starte das Scritp
+
+```bash
+sh larbs.sh
+```
+
+wenn das Tool bei dir durchläuft, kannst du dein Rechner neu starten und als User anmelden.
+
+## Lerne das System
+
+- mit `super` + `F1` kannst du dir das Willkommen Schreiben durchlesen
+
+- mit `super` + `F2` siehst du die Wichtigesten Videos von Luke über dein System. Fange mit **dwm Window Manager** an und arbeite dich durch alle Tutorials. 
+
+> `Tip:` Ich bin gerade dabei alles zu lernen. Luke verfolge ich schon länger und halte Ihn für vertrauenswürdig. Er ist der Großmeister von Linux, Terminal, Shell-Scripting, SSH, NeoMutt, Server... 
+Es dauert bis man ihn versteht, aber der Einsatz lohnt sich!
+{: .prompt-warning }
 
 
 
