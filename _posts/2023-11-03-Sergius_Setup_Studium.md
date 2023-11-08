@@ -36,11 +36,9 @@ Dranbleiben: Die Herausforderung ist groß, aber beharrlich zu sein zahlt sich a
 
 **Wähle Open Source**
 
-- Ein [ThinkPad](https://thinkwiki.de/Hauptseite){:target="_blank"} [X220](https://thinkwiki.de/X220){:target="_blank"} mit [Coreboot](https://www.coreboot.org/){:target="_blank"} ist ideal. (keine Maus)
+- Ein [ThinkPad](https://thinkwiki.de/Hauptseite){:target="_blank"} [T420](https://thinkwiki.de/T420){:target="_blank"} oder [X220](https://thinkwiki.de/X220){:target="_blank"} mit [Coreboot](https://www.coreboot.org/){:target="_blank"} ist ideal.
 
 - Eine Internetverbindung ist essentiell.
-
-- USB-Stick 
 
 ### Software
 
@@ -125,6 +123,13 @@ archinstall
 - `Verschlüsselung` 
   - `Passwort` für Festplattenverschlüsselung eingeben und bestätigen
   - `Partition` die verschlüsselt werden soll auswählen
+
+- test `User` einrichten
+  - `test` als Nutzernahme
+  - `test` als passwort
+  - user soll keine `root` berechtigungen haben. 
+
+- profil `minimal` auswählen. (wobei ich nocht testen sollte wie sich das Profil **Xorg-Server** macht.)
 
 - `systemd-boot` als **Bootmanager** auswählen
 
